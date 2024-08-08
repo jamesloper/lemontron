@@ -21,6 +21,8 @@ github_username:  jamesloper
 theme: minima
 plugins:
   - jekyll-feed
+minima:
+  custom_css: /assets/main.css
 
 # Exclude from processing.
 # The following items will not be processed, by default.

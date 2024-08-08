@@ -4,7 +4,6 @@ title:  "Manually Build Firmware"
 date:   2024-08-06 09:09:44 -0400
 categories: guide
 ---
-# Manually Build Firmware
 
 ## Get up-to-date
 SSH into the Raspberry Pi and run the following commands:
