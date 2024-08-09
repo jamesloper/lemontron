@@ -1,28 +1,24 @@
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: Lemontron
 email: james@lemontron.com
 description: >- # this means to ignore newlines until "baseurl:"
   Lemontron is a portable printer that packs down into a filament box.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lemontron.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: lemontron
-github_username:  jamesloper
-
-# Build settings
+baseurl: ""
+url: "https://lemontron.com"
+github_username: jamesloper
+youtube_username: lemontron
+collections:
+  bom:
+    output: true
+    permalink: /bom/:path/
+  guides:
+    output: true
+    permalink: /guides/:path/
 theme: minima
-plugins:
+pluggithub_usernameins:
   - jekyll-feed
 minima:
-  custom_css: /assets/main.css
+  include_default_css: false
+show_excerpts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

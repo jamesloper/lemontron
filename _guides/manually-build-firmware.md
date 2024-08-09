@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: guide
 title:  "Manually Build Firmware"
 date:   2024-08-06 09:09:44 -0400
-categories: guide
 ---
 
 ## Get up-to-date

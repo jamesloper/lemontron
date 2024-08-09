@@ -1,6 +1,6 @@
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {margin:0;padding:0;}
 body {
-    font:400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font:400 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     color:#000;
     background-color:#fff;
     -webkit-text-size-adjust:100%;
@@ -23,29 +23,13 @@ li > ul, li > ol {margin-bottom:0;}
 h1, h2, h3, h4, h5, h6 {font-weight:400;}
 a {color:#009; text-decoration:none;}
 
-/**
- * Blockquotes
- */
-blockquote {
-    color:#828282;
-    border-left:4px solid #e8e8e8;
-    padding-left:15px;
-    font-size:18px;
-    letter-spacing:-1px;
-    font-style:italic;
-}
-blockquote > :last-child {
-    margin-bottom:0;
-}
-
+blockquote {color:#828282; border-left:4px solid #e8e8e8; padding-left:15px; font-size:18px;}
+blockquote > :last-child {margin-bottom:0;}
 pre, code {font-size:15px; border-radius:3px; background-color:#eef;}
 code {padding:1px 5px;}
 pre {padding:8px 12px; overflow-x:auto;}
 pre > code {border:0; padding-right:0; padding-left:0;}
 
-/**
- * Wrapper
- */
 .wrapper {
     max-width:-webkit-calc(800px - (30px * 2));
     max-width:calc(800px - 30px * 2);
@@ -67,18 +51,17 @@ pre > code {border:0; padding-right:0; padding-left:0;}
 
 .svg-icon {width:16px; height:16px; display:inline-block; fill:#000; padding-right:5px; vertical-align:text-top;}
 .social-media-list li + li {padding-top:5px;}
-table {
-    margin-bottom:30px;
-    width:100%;
-    text-align:left;
-    color:#3f3f3f;
-    border-collapse:collapse;
-    border:1px solid #e8e8e8;
-}
-table tr:nth-child(even) {background-color:#f7f7f7;}
-table th, table td {padding:10px 15px;}
-table th {background-color:#f0f0f0; border:1px solid #dedede; border-bottom-color:#c9c9c9;}
-table td {border:1px solid #e8e8e8;}
+table {margin-bottom:30px; width:100%; text-align:left; border-collapse:collapse; border:2px solid #000; border-top:none;}
+table th, table td {padding:5px 10px;}
+table th {background:#000; color:#fff;}
+.numeric {text-align:right;}
+.centered {text-align:center;}
+td.image {padding:0; text-align:center;}
+table td {border:1px solid #eee;}
+table .description {font-size:12px;}
+
+.badge {border-radius:10px; background:#f00; font-size:10px; font-weight:bold; color:#fff; text-transform:uppercase; padding:2px 5px;}
+.buy {background:#fff45d; display:inline-block; text-align:center; color:#000; padding:0 10px; border-radius:10px; text-transform:uppercase; font-size:12px; font-weight:bold; margin-left:10px;}
 
 .site-header {background:#fff45d; position:relative;}
 .site-title {font-size:26px; font-weight:300; line-height:54px; margin-bottom:0; float:left;}
@@ -88,6 +71,7 @@ table td {border:1px solid #e8e8e8;}
 .site-nav .menu-icon {display:none;}
 .site-nav .page-link {color:#000; line-height:1.5;}
 .site-nav .page-link:not(:last-child) {margin-right:20px;}
+.page-link.active {font-weight:bold;}
 @media screen and (max-width:600px) {
     .site-nav {
         position:absolute;
@@ -180,18 +164,8 @@ table td {border:1px solid #e8e8e8;}
         width:calc(100% - 30px / 2);
     }
 }
-/**
- * Page content
- */
-.page-content {
-    padding:30px 0;
-    flex:1;
-}
-
-.page-heading {
-    font-size:32px;
-}
-
+.page-content {padding:30px 0; flex:1;}
+.page-heading {font-size:32px;}
 .post-list-heading {font-size:28px;}
 .post-list {margin-left:0; list-style:none;}
 .post-list > li {margin-bottom:30px;}
@@ -199,43 +173,23 @@ table td {border:1px solid #e8e8e8;}
 .post-link {display:block; font-size:24px;}
 .post-header {margin-bottom:30px;}
 
-.post-title {
-    font-size:42px;
-    letter-spacing:-1px;
-    line-height:1;
-}
+.post-title {font-size:42px; letter-spacing:-1px; line-height:1;}
 @media screen and (max-width:800px) {
-    .post-title {
-        font-size:36px;
-    }
+    .post-title {font-size:36px;}
 }
 
-.post-content {
-    margin-bottom:30px;
-}
-.post-content h2 {
-    font-size:32px;
-}
+.post-content {margin-bottom:30px;}
+.post-content h2 {font-size:32px;}
 @media screen and (max-width:800px) {
-    .post-content h2 {
-        font-size:28px;
-    }
+    .post-content h2 {font-size:28px;}
 }
-.post-content h3 {
-    font-size:26px;
-}
+.post-content h3 {font-size:26px;}
 @media screen and (max-width:800px) {
-    .post-content h3 {
-        font-size:22px;
-    }
+    .post-content h3 {font-size:22px;}
 }
-.post-content h4 {
-    font-size:20px;
-}
+.post-content h4 {font-size:20px;}
 @media screen and (max-width:800px) {
-    .post-content h4 {
-        font-size:18px;
-    }
+    .post-content h4 {font-size:18px;}
 }
 
 .highlight {background:#fff;}
