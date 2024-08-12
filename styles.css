@@ -1,18 +1,7 @@
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {margin:0;padding:0;}
-body {
-    font:400 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    color:#000;
-    background-color:#fff;
-    -webkit-text-size-adjust:100%;
-    -webkit-font-feature-settings:"kern" 1;
-    -moz-font-feature-settings:"kern" 1;
-    -o-font-feature-settings:"kern" 1;
-    font-feature-settings:"kern" 1;
-    font-kerning:normal;
-    display:flex;
-    min-height:100vh;
-    flex-direction:column;
-}
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {margin:0; padding:0;}
+body {font:400 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color:#000; background-color:#fff; display:flex; min-height:100vh; flex-direction:column;}
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {margin-bottom:10px;}
 main {display:block;}
 img {max-width:100%; vertical-align:middle;}
@@ -48,7 +37,7 @@ table th {background:#1E96FC; color:#fff;}
 .numeric {text-align:right;}
 .centered {text-align:center;}
 td.image {padding:0; text-align:center;}
-table td {border:1px solid #A2D6F9;}
+table td {border-bottom:1px solid #eee;}
 table .description {font-size:12px;}
 table tr:nth-child(2) td {border-top:none;}
 
@@ -61,11 +50,12 @@ table tr:nth-child(2) td {border-top:none;}
 .site-title img {height:36px; display:block;}
 .site-nav .nav-trigger {display:none;}
 .site-nav .menu-icon {display:none;}
-.site-nav .page-link {color:#000; line-height:1.5;}
-.page-link.active {font-weight:bold;}
+.site-nav .page-link {color:#000;}
+/*.page-link.active {font-weight:bold;}*/
 
 @media (min-width:600px){
-    .site-nav .page-link:not(:last-child) {margin-right:20px;}
+    .page-link {border-radius:4px; padding:5px 10px;}
+    .page-link.active {background:#fff;}
 }
 
 @media (max-width:600px) {
@@ -205,3 +195,5 @@ table tr:nth-child(2) td {border-top:none;}
 .highlight .vg {color:#008080;}
 .highlight .vi {color:#008080;}
 .highlight .il {color:#099;}
+
+.bom-pill {display:flex; gap:20px; padding:10px; background:#FCF300;}

@@ -4,9 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Lemontron, the innovative 3D printer that packs power and portability into a compact design like never before. For the past six months, I’ve been passionately working on this project with a single goal in mind: to create a 3D printer that is as versatile as it is portable. Lemontron is designed to fit neatly into a standard filament box, making it the perfect tool for creators on the go, hobbyists with limited space, and anyone who values efficiency without compromising on quality.
+<img src="/assets/about/james.jpg" height="256" width="256"/>
 
-Whether you’re a seasoned 3D printing enthusiast or just getting started, Lemontron offers something never seen before. It’s easy to assemble, disassemble, and store, without sacrificing the performance you expect from a full-sized 3D printer. With Lemontron, you can take your creativity anywhere.
+For the past six months, I’ve been passionately working on this project with a single goal in mind: to create a 3D printer that is as versatile as it is portable. Lemontron is designed to fit neatly into a standard filament box, making it the perfect tool for anyone who values efficiency without compromising on quality.
+
+Whether you’re a seasoned 3D printing enthusiast or just getting started, Lemontron offers something refreshing. It’s easy to assemble, disassemble, and store, without sacrificing the performance you expect from a full-sized 3D printer. With Lemontron, you can take your creativity anywhere.
 
 # Support Lemontron on Patreon
 
