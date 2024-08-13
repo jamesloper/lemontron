@@ -1,11 +1,10 @@
 title: Lemontron
 email: james@lemontron.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Lemontron is a portable printer that packs down into a filament box.
+description: "Lemontron is a portable printer that packs down into a filament box."
 baseurl: ""
 url: "https://lemontron.com"
-github_username: jamesloper
-youtube_username: lemontron
+github_username: "jamesloper"
+youtube_username: "@lemontron"
 collections:
   bom:
     output: true

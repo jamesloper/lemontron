@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Lemontron Huge Video Update"
+title:  "Huge Video Update"
 categories: update video
+thumbnail: https://i.ytimg.com/vi/KzQWi5mGpFI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJbn47arlZRZHk9aT1MCzQp9vzhw
 ---
 
 The unibody project is officially "Lemontron" to reflect my zest for 3d printing ON THE GO! Exciting times ahead because
