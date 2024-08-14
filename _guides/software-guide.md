@@ -1,7 +1,7 @@
 ---
 layout: guide
-title:  "Software Guide"
-date:   2024-08-06 09:09:44 -0400
+title:  "Raspberry Pi & SKR Firmware"
+date:   2024-08-06
 ---
 
 In this guide, we’ll walk you through the essential steps to get your 3D printer up and running with Mainsail OS on a
@@ -23,7 +23,7 @@ sudo apt update && sudo apt upgrade
 
 1. Get your firmware file for the SKR Pico.
     - [Download SRK Pico Firmware](/assets/downloads/klipper.uf2) (Latest as of 2024-08-06) or
-    - Check my guide for [Manually Build SKR Pico Firmware](/manually-build-firmware)
+    - Check my guide for [Manually Build SKR Pico Firmware](/guides/manually-build-firmware/)
 2. Apply the jumper to the `BOOT` pins on the SKR Pico (located in the center, under the "TE" in "BIGTREETECH").
 3. Hold down the `BOOT` button on the SKR Pico and connect the SKR Pico to your computer over USB-C and connect the SKR
    Pico to your computer over USB-C.

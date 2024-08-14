@@ -1,13 +1,14 @@
 ---
 layout: default
+classes: wide
 ---
 
 <div class="home">
+    {{ content }}
+
     {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
     {%- endif -%}
-
-    {{ content }}
 
     {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "Latest News" }}</h2>
@@ -16,7 +17,8 @@ layout: default
         <li class="post-list-item">
             {% if post.thumbnail %}
             <a class="post-list-thumbnail-link" href="{{ post.url | relative_url }}">
-                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="post-list-thumbnail" height="188" width="336">
+                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="post-list-thumbnail" height="188"
+                     width="336">
             </a>
             {% endif %}
             <div>

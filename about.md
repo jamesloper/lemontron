@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+date: 2024-08-13
 ---
 
 <img src="/assets/about/james.jpg" height="256" width="256"/>

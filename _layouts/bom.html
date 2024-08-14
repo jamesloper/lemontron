@@ -2,39 +2,43 @@
 layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-    <header class="post-header">
-        <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
 
-        <div class="bom-pill">
-            <img
-                    src="/assets/bom/{{ page.slug }}.png"
-                    alt="{{ page.title }}"
-                    class="post-image"
-                    itemprop="image"
-                    height="128"
-                    width="128"
-            >
-            <div>
-                <h3>Lemontron BOM</h3>
-                <ul>
-                    <li>Count: {{ page.count }}</li>
-                    <li>Orders: {{ page.orders }}</li>
-                    <li>Total: {{ page.total }}</li>
-                </ul>
-                <p class="post-meta">
-                    <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                        {{ page.date | date: date_format }}
-                    </time>
-                </p>
-            </div>
+    <div class="bom-pill">
+        <img
+                src="/assets/bom/{{ page.slug }}.png"
+                alt="{{ page.title }}"
+                class="post-image"
+                itemprop="image"
+                height="128"
+                width="128"
+        >
+        <div>
+            <dl>
+                <dt>Count</dt>
+                <dd>{{ page.qty }}</dd>
+            </dl>
+            <dl>
+                <dt>Orders</dt>
+                <dd>{{ page.orders }}</dd>
+            </dl>
+            <dl>
+                <dt>Total</dt>
+                <dd>${{ page.total }}</dd>
+            </dl>
         </div>
-
-    </header>
+    </div>
 
     <div class="post-content e-content" itemprop="articleBody">
         {{ content }}
     </div>
+
+<!--    <p class="post-meta">-->
+<!--        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">-->
+<!--            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}-->
+<!--            {{ page.date | date: date_format }}-->
+<!--        </time>-->
+<!--    </p>-->
 
     <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

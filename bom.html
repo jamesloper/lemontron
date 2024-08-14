@@ -3,6 +3,7 @@ layout: default
 title: BOM
 ---
 
+
 <h1>{{ page.title }}</h1>
 
 <p>
@@ -19,8 +20,7 @@ title: BOM
     <tr>
         <th>&nbsp;</th>
         <th>Item</th>
-        <th class="numeric">Qty</th>
-        <th class="numeric">Orders</th>
+        <th class="numeric">Qty/Orders</th>
         <th class="numeric">Total</th>
     </tr>
     {% for bom in sorted_pages %}
@@ -37,8 +37,7 @@ title: BOM
             </div>
             <div class="description">{{ bom.description }}</div>
         </td>
-        <td class="numeric">{{ bom.qty }}</td>
-        <td class="numeric">{{ bom.orders }}</td>
+        <td class="numeric">{{ bom.qty }} / {{ bom.orders }}</td>
         <td class="numeric">
             <span>${{ bom.total }}</span>
             <a class="buy" href="{{ bom.link }}" target="_blank">Buy</a>

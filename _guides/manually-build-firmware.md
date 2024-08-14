@@ -1,8 +1,10 @@
 ---
 layout: guide
 title:  "Manually Build Firmware"
-date:   2024-08-06 09:09:44 -0400
+date:   2024-08-07
 ---
+
+You might want to manually build the firmware for your SKR Pico rather than download the precompiled firmware. This guide will walk you through the process.
 
 ### Get up-to-date
 SSH into the Raspberry Pi and run the following commands:
