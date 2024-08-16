@@ -6,7 +6,7 @@ layout: default
 
     <div class="bom-pill">
         <img
-                src="/assets/bom/{{ page.slug }}.png"
+                src="/assets/bom/{{page.slug}}.png"
                 alt="{{ page.title }}"
                 class="post-image"
                 itemprop="image"
@@ -32,10 +32,9 @@ layout: default
     <div class="post-content e-content" itemprop="articleBody">
         <p>
         <h2>Purchase Link</h2>
-        <a href="{{ page.link }}" target="_blank">{{page.link}}</a>
+        <a href="{{page.link}}" target="_blank">{{page.link}}</a>
         <div>{{page.description}}</div>
         </p>
-h
 
         <h2>Additional Info</h2>
         {{ content }}
@@ -48,5 +47,5 @@ h
     <!--        </time>-->
     <!--    </p>-->
 
-    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+    <a class="u-url" href="{{page.url | relative_url}}" hidden></a>
 </article>
