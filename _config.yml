@@ -4,7 +4,7 @@ description: "Lemontron is a portable printer that packs down into a filament bo
 baseurl: ""
 url: "https://lemontron.com"
 github_username: "jamesloper"
-youtube_username: "@lemontron"
+youtube_username: "lemontron"
 collections:
   bom:
     output: true
@@ -12,11 +12,11 @@ collections:
   guides:
     output: true
     permalink: /guides/:path/
-theme: minima
+#theme: minima
 pluggithub_usernameins:
   - jekyll-feed
-minima:
-  include_default_css: false
+#minima:
+#  include_default_css: false
 show_excerpts: true
 
 # Exclude from processing.
