@@ -22,7 +22,7 @@ pre > code {border:0; padding-right:0; padding-left:0;}
 
 article {max-width:640px; margin:0 auto;}
 
-.post-title, .post-list-heading {text-align:center; margin-bottom:20px; font-size:28px;}
+.post-list-heading {text-align:center; margin-bottom:20px; font-size:28px;}
 
 .hero {margin:0 auto 20px auto; max-width:800px; display:flex;}
 .hero img {display:block; height:300px;}
@@ -123,9 +123,10 @@ table tr:last-child td {border-bottom:8px solid #1e96fc;}
 .post-list {margin-left:0; list-style:none;}
 .post-list > li {margin-bottom:30px;}
 .post-meta {font-size:12px; text-transform:uppercase; font-weight:bold;}
+.post-meta time {white-space:nowrap;}
 .post-link {display:block; font-size:24px;}
 
-.post-header {margin-bottom:20px; text-align:center; border-bottom:2px solid #eef; display:flex; align-items:center; justify-content:space-between; gap:20px;}
+.post-header {margin-bottom:20px; border-bottom:2px solid #eef; display:flex; align-items:center; justify-content:space-between; gap:20px;}
 .post-header .post-title {margin-bottom:10px;}
 
 .post-list-item {display:flex; gap:20px; align-items:center; flex-direction:column;}

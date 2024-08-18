@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Huge Video Update"
+title:  "Progress continues"
 categories: update video
 thumbnail: https://i.ytimg.com/vi/KzQWi5mGpFI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJbn47arlZRZHk9aT1MCzQp9vzhw
 ---
 
-The unibody project is officially "Lemontron" to reflect my zest for 3d printing ON THE GO! Exciting times ahead because
+With protective top plates, an integrated extruder and a filament holding solution!
+
+The project is officially now called "Lemontron" to reflect my zest for 3d printing ON THE GO! Exciting times ahead because
 the Positron space in general is heating up! Shout out to MihaiDesigns for his video that helped me make an informed
 design decision.
 
