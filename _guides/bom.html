@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: guide
 title: BOM
+date:   2024-08-07
+category: Assembly
 ---
-
-
-<h1>{{ page.title }}</h1>
 
 <p>
     This comprehensive list includes all the components and materials required to assemble the Lemontron 3D printer.
@@ -26,21 +25,21 @@ title: BOM
     {% for bom in sorted_pages %}
     <tr>
         <td class="image">
-            <img height="40" width="40" src="/assets/bom/{{ bom.url | split: '/' | last }}.png"/>
+            <img height="40" width="40" src="/assets/bom/{{bom.url | split: '/' | last}}.png"/>
         </td>
         <td>
             <div>
-                <a href="{{ bom.url | relative_url }}">{{ bom.title }}</a>
+                <a href="{{bom.url | relative_url}}">{{bom.title}}</a>
                 {% if bom.new %}
                 <span class="badge">New</span>
                 {% endif %}
             </div>
-            <div class="description">{{ bom.description }}</div>
+            <div class="description">{{bom.description}}</div>
         </td>
-        <td class="numeric">{{ bom.qty }} / {{ bom.orders }}</td>
+        <td class="numeric">{{bom.qty}} / {{bom.orders}}</td>
         <td class="numeric">
-            <span>${{ bom.total }}</span>
-            <a class="buy" href="{{ bom.link }}" target="_blank">Buy</a>
+            <span>${{bom.total}}</span>
+            <a class="buy" href="{{bom.link}}" target="_blank">Buy</a>
         </td>
     </tr>
     {% assign total_price = total_price | plus: bom.total %}
@@ -49,4 +48,4 @@ title: BOM
 
 <p><b>NEW</b> badge indicates a part that is not in the JourneyMaker BOM.</p>
 
-<h2>Total: <b>${{ total_price }}</b></h2>
+<h2>Total: <b>${{total_price}}</b></h2>

@@ -9,8 +9,7 @@ figure > img {display:block;}
 figcaption {font-size:14px;}
 ul, ol {margin-left:30px;}
 li > ul, li > ol {margin-bottom:0;}
-h1 {font-family:Viga, sans-serif;}
-h1, h2, h3, h4, h5, h6, .p-name {font-weight:bold;}
+h1, h2, h3, h4, h5, h6, .p-name {font-family:Viga, sans-serif;}
 a {color:#072ac8; text-decoration:none;}
 
 blockquote {color:#828282; border-left:4px solid #e8e8e8; padding-left:15px; font-size:18px;}
@@ -20,11 +19,10 @@ code {padding:1px 5px;}
 pre {padding:8px 12px; overflow-x:auto;}
 pre > code {border:0; padding-right:0; padding-left:0;}
 
-article {max-width:640px; margin:0 auto;}
-
+.post {max-width:640px; margin:0 auto;}
 .post-list-heading {text-align:center; margin-bottom:20px; font-size:28px;}
 
-.hero {margin:0 auto 20px auto; max-width:800px; display:flex;}
+.hero {margin:0 auto 40px auto; max-width:800px; display:flex;}
 .hero img {display:block; height:300px;}
 .hero-cta {padding:5px 10px; background:#fcf300; color:#000; text-transform:uppercase; font-weight:bold; border-radius:10px; font-size:12px; display:inline-block; margin-top:10px;}
 .hero-text {display:flex; gap:10px; flex-direction:column; align-items:flex-start;}
@@ -42,11 +40,15 @@ article {max-width:640px; margin:0 auto;}
     .hero img {margin:0 auto;}
 }
 
-.banner-container {border:2px solid #eef; margin-bottom:40px; border-radius:8px;}
-.banner {display:flex; gap:20px; justify-content:space-around; margin:0 auto;}
+.banner-container {background:#eef; margin-bottom:40px; border-radius:8px;}
+
+@media (min-width:800px) {
+    .banner {display:flex; gap:20px; justify-content:space-around; margin:0 auto;}
+}
 .banner-column {display:flex; gap:10px; flex-direction:column; flex:1; padding:20px; width:300px;}
 .banner-title {display:flex; gap:10px; align-items:center;}
 .banner h2 {margin-bottom:0; font-size:16px;}
+.banner p {margin:0;}
 .banner-icon {width:30px; height:30px; display:block;}
 
 .marker {position:relative;}
@@ -126,8 +128,8 @@ table tr:last-child td {border-bottom:8px solid #1e96fc;}
 .post-meta time {white-space:nowrap;}
 .post-link {display:block; font-size:24px;}
 
-.post-header {margin-bottom:20px; border-bottom:2px solid #eef; display:flex; align-items:center; justify-content:space-between; gap:20px;}
-.post-header .post-title {margin-bottom:10px;}
+.post-header {margin-bottom:20px; border-bottom:2px solid #eef; display:flex; align-items:center; justify-content:space-between; gap:20px; min-height:50px;}
+.post-header .post-title {margin-bottom:0;}
 
 .post-list-item {display:flex; gap:20px; align-items:center; flex-direction:column;}
 .post-list-item:not(:last-child) {border-bottom:2px solid #eef; padding-bottom:20px; margin-bottom:20px;}
@@ -211,9 +213,18 @@ table tr:last-child td {border-bottom:8px solid #1e96fc;}
 dl {display:flex; gap:10px; justify-content:space-between;}
 dd {font-weight:bold;}
 
-.guides-page {display:flex; gap:40px; margin-bottom:40px;}
-.sidebar {width:300px; flex:1; padding:20px; border-radius:8px; background:#eef;}
+@media (min-width:800px) {
+    .guides-page {display:flex; gap:40px; margin-bottom:40px;}
+
+    .sidebar {flex:1; min-width:200px;}
+}
+
+.sidebar {padding:20px; border-radius:8px; background:#eef; margin-bottom:20px;}
 .sidebar-title {font-weight:bold; font-size:11px; text-transform:uppercase;}
 .sidebar-list {list-style:none; margin:0 0 20px 0;}
 .sidebar-list a {display:block; color:#000;}
-.sidebar-aside {flex:3;}
+.sidebar-aside {flex:5;}
+
+@media (min-width:800px) {
+    .about-hero {display:flex; gap:40px;}
+}

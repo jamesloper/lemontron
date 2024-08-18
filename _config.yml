@@ -8,16 +8,12 @@ youtube_username: "lemontron"
 collections:
   bom:
     output: true
-    permalink: /bom/:path/
+    permalink: /guides/bom/:path/
   guides:
     output: true
     permalink: /guides/:path/
-#theme: minima
-pluggithub_usernameins:
+plugins:
   - jekyll-feed
-#minima:
-#  include_default_css: false
-show_excerpts: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

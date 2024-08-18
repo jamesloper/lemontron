@@ -1,6 +1,7 @@
 ---
 layout: guide
 title: Guides
+permalink: /guides/
 ---
 
 Here you’ll find a collection of detailed guides designed to help you get the most out of your Lemontron.

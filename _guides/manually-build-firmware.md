@@ -2,6 +2,7 @@
 layout: guide
 title:  "Manually Build Firmware"
 date:   2024-08-07
+category: Software
 ---
 
 You might want to manually build the firmware for your SKR Pico rather than download the precompiled firmware. This guide will walk you through the process.

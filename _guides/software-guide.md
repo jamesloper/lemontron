@@ -2,6 +2,7 @@
 layout: guide
 title:  "Raspberry Pi & SKR Firmware"
 date:   2024-08-06
+category: Software
 ---
 
 In this guide, we’ll walk you through the essential steps to get your 3D printer up and running with Mainsail OS on a
