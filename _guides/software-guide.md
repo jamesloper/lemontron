@@ -26,8 +26,7 @@ sudo apt update && sudo apt upgrade
     - [Download SRK Pico Firmware](/assets/downloads/klipper.uf2) (Latest as of 2024-08-06) or
     - Check my guide for [Manually Build SKR Pico Firmware](/guides/manually-build-firmware/)
 2. Apply the jumper to the `BOOT` pins on the SKR Pico (located in the center, under the "TE" in "BIGTREETECH").
-3. Hold down the `BOOT` button on the SKR Pico and connect the SKR Pico to your computer over USB-C and connect the SKR
-   Pico to your computer over USB-C.
+3. Hold down the `BOOT` button on the SKR Pico and connect the SKR Pico to your computer over USB-C.
 4. Drag the .uf2 file to the PICO drive that appears. Wait for the drive to disappear and reappear and then disconnect
    the USB-C.
 
