@@ -208,7 +208,9 @@ table tr:last-child td {border-bottom:8px solid #1e96fc;}
 .highlight .vi {color:#008080;}
 .highlight .il {color:#099;}
 
-.bom-pill {display:flex; gap:20px; padding:10px; border:2px solid #eef; border-radius:8px; margin-bottom:40px; align-items:center;}
+.bom-pill {display:flex; margin-bottom:40px; align-items:center; background:#eef; border-radius:8px;}
+.bom-image {border:2px solid transparent; border-radius:8px;}
+.bom-stats {padding:10px;}
 
 dl {display:flex; gap:10px; justify-content:space-between;}
 dd {font-weight:bold;}

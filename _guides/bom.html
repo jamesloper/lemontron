@@ -13,6 +13,7 @@ category: Assembly
 </p>
 
 {% assign total_price = 0 %}
+{% assign total_new = 0 %}
 {% assign sorted_pages = site.bom | sort:"title" %}
 
 <table>
@@ -31,6 +32,7 @@ category: Assembly
             <div>
                 <a href="{{bom.url | relative_url}}">{{bom.title}}</a>
                 {% if bom.new %}
+                {% assign total_new = total_new | plus: bom.total %}
                 <span class="badge">New</span>
                 {% endif %}
             </div>
@@ -46,6 +48,9 @@ category: Assembly
     {% endfor %}
 </table>
 
-<p><b>NEW</b> badge indicates a part that is not in the JourneyMaker BOM.</p>
+<p>
+    The <b>NEW</b> badge is for current owners of a <a href="https://github.com/mcfazio2001/JourneyMaker-Positron" target="_blank">JourneyMaker</a> who wish to convert it to a Lemontron.
+    The cost for the <b>NEW</b> parts is <b>${{total_new}}</b>, plus another <a href="/guides/bom/stepper">stepper motor</a>.
+</p>
 
 <h2>Total: <b>${{total_price}}</b></h2>

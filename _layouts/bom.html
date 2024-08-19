@@ -1,19 +1,19 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post bom" itemscope itemtype="http://schema.org/BlogPosting">
     <h1 itemprop="name headline">{{ page.title | escape }}</h1>
 
     <div class="bom-pill">
         <img
                 src="/assets/bom/{{page.slug}}.png"
-                alt="{{ page.title }}"
-                class="post-image"
+                alt="{{page.title}}"
+                class="bom-image"
                 itemprop="image"
                 height="128"
                 width="128"
         >
-        <div>
+        <div class="bom-stats">
             <dl>
                 <dt>Count</dt>
                 <dd>{{ page.qty }}</dd>
@@ -26,14 +26,13 @@ layout: default
                 <dt>Total</dt>
                 <dd>${{ page.total }}</dd>
             </dl>
+            <a href="{{page.link}}" target="_blank">{{page.link}}</a>
+            <div>{{page.description}}</div>
         </div>
     </div>
 
     <div class="post-content e-content" itemprop="articleBody">
         <p>
-        <h2>Purchase Link</h2>
-        <a href="{{page.link}}" target="_blank">{{page.link}}</a>
-        <div>{{page.description}}</div>
         </p>
 
         <h2>Additional Info</h2>
