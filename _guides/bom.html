@@ -20,17 +20,18 @@ category: Assembly
     <tr>
         <th>&nbsp;</th>
         <th>Item</th>
-        <th class="numeric">Qty/Orders</th>
+        <th class="numeric">Orders</th>
         <th class="numeric">Total</th>
     </tr>
     {% for bom in sorted_pages %}
     <tr>
         <td class="image">
-            <img height="40" width="40" src="/assets/bom/{{bom.url | split: '/' | last}}.png"/>
+            <img src="/assets/bom/{{bom.url | split: '/' | last}}.png"/>
         </td>
         <td>
             <div>
                 <a href="{{bom.url | relative_url}}">{{bom.title}}</a>
+                <span class="bom-qty"> × {{bom.qty}}</span>
                 {% if bom.new %}
                 {% assign total_new = total_new | plus: bom.total %}
                 <span class="badge">New</span>
@@ -38,7 +39,7 @@ category: Assembly
             </div>
             <div class="description">{{bom.description}}</div>
         </td>
-        <td class="numeric">{{bom.qty}} / {{bom.orders}}</td>
+        <td class="numeric">{{bom.orders}}</td>
         <td class="numeric">
             <span>${{bom.total}}</span>
             <a class="buy" href="{{bom.link}}" target="_blank">Buy</a>
@@ -49,8 +50,11 @@ category: Assembly
 </table>
 
 <p>
-    The <b>NEW</b> badge is for current owners of a <a href="https://github.com/mcfazio2001/JourneyMaker-Positron" target="_blank">JourneyMaker</a> who wish to convert it to a Lemontron.
-    The cost for the <b>NEW</b> parts is <b>${{total_new}}</b>, plus another <a href="/guides/bom/stepper">stepper motor</a>.
+    The <b>NEW</b> badge is for current owners of a <a href="https://github.com/mcfazio2001/JourneyMaker-Positron"
+                                                       target="_blank">JourneyMaker</a> who wish to convert it to a
+    Lemontron.
+    The cost for the <b>NEW</b> parts is <b>${{total_new}}</b>, plus another <a href="/guides/bom/stepper">stepper
+    motor</a>.
 </p>
 
 <h2>Total: <b>${{total_price}}</b></h2>

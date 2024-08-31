@@ -1,6 +1,6 @@
 ---
 layout: guide
-title: Modified Parts
+title: Modifications
 date:   2024-08-07
 category: Assembly
 ---

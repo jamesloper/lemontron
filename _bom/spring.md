@@ -8,3 +8,5 @@ link: https://www.aliexpress.us/item/3256806731381312.html
 description: 6x3x10 Yellow
 new: Yes
 ---
+
+Boing!
