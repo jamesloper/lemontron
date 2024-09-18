@@ -74,6 +74,7 @@ table th {background:#0a2529; color:#fff;}
 a.image:hover {border-color:#000080;}
 .image img {position:absolute; top:0; left:0; width:100%; height:100%; object-fit:contain;}
 /*td.image img { aspect-ratio:1; display:block;}*/
+.image-caption {position:absolute; z-index:1; background:#eef; display:inline-block; padding:0 5px; bottom:0; left:0; border-top-right-radius:4px;}
 
 table .description {font-size:12px;}
 
@@ -263,5 +264,5 @@ i.icon-open-in-new {opacity:.5; font-size:16px;}
 .tag-value {color:#000;}
 
 
-.tool-links {margin:0 0 20px 0; display:flex; gap:10px;}
+.tool-links {margin:0 0 20px 0; display:flex; gap:10px; flex-wrap:wrap;}
 .tool-links .image {height:128px; width:128px;}

@@ -5,6 +5,12 @@ date:   2024-08-01
 category: Assembly
 ---
 
+These toos are needed to build the Lemontron. You may already have some of these tools, but if not, you can buy them
+through these Amazon affiliate links! Building this printer has been a great experience for me, but costly so please
+also consider supporting me on Patreon.
+
+{% include patreon.html %}
+
 ## Screw Drivers
 
 The Lemontron benefits from deep integration and thus M3 (2mm Hex Bit) is the single screw type found throughout. I
@@ -32,7 +38,7 @@ image = "https://c.media-amazon.com/images/I/41uY2ozOLLL._AC_SX679_.jpg"
 
 You will need a modern, enclosed 3D printer to print the Lemontron parts. The Creality K1C is a great choice. 240 grit
 sandpaper for honing bottom surfaces. Razors for scraping. A craft knife for tidying blemishes. Supa glue for the
-Lemonstruder parts (the "liquid" one not the thick one).
+Lemonstruder parts (the "liquid" one not the thick one). Files for creating sharp interior corners.
 
 <ul class="tool-links">
 {% include tool-item.html
@@ -59,6 +65,11 @@ image = "https://c.media-amazon.com/images/I/41fUo+wCOlL._AC_SX679_.jpg"
 title = "Super Glue"
 amazon = "B0D2RP4B82"
 image = "https://c.media-amazon.com/images/I/41fqCAwgwsL._SY445_SX342_QL70_FMwebp_.jpg"
+%}
+{% include tool-item.html
+title = "File"
+amazon = "B0CS2YMPZ9"
+image = "https://m.media-amazon.com/images/I/81NG-5aBaHL._AC_SX679_.jpg"
 %}
 </ul>
 

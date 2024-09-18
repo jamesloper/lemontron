@@ -1,3 +1,6 @@
 <a class="image" href="https://www.amazon.com/dp/{{include.amazon}}?&tag=lemontron-20" target="_blank">
     <img src="{{include.image}}" alt="{{include.title}}"/>
+    {% if include.title %}
+    <div class="image-caption">{{include.title}}</div>
+    {% endif %}
 </a>
