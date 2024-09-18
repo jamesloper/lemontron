@@ -1,76 +1,105 @@
 ---
 layout: guide
 title: Printed Parts
-date:   2024-08-07
+date:   2024-09-16
 category: Assembly
 ---
 
-Congrats, now that you have received all your off-the-shelf parts, it's time to print the plastic parts. The Lemontron plastic parts
-can be printed on any printer with a build volume of 200mm x 200mm, which means most printers.
+The Lemontron plastic parts can be printed on most enclosed printers such as Bambulab X1
+and <a href="https://amzn.to/47ut5uQ" target="_blank">Creality K1</a>. Right now, not many Lemontrons have been created. You should post your settings and materials and the advantages to the Lemontron
+thread in the Voxolite Discord so that they can become official recommendations.
 
-Don't forget to upload your progress to the [Lemontron Photo Album](https://photos.app.goo.gl/ymJsbDJciHWHy3QJ8).
+## Basic Information
+
+The high temp nature of 3D printers requires ABS or ASA, and don't forget to scale up the parts to
+around 1.04% to account for shrinkage. Start with these slicer settings:
+
+1. 30% Grid Infill (Very strong infill, should not be hard on modern printers)
+2. 4 Perimeters (Commonly used for strength)
+3. 4 Top Layers (Increasing to 4 ensures that 1mm thick parts are printed solid)
+4. 3 Bottom Layers (This is the default in most slicers)
+5. .2mm Layer Height (Again, a pretty common default)
 
 ## Chassis Inventory
 
 <ul class="inventory">
-    <li>
-        <img src="/assets/printed-parts/chassis.png"/>
-        <div class="description">Unibody Chassis</div>
-    </li>
-    <li>
-        <img src="/assets/printed-parts/midplates.png"/>
-        <div class="description">Midplates</div>
-    </li>
-    <li>
-        <img src="/assets/printed-parts/topplates.png"/>
-        <div class="description">Topplates</div>
-    </li>
-    <li>
-        <img src="/assets/printed-parts/extruder.png"/>
-        <div class="description">Lemonstruder</div>
-    </li>
+
+{% include inventory-item.html
+title = "Top Plates"
+description = "Aside from the integrated Lemonstruder, the top plates are mostly decorative. Show off your printing
+abilities with a flashy filament and upload your results to the photo album. They would also look great in resin."
+image = "/assets/printed-parts/top-plates.png"
+material = "Any"
+%}
+
+{% include inventory-item.html
+title = "Unibody Chassis"
+description = "I recommend adding a <a href='https://www.youtube.com/watch?v=leHHulARH9Q' target='_blank'>modifier</a>
+around
+the Z axis attachment to increase infill to 60% for added strength. I have working prototypes using plain PLA but I
+would recommend ABS."
+image = "/assets/printed-parts/chassis.png"
+material = "ABS"
+%}
+
+{% include inventory-item.html
+title = "Mid Plates"
+description = "These serve as the motor mounts and thus a high temp material is required."
+image = "/assets/printed-parts/midplates.png"
+material = "ABS"
+%}
+
+{% include inventory-item.html
+title = "Lemonstruder"
+description = "This part experiences a lot of compression from the spring, so a CF-blend is a good choice here. It's
+also extremely small, so the excellent dimensional accuracy of CF-PET is good here. This could also be printed in
+resin."
+image = "/assets/printed-parts/extruder.png"
+material = "CF-PET"
+%}
+
 </ul>
 
 ## Z-Axis Inventory
 
 <ul class="inventory">
-    <li>
-        <img src="/assets/printed-parts/z-axis.png"/>
-        <div class="description">Z-Axis</div>
-    </li>
-    <li>
-        <img src="/assets/printed-parts/bracket.png"/>
-        <div class="description">Bed Bracket</div>
-    </li>
+
+{% include inventory-item.html
+title = "Z-Axis"
+description = "Choose any material for this part, just make sure it looks awesome."
+image = "/assets/printed-parts/z-axis.png"
+material = "Any"
+%}
+
+{% include inventory-item.html
+title = "Bed Bracket"
+description = "This is best printed in CF-PET."
+image = "/assets/printed-parts/bracket.png"
+material = "Any"
+%}
+
 </ul>
 
 ## Tool Head Inventory
 
 <ul class="inventory">
-    <li>
-        <img src="/assets/printed-parts/tool.png"/>
-        <div class="description">Tool Head & Clamp</div>
-    </li>
-    <li>
-        <img src="/assets/printed-parts/belt-clip.png"/>
-        <div class="description">Belt Clip</div>
-    </li>
+
+{% include inventory-item.html
+title = "Tool Head & Clamp"
+description = "I like to use dual colors for this print. Make the bottom part of the tool black to make it look
+sleek."
+image = "/assets/printed-parts/tool.png"
+material = "ABS"
+%}
+
+{% include inventory-item.html
+title = "Belt Clip"
+description = "You can't see this part so its like whatever man."
+image = "/assets/printed-parts/belt-clip.png"
+material = "Any"
+%}
+
 </ul>
 
-## Top Plates
-
-For the top plates, you can choose your own material. Use your own preferred settings, and make it look amazing.
-
-## The Rest
-
-The high temp nature of 3D printers means we need to print in either ABS or ASA, don't forget to scale up the parts to
-around 1.04% to account for shrinkage. You are going to want to modify your slicer settings:
-
-- 4 Perimeters
-- 4 Top Layers
-- 3 Bottom Layers
-- 0.2mm Layer Height
-- 30% Grid Infill
-
-For the Unibody Chassis, it is good to add a [modifier](https://www.youtube.com/watch?v=leHHulARH9Q) around the Z axis
-attachment to increase infill to 60% for added strength. 
+Don't forget to upload your work to
+the [Lemontron Photo Album](https://photos.app.goo.gl/ymJsbDJciHWHy3QJ8).

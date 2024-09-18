@@ -4,7 +4,7 @@ layout: default
 
 {% assign sorted_guides = site.guides | sort: 'date' %}
 
-{% assign software_guides = sorted_guides | sort: 'date' | where: 'category', 'Software' %}
+{% assign other_guides = sorted_guides | sort: 'date' | where: 'category', 'Other' %}
 {% assign hardware_guides = sorted_guides | sort: 'date' | where: 'category', 'Assembly' %}
 
 <div class="wrapper guides-page">
@@ -16,9 +16,9 @@ layout: default
             {% endfor %}
         </ol>
 
-        <div class="sidebar-title">Software</div>
+        <div class="sidebar-title">Other</div>
         <ul class="sidebar-list">
-            {% for guide in software_guides %}
+            {% for guide in other_guides %}
             <li><a href="{{guide.url | relative_url}}">{{guide.title}}</a></li>
             {% endfor %}
         </ul>

@@ -4,9 +4,12 @@ title: 18 AWG Silicone Wire
 qty: 1
 orders: 1
 total: 2.73
-link: https://www.aliexpress.us/item/3256804564602643.html
 description: 2m (2 Pin Black-Red)
 new: No
+links:
+  - vendor: AliExpress
+    url: https://www.aliexpress.us/item/3256804564602643.html
+    note: 18AWG
 ---
 
 18 AWG silicone wire is a medium-gauge, highly flexible, and heat-resistant wire.

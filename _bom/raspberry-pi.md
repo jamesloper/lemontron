@@ -4,7 +4,10 @@ title: Rasberry Pi Zero 2 W
 qty: 1
 orders: 1
 total: 20.00
-link: https://amzn.to/4fBzjfZ
 description: Computer
 new: No
+links:
+  - vendor: Amazon
+    url: https://www.amazon.com/dp/B09LH5SBPS?&tag=lemontron-20
+
 ---

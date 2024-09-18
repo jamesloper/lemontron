@@ -1,0 +1,17 @@
+<li class="inventory-item">
+    <div class="inventory-item-left">
+        <img class="inventory-item-image" src="{{include.image}}"/>
+    </div>
+    <div>
+        <h4 class="inventory-item-title">{{include.title}}</h4>
+        <div>{{include.description}}</div>
+        <div class="inventory-item-bar">
+            {% if include.material %}
+            <div class="tag">
+                <span class="tag-label">Material</span>
+                <span class="tag-value">{{include.material}}</span>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</li>

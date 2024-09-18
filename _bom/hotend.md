@@ -4,9 +4,14 @@ title: Hotend Kit
 qty: 1
 orders: 1
 total: 40.00
-link: https://voxolite.com/products/hotend-complete-set
 description: Voxolite hotend includes silicon sock
 new: No
-alternatives: 
-    - https://www.aliexpress.us/item/3256804615923605.html
+links: 
+  - vendor: Voxolite
+    url: https://voxolite.com/products/hotend-complete-set
+    note: Includes silicone sock
+  - vendor: AliExpress
+    url: https://www.aliexpress.us/item/3256804615923605.html
+    note: No sock
 ---
+This slightly problematic hotend needs some TLC, but it can be a strong performer.
