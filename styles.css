@@ -27,7 +27,7 @@ pre > code {border:0; padding-right:0; padding-left:0;}
 .post-list-heading {text-align:center; margin-bottom:20px; font-size:28px;}
 
 .home-hero {color:#e2ffcc; background:#0b363d url("/assets/home/bg.svg") center right no-repeat; padding:40px 0; margin-bottom:40px;}
-.hero {display:flex; margin-bottom:40px;}
+.hero {display:flex; margin-bottom:40px; padding:0 20px;}
 .hero img {display:block; height:300px;}
 .hero h1 {font-size:48px; margin-bottom:40px; line-height:1em;}
 .hero-cta {padding:5px 10px; background:#fcf300; text-transform:uppercase; font-weight:bold; border-radius:10px; font-size:12px; display:inline-block; margin-top:10px;}
@@ -58,7 +58,7 @@ pre > code {border:0; padding-right:0; padding-left:0;}
 .marker {position:relative; color:#1ba77f;}
 .marker:after {display:block; content:""; position:absolute; width:100%; height:30%; left:0; bottom:-20%; background:url(/assets/marker.svg); background-size:100% 100%;}
 
-.wrapper {max-width:1000px; margin:0 auto; padding:0 10px;}
+.wrapper {max-width:1000px; margin:0 auto;}
 
 .svg-icon {width:16px; height:16px; display:inline-block; fill:#000; padding-right:5px; vertical-align:text-top;}
 table {margin-bottom:20px; width:100%; background:#fff; border-radius:2px; border-collapse:collapse; border-top:none; text-align:left; overflow:hidden;}
@@ -84,8 +84,9 @@ table .description {font-size:12px;}
 
 .site-header {position:relative; color:#e2ffcc;}
 .site-header .wrapper {display:flex; align-items:center; gap:30px; height:60px;}
-.site-title {font-size:26px; font-weight:300; line-height:54px; margin-bottom:0;}
+.site-title {font-size:26px; font-weight:300; line-height:54px; margin-bottom:0; padding-left:20px;}
 .site-title img {height:36px; display:block;}
+.site-nav {padding:0 20px;}
 .site-nav .nav-trigger {display:none;}
 .site-nav .menu-icon {display:none;}
 .site-nav .page-link {color:inherit; font-size:16px;}
@@ -115,6 +116,7 @@ table .description {font-size:12px;}
 .site-footer {border-top:1px solid #0b363d; padding:20px 0; font-size:14px;}
 .contact-list, .social-media-list {list-style:none; margin-left:0;}
 
+.footer-col-wrapper {padding:0 20px;}
 @media (min-width:800px) {
     .footer-col-wrapper {display:flex; gap:20px;}
 
@@ -131,7 +133,7 @@ table .description {font-size:12px;}
 .post-meta time {white-space:nowrap;}
 .post-link {display:block; font-size:24px;}
 
-.post-header {margin-bottom:20px; border-bottom:2px solid #19a87f; display:flex; align-items:center; justify-content:space-between; gap:20px; min-height:50px;}
+.post-header {margin-bottom:20px; border-bottom:2px solid #0a2529; display:flex; align-items:center; justify-content:space-between; gap:20px; min-height:50px;}
 .post-header .post-title {margin-bottom:0;}
 
 .post-list-item {display:flex; gap:20px; align-items:center; flex-direction:column;}
@@ -150,7 +152,7 @@ table .description {font-size:12px;}
 
 .post-content {margin-bottom:20px;}
 
-.highlight {background:rgba(128, 128, 128, .1); border-radius:8px;}
+.highlight {background:rgba(0,0,0, .02); border-radius:2px;}
 .highlight .c {color:#998; font-style:italic;}
 .highlight .err {color:#a61717; background-color:#e3d2d2;}
 .highlight .k {font-weight:bold;}
@@ -221,10 +223,10 @@ dd {font-weight:bold;}
 @media (min-width:800px) {
     .guides-page {display:flex; gap:40px; margin-bottom:40px;}
 
-    .sidebar {flex:1; min-width:200px;}
+    .sidebar {flex:1; min-width:180px; padding-left:20px;}
 }
 
-.sidebar {border-radius:8px; margin-bottom:20px;}
+.sidebar {border-radius:8px; margin-bottom:20px; padding:0 20px;}
 .sidebar-title {font-weight:bold; font-size:12px; text-transform:uppercase; margin-bottom:10px; color:#1ba77f;}
 .sidebar-list {list-style:none; margin:0 0 20px 0;}
 .sidebar-list a {display:block;}
