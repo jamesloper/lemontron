@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {margin:0; padding:0;}
-body {font:400 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color:#e2ffcc; background:#0a2529; display:flex; min-height:100vh; flex-direction:column;}
+body {font:400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color:#e2ffcc; background:#0a2529; display:flex; min-height:100vh; flex-direction:column;}
 h1, h2, h3, h4, h5, h6, blockquote, pre, ul, ol, figure, p {margin-bottom:10px;}
 main {display:block;}
 img {max-width:100%; vertical-align:middle;}
@@ -12,7 +12,9 @@ h1, h2, h3, h4, h5, h6, .p-name {font-family:Viga, sans-serif;}
 a {color:inherit; text-decoration:none;}
 a:hover {text-decoration:underline;}
 
-article {background:#ffe; padding:20px; color:#222; border-radius:2px;}
+img[src*="icons/"] {height:24px; width:24px;}
+
+article {background:#fff; padding:20px; color:#000; border-radius:20px; overflow:hidden;}
 article .p-name {color:#0a2529;}
 .post-content a {text-decoration:underline; color:#000080;}
 
@@ -62,19 +64,18 @@ pre > code {border:0; padding-right:0; padding-left:0;}
 
 .svg-icon {width:16px; height:16px; display:inline-block; fill:#000; padding-right:5px; vertical-align:text-top;}
 table {margin-bottom:20px; width:100%; background:#fff; border-radius:2px; border-collapse:collapse; border-top:none; text-align:left; overflow:hidden;}
-table th, table td {padding:5px 10px;}
+table td {padding:5px 10px;}
 table tr:nth-child(2n) {background:#f9f9f9;}
-table th {background:#0a2529; color:#fff;}
+table th {background:#fff; color:#000; text-transform:uppercase; font-size:12px; padding:0 5px;}
 .numeric {text-align:right;}
 .centered {text-align:center;}
 
 .td-image {padding:4px; text-align:center; display:flex; gap:4px;}
 
-.image {display:block; width:50px; height:50px; position:relative; border-radius:4px; border:2px solid #eef; background:#fff; overflow:hidden;}
-a.image:hover {border-color:#000080;}
+.image {display:block; width:50px; height:50px; position:relative; border:2px solid #0a2529; border-radius:10px; background:#fff; overflow:hidden; box-shadow:5px 5px 0 rgba(0,0,0,.1); transition:transform .3s;}
+a.image:hover {transform:scale(1.03);}
 .image img {position:absolute; top:0; left:0; width:100%; height:100%; object-fit:contain;}
-/*td.image img { aspect-ratio:1; display:block;}*/
-.image-caption {position:absolute; z-index:1; background:#eef; display:inline-block; padding:0 5px; bottom:0; left:0; border-top-right-radius:4px;}
+.image-caption {position:absolute; z-index:1; color:#000; display:inline-block; padding:0 10px; bottom:-2px; left:-2px; background:rgba(255,255,255,.6); border-radius:2px;}
 
 table .description {font-size:12px;}
 
@@ -133,7 +134,8 @@ table .description {font-size:12px;}
 .post-meta time {white-space:nowrap;}
 .post-link {display:block; font-size:24px;}
 
-.post-header {margin-bottom:20px; border-bottom:2px solid #0a2529; display:flex; align-items:center; justify-content:space-between; gap:20px; min-height:50px;}
+.post-header {border-bottom:2px solid #0a2529; display:flex; align-items:center; justify-content:space-between; gap:20px; min-height:50px; padding:0 20px; color:#fff;}
+.post-header > * {margin:0;}
 .post-header .post-title {margin-bottom:0;}
 
 .post-list-item {display:flex; gap:20px; align-items:center; flex-direction:column;}
@@ -213,8 +215,8 @@ table .description {font-size:12px;}
 .highlight .vi {color:#008080;}
 .highlight .il {color:#099;}
 
-.bom-image-container {display:flex; align-items:center; justify-content:center; margin-bottom:-40px;}
-.bom-image {padding:20px; background:#fff; border-radius:4px; box-shadow:0 0 2px rgba(0, 0, 0, .2);}
+.bom-image-container {display:flex; align-items:center; justify-content:center; margin-bottom:20px;}
+.bom-image {padding:10px; background:#fff; border-radius:10px; box-shadow:5px 5px 0 rgba(0, 0, 0, .1);}
 .bom-qty {font-weight:bold; font-size:13px;}
 
 dl {display:flex; gap:10px; justify-content:space-between;}
@@ -266,5 +268,7 @@ i.icon-open-in-new {opacity:.5; font-size:16px;}
 .tag-value {color:#000;}
 
 
-.tool-links {margin:0 0 20px 0; display:flex; gap:10px; flex-wrap:wrap;}
+.tool-links {margin:0 0 20px 0; display:flex; gap:10px; flex-wrap:wrap; font-size:14px;}
 .tool-links .image {height:128px; width:128px;}
+
+.patreon-badge {text-align:center;}

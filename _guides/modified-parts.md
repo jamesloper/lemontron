@@ -18,3 +18,7 @@ Cut the X-axis to 241mm. But you don't have to measure it, on one side of the X-
 ## Lead Screw
 
 You can forgo this step, and instead opt for the extra bit to stick out the bottom, doing nothing. But a full length lead screw will not allow the Z Axis assembly to fit within a filament box. Cut about 10mm off the lead screw, winding up around 225mm. Precision is not required here.
+
+## Fans
+
+For the part cooling fan, cut off and sand down the two mounting winglets and wire clip. For the heat break fan cut off the top left corner.

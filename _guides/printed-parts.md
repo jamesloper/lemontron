@@ -6,13 +6,14 @@ category: Assembly
 ---
 
 The Lemontron plastic parts can be printed on most enclosed printers such as Bambulab X1
-and <a href="https://amzn.to/47ut5uQ" target="_blank">Creality K1</a>. Right now, not many Lemontrons have been created. You should post your settings and materials and the advantages to the Lemontron
+and <a href="https://amzn.to/47ut5uQ" target="_blank">Creality K1</a>. Right now, not many Lemontrons have been created.
+You should post your settings and materials and the advantages to the Lemontron
 thread in the Voxolite Discord so that they can become official recommendations.
 
 ## Basic Information
 
-The high temp nature of 3D printers requires ABS or ASA, and don't forget to scale up the parts to
-around 1.04% to account for shrinkage. Start with these slicer settings:
+The high temp nature of 3D printers requires ABS or ASA, and don't forget to scale up the parts 1.01% to account for
+shrinkage. Start with these slicer settings:
 
 1. 30% Grid Infill (Very strong infill, should not be hard on modern printers)
 2. 4 Perimeters (Commonly used for strength)

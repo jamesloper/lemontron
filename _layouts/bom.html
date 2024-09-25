@@ -6,49 +6,51 @@ layout: default
          width="128">
 </div>
 
-
-<article class="post bom" itemscope itemtype="http://schema.org/BlogPosting">
+<div class="post">
     <div class="post-header">
         <h1 itemprop="name headline">{{page.title | escape}}</h1>
         <div class="meta">Lemontron BOM Item</div>
     </div>
-    <div class="bom-stats">
-        <dl>
-            <dd>{{page.qty}}</dd>
-            <dt>Quantity needed</dt>
-        </dl>
-        <dl>
-            <dd>{{page.orders}}</dd>
-            <dt>Number of orders</dt>
-        </dl>
-        <dl>
-            <dd>${{page.total}}</dd>
-            <dt>Estimated order price</dt>
-        </dl>
-    </div>
-    <div class="post-content e-content" itemprop="articleBody">
-        {{content}}
-    </div>
-    <!--    <p class="post-meta">-->
-    <!--        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">-->
-    <!--            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}-->
-    <!--            {{ page.date | date: date_format }}-->
-    <!--        </time>-->
-    <!--    </p>-->
+
+    <article class="bom" itemscope itemtype="http://schema.org/BlogPosting">
+        <div class="bom-stats">
+            <dl>
+                <dd>{{page.qty}}</dd>
+                <dt>Quantity needed</dt>
+            </dl>
+            <dl>
+                <dd>{{page.orders}}</dd>
+                <dt>Number of orders</dt>
+            </dl>
+            <dl>
+                <dd>${{page.total}}</dd>
+                <dt>Estimated order price</dt>
+            </dl>
+        </div>
+        <div class="post-content e-content" itemprop="articleBody">
+            {{content}}
+        </div>
+        <!--    <p class="post-meta">-->
+        <!--        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">-->
+        <!--            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}-->
+        <!--            {{ page.date | date: date_format }}-->
+        <!--        </time>-->
+        <!--    </p>-->
 
 
-    <ul class="bom-vendors">
-        {% for link in page.links %}
-        <li class="buy-button">
-            <a href="{{link.url}}" target="_blank">
-                <span class="material-icons">shopping_bag</span>
-                Buy on {{link.vendor}}
-                <i class="material-icons icon-open-in-new">open_in_new</i>
-            </a>
-            <span class="buy-button-notes">{{link.note}}</span>
-        </li>
-        {% endfor %}
-    </ul>
+        <ul class="bom-vendors">
+            {% for link in page.links %}
+            <li class="buy-button">
+                <a href="{{link.url}}" target="_blank">
+                    <span class="material-icons">shopping_bag</span>
+                    Buy on {{link.vendor}}
+                    <i class="material-icons icon-open-in-new">open_in_new</i>
+                </a>
+                <span class="buy-button-notes">{{link.note}}</span>
+            </li>
+            {% endfor %}
+        </ul>
 
-    <a class="u-url" href="{{page.url | relative_url}}" hidden></a>
-</article>
+        <a class="u-url" href="{{page.url | relative_url}}" hidden></a>
+    </article>
+</div>

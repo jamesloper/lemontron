@@ -17,12 +17,6 @@ category: Assembly
 {% assign sorted_pages = site.bom | sort:"title" %}
 
 <table>
-    <tr>
-        <th>&nbsp;</th>
-        <th>Item</th>
-        <th class="numeric">Orders</th>
-        <th class="numeric">Total</th>
-    </tr>
     {% for bom in sorted_pages %}
     {% assign link = bom.links | first %}
     <tr>
@@ -42,7 +36,7 @@ category: Assembly
             </div>
             <div class="description">{{bom.description}}</div>
         </td>
-        <td class="numeric">{{bom.orders}}</td>
+<!--        <td class="numeric">{{bom.orders}}</td>-->
         <td class="numeric">
             <span>${{bom.total}}</span><br/>
             <a class="buy" href="{{link.url}}" target="_blank">

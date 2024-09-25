@@ -5,8 +5,8 @@ date:   2024-08-01
 category: Assembly
 ---
 
-These toos are needed to build the Lemontron. You may already have some of these tools, but if not, you can buy them
-through these Amazon affiliate links! Building this printer has been a great experience for me, but costly so please
+These tools are needed to build the Lemontron. You may already have some of them, but if not, you can buy them
+through these Amazon affiliate links! Building this printer has been a fun experience, but costly for me, so please
 also consider supporting me on Patreon.
 
 {% include patreon.html %}
@@ -32,6 +32,11 @@ title = "Screw Driver"
 amazon = "B00365EYJO"
 image = "https://c.media-amazon.com/images/I/41uY2ozOLLL._AC_SX679_.jpg"
 %}
+{% include tool-item.html
+title = "Allen Keys"
+amazon = "B083BGVMB8"
+image = "https://m.media-amazon.com/images/I/61dimk22KQL._AC_SX679_.jpg"
+%}
 </ul>
 
 ## 3D Printing Tools
@@ -42,7 +47,7 @@ Lemonstruder parts (the "liquid" one not the thick one). Files for creating shar
 
 <ul class="tool-links">
 {% include tool-item.html
-title = "Creality K1C"
+title = "Printer"
 amazon = "B0D9BGHHKF"
 image = "https://m.media-amazon.com/images/I/615goFZOt7L._AC_SL1500_.jpg"
 %}
@@ -110,6 +115,7 @@ amazon = "B0D2D28FSV"
 image = "https://c.media-amazon.com/images/I/81CnWmPqoML._AC_SX679_.jpg"
 %}
 {% include tool-item.html
+title = "Belt Sander"
 amazon = "B09VGT7M89"
 image = "https://c.media-amazon.com/images/I/61E394x4-7L.__AC_SY300_SX300_QL70_FMwebp_.jpg"
 %}
