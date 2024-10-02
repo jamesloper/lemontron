@@ -35,4 +35,8 @@ sudo apt update && sudo apt upgrade
 1. Open up the Raspberry Pi webpage by navigating to the network name of the Raspberry Pi in your browser. If you named
    your printer "lemontron" then your URL would be `http://lemontron.local`.
 2. Update everything!
-3. Click on the "Machine" tab (the last one) and then upload this [printer.cfg](/assets/downloads/printer.cfg) file. 
+3. Click on the "Machine" tab (the last one) and then upload this [printer.cfg](/assets/downloads/printer.cfg) file.
+
+## Customization
+
+There is so much more that you can do, so feel free to explore Positron's [Config Documentation](https://github.com/Positron3D/PositronConfig/blob/main/README.md).

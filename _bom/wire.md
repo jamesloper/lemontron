@@ -3,7 +3,7 @@ layout: bom
 title: 18 AWG Silicone Wire
 qty: 1
 orders: 1
-total: 2.73
+total: 1.22
 description: 2m (2 Pin Black-Red)
 new: No
 links:
@@ -12,8 +12,5 @@ links:
     note: 18AWG
 ---
 
-18 AWG silicone wire is a medium-gauge, highly flexible, and heat-resistant wire.
-
-18 AWG wire has a diameter of approximately 1.02 mm (0.0403 inches). It is a medium-thin wire, commonly used for applications that require moderate electrical current capacity.
-
-18 AWG wire can safely carry up to 16 amps in free air or 3-10 amps when enclosed, depending on insulation and operating conditions.
+18 AWG silicone wire is a medium-gauge, highly flexible, and heat-resistant wire with a diameter of approximately 1.02
+mm (0.0403 inches). 18 AWG wire can safely carry up to 16 amps.

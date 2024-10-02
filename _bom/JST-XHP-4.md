@@ -3,7 +3,7 @@ layout: bom
 title: JST XHP-4
 qty: 4
 orders: 10
-total: 0.89
+total: 0.81
 description: For Motors
 new: Yes
 links:

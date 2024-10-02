@@ -13,8 +13,8 @@ also consider supporting me on Patreon.
 
 ## Screw Drivers
 
-The Lemontron benefits from deep integration and thus M3 (2mm Hex Bit) is the single screw type found throughout. I
-recommend having a dedicated high quality screwdriver, plus a bit for your drill. Avoid "Vega" brand!
+The Lemontron benefits from deep integration and thus only M3 (2mm Hex Bit) and a few M2.5 are used. I
+recommend having a dedicated high quality M3 screwdriver, plus a bit for your drill.
 
 <ul class="tool-links">
 {% include tool-item.html

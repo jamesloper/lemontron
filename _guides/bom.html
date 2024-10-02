@@ -31,12 +31,14 @@ category: Assembly
                 <span class="bom-qty"> × {{bom.qty}}</span>
                 {% if bom.new %}
                 {% assign total_new = total_new | plus: bom.total %}
-                <span class="badge">New</span>
+                <span class="badge"><i class="material-icons">grade</i> New</span>
+                {% endif %}
+                {% if bom.modification %}
+                <span class="badge"><i class="material-icons">carpenter</i> Modify</span>
                 {% endif %}
             </div>
             <div class="description">{{bom.description}}</div>
         </td>
-<!--        <td class="numeric">{{bom.orders}}</td>-->
         <td class="numeric">
             <span>${{bom.total}}</span><br/>
             <a class="buy" href="{{link.url}}" target="_blank">
@@ -53,8 +55,9 @@ category: Assembly
     The <b>NEW</b> badge is for current owners of a <a href="https://github.com/mcfazio2001/JourneyMaker-Positron"
                                                        target="_blank">JourneyMaker</a> who wish to convert it to a
     Lemontron.
-    The cost for the <b>NEW</b> parts is <b>${{total_new}}</b>, plus another <a href="/guides/bom/stepper">stepper
-    motor</a>.
+    The cost for the <b>NEW</b> parts is <b>${{total_new}}</b>, plus another <a href="/guides/bom/stepper/">stepper
+    motor</a>. If you're converting a JourneyMaker, you can re-use your entire tool head, so you don't need to buy the
+    <a href="/guides/bom/hotend/">positron one</a> but it's a big upgrade.
 </p>
 
 <h2>Total: <b>${{total_price}}</b></h2>

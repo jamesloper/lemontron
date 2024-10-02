@@ -3,7 +3,7 @@ layout: bom
 title: Power Supply
 qty: 1
 orders: 1
-total: 50.20
+total: 49.71
 description: LOP-300-27
 new: No
 links:

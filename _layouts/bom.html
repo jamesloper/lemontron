@@ -8,7 +8,10 @@ layout: default
 
 <div class="post">
     <div class="post-header">
-        <h1 itemprop="name headline">{{page.title | escape}}</h1>
+        <div>
+            <h1 itemprop="name headline">{{page.title | escape}}</h1>
+            <div>{{page.description}}</div>
+        </div>
         <div class="meta">Lemontron BOM Item</div>
     </div>
 
@@ -16,15 +19,15 @@ layout: default
         <div class="bom-stats">
             <dl>
                 <dd>{{page.qty}}</dd>
-                <dt>Quantity needed</dt>
+                <dt>Quantity Needed</dt>
             </dl>
             <dl>
                 <dd>{{page.orders}}</dd>
-                <dt>Number of orders</dt>
+                <dt>Number of Orders</dt>
             </dl>
             <dl>
                 <dd>${{page.total}}</dd>
-                <dt>Estimated order price</dt>
+                <dt>Estimated Order Price</dt>
             </dl>
         </div>
         <div class="post-content e-content" itemprop="articleBody">
