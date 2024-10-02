@@ -11,3 +11,5 @@ links:
     url: https://www.aliexpress.us/item/2255800077919268.html
     note: 250mm
 ---
+
+This is the medium sized rail in the BOM, which allows the tool head to move forward and backward.
