@@ -17,5 +17,5 @@ The smallest rail in the BOM allows the tool head to travel left and right.
 
 ## Required Modification
 
-You have to cut this to 227mm using a [Dremel](https://www.amazon.com/dp/B0D2D28FSV?&tag=lemontron-20) with a cutoff wheel, or a hacksaw. But you don't have to measure it, just cut one of the holes off so that it creates a
-symmetrical rail. 
+You have to cut this to 227mm using a [Dremel](https://www.amazon.com/dp/B0D2D28FSV?&tag=lemontron-20) with a cutoff
+wheel, or a hacksaw. But you don't have to actually measure anything, just cut one of the holes off, making sure you keep it symmetrical.

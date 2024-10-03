@@ -12,6 +12,7 @@ All the screws of the Lemontron in one place! Don't drop them!
 | Type                                          | Thread | Length | Qty | Use                                                                    |
 |-----------------------------------------------|--------|--------|-----|------------------------------------------------------------------------|
 | ![Button Head](/assets/icons/button-head.png) | M3     | 5mm    | 8   | Used to secure the Z axis rails to the z axis mount                    |
+| ![Button Head](/assets/icons/button-head.png) | M3     | 14mm   | 2   | For fixing the Z axis assembly to the chassis                          |
 | ![Button Head](/assets/icons/button-head.png) | M3     | 14mm   | 8   | For fixing the Y axis rails to the chassis                             |
 | ![Button Head](/assets/icons/button-head.png) | M3     | 14mm   | 8   | For fixing the fans to the fan mounts                                  |
 | ![Button Head](/assets/icons/button-head.png) | M3     | 14mm   | 2   | For fixing the AC plug to the chassis                                  |
@@ -30,8 +31,10 @@ All the screws of the Lemontron in one place! Don't drop them!
 | Type                                          | Thread | Length | Qty | Use                                                 |
 |-----------------------------------------------|--------|--------|-----|-----------------------------------------------------|
 | ![Countersunk](/assets/icons/countersunk.png) | M2.5   | 6mm    | 4   | Used to attach the hot end to the tool head         |
-| ![Button Head](/assets/icons/button-head.png) | M3     | 25mm   | 1   | For fixing the tool head to the belt clip           |
-| ![Countersunk](/assets/icons/countersunk.png) | M3     | 14mm   | 4   | Used to attach the tool head to the X axis carriage |
+| ![Countersunk](/assets/icons/countersunk.png) | M2.5   | 6mm    | 2   | Used to attach the probe to the tool head           |
+| ![Countersunk](/assets/icons/countersunk.png) | M2.5   | 10mm   | 2   | Used to attach the belt clip to the tool head       |
+| ![Countersunk](/assets/icons/countersunk.png) | M3     | 14mm   | 2   | Used to attach the tool head to the X axis carriage |
+| ![Button Head](/assets/icons/button-head.png) | M3     | 10mm   | 1   | Used to secure the wire clamp on the tool head      |
 
 These screws are found within the [button head screws box](/guides/bom/m3-button-head/)
 and [countersink head screws box](/guides/bom/m3-countersunk/). But unfortunately the 25mm button head screws must be
