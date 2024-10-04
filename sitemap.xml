@@ -1,0 +1,41 @@
+---
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>{{"/" | absolute_url}}</loc>
+        <lastmod>{{site.time | date_to_xmlschema}}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    {% assign pages = site.pages | where_exp: 'page', 'page.title' %}
+    {% for page in pages %}
+    <!-- [PAGE] {{page.title}} -->
+    <url>
+        <loc>{{page.url | absolute_url}}</loc>
+        <lastmod>{{page.date | default: site.time | date_to_xmlschema}}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    {% endfor %}
+    {% for post in site.posts %}
+    <!-- [POST] {{post.title}} -->
+    <url>
+        <loc>{{post.url | absolute_url}}</loc>
+        <lastmod>{{post.date | default: site.time | date_to_xmlschema}}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    {% endfor %}
+
+    {% for item in site.bom %}
+    <!-- [BOM] {{item.title}} -->
+    <url>
+        <loc>{{item.url | absolute_url}}</loc>
+        <lastmod>{{item.date | default: site.time | date_to_xmlschema}}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+    {% endfor %}
+</urlset>
