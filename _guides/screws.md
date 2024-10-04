@@ -33,7 +33,7 @@ All the screws of the Lemontron in one place! Don't drop them!
 | ![Countersunk](/assets/icons/countersunk.png) | M2.5   | 6mm    | 4   | Used to attach the hot end to the tool head         |
 | ![Countersunk](/assets/icons/countersunk.png) | M2.5   | 6mm    | 2   | Used to attach the probe to the tool head           |
 | ![Countersunk](/assets/icons/countersunk.png) | M2.5   | 10mm   | 2   | Used to attach the belt clip to the tool head       |
-| ![Countersunk](/assets/icons/countersunk.png) | M3     | 14mm   | 2   | Used to attach the tool head to the X axis carriage |
+| ![Countersunk](/assets/icons/countersunk.png) | M3     | 16mm   | 2   | Used to attach the tool head to the X axis carriage |
 | ![Button Head](/assets/icons/button-head.png) | M3     | 10mm   | 1   | Used to secure the wire clamp on the tool head      |
 
 These screws are found within the [button head screws box](/guides/bom/m3-button-head/)
