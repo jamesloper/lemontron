@@ -79,7 +79,7 @@ a.image:hover {transform:scale(1.05);}
 
 table .description {font-size:12px;}
 
-.badge {border-radius:10px; background:#77cbb9; font-size:10px; font-weight:bold; color:#000; text-transform:uppercase; padding:0 5px; height:16px; display:inline-flex; align-items:center; gap:3px;}
+.badge {border-radius:10px; background:#77cbb9; font-size:10px; font-weight:bold; text-transform:uppercase; padding:0 5px; height:16px; display:inline-flex; align-items:center; gap:3px;}
 .badge i {font-size:12px;}
 .buy {background:#fcf300; color:#000 !important; padding:0 5px; border-radius:20px; font-size:10px; font-weight:bold; text-decoration:none !important; display:inline-flex; align-items:center;}
 .buy .material-icons {font-size:14px;}
@@ -259,15 +259,15 @@ i.icon-open-in-new {opacity:.5; font-size:16px;}
 .inventory-item {display:flex; gap:20px; align-items:center;}
 .inventory-item-left {min-width:160px; max-width:160px; display:flex; flex-direction:column; align-items:center;}
 .inventory-item-image {border-radius:4px; width:100%; aspect-ratio:1 / 1; border:2px solid rgba(0, 0, 0, .1);}
-.inventory-item-title {margin-bottom:10px;}
+.inventory-item-title {margin-bottom:10px; font-size:16px;}
 .inventory-item-description {font-size:12px; text-align:center;}
 
 .inventory-item-bar {display:flex; gap:10px; align-items:center; margin-top:10px;}
 
-.tag {display:inline-flex; color:#fff; border-radius:100px; overflow:hidden; font-size:12px; background:rgba(0, 0, 0, .1);}
+.tag {display:inline-flex; color:#fff; border-radius:100px; overflow:hidden; font-size:12px; background:#22f;}
 .tag > * {padding:2px 10px; font-size:12px;}
-.tag-label {background:#1ba77f; color:#fff; border-radius:100px; text-transform:uppercase; font-weight:bold;}
-.tag-value {color:#000;}
+.tag-label {background:#1ba77f; border-radius:100px; font-weight:bold;}
+.tag-value {color:#fff;}
 
 .tool-links {margin:0 0 20px 0; display:flex; gap:10px; flex-wrap:wrap; font-size:14px;}
 .tool-links .image {height:128px; width:128px; border:10px solid #fff;}
