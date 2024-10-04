@@ -14,7 +14,8 @@ also consider supporting me on Patreon.
 ## Screw Drivers
 
 The Lemontron benefits from deep integration and thus only M3 (2mm Hex Bit) and a few M2.5 are used. I
-recommend having a dedicated high quality M3 screwdriver, plus a bit for your drill.
+recommend having a dedicated high quality M3 screwdriver, plus a bit for your drill. Add a countersink bit to clean up
+the printed countersinks and to add countersinks to the probe.
 
 <ul class="tool-links">
 {% include tool-item.html
@@ -36,6 +37,11 @@ image = "https://c.media-amazon.com/images/I/41uY2ozOLLL._AC_SX679_.jpg"
 title = "Allen Keys"
 amazon = "B083BGVMB8"
 image = "https://m.media-amazon.com/images/I/61dimk22KQL._AC_SX679_.jpg"
+%}
+{% include tool-item.html
+title = "Countersink"
+amazon = "B00LLGSZGS"
+image = "https://m.media-amazon.com/images/I/51H9zNxZ0kL._AC_SL1050_.jpg"
 %}
 </ul>
 

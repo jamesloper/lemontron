@@ -93,10 +93,10 @@ material = "ABS"
 %}
 
 {% include inventory-item.html
-title = "Belt Clip"
-description = "You can't see this part so its like whatever man."
-image = "/assets/printed-parts/belt-clip.png"
-material = "Any"
+title = "Clip"
+description = "Clips the belt to the tool end. Layer adhesion matters most, so I recommend PETG or PLA."
+image = "/assets/printed-parts/clip.png"
+material = "PETG"
 %}
 
 </ul>

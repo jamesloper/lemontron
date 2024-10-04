@@ -8,6 +8,7 @@ new: No
 links:
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/3256805566216748.html
+modification: Yes
 ---
 
 The MicroProbe V2.0 is an ABL sensor, meaning it is used to automatically detect and compensate for tilt in the build
@@ -18,6 +19,11 @@ perfectly, which is crucial for print adhesion and overall print quality.
 
 - 0.001mm Standard Deviation @24℃ Ambient, 60℃ Bed
 - 0.003mm Standard Deviation @60℃ Ambient, 100℃ Bed
+
+## Required Modification
+
+You need to chamfer the bottom of the probe so that you can use the two M2.5 countersink screws. It really is that
+compact that it requires shaving a literal millimeter.
 
 ## Technical Drawing
 

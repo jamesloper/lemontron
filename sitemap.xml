@@ -19,6 +19,15 @@
         <priority>1.0</priority>
     </url>
     {% endfor %}
+    {% for item in site.guides %}
+    <!-- [GUIDE] {{item.title}} -->
+    <url>
+        <loc>{{item.url | absolute_url}}</loc>
+        <lastmod>{{item.date | default: site.time | date_to_xmlschema}}</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    {% endfor %}
     {% for post in site.posts %}
     <!-- [POST] {{post.title}} -->
     <url>
