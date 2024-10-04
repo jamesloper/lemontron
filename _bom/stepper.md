@@ -3,13 +3,13 @@ layout: bom
 title: Stepper Motors
 qty: 4
 orders: 1
-total: 32.51
+total: 30.91
 description: 20mm NEMA17
 new: No
 links:
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/3256805340023072.html
-    note: 17HS08-1004S - Hanpose brand. Cheapest option, found in the JourneyMaker
+    note: 17HS08-1004S - Hanpose brand. Cheapest option, found in the JourneyMaker, and you get an extra!
   - vendor: Amazon
     url: https://www.amazon.com/dp/B091YDBK1S?&tag=lemontron-20
     note: Different model, works for me

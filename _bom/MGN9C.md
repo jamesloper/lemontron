@@ -3,7 +3,7 @@ layout: bom
 title: MGN9C X-Axis Rail
 qty: 1
 orders: 1
-total: 10.19
+total: 9.41
 description: 250mm
 new: No
 modification: Yes

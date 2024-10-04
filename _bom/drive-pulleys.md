@@ -3,7 +3,7 @@ layout: bom
 title: Drive Pulleys
 qty: 4
 orders: 4
-total: 5.24
+total: 1.26
 description: 20T Bore 5mm
 new: No
 links:

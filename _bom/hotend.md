@@ -3,7 +3,7 @@ layout: bom
 title: Hotend Kit
 qty: 1
 orders: 1
-total: 75.00
+total: 75.99
 description: 
 new: No
 links: 

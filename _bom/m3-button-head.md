@@ -3,7 +3,7 @@ layout: bom
 title: M3 Button Head Screws
 qty: 1
 orders: 1
-total: 5.05
+total: 4.82
 description: 
 new: Yes
 links:

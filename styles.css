@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
+* {box-sizing:border-box;}
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {margin:0; padding:0;}
 body {font:400 14px/1.5 Monaco, "Courier New", monospace, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color:#fff; background:#000; display:flex; min-height:100vh; flex-direction:column;}
 h1, h2, h3, h4, h5, h6, blockquote, pre, ul, ol, figure, p {margin-bottom:20px;}
@@ -94,7 +95,7 @@ table .description {font-size:12px;}
 @media (min-width:600px) {
     .page-link {padding:5px 10px;}
 
-    .page-link.active {font-weight:bold;}
+    .page-link.active {text-decoration:underline;}
 }
 
 @media (max-width:600px) {
