@@ -12,7 +12,7 @@ thread in the Voxolite Discord so that they can become official recommendations.
 
 ## Basic Information
 
-The high temp nature of 3D printers requires ABS or ASA, and don't forget to scale the parts to 100.5%. Start with these slicer settings:
+The high temp nature of 3D printers requires ABS or ASA for most parts. Don't forget to scale ABS parts to 100.5%! Start with these slicer settings:
 
 1. 50% Grid Infill (Very strong infill)
 2. 4 Perimeters (Commonly used for strength)
