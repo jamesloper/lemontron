@@ -1,0 +1,71 @@
+---
+layout: guide
+title: Screw Guide
+date:   2024-09-17
+category: Other
+kofi: Yes
+---
+
+<p>
+    All the screws of the Lemontron in one place! Don't drop them!
+</p>
+
+<h2>Chassis Screws</h2>
+<table>
+    <tr>
+        <th>Type</th>
+        <th>Thread</th>
+        <th>Length</th>
+        <th>Qty</th>
+        <th>Use</th>
+    </tr>
+    {% for screw in site.data.screws %}
+    {% if screw.part == "chassis" %}
+    <tr>
+        <td><img src="/assets/icons/{{screw.type}}.png" alt="{{screw.type}}"></td>
+        <td>{{screw.thread}}</td>
+        <td>{{screw.length}}</td>
+        <td>{{screw.qty}}</td>
+        <td>{{screw.description}}</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+</table>
+
+<h2>Toolhead Screws</h2>
+<table>
+    <tr>
+        <th>Type</th>
+        <th>Thread</th>
+        <th>Length</th>
+        <th>Qty</th>
+        <th>Use</th>
+    </tr>
+    {% for screw in site.data.screws %}
+    {% if screw.part == "tool" %}
+    <tr>
+        <td><img src="/assets/icons/{{screw.type}}.png" alt="{{screw.type}}"></td>
+        <td>{{screw.thread}}</td>
+        <td>{{screw.length}}</td>
+        <td>{{screw.qty}}</td>
+        <td>{{screw.description}}</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+</table>
+
+
+<p>
+    These screws are found within the <a href="/guides/bom/m3-button-head/">button head screws box</a>
+    and <a href="/guides/bom/m3-countersunk/">countersink head screws box</a>. But unfortunately
+    the 25mm button head screws must be ordered separately.
+</p>
+
+<p>
+<div class="buy-button">
+    <a href="https://github.com/jamesloper/lemontron/raw/refs/heads/main/_data/screws.csv" download>
+        <span class="material-icons">download</span>
+        Download CSV
+    </a>
+</div>
+</p>

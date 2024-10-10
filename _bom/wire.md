@@ -10,6 +10,7 @@ links:
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/3256804564602643.html
     note: 18AWG
+kofi: Yes
 ---
 
 18 AWG silicone wire is a medium-gauge, highly flexible, and heat-resistant wire with a diameter of approximately 1.02

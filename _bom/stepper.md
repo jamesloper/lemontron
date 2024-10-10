@@ -17,6 +17,7 @@ links:
     url: "https://kb-3d.com/store/clearance/838-clearance-ldo-nema-17-super-slim-stepper-motor-42sth20-1004as-vrn-1651971796666.html"
     note: Premium upgraded motors, stronger and quieter
 modification: Yes
+kofi: Yes
 ---
 
 These 20mm NEMA17 motors have a faceplate 1.7" wide (43.2 mm) and length of 20mm of the motor body, excluding the shaft.

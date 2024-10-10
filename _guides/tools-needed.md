@@ -3,6 +3,7 @@ layout: guide
 title: Tools Needed
 date:   2024-08-01
 category: Assembly
+kofi: Yes
 ---
 
 These tools are needed to build the Lemontron. You may already have some of them, but if not, you can buy them

@@ -10,5 +10,5 @@ links:
   - vendor: AliExpress
     url: "https://www.aliexpress.us/item/3256806241082021.html"
     note: "25mm"
-
+kofi: Yes
 ---

@@ -10,4 +10,5 @@ links:
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/2251832785079283.html
     note: 16T W6 B3 Without T
+kofi: Yes
 ---

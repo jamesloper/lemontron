@@ -1,0 +1,20 @@
+part,type,thread,length,qty,description
+chassis,button-head,M3,5mm,8,Used to secure the Z axis rails to the z axis mount
+chassis,button-head,M3,14mm,2,For fixing the Z axis assembly to the chassis
+chassis,button-head,M3,14mm,8,For fixing the Y axis rails to the chassis
+chassis,button-head,M3,14mm,8,For fixing the fans to the fan mounts
+chassis,button-head,M3,14mm,2,For fixing the AC plug to the chassis
+chassis,button-head,M3,25mm,4,Used to secure the Z axis bracket and bed holder to the carriage block
+chassis,button-head,M3,25mm,4,For fixing the idler bearings to the chassis
+chassis,countersunk,M3,6mm,1,Used as the bearing shaft in the Lemonstruder
+chassis,countersunk,M3,8mm,15,For the motor mounts
+chassis,countersunk,M3,8mm,1,Adjustment screw for the top of the Z block
+chassis,countersunk,M3,8mm,1,For the Z axis lead screw nut
+chassis,countersunk,M3,25mm,6,Used to secure the Y axis motor mounts to the unibody chassis
+chassis,countersunk,M3,20mm,2,Used to secure the mid plates to the unibody chassis
+chassis,countersunk,M3,35mm,4,Stiffens the unibody chassis and double as adjustment screws
+tool,countersunk,M2.5,6mm,4,Used to attach the hot end to the tool head
+tool,countersunk,M2.5,6mm,2,Used to attach the probe to the tool head
+tool,countersunk,M2.5,10mm,2,Used to attach the belt clip to the tool head
+tool,countersunk,M3,16mm,2,Used to attach the tool head to the X axis carriage
+tool,button-head,M3,10mm,1,Used to secure the wire clamp on the tool head

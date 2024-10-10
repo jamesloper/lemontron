@@ -11,7 +11,6 @@ How to build a Lemontron:
 3. Assemble the Lemontron
 4. Install software
 5. Calibrate the Z-offset
-
-**It takes a long time to write guides, so please consider supporting me on Patreon.**
+6. Support me on Patreon
 
 {% include patreon.html %}

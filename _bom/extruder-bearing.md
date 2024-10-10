@@ -10,6 +10,7 @@ links:
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/3256806541874652.html
     note: 683ZZ
+kofi: Yes
 ---
 
 A single 683ZZ bearing is used in the Lemontron in the Lemonstruder tensioner arm. It exerts pressure on the filament

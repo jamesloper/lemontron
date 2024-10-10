@@ -11,6 +11,7 @@ links:
     url: https://www.digikey.com/en/products/detail/jst-sales-america-inc/SVH-21T-P1-1/527368
   - vendor: AliExpress
     url: https://www.aliexpress.com/item/3256807500115364.html
+kofi: Yes
 ---
 
 Used on the connectors that plug into the PSU. 2 for the AC Input, 2 for the 24V DC Output.

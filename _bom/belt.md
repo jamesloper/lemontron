@@ -16,6 +16,7 @@ links:
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/2251832594573112.html
     note: 2m
+kofi: Yes
 ---
 
 GT2 refers to the type of tooth profile on the belt. GT2 belts have a rounded tooth profile. This type of profile
@@ -24,6 +25,6 @@ why you'll typically see these 3mm belts from small manufacturers.
 
 The 1.9m length is a little more than needed.
 
-## Belt Diagram
+## Technical Drawing
 
 ![Belt Diagram](/assets/content/belt-diagram.png)

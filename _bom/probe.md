@@ -9,6 +9,7 @@ links:
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/3256805566216748.html
 modification: Yes
+kofi: Yes
 ---
 
 The MicroProbe V2.0 is an ABL sensor, meaning it is used to automatically detect and compensate for tilt in the build

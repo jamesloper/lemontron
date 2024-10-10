@@ -9,4 +9,5 @@ new: No
 links:
   - vendor: Voxolite
     url: https://voxolite.com/products/pei-pcb-heated-bed-for-positron
+kofi: Yes
 ---

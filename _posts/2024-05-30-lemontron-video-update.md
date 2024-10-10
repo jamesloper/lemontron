@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Progress continues"
+title:  "Progress Continues"
 categories: update video
 thumbnail: https://i.ytimg.com/vi/KzQWi5mGpFI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJbn47arlZRZHk9aT1MCzQp9vzhw
 ---

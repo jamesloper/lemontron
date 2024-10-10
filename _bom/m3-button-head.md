@@ -10,6 +10,7 @@ links:
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/3256807129004657.html
     note: M3 480pcs
+kofi: Yes
 ---
 
 This single box of screws covers most of the build.

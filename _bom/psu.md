@@ -10,6 +10,7 @@ modification: Yes
 links:
   - vendor: Digikey
     url: https://www.digikey.com/en/products/detail/mean-well-usa-inc/lop-300-27/22040928
+kofi: Yes
 ---
 
 This part is an upgrade over the PSU found in the JourneyMaker, but if you're converting a JourneyMaker, you can use the

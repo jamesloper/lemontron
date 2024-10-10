@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lemontron reveal"
+title:  "Lemontron Reveal"
 categories: update video
 thumbnail: https://i.ytimg.com/vi/JKpA4ocmRE0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD9sDh_53cezHX7XlRGXZxOnGsNzQ
 ---

@@ -3,6 +3,7 @@ layout: guide
 title: BOM
 date:   2024-08-07
 category: Assembly
+kofi: Yes
 ---
 
 <p>
@@ -31,10 +32,10 @@ category: Assembly
                 <span class="bom-qty"> × {{bom.qty}}</span>
                 {% if bom.new %}
                 {% assign total_new = total_new | plus: bom.total %}
-                <span class="badge"><i class="material-icons">grade</i> New</span>
+                <span class="badge new"><i class="material-icons">grade</i> New</span>
                 {% endif %}
                 {% if bom.modification %}
-                <span class="badge"><i class="material-icons">carpenter</i> Modify</span>
+                <span class="badge mod"><i class="material-icons">carpenter</i> Mod</span>
                 {% endif %}
             </div>
             <div class="description">{{bom.description}}</div>

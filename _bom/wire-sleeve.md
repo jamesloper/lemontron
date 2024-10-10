@@ -10,4 +10,5 @@ links:
 - vendor: AliExpress
   url: https://www.aliexpress.us/item/3256804114652291.html
   note: 4mm
+kofi: Yes
 ---

@@ -13,6 +13,7 @@ links:
   - vendor: Amazon
     url: https://www.amazon.com/dp/B0C33CBKFY?&tag=lemontron-20
     note: Not colorful but works
+kofi: Yes
 ---
 
 Boing! Used in the extruder!

@@ -10,6 +10,7 @@ links:
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/3256804397445121.html
 modification: Yes
+kofi: Yes
 ---
 
 This compact and inexpensive lead screw is used to move the Z-axis up and down. It is 250mm long with a 4mm lead and 1mm

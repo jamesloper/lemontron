@@ -3,6 +3,7 @@ layout: guide
 title:  "Software Guide"
 date:   2024-09-17
 category: Assembly
+kofi: Yes
 ---
 
 In this guide, we’ll walk you through the essential steps to get your 3D printer up and running with Mainsail OS on a
@@ -10,9 +11,18 @@ Raspberry Pi. You’ll start by installing the operating system, configuring SSH
 system. Then, we’ll guide you through flashing the firmware on your SKR Pico board and finalizing the setup on your
 Raspberry Pi. By the end, your printer will be fully configured and ready to begin printing.
 
+<p>
+<div class="buy-button">
+   <a href="/assets/downloads/config-20241010-155612.zip">
+      <i class="material-icons">cloud_download</i> Download Klipper Config Files
+   </a>
+</div>
+</p>
+
 ## Burn an OS onto your MicroSD
 
-Burn Mainsail OS via [Raspberry-Pi-Imager](https://www.raspberrypi.com/software/). Make sure you configure your SSH key and WiFi
+Burn Mainsail OS via [Raspberry-Pi-Imager](https://www.raspberrypi.com/software/). Make sure you configure your SSH key
+and WiFi
 settings so that you can SSH as soon as it powers up.
 SSH into the Raspberry Pi and bring the OS up-to-date:
 
@@ -35,8 +45,9 @@ sudo apt update && sudo apt upgrade
 1. Open up the Raspberry Pi webpage by navigating to the network name of the Raspberry Pi in your browser. If you named
    your printer "lemontron" then your URL would be `http://lemontron.local`.
 2. Update everything!
-3. Click on the "Machine" tab (the last one) and then upload this [printer.cfg](/assets/downloads/printer.cfg) file.
+3. Click on the "Machine" tab (the last one) and upload the Klipper Config files.
 
 ## Customization
 
-There is so much more that you can do, so feel free to explore Positron's [Config Documentation](https://github.com/Positron3D/PositronConfig/blob/main/README.md).
+There is so much more that you can do, so feel free to explore
+Positron's [Config Documentation](https://github.com/Positron3D/PositronConfig/blob/main/README.md).
