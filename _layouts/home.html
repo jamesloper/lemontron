@@ -11,13 +11,13 @@ classes: wide
     {%- endif -%}
 
     {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Latest News" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title | default: "News" }}</h2>
     <ul class="post-list">
         {%- for post in site.posts -%}
         <li class="post-list-item">
             {% if post.thumbnail %}
-            <a class="post-list-thumbnail-link" href="{{ post.url | relative_url }}">
-                <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="post-list-thumbnail" height="188"
+            <a class="post-list-thumbnail-link" href="{{post.url | relative_url}}">
+                <img src="{{post.thumbnail}}" alt="{{post.title}}" class="post-list-thumbnail" height="188"
                      width="336">
             </a>
             {% endif %}

@@ -9,6 +9,8 @@ new: No
 links: 
   - vendor: KB3D
     url: https://kb-3d.com/store/positron/1553-ldo-90-hotend-kit-for-positron-v32-3d-printer-1725633746505.html
+  - vendor: 3DJake
+    url: https://www.3djake.com/ldo-motors/hotend-16
 kofi: Yes
 ---
 
@@ -24,6 +26,5 @@ first try—no issues at all. In fact, it’s the reason the Lemontron is printi
 
 Before you get shocked by the price ($75), it’s in a completely different class. It comes with a functional bimetal heat
 break, has a killer design, and features an insane 75-watt heater. Plus, it’s from LDO, who are seriously MVPs in the 3D
-printing world. I’m planning to contact Nomad to see if we can negotiate a lower price, but for now, it’s officially
-part of the BOM (Bill of Materials). That said, you can use any tool head you want! You don't have to use the Lemontron
-tool head.
+printing world. I’m planning to contact Nomad to see if we can negotiate a lower price, and now it’s officially
+part of the BOM. That said, you can still use any tool head you want! If you have a Positron JourneyMaker you can reuse that one.

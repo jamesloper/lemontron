@@ -5,15 +5,18 @@ baseurl: ""
 url: "https://lemontron.com"
 #github_username: "jamesloper"
 youtube_username: "lemontron"
+discord_link: https://discord.com/invite/gSjfn4rnrm
 collections:
   bom:
     output: true
-    permalink: /guides/bom/:path/
+    permalink: /lemontron/bom/:path/
   guides:
     output: true
-    permalink: /guides/:path/
+    permalink: /lemontron/:path/
 plugins:
   - jekyll-feed
+permalink: /news/:title
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

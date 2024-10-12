@@ -7,16 +7,22 @@ layout: default
 {% assign other_guides = sorted_guides | sort: 'date' | where: 'category', 'Other' %}
 {% assign hardware_guides = sorted_guides | sort: 'date' | where: 'category', 'Assembly' %}
 
+<!--<div class="breadcrumbs">-->
+<!--    <div class="wrapper">-->
+<!--        <a href="/lemontron/">Home</a> &rsaquo; {{ page.title }}-->
+<!--    </div>-->
+<!--</div>-->
+
 <div class="wrapper guides-page">
     <div class="sidebar">
-        <div class="sidebar-title">Assembly</div>
+        <div class="sidebar-title">Build</div>
         <ol class="sidebar-list">
             {% for guide in hardware_guides %}
             <li><a href="{{guide.url | relative_url}}">{{guide.title}}</a></li>
             {% endfor %}
         </ol>
 
-        <div class="sidebar-title">Other</div>
+        <div class="sidebar-title">Resources</div>
         <ul class="sidebar-list">
             {% for guide in other_guides %}
             <li><a href="{{guide.url | relative_url}}">{{guide.title}}</a></li>

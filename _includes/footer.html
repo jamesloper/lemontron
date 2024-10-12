@@ -1,25 +1,18 @@
 <footer class="site-footer h-card">
     <div class="wrapper">
         <div class="footer-col-wrapper">
-            <div class="footer-col footer-col-1">
+            <div class="footer-col">
+                {% include social.html %}
+            </div>
+            <div class="footer-col">
                 <ul class="contact-list">
-                    <!--                    {%- if site.email -%}-->
-                    <!--                    <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>-->
-                    <!--                    {%- endif -%}-->
-                    <li>
-                        <a href="https://discord.com/invite/gSjfn4rnrm" target="_blank">Voxolite Discord</a>
-                    </li>
-                    <li>
-                        <a href="https://photos.app.goo.gl/ymJsbDJciHWHy3QJ8" target="_blank">Photo Album</a>
-                    </li>
+                    {% if page.kofi %}
+                    <li>{% include kofi.html %}</li>
+                    {% endif %}
                 </ul>
             </div>
 
-            <div class="footer-col footer-col-2">
-                {%- include social.html -%}
-            </div>
-
-            <div class="footer-col footer-col-3">{{site.description}}</div>
+<!--            <div class="footer-col footer-col-3">{{site.description}}</div>-->
         </div>
     </div>
 </footer>

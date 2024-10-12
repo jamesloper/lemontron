@@ -83,6 +83,11 @@ title = "File"
 amazon = "B0CS2YMPZ9"
 image = "https://m.media-amazon.com/images/I/81NG-5aBaHL._AC_SX679_.jpg"
 %}
+{% include tool-item.html
+title = "Calipers"
+amazon = "B000GSLKIW"
+image = "https://m.media-amazon.com/images/I/512+8j+pljL._SL1402_.jpg"
+%}
 </ul>
 
 ## Electrical System Tools
@@ -107,7 +112,6 @@ title = "Soldering Iron"
 amazon = "B07G71CKC4"
 image = "https://c.media-amazon.com/images/I/61V45YwuMIL._AC_SX679_.jpg"
 %}
-
 </ul>
 
 ## Trimming Tools

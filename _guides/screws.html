@@ -22,7 +22,7 @@ kofi: Yes
     {% for screw in site.data.screws %}
     {% if screw.part == "chassis" %}
     <tr>
-        <td><img src="/assets/icons/{{screw.type}}.png" alt="{{screw.type}}"></td>
+        <td><img class="icon-screw" src="/assets/icons/{{screw.type}}.png" alt="{{screw.type}}"></td>
         <td>{{screw.thread}}</td>
         <td>{{screw.length}}</td>
         <td>{{screw.qty}}</td>
@@ -44,7 +44,7 @@ kofi: Yes
     {% for screw in site.data.screws %}
     {% if screw.part == "tool" %}
     <tr>
-        <td><img src="/assets/icons/{{screw.type}}.png" alt="{{screw.type}}"></td>
+        <td><img class="icon-screw" src="/assets/icons/{{screw.type}}.png" alt="{{screw.type}}"></td>
         <td>{{screw.thread}}</td>
         <td>{{screw.length}}</td>
         <td>{{screw.qty}}</td>
@@ -58,7 +58,7 @@ kofi: Yes
 <p>
     These screws are found within the <a href="/guides/bom/m3-button-head/">button head screws box</a>
     and <a href="/guides/bom/m3-countersunk/">countersink head screws box</a>. But unfortunately
-    the 25mm button head screws must be ordered separately.
+    the 25mm button head screws and 15mm countersunk screws must be ordered separately. If desired, you can just make 15mm screws by cutting longer ones.
 </p>
 
 <p>

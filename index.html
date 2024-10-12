@@ -1,17 +1,19 @@
 ---
 layout: home
-kofi: Yes
 ---
 
 <div class="home-hero">
     <div class="hero">
         <div class="hero-text">
             <h1>Pucker up for Lemontron</h1>
-            <!--        <a class="hero-cta" href="https://buy.stripe.com/6oEaFy6PqdSEgec4gg">Buy The Plans for $49.99</a>-->
-            <div class="hero-sub">Still in development!</div>
+            <p class="hero-cta-wrapper">
+                <a class="btn-hero" href="/lemontron/">Learn more</a>
+                {% include kofi.html %}
+            </p>
+<!--            <div class="hero-sub">The wait is almost over! 3rd prototype coming soon.</div>-->
         </div>
         <div class="hero-image-container">
-            <img src="/assets/about/body.png" class="hero-image">
+            <img src="/assets/about/body.jpg" class="hero-image">
         </div>
     </div>
     <div class="banner-container">
