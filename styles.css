@@ -19,7 +19,7 @@ article {background:#000; color:#fff; margin-bottom:40px;}
 blockquote {color:#828282; border-left:4px solid #e8e8e8; padding-left:15px; font-size:18px;}
 blockquote > :last-child {margin-bottom:0;}
 pre, code {font-size:14px;}
-code {padding:1px 5px;}
+code {color:#fcf300;}
 pre {padding:8px 12px; overflow-x:auto;}
 pre > code {border:0; padding-right:0; padding-left:0;}
 

@@ -12,8 +12,14 @@ system. Then, we’ll guide you through flashing the firmware on your SKR Pico b
 Raspberry Pi. By the end, your printer will be fully configured and ready to begin printing.
 
 {% include button.html
-title = "Download Klipper Config Files"
+title = "Download Klipper Config"
 link = "/assets/downloads/config-20241010-155612.zip"
+%}
+
+{% include button.html
+title = "Download Klipper Firmware"
+link = "/assets/downloads/klipper.uf2"
+notes = "Built on 2024-08-06"
 %}
 
 ## Burn an OS onto your MicroSD
@@ -28,18 +34,14 @@ sudo apt update && sudo apt upgrade
 
 ## Flash the SKR Pico
 
-1. Get your firmware file for the SKR Pico.
-    - [Download SRK Pico Firmware](/assets/downloads/klipper.uf2) (Latest as of 2024-08-06) or
-    - Check my guide for [Manually Build SKR Pico Firmware](/guides/manually-build-firmware/)
-2. Apply the jumper to the `BOOT` pins on the SKR Pico (located in the center, under the "TE" in "BIGTREETECH").
-3. Hold down the `BOOT` button on the SKR Pico and connect the SKR Pico to your computer over USB-C.
-4. Drag the .uf2 file to the PICO drive that appears. Wait for the drive to disappear and reappear and then disconnect
-   the USB-C.
+1. Apply the jumper to the `BOOT` pins on the SKR Pico (located in the center, under the "TE" in "BIGTREETECH").
+2. Hold down the `BOOT` button on the SKR Pico and connect the SKR Pico to your computer over USB-C.
+3. Drag the klipper.uf2 file to the PICO drive that appears. Wait for the drive to disappear and reappear and then disconnect.
 
 ## Set up Raspberry Pi
 
 1. Open up the Raspberry Pi webpage by navigating to the network name of the Raspberry Pi in your browser. If you named
-   your printer "lemontron" then your URL would be `http://lemontron.local`.
+   your printer "lemontron" then your URL would be `http://lemontron.local`
 2. Update everything!
 3. Click on the "Machine" tab (the last one) and upload the Klipper Config files.
 
