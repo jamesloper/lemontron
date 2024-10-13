@@ -43,13 +43,13 @@ layout: default
 
         <ul class="bom-vendors">
             {% for link in page.links %}
-            <li class="buy-button">
+            <li class="button">
                 <a href="{{link.url}}" target="_blank">
                     <span class="material-icons">shopping_bag</span>
                     Buy on {{link.vendor}}
                     <i class="material-icons icon-open-in-new">open_in_new</i>
                 </a>
-                <span class="buy-button-notes">{{link.note}}</span>
+                <span class="button-notes">{{link.note}}</span>
             </li>
             {% endfor %}
         </ul>

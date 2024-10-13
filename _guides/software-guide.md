@@ -11,19 +11,15 @@ Raspberry Pi. You’ll start by installing the operating system, configuring SSH
 system. Then, we’ll guide you through flashing the firmware on your SKR Pico board and finalizing the setup on your
 Raspberry Pi. By the end, your printer will be fully configured and ready to begin printing.
 
-<p>
-<div class="buy-button">
-   <a href="/assets/downloads/config-20241010-155612.zip">
-      <i class="material-icons">cloud_download</i> Download Klipper Config Files
-   </a>
-</div>
-</p>
+{% include button.html
+title = "Download Klipper Config Files"
+link = "/assets/downloads/config-20241010-155612.zip"
+%}
 
 ## Burn an OS onto your MicroSD
 
 Burn Mainsail OS via [Raspberry-Pi-Imager](https://www.raspberrypi.com/software/). Make sure you configure your SSH key
-and WiFi
-settings so that you can SSH as soon as it powers up.
+and WiFi settings so that you can SSH as soon as it powers up.
 SSH into the Raspberry Pi and bring the OS up-to-date:
 
 ```bash

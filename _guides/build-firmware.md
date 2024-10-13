@@ -1,10 +1,17 @@
 ---
 layout: guide
-title:  "Manually Build Firmware"
+title:  "Build Firmware"
 date:   2024-08-07
 category: Other
 kofi: Yes
 ---
+
+You can always download precompiled firmware, but building it yourself can be a good way to stay in control of the process.
+
+{% include button.html
+title = "Download Firmware"
+link = "/assets/downloads/klipper.uf2"
+%}
 
 You might want to manually build the firmware for your SKR Pico rather than download the precompiled firmware. This guide will walk you through the process.
 
