@@ -29,4 +29,4 @@ large to fit in the Lemontron's case and the electronics will overheat.
 
 ## Required Modifications
 
-You must cut all the motor shafts down to 11mm. Precision is not required and 10mm to 11mm is fine.
+You must cut all the motor shafts down to 11mm. Precision is not required and 10mm to 11mm is fine. You can also download a [printable cutting guide](/assets/downloads/stepper-cutting-guide.stl).
