@@ -2,16 +2,11 @@
 layout: default
 ---
 
+
 {% assign sorted_guides = site.guides | sort: 'date' %}
 
 {% assign other_guides = sorted_guides | sort: 'date' | where: 'category', 'Other' %}
 {% assign hardware_guides = sorted_guides | sort: 'date' | where: 'category', 'Assembly' %}
-
-<!--<div class="breadcrumbs">-->
-<!--    <div class="wrapper">-->
-<!--        <a href="/lemontron/">Home</a> &rsaquo; {{ page.title }}-->
-<!--    </div>-->
-<!--</div>-->
 
 <div class="wrapper guides-page">
     <div class="sidebar">
@@ -34,15 +29,18 @@ layout: default
         <header class="post-header">
             <h1 class="post-title p-name marker" itemprop="name headline">{{ page.title | escape }}</h1>
             <p class="post-meta">
-                <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                {% if page.date %}
+                <time class="dt-published" datetime="{{page.date | date_to_xmlschema}}" itemprop="datePublished">
                     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                    {{ page.date | date: date_format }}
+                    {{page.date | date: date_format}}
                 </time>
+                {% endif %}
+                <a href="https://github.com/jamesloper/lemontron/commits/main/{{page.path}}" target="_blank" class="material-icons">history</a>
             </p>
         </header>
         <article class="h-entry" itemscope itemtype="http://schema.org/BlogPosting">
             <div class="post-content e-content" itemprop="articleBody">
-                {{ content }}
+                {{content}}
             </div>
 
             {%- if site.disqus.shortname -%}
