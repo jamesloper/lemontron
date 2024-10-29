@@ -22,6 +22,8 @@ link = "/assets/downloads/klipper.uf2"
 notes = "Built on 2024-08-06"
 %}
 
+{% include separator.html %}
+
 ## Burn an OS onto your MicroSD
 
 Burn Mainsail OS via [Raspberry-Pi-Imager](https://www.raspberrypi.com/software/). Make sure you configure your SSH key
@@ -32,11 +34,15 @@ SSH into the Raspberry Pi and bring the OS up-to-date:
 sudo apt update && sudo apt upgrade
 ```
 
+{% include separator.html %}
+
 ## Flash the SKR Pico
 
 1. Apply the jumper to the `BOOT` pins on the SKR Pico (located in the center, under the "TE" in "BIGTREETECH").
 2. Hold down the `BOOT` button on the SKR Pico and connect the SKR Pico to your computer over USB-C.
 3. Drag the klipper.uf2 file to the PICO drive that appears. Wait for the drive to disappear and reappear and then disconnect.
+
+{% include separator.html %}
 
 ## Set up Raspberry Pi
 
