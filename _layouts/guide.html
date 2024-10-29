@@ -2,11 +2,9 @@
 layout: default
 ---
 
-
 {% assign sorted_guides = site.guides | sort: 'date' %}
-
-{% assign other_guides = sorted_guides | sort: 'date' | where: 'category', 'Other' %}
-{% assign hardware_guides = sorted_guides | sort: 'date' | where: 'category', 'Assembly' %}
+{% assign other_guides = sorted_guides | where: 'category', 'Other' %}
+{% assign hardware_guides = sorted_guides | where: 'category', 'Assembly' %}
 
 <div class="wrapper guides-page">
     <div class="sidebar">

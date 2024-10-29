@@ -271,9 +271,9 @@ i.icon-open-in-new {opacity:.5; font-size:16px;}
 .btn-kofi img {width:28px; aspect-ratio:353 / 228;}
 
 /* MODAL */
-.modal {position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0, 0, 0, .8); display:flex; pointer-events:none; opacity:0; transition:all .5s; align-items:center; justify-content:center;}
+.modal {position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0, 0, 0, .8); display:flex; pointer-events:none; opacity:.5; transition:all .5s; align-items:center; justify-content:center;}
 .modal.visible {opacity:1; pointer-events:auto;}
-.modal iframe {height:0; width:400px; max-width:100%; border:0; border-radius:12px; transform:scale(.7); transition:all .5s;}
+.modal iframe {height:0; width:400px; max-width:100%; border:0; border-radius:12px; transform:scale(.7); transition:all .5s; background:#fff;}
 .modal.visible iframe {transform:scale(1); height:650px;}
 
 .wave {
