@@ -61,6 +61,39 @@ layout: home
 
 <div class="wave"></div>
 
+<div class="home-section">
+    <h2 class="home-section-title">Positrons Comparison</h2>
+    <div>
+        Lemontron is the newest Positron-style printer.<br/>
+        Here's how it stacks up:
+    </div>
+    <br/>
+    <table class="home-table">
+        <tr>
+            <th>Model</th>
+<!--            <th>Release Date</th>-->
+            <th>Print Volume</th>
+            <th>Price</th>
+            <th>Extruder</th>
+            <th>Construction</th>
+            <th>CNC Parts</th>
+        </tr>
+        {% for doc in site.data.positrons %}
+        <tr>
+            <td>{{doc.model}}</td>
+<!--            <td>{{doc.release_date | date: date_format}}</td>-->
+            <td>{{doc.print_volume}}</td>
+            <td>{{doc.price}}</td>
+            <td>{{doc.extruder}}</td>
+            <td>{{doc.construction}}</td>
+            <td>{{doc.cnc_parts}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+
+<div class="wave"></div>
+
 <!--<div class="home-section">-->
 <!--    <h2 class="home-section-title">New Guides</h2>-->
 <!--    {% assign guides = site.guides | sort: 'date' | where: 'category', 'Assembly' %}-->

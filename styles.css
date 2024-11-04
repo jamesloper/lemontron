@@ -45,9 +45,12 @@ pre > code {border:0; padding-right:0; padding-left:0;}
 .hero-cta-wrapper {display:flex; gap:10px;}
 .btn-hero {display:inline-flex; height:36px; background:#fff; color:#333; border-radius:18px; padding:0 20px; align-items:center; box-shadow:0 1px 3px rgba(0, 0, 0, .2);}
 
-.home-section {padding:50px 20px;}
+.home-section {padding:50px 20px; text-align:center;}
 .home-section-title {text-align:center; font-family:Righteous, sans-serif;}
 .home-blurb {text-align:center; padding:0 20px;}
+.home-table {max-width:800px; margin:0 auto; text-align:center;}
+.home-table td:first-child {text-align:left;}
+.home-table th {opacity:1; text-decoration:underline; font-size:16px;}
 
 @media (min-width:600px) {
     .hero {display:flex; align-items:center; justify-content:center; flex-direction:row;}
@@ -119,7 +122,7 @@ a.image:hover {transform:scale(1.05);}
 
 .page-content {flex:1;}
 .page-heading {font-size:32px;}
-.post-list {margin-left:0; list-style:none;}
+.post-list {margin-left:0; list-style:none; text-align:left;}
 .post-list > li {margin-bottom:30px;}
 .post-meta time {white-space:nowrap; text-transform:uppercase; font-weight:bold;}
 .post-link {display:block; font-size:24px; font-family:Righteous, sans-serif;}
@@ -127,7 +130,7 @@ a.image:hover {transform:scale(1.05);}
 .post-header {display:flex; align-items:center; justify-content:space-between; gap:20px; min-height:50px; color:#fff; margin-bottom:20px; flex-wrap:wrap;}
 .post-header h1 {margin-bottom:0;}
 .post-header > * {margin:0;}
-.post-header .post-title {margin-bottom:0;}
+.post-header .post-title {margin-bottom:0; font-family:Righteous, sans-serif;}
 .post-header .post-meta {font-size:12px; display:flex; gap:10px; align-items:center;}
 .post-header .post-meta a {color:#fff;}
 
