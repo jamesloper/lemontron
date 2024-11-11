@@ -13,7 +13,7 @@ layout: home
             </p>
         </div>
         <div class="hero-image-container">
-            <img src="/assets/about/body.jpg" class="hero-image">
+            <img src="/assets/about/body.jpg" class="hero-image" alt="Lemontron printer illustration">
         </div>
     </div>
 </div>
@@ -75,8 +75,9 @@ layout: home
             <th>Print Volume</th>
             <th>Price</th>
             <th>Extruder</th>
-            <th>Construction</th>
+            <th>Chassis</th>
             <th>CNC Parts</th>
+            <th>Mesh</th>
         </tr>
         {% for doc in site.data.positrons %}
         <tr>
@@ -85,8 +86,9 @@ layout: home
             <td>{{doc.print_volume}}</td>
             <td>{{doc.price}}</td>
             <td>{{doc.extruder}}</td>
-            <td>{{doc.construction}}</td>
+            <td>{{doc.chassis}}</td>
             <td>{{doc.cnc_parts}}</td>
+            <td>{{doc.bed_level}}</td>
         </tr>
         {% endfor %}
     </table>

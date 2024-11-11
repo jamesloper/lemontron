@@ -271,7 +271,7 @@ i.icon-open-in-new {opacity:.5; font-size:16px;}
 /* SUPPORT ME BADGES */
 .patreon-badge {text-align:center;}
 .btn-kofi {background:#ff5f5f; border-radius:20px; height:36px; font-family:Nunito, sans-serif; display:inline-flex; gap:10px; padding:0 18px; color:#000; font-size:14px; align-items:center; justify-content:center; font-weight:bold; box-shadow:0 1px 3px rgba(0, 0, 0, .2);}
-.btn-kofi img {width:28px; aspect-ratio:353 / 228;}
+.btn-kofi img {width:28px; aspect-ratio:353 / 228; animation:kofi-wiggle 3s infinite;}
 
 /* MODAL */
 .modal {position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0, 0, 0, .8); display:flex; pointer-events:none; opacity:.5; transition:all .5s; align-items:center; justify-content:center;}
@@ -287,4 +287,16 @@ i.icon-open-in-new {opacity:.5; font-size:16px;}
     mask:var(--mask);
     height:10px;
     width:100%;
+}
+
+@keyframes kofi-wiggle {
+    0% {transform:rotate(0) scale(1)}
+    60% {transform:rotate(0) scale(1)}
+    75% {transform:rotate(0) scale(1.12)}
+    80% {transform:rotate(0) scale(1.1)}
+    84% {transform:rotate(-10deg) scale(1.1)}
+    88% {transform:rotate(10deg) scale(1.1)}
+    92% {transform:rotate(-10deg) scale(1.1)}
+    96% {transform:rotate(10deg) scale(1.1)}
+    100% {transform:rotate(0) scale(1)}
 }
