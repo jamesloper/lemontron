@@ -9,11 +9,12 @@ layout: home
             <div class="hero-sub">Portable 3D Printer</div>
             <p class="hero-cta-wrapper">
                 {% include kofi.html %}
-                <a class="btn-hero" href="/lemontron/">Learn more</a>
+                <a class="btn-hero" href="/lemontron/">Build yours</a>
             </p>
         </div>
         <div class="hero-image-container">
-            <img src="/assets/about/body.jpg" class="hero-image" alt="Lemontron printer illustration">
+            <img src="/assets/about/body.jpg" class="hero-image" alt="Lemontron printer illustration" height="390"
+                 width="227">
         </div>
     </div>
 </div>
@@ -36,21 +37,21 @@ layout: home
         <div class="wrapper banner">
             <div class="banner-column">
                 <div class="banner-title">
-                    <img class="banner-icon invert" src="/assets/home/3d.svg"/>
+                    <img class="banner-icon invert" src="/assets/home/3d.svg" alt="3D Printed"/>
                     <h2 class="marker">3D Printed</h2>
                 </div>
                 <p>The chassis is 3D printed, RepRap style. Only one custom part!</p>
             </div>
             <div class="banner-column">
                 <div class="banner-title">
-                    <img class="banner-icon invert" src="/assets/home/open-source.svg"/>
+                    <img class="banner-icon invert" src="/assets/home/open-source.svg" alt="Open Source"/>
                     <h2 class="marker">Open Source</h2>
                 </div>
                 <p>All the files are refreshingly open!</p>
             </div>
             <div class="banner-column">
                 <div class="banner-title">
-                    <img class="banner-icon invert" src="/assets/home/diy.svg"/>
+                    <img class="banner-icon invert" src="/assets/home/diy.svg" alt="DIY"/>
                     <h2 class="marker">Do it Yourself</h2>
                 </div>
                 <p>But not by yourself &mdash; join the Discord for help.</p>
@@ -64,34 +65,35 @@ layout: home
 <div class="home-section">
     <h2 class="home-section-title">Positrons Comparison</h2>
     <div>
-        Lemontron is the newest Positron-style printer.<br/>
-        Here's how it stacks up:
+        Lemontron is the newest Positron-style printer. Here's how it stacks up:
     </div>
     <br/>
-    <table class="home-table">
-        <tr>
-            <th>Model</th>
-<!--            <th>Release Date</th>-->
-            <th>Print Volume</th>
-            <th>Price</th>
-            <th>Extruder</th>
-            <th>Chassis</th>
-            <th>CNC Parts</th>
-            <th>Mesh</th>
-        </tr>
-        {% for doc in site.data.positrons %}
-        <tr>
-            <td>{{doc.model}}</td>
-<!--            <td>{{doc.release_date | date: date_format}}</td>-->
-            <td>{{doc.print_volume}}</td>
-            <td>{{doc.price}}</td>
-            <td>{{doc.extruder}}</td>
-            <td>{{doc.chassis}}</td>
-            <td>{{doc.cnc_parts}}</td>
-            <td>{{doc.bed_level}}</td>
-        </tr>
-        {% endfor %}
-    </table>
+    <div class="scroller">
+        <table class="home-table">
+            <tr>
+                <th>Model</th>
+                <!--            <th>Release Date</th>-->
+                <th>Print Volume</th>
+                <th>Price</th>
+                <th>Extruder</th>
+                <th>Chassis</th>
+                <th>CNC Parts</th>
+                <th>Mesh</th>
+            </tr>
+            {% for doc in site.data.positrons %}
+            <tr>
+                <td>{{doc.model}}</td>
+                <!--            <td>{{doc.release_date | date: date_format}}</td>-->
+                <td>{{doc.print_volume}}</td>
+                <td>{{doc.price}}</td>
+                <td>{{doc.extruder}}</td>
+                <td>{{doc.chassis}}</td>
+                <td>{{doc.cnc_parts}}</td>
+                <td>{{doc.bed_level}}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
 </div>
 
 <div class="wave"></div>

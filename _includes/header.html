@@ -3,7 +3,7 @@
         {%- assign default_paths = site.pages | map: "path" -%}
         {%- assign page_paths = site.header_pages | default: default_paths -%}
         <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
-            <img src="/assets/lemontron.svg" alt="Lemontron"/>
+            <img src="/assets/lemontron.svg" alt="Lemontron" height="40" width="157"/>
         </a>
 
         {%- if page_paths -%}
@@ -13,7 +13,7 @@
             {%- if my_page.title -%}
 
             <a class="page-link {% if page.url == my_page.url %}active{% endif %}"
-               href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+               href="{{my_page.url | relative_url}}">{{my_page.title | escape}}</a>
             {%- endif -%}
             {%- endfor -%}
         </nav>
