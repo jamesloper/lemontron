@@ -1,16 +1,108 @@
 <footer class="site-footer h-card">
     <div class="wrapper">
-        <div class="footer-col-wrapper">
+        <div class="footer-links">
             <div class="footer-col">
-                {% include social.html %}
+                <h4>Social Media</h4>
+                <ul class="social-media-list">
+                    {%- if site.youtube_username -%}
+                    <li>
+                        <a href="https://youtube.com/@{{site.youtube_username}}" target="_blank">
+                            <img src="/assets/icons/youtube.svg" height="16" width="16" alt="YT"/>
+                            <span class="username">@{{site.youtube_username}}</span>
+                        </a>
+                    </li>
+                    {%- endif -%}
+                    {%- if site.bluesky_username -%}
+                    <li>
+                        <a href="https://bsky.app/profile/{{site.bluesky_username | cgi_escape | escape}}">
+                            <img src="/assets/icons/bluesky.svg" height="16" width="16" alt="BSKY"/>
+                            <span class="username">{{site.bluesky_username | escape}}</span>
+                        </a>
+                    </li>
+                    {%- endif -%}
+                    {%- if site.github_username -%}
+                    <li>
+                        <a href="https://github.com/{{site.github_username | cgi_escape | escape}}">
+                            <svg class="svg-icon">
+                                <use xlink:href="{{'/assets/minima-social-icons.svg#github' | relative_url}}"></use>
+                            </svg>
+                            <span class="username">{{site.github_username| escape}}</span>
+                        </a>
+                    </li>
+                    {%- endif -%}
+                    {%- if site.instagram_username -%}
+                    <li>
+                        <a href="https://instagram.com/{{site.instagram_username| cgi_escape | escape}}">
+                            <svg class="svg-icon">
+                                <use xlink:href="{{'/assets/minima-social-icons.svg#instagram' | relative_url}}"></use>
+                            </svg>
+                            <span class="username">{{site.instagram_username| escape}}</span>
+                        </a>
+                    </li>
+                    {%- endif -%}
+                    {%- if site.linkedin_username -%}
+                    <li><a href="https://www.linkedin.com/in/{{site.linkedin_username| cgi_escape | escape}}">
+                        <svg class="svg-icon">
+                            <use xlink:href="{{'/assets/minima-social-icons.svg#linkedin' | relative_url}}"></use>
+                        </svg>
+                        <span class="username">{{site.linkedin_username| escape}}</span></a></li>
+                    {%- endif -%}
+                    {%- if site.pinterest_username -%}
+                    <li>
+                        <a href="https://www.pinterest.com/{{site.pinterest_username| cgi_escape | escape}}">
+                            <svg class="svg-icon">
+                                <use xlink:href="{{'/assets/minima-social-icons.svg#pinterest' | relative_url}}"></use>
+                            </svg>
+                            <span class="username">{{site.pinterest_username| escape}}</span>
+                        </a>
+                    </li>
+                    {%- endif -%}
+                    {%- for mst in site.mastodon -%}{%- if mst.username and mst.instance -%}
+                    <li><a href="https://{{mst.instance| cgi_escape | escape}}/@{{mst.username}}">
+                        <svg class="svg-icon">
+                            <use xlink:href="{{'/assets/minima-social-icons.svg#mastodon' | relative_url}}"></use>
+                        </svg>
+                        <span class="username">{{mst.username | escape}}</span></a></li>
+                    {%- endif -%}{%- endfor -%}
+                    {%- if site.twitter_username -%}
+                    <li>
+                        <a href="https://www.twitter.com/{{site.twitter_username| cgi_escape | escape}}">
+                            <svg class="svg-icon">
+                                <use xlink:href="{{'/assets/minima-social-icons.svg#twitter' | relative_url}}"></use>
+                            </svg>
+                            <span class="username">{{site.twitter_username | escape}}</span>
+                        </a>
+                    </li>
+                    {%- endif -%}
+                    {%- if site.rss -%}
+                    <li>
+                        <a href="{{'feed.xml' | relative_url}}">
+                            <span>{{site.rss | escape}}</span>
+                        </a>
+                    </li>
+                    {%- endif -%}
+                </ul>
             </div>
             <div class="footer-col">
-                <ul class="contact-list">
-                    {% if page.kofi %}
-                    <li>{% include kofi.html %}</li>
-                    {% endif %}
+                <h4>Community Links</h4>
+                <ul class="social-media-list">
+                    <li>
+                        <a href="{{site.discord_link}}" target="_blank">
+                            <img src="/assets/icons/discord.svg" height="16" width="16" alt="Discord"/>
+                            <span>Voxolite Discord</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://photos.app.goo.gl/ymJsbDJciHWHy3QJ8" target="_blank">
+                            <img src="/assets/icons/google-photos.svg" height="16" width="16" alt="Google Photos"/>
+                            Photo Album
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
+        {% if page.kofi %}
+        {% include kofi.html %}
+        {% endif %}
     </div>
 </footer>

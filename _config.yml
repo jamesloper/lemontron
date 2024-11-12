@@ -3,8 +3,9 @@ email: james@lemontron.com
 description: "Lemontron is a portable printer that packs down into a filament box."
 baseurl: ""
 url: "https://lemontron.com"
-#github_username: "jamesloper"
-youtube_username: "lemontron"
+#github_username: jamesloper
+youtube_username: lemontron
+bluesky_username: lemontron.bsky.social
 discord_link: https://discord.com/invite/gSjfn4rnrm
 collections:
   bom:

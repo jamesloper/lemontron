@@ -117,10 +117,8 @@ pre > code {border:0; padding-right:0; padding-left:0;}
     .hero-image {margin:0 auto;}
 }
 
-@media (min-width:800px) {
-    .banner {display:flex; gap:20px; justify-content:space-around; margin:0 auto;}
-}
-.banner-column {display:flex; gap:10px; flex-direction:column; flex:1; padding:0 20px; align-items:center; text-align:center;}
+.banner {display:flex; flex-wrap:wrap; gap:20px; margin:0 auto; justify-content:space-around;}
+.banner-column {display:flex; gap:10px; flex-direction:column; flex:1; padding:0 20px; align-items:center; text-align:center; min-width:250px;}
 .banner-title {display:flex; gap:10px; align-items:center; font-family:Righteous, sans-serif;}
 .banner h2 {margin-bottom:0; font-size:20px; color:#fff;}
 .banner p {margin:0;}
@@ -168,9 +166,11 @@ a.image:hover {transform:scale(1.05);}
     -webkit-mask:var(--mask);
     mask:var(--mask);
 }
-.contact-list, .social-media-list {list-style:none; margin-left:0;}
+.site-footer .wrapper {display:flex; flex-wrap:wrap; gap:20px; justify-content:space-between; padding:0 20px 40px 20px;}
+.contact-list, .social-media-list {list-style:none; margin:0;}
 
-.footer-col-wrapper {display:flex; gap:20px; padding:0 20px; flex-wrap:wrap; justify-content:space-between;}
+.footer-links {display:flex; gap:20px; flex-wrap:wrap;}
+.footer-col h4 {margin-bottom:2px; font-family:Righteous, sans-serif;}
 
 .page-content {flex:1;}
 .page-heading {font-size:32px;}
