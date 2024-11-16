@@ -1,4 +1,0 @@
-model,release_date,print_volume,price,extruder,chassis,cnc_parts,bed_level
-Lemontron 🍋,2024-11-01,180 x 180 x 160mm,$413,Internal,Unibody,1,Probe
-Positron v3.2,2024-06-01,180 x 180 x 165mm,$699,External,Frame,20,None
-JourneyMaker,2024-01-02,180 x 180 x 173mm,$799,External,Frame,3,None

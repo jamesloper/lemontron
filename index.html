@@ -23,7 +23,7 @@ layout: home
     <h2 class="home-section-title">Portable & Powerful</h2>
     <div class="home-blurb">
         <div class="wrapper">
-            With a print area of 180x180x160mm, Lemontron claims the highest ratio of print area to volume of any
+            With a print area of 180x180x165mm, Lemontron claims the highest ratio of print area to volume of any
             printer. Lemontron is even small enough to fit in a backpack.
         </div>
     </div>
@@ -40,7 +40,7 @@ layout: home
                     <img class="banner-icon" src="/assets/home/3d.svg" alt="3D"/>
                     <h2 class="marker">3D Printed</h2>
                 </div>
-                <p>The chassis is 3D printed, RepRap style. Only one custom part!</p>
+                <p>The Lemontron is the only 3D printed, RepRap style Positron.</p>
             </div>
             <div class="banner-column">
                 <div class="banner-title">
@@ -72,26 +72,47 @@ layout: home
         <table class="home-table">
             <tr>
                 <th>Model</th>
-                <!--            <th>Release Date</th>-->
                 <th>Print Volume</th>
                 <th>Price</th>
                 <th>Extruder</th>
                 <th>Chassis</th>
                 <th>CNC Parts</th>
                 <th>Mesh</th>
+                <th>PSU</th>
             </tr>
-            {% for doc in site.data.positrons %}
             <tr>
-                <td>{{doc.model}}</td>
-                <!--            <td>{{doc.release_date | date: date_format}}</td>-->
-                <td>{{doc.print_volume}}</td>
-                <td>{{doc.price}}</td>
-                <td>{{doc.extruder}}</td>
-                <td>{{doc.chassis}}</td>
-                <td>{{doc.cnc_parts}}</td>
-                <td>{{doc.bed_level}}</td>
+                <td>Lemontron 🍋</td>
+                <!--                <td>2024-11-01</td>-->
+                <td>180 x 180 x 165mm</td>
+                <td>$413</td>
+                <td>Internal</td>
+                <td>Unibody</td>
+                <td>0</td>
+                <td>Probe</td>
+                <td>Internal</td>
             </tr>
-            {% endfor %}
+            <tr>
+                <td>Positron v3.2</td>
+                <!--                <td>2024-06-01</td>-->
+                <td>180 x 180 x 165mm</td>
+                <td>$699</td>
+                <td>External</td>
+                <td>Frame</td>
+                <td>20</td>
+                <td>None</td>
+                <td>External</td>
+            </tr>
+            <tr>
+                <td>JourneyMaker</td>
+                <!--                <td>2024-01-02</td>-->
+                <td>180 x 180 x 173mm</td>
+                <td>$799</td>
+                <td>External</td>
+                <td>Frame</td>
+                <td>3</td>
+                <td>None</td>
+                <td>Internal</td>
+            </tr>
         </table>
     </div>
 </div>
