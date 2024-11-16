@@ -13,7 +13,7 @@ kofi: Yes
 ---
 
 The MicroProbe V2.0 is an ABL sensor, meaning it is used to automatically detect and compensate for tilt in the build
-surface, like the various ones available from Voxolite. This helps ensure that the first layer of a print is laid down
+surface. This helps ensure that the first layer of a print is laid down
 perfectly, which is crucial for print adhesion and overall print quality.
 
 ## Accuracy

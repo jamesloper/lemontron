@@ -12,3 +12,5 @@ links:
     note: 250mm
 kofi: Yes
 ---
+
+{% include tips/rails.html %}

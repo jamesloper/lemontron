@@ -353,3 +353,7 @@ i.icon-open-in-new {opacity:.5; font-size:16px;}
     96% {transform:rotate(10deg) scale(1.1)}
     100% {transform:rotate(0) scale(1)}
 }
+
+.tip {padding:10px; background:#111; border:2px solid #ff0;}
+.tip-title {font-weight:bold; margin-bottom:5px; color:#ff0;}
+.tip-content {font-size:12px;}
