@@ -144,7 +144,7 @@ table td:last-child, table th:last-child {padding-right:0;}
 a.image {transition:transform .3s;}
 a.image:hover {transform:scale(1.05);}
 .image img {position:absolute; top:0; left:0; width:100%; height:100%; object-fit:contain;}
-.image-caption {position:absolute; z-index:1; color:#000; display:inline-block; padding:0 10px; bottom:-2px; left:-2px; background:rgba(255, 255, 255, .6); border-radius:2px;}
+.image-caption {position:absolute; z-index:1; color:#000; display:inline-block; bottom:0; left:0; background:rgba(255, 255, 255, .6); border-radius:2px;}
 
 .badge {background:#f3f; color:#000; font-size:10px; font-weight:bold; text-transform:uppercase; padding:0 5px; height:16px; display:inline-flex; align-items:center; gap:3px; transform:skewX(-10deg);}
 .badge i {font-size:12px;}

@@ -50,7 +50,7 @@ image = "https://m.media-amazon.com/images/I/51H9zNxZ0kL._AC_SL1050_.jpg"
 
 You will need a modern, enclosed 3D printer to print the Lemontron parts. The Creality K1C is a great choice. 240 grit
 sandpaper for honing bottom surfaces. Razors for scraping. A craft knife for tidying blemishes. Supa glue for the
-Lemonstruder parts (the "liquid" one not the thick one). Files for creating sharp interior corners.
+Lemonstruder parts (the "liquid" one not the thick one).
 
 <ul class="tool-links">
 {% include tool-item.html
@@ -64,7 +64,7 @@ amazon = "B0CZN757XQ"
 image = "https://c.media-amazon.com/images/I/81PxlwwcPsL._SX522_.jpg"
 %}
 {% include tool-item.html
-title = "Scraper Blade"
+title = "Blade"
 amazon = "B0BFHB3CXP"
 image = "https://m.media-amazon.com/images/I/71CN21bxoXL._SL1500_.jpg"
 %}
@@ -74,14 +74,9 @@ amazon = "B001A42CTW"
 image = "https://c.media-amazon.com/images/I/41fUo+wCOlL._AC_SX679_.jpg"
 %}
 {% include tool-item.html
-title = "Super Glue"
+title = "Supa Glue"
 amazon = "B0D2RP4B82"
 image = "https://c.media-amazon.com/images/I/41fqCAwgwsL._SY445_SX342_QL70_FMwebp_.jpg"
-%}
-{% include tool-item.html
-title = "File"
-amazon = "B0CS2YMPZ9"
-image = "https://m.media-amazon.com/images/I/81NG-5aBaHL._AC_SX679_.jpg"
 %}
 {% include tool-item.html
 title = "Calipers"
@@ -90,11 +85,10 @@ image = "https://m.media-amazon.com/images/I/512+8j+pljL._SL1402_.jpg"
 %}
 </ul>
 
-## Electrical System Tools
+## Electrical Tools
 
-A soldering iron is needed for soldering the edge connector and other wires. I personally love the TS80P. For the
-motors, you'll need some wire cutters and a crimper. You may try your luck with a soldering iron but
-it's not recommended.
+A soldering iron is needed for soldering the edge connector and other wires. For the
+motors, you'll need some wire cutters and a crimper. You may try your luck with a soldering iron.
 
 <ul class="tool-links">
 {% include tool-item.html
@@ -109,15 +103,15 @@ image = "https://c.media-amazon.com/images/I/51w4X1U0IrL._AC_SX679_.jpg"
 %}
 {% include tool-item.html
 title = "Soldering Iron"
-amazon = "B07G71CKC4"
-image = "https://c.media-amazon.com/images/I/61V45YwuMIL._AC_SX679_.jpg"
+amazon = "B096X6SG13"
+image = "/assets/content/pinecil.jpg"
 %}
 </ul>
 
 ## Trimming Tools
 
-The motor shafts and X-Axis rail must be shortened. A Dremel with a cutoff wheel is recommended. A belt sander or course
-file is needed for trimming the PCB & 2 fans.
+The motor shafts and X-Axis rail must be shortened. A Dremel with a cutoff wheel is recommended. Flush cutters are also
+required, but 3d printers tend to come with those.
 
 <ul class="tool-links">
 {% include tool-item.html
@@ -126,8 +120,8 @@ amazon = "B0D2D28FSV"
 image = "https://c.media-amazon.com/images/I/81CnWmPqoML._AC_SX679_.jpg"
 %}
 {% include tool-item.html
-title = "Belt Sander"
-amazon = "B09VGT7M89"
-image = "https://c.media-amazon.com/images/I/61E394x4-7L.__AC_SY300_SX300_QL70_FMwebp_.jpg"
+title = "Flush Cutter"
+amazon = "B00FZPDG1K"
+image = "https://m.media-amazon.com/images/I/41W4+oUpeNL._SX522_.jpg"
 %}
 </ul>
