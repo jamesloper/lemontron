@@ -73,7 +73,7 @@ code {color:#fcf300;}
 pre {padding:8px 12px; overflow-x:auto;}
 pre > code {border:0; padding-right:0; padding-left:0;}
 
-.post {max-width:640px; margin:0 auto; padding:10px;}
+.post {max-width:640px; margin:0 auto; padding:20px;}
 .post-list-heading {text-align:center; margin-bottom:20px; font-size:28px; font-family:Righteous, sans-serif;}
 
 .home-hero {color:#fff; background:linear-gradient(90deg, rgba(14, 34, 97, 1) 0%, rgba(253, 29, 122, 1) 50%, rgba(255, 220, 0, 1) 100%); padding:50px 0;
@@ -98,9 +98,10 @@ pre > code {border:0; padding-right:0; padding-left:0;}
 .home-section {padding:50px 20px; text-align:center;}
 .home-section-title {text-align:center; font-family:Righteous, sans-serif;}
 .home-blurb {text-align:center; padding:0 20px;}
+
 .home-table {max-width:800px; margin:0 auto; text-align:center; white-space:nowrap;}
-.home-table td:first-child {text-align:left;}
-.home-table th {opacity:1; text-decoration:underline; font-size:16px;}
+.home-table td:first-child, .home-table th:first-child {text-align:left;}
+.home-table .lemontron td {background:#2d2217;}
 
 .scroller {width:100%; overflow:auto; -webkit-overflow-scrolling:touch;}
 
@@ -131,14 +132,14 @@ pre > code {border:0; padding-right:0; padding-left:0;}
 
 .svg-icon {width:16px; height:16px; display:inline-block; fill:#000; padding-right:5px; vertical-align:text-top;}
 table {margin-bottom:20px; width:100%; border-collapse:collapse; border:none; text-align:left; overflow:hidden; border-spacing:10px;}
-table td {padding:5px;}
-table th {text-transform:uppercase; font-size:12px; padding:0 5px; opacity:.5;}
-table td:first-child, table th:first-child {padding-left:0;}
-table td:last-child, table th:last-child {padding-right:0;}
+table td, table th {padding:5px 10px;}
+table th {text-transform:uppercase; font-size:12px; color:#ff0;}
+/*table td:first-child, table th:first-child {padding-left:0;}*/
+/*table td:last-child, table th:last-child {padding-right:0;}*/
 .numeric {text-align:right;}
 .centered {text-align:center;}
 
-.td-image {text-align:center; display:flex;}
+.td-image {text-align:left; padding:5px 0;}
 
 .image {display:block; width:50px; height:50px; position:relative; background:#fff; overflow:hidden;}
 a.image {transition:transform .3s;}
