@@ -1,7 +1,7 @@
 ---
 layout: bom
 title: M3 Button Head Screws (25mm)
-qty: 4
+qty: 2
 orders: 1
 total: 1.67
 description: Longest screws, used in idler bearings
