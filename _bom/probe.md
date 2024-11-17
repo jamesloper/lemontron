@@ -8,6 +8,8 @@ new: No
 links:
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/3256805566216748.html
+  - vendor: Voxolite
+    url: https://voxolite.myshopify.com/products/bigtreetech-microprobe-v2-auto-leveling-sensor-3d-touch-sensor-for-ender-3-voron-2-4-h2-extruder-skr-mini-e3-v3-0-vs-bl-touch
 modification: Yes
 kofi: Yes
 ---

@@ -10,6 +10,9 @@ links:
   - vendor: KB3D
     url: https://kb-3d.com/store/positron/1558-ldo-2gt-belt-3mm-175-meters-for-positron-v32-3d-printer-1725634929631.html
     note: 1.75m
+  - vendor: Voxolite
+    url: https://voxolite.myshopify.com/products/gt2-timing-belt-3mm-width
+    note: 1.9m
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/2251832594573112.html
     note: 2m
