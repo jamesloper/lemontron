@@ -76,7 +76,10 @@ pre > code {border:0; padding-right:0; padding-left:0;}
 .post {max-width:640px; margin:0 auto; padding:20px;}
 .post-list-heading {text-align:center; margin-bottom:20px; font-size:28px; font-family:Righteous, sans-serif;}
 
-.home-hero {color:#fff; background:linear-gradient(90deg, rgba(14, 34, 97, 1) 0%, rgba(253, 29, 122, 1) 50%, rgba(255, 220, 0, 1) 100%); padding:50px 0;
+.home-hero {
+    color:#fff;
+    background:linear-gradient(90deg, rgba(14, 34, 97, .2) 0%, rgba(253, 29, 122, .2) 100%);
+    padding:50px 0;
     --mask:radial-gradient(18.87px at 50% 26px, #000 99%, #0000 101%) calc(50% - 20px) 0/40px 51% repeat-x,
     radial-gradient(18.87px at 50% -16px, #0000 99%, #000 101%) 50% 10px/40px calc(51% - 10px) repeat-x,
     radial-gradient(18.87px at 50% calc(100% - 26px), #000 99%, #0000 101%) calc(50% - 20px) 100%/40px 51% repeat-x,
