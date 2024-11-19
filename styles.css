@@ -116,13 +116,13 @@ pre > code {border:0; padding-right:0; padding-left:0;}
 @media (max-width:599px) {
     .hero {display:flex; flex-direction:column-reverse; gap:20px;}
 
-    .home-hero {background:linear-gradient(0deg, rgba(253, 29, 122, 1) 20%, rgba(255, 220, 0, 1) 100%);}
+    .home-hero {background:linear-gradient(0deg, rgba(14, 34, 97, .2) 0%, rgba(253, 29, 122, .2) 100%);}
 
     .hero-image {margin:0 auto;}
 }
 
 .banner {display:flex; flex-wrap:wrap; gap:20px; margin:0 auto; justify-content:space-around;}
-.banner-column {display:flex; gap:10px; flex-direction:column; flex:1; padding:0 20px; align-items:center; text-align:center; min-width:250px;}
+.banner-column {display:flex; gap:10px; flex-direction:column; flex:1; padding:20px; align-items:center; text-align:center; min-width:250px;}
 .banner-title {display:flex; gap:10px; align-items:center; font-family:Righteous, sans-serif;}
 .banner h2 {margin-bottom:0; font-size:20px; color:#fff;}
 .banner p {margin:0;}
