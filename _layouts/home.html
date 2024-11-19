@@ -21,7 +21,7 @@ classes: wide
                     <img src="{{post.thumbnail}}" alt="{{post.title}}" class="post-list-thumbnail" height="188" width="336">
                 </a>
                 {% endif %}
-                <div>
+                <div class="post-list-item-body">
                     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <h3>
                         <a class="post-link" href="{{ post.url | relative_url }}">

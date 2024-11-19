@@ -17,7 +17,12 @@ layout: default
     </header>
 
     <div class="post-content e-content" itemprop="articleBody">
-        {{ content }}
+        {%- if page.banner -%}
+        <p class="post-content-banner">
+            <img src="{{page.banner}}" alt="{{page.title}}"/>
+        </p>
+        {%- endif -%}
+        {{content}}
     </div>
 
     {%- if site.disqus.shortname -%}
