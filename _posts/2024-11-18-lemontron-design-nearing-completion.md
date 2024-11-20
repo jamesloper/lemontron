@@ -16,8 +16,8 @@ The secret behind this incredible ratio is in the Drive system, which shares som
 drives a ton of modern printers. However the exact drive system is known as the Positron drive, invented by YouTuber
 "KRALYN" who released it in May of 2022.
 
-Shortly after, Kralyn mysteriously went dark but the rest of the Positron team founded a business and went on to
-bring the well received Positron v3.2 kit to market with LDO Motors as a manufacturer.
+Shortly after, Kralyn stepped away due to a career change where non-competes prevented him from participating. But his
+team eventually brought the well received Positron v3.2 kit to market with LDO Motors as a manufacturer.
 
 While heads down working on the v3.2, several forks sprung up, including the Positron JourneyMaker who beat the v3.2
 to market, and the newcomer, the Lemontron. Lemontron began as a unibody chassis mod for the JourneyMaker, but
