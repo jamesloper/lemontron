@@ -6,18 +6,17 @@ thumbnail: /assets/content/upside-down-printing.jpg
 banner: /assets/content/upside-down-printing.jpg
 ---
 
-3D printing continues to evolve, and one minor development is the concept of printing upside down. This idea is
-attractive because it provides a way to make the base more stable by consolidating all the heavy components near the
-bottom. 
+3D printing continues to evolve, and one minor development is the concept of printing upside down. I investigated this
+idea because it provides a way to consolidate all the heavy components near the bottom.
 
-As such, the build plate moves upward as the print progresses. While the idea might
-sound unconventional, the actual printing experience remains the same. "But Lemontron", you say, "shouldn't the effects
-of gravity cause _some_ noticeable difference"?
+While the idea might sound unconventional, the actual printing experience remains the same. "But Lemontron", you say, "
+shouldn't the effects of gravity cause _some_ noticeable difference"?
 
-In the Lemontron 3D printer, this design is realized fully, and despite the orientation, the fundamental principles of
-3D printing remain the same. The printer still follows the sliced model data layer by layer. The gravitational effects
-on the molten material are minimal because it solidifies almost instantly upon extrusion, whether it’s oriented upwards
-or downwards. You can try this on any printer, go ahead and flip yours while it prints, you'll see it doesn't care!
+In Positron-style 3D printers like the V3.2, JourneyMaker, and Lemontron, this design is realized fully, and despite the
+orientation, the fundamental principles of 3D printing remain the same. The printer still follows the sliced model data
+layer by layer. The gravitational effects on the molten material are minimal because it solidifies almost instantly upon
+extrusion, whether it’s oriented upwards or downwards. You can even try this on any printer, go ahead and flip yours
+while it prints, you'll see it doesn't care!
 
 ![3D Printing Upside Down](/assets/about/beauty-shot.jpg)
 
