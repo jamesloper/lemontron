@@ -10,7 +10,7 @@ banner: /assets/content/upside-down-printing.jpg
 attractive because it provides a way to make the base more stable by consolidating all the heavy components near the
 bottom. 
 
-As such, the build plate is attached to a Z-axis that moves upward as the print progresses. While the idea might
+As such, the build plate moves upward as the print progresses. While the idea might
 sound unconventional, the actual printing experience remains the same. "But Lemontron", you say, "shouldn't the effects
 of gravity cause _some_ noticeable difference"?
 
