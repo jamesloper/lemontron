@@ -3,7 +3,7 @@ layout: guide
 title:  "Software Guide"
 date:   2024-09-17
 category: Assembly
-kofi: Yes
+kofi: true
 ---
 
 In this guide, we’ll walk you through the essential steps to get your 3D printer up and running with Mainsail OS on a

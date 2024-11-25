@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 24" width="200" height="24">
+    <!-- Countersunk Head -->
+    <polygon points="0,0 12,12 0,24" fill="#fff"/>
+    <!-- Screw Shaft -->
+    <rect x="0" y="8" width="200" height="8" fill="#fff"/>
+</svg>

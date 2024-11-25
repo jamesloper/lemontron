@@ -4,14 +4,15 @@ title: BIGTREETECH MicroProbe
 qty: 1
 orders: 1
 total: 21.54
-new: No
+new: false
 links:
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/3256805566216748.html
   - vendor: Voxolite
     url: https://voxolite.myshopify.com/products/bigtreetech-microprobe-v2-auto-leveling-sensor-3d-touch-sensor-for-ender-3-voron-2-4-h2-extruder-skr-mini-e3-v3-0-vs-bl-touch
-modification: Yes
-kofi: Yes
+modification: true
+kofi: true
+optional: false
 ---
 
 The MicroProbe V2.0 is an ABL sensor, meaning it is used to automatically detect and compensate for tilt in the build

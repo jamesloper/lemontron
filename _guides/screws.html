@@ -2,8 +2,8 @@
 layout: guide
 title: Screw Guide
 date:   2024-09-17
-category: Other
-kofi: Yes
+category: Assembly
+kofi: true
 ---
 
 <p>
@@ -22,9 +22,13 @@ kofi: Yes
     {% for screw in site.data.screws %}
     {% if screw.part == "chassis" %}
     <tr>
-        <td><img class="icon-screw" src="/assets/icons/{{screw.type}}.png" alt="{{screw.type}}"></td>
+        <td class="td-screw">
+            <div class="icon-screw" style="width:{{screw.length | times: 4}}px">
+                <img src="/assets/icons/{{screw.type}}.svg" alt="{{screw.type}}">
+            </div>
+        </td>
         <td>{{screw.thread}}</td>
-        <td>{{screw.length}}</td>
+        <td>{{screw.length}}mm</td>
         <td>{{screw.qty}}</td>
         <td>{{screw.description}}</td>
     </tr>
@@ -44,9 +48,13 @@ kofi: Yes
     {% for screw in site.data.screws %}
     {% if screw.part == "tool" %}
     <tr>
-        <td><img class="icon-screw" src="/assets/icons/{{screw.type}}.png" alt="{{screw.type}}"></td>
+        <td class="td-screw">
+            <div class="icon-screw" style="width:{{screw.length | times: 4}}px">
+                <img src="/assets/icons/{{screw.type}}.svg" alt="{{screw.type}}">
+            </div>
+        </td>
         <td>{{screw.thread}}</td>
-        <td>{{screw.length}}</td>
+        <td>{{screw.length}}mm</td>
         <td>{{screw.qty}}</td>
         <td>{{screw.description}}</td>
     </tr>
@@ -56,9 +64,8 @@ kofi: Yes
 
 
 <p>
-    These screws are found within the <a href="/lemontron/bom/m3-button-head/">button head screws box</a>
-    and <a href="/lemontron/bom/m3-countersunk/">countersink head screws box</a>. But unfortunately
-    the 25mm button head screws and 15mm countersunk screws must be ordered separately. If desired, you can just make 15mm screws by cutting longer ones.
+    Most of these are in the <a href="/lemontron/bom/m3-countersunk/">countersink head screws box</a>. But the wafer
+    head screws must be ordered separately. If desired, you can just make 15mm screws by cutting longer ones.
 </p>
 
 <p>

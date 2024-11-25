@@ -3,7 +3,7 @@ layout: guide
 title:  "Build Firmware"
 date:   2024-08-07
 category: Other
-kofi: Yes
+kofi: true
 ---
 
 You can always download precompiled firmware, but building it yourself can be a good way to stay in control of the process.

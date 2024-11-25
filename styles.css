@@ -54,7 +54,9 @@ ul, ol {margin-left:30px;}
 li > ul, li > ol {margin-bottom:0;}
 a {color:inherit; text-decoration:none;}
 
-.icon-screw {height:20px; width:20px;}
+.td-screw {min-width:175px;}
+.icon-screw {height:24px; overflow:hidden; width:100px;}
+.icon-screw img {height:24px; max-width:none;}
 
 article {background:#000; color:#fff; margin-bottom:40px;}
 .post-content a {text-decoration:underline; color:#0ff;}
@@ -120,9 +122,6 @@ pre > code {border:0; padding-right:0; padding-left:0;}
 .banner h2 {margin-bottom:0; font-size:20px; color:#fff;}
 .banner p {margin:0;}
 .banner-icon {width:30px; height:30px; display:block;}
-
-.marker {position:relative; color:#fcf300;}
-.marker:after {display:block; content:""; position:absolute; width:100%; height:30%; left:0; bottom:-15%; background:url(/assets/marker.svg); background-size:100% 100%;}
 
 .wrapper {max-width:1000px; margin:0 auto;}
 

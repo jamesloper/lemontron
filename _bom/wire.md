@@ -5,12 +5,13 @@ qty: 1
 orders: 1
 total: 1.22
 description: 2m (2 Pin Black-Red)
-new: No
+new: false
 links:
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/3256804564602643.html
     note: 18AWG
-kofi: Yes
+kofi: true
+optional: false
 ---
 
 18 AWG silicone wire is a medium-gauge, highly flexible, and heat-resistant wire with a diameter of approximately 1.02

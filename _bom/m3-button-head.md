@@ -5,12 +5,13 @@ qty: 1
 orders: 1
 total: 4.82
 description: 
-new: Yes
+new: true
 links:
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/3256807129004657.html
     note: M3 480pcs
-kofi: Yes
+kofi: true
+optional: false
 ---
 
 This single box of screws covers most of the build.

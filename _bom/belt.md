@@ -5,7 +5,7 @@ qty: 1
 orders: 1
 total: 3.49
 description: 
-new: No
+new: false
 links:
   - vendor: KB3D
     url: https://kb-3d.com/store/positron/1558-ldo-2gt-belt-3mm-175-meters-for-positron-v32-3d-printer-1725634929631.html
@@ -16,7 +16,8 @@ links:
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/2251832594573112.html
     note: 2m
-kofi: Yes
+kofi: true
+optional: false
 ---
 
 GT2 refers to the type of tooth profile on the belt. GT2 belts have a rounded tooth profile. This type of profile

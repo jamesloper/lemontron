@@ -5,13 +5,14 @@ qty: 1
 orders: 1
 total: 9.41
 description: 250mm
-new: No
-modification: Yes
+new: false
+modification: true
 links:
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/2255800077919268.html
     note: 250mm
-kofi: Yes
+kofi: true
+optional: false
 ---
 
 The smallest rail in the BOM allows the tool head to travel left and right.

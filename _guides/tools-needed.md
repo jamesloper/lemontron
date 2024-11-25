@@ -3,7 +3,7 @@ layout: guide
 title: Tools Needed
 date:   2024-08-01
 category: Assembly
-kofi: Yes
+kofi: true
 ---
 
 These tools are needed to build the Lemontron. You may already have some of them, but if not, you can buy them
@@ -97,9 +97,9 @@ amazon = "B078WPT5M1"
 image = "https://c.media-amazon.com/images/I/51dedm3GiLL._AC_SL1500_.jpg"
 %}
 {% include tool-item.html
-title = "Wire Cutters"
-amazon = "B0BG41SYQR"
-image = "https://c.media-amazon.com/images/I/51w4X1U0IrL._AC_SX679_.jpg"
+title = "Wire Strippers"
+amazon = "B000XEUPMQ"
+image = "https://m.media-amazon.com/images/I/51maEt4e8LL._AC_SX679_.jpg"
 %}
 {% include tool-item.html
 title = "Soldering Iron"

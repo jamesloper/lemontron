@@ -5,10 +5,11 @@ qty: 1
 orders: 1
 total: 1.00
 description: PSU Connector Housing (24V DC)
-new: Yes
+new: true
 links:
   - vendor: Digikey
     url: https://www.digikey.com/en/products/detail/jst-sales-america-inc/VHR-6N/608628
-kofi: Yes
+kofi: true
+optional: true
 ---
 1 is used on the 24V DC Output connector that plugs into the PSU.

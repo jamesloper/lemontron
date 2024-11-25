@@ -5,12 +5,15 @@ qty: 1
 orders: 1
 total: 49.71
 description: LOP-300-27
-new: No
-modification: Yes
+new: false
+modification: true
 links:
   - vendor: Digikey
     url: https://www.digikey.com/en/products/detail/mean-well-usa-inc/lop-300-27/22040928
-kofi: Yes
+  - vendor: AliExpress
+    url: https://www.aliexpress.us/item/3256807058463517.html
+kofi: true
+optional: false
 ---
 
 This part is an upgrade over the PSU found in the JourneyMaker, but if you're converting a JourneyMaker, you can use the

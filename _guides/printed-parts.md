@@ -3,7 +3,7 @@ layout: guide
 title: Printed Parts
 date:   2024-09-16
 category: Assembly
-kofi: Yes
+kofi: true
 ---
 
 The Lemontron plastic parts can be printed on most enclosed printers such as Bambulab X1

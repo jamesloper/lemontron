@@ -5,7 +5,7 @@ qty: 1
 orders: 1
 total: 1.60
 description: 
-new: No
+new: false
 links:
   - vendor: AliExpress
     url: "https://www.aliexpress.us/item/3256806056618135.html"
@@ -13,7 +13,8 @@ links:
   - vendor: AliExpress
     url: "https://www.aliexpress.us/item/3256806655683811.html"
     note: Premium "Capricorn" Brand
-kofi: Yes
+kofi: true
+optional: false
 ---
 
 Synthetic PTFE tube that guides filament from the extruder to the print head. 

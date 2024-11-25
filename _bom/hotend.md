@@ -5,13 +5,14 @@ qty: 1
 orders: 1
 total: 75.99
 description: 
-new: No
+new: false
 links: 
   - vendor: KB3D
     url: https://kb-3d.com/store/positron/1553-ldo-90-hotend-kit-for-positron-v32-3d-printer-1725633746505.html
   - vendor: 3DJake
     url: https://www.3djake.com/ldo-motors/hotend-16
-kofi: Yes
+kofi: true
+optional: false
 ---
 
 90 Degree Hotend Kit for the Positron V3.2 3D Printer Kit. From the community trusted LDO Motors. Includes heater,

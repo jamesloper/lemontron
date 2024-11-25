@@ -3,7 +3,7 @@ layout: guide
 title: BOM
 date:   2024-08-07
 category: Assembly
-kofi: Yes
+kofi: true
 ---
 
 <p>
@@ -12,10 +12,47 @@ kofi: Yes
 
 {% assign total_price = 0 %}
 {% assign total_new = 0 %}
-{% assign sorted_pages = site.bom | sort:"title" %}
+{% assign bom_sorted = site.bom | sort: "title" %}
+{% assign bom_required = bom_sorted | where: "optional", false %}
+{% assign bom_optional = bom_sorted | where: "optional", true %}
 
 <table>
-    {% for bom in sorted_pages %}
+    {% for bom in bom_required %}
+    {% assign link = bom.links | first %}
+    <tr>
+        <td class="td-image">
+            <div class="image">
+                <img src="/assets/bom/{{bom.url | split: '/' | last}}.png"/>
+            </div>
+        </td>
+        <td>
+            <div>
+                <a href="{{bom.url | relative_url}}">{{bom.title}}</a>
+                <span class="bom-qty"> × {{bom.qty}}</span>
+                {% if bom.new %}
+                <span class="badge new"><i class="material-icons">grade</i> New</span>
+                {% endif %}
+                {% if bom.modification %}
+                <span class="badge mod"><i class="material-icons">carpenter</i> Mod</span>
+                {% endif %}
+            </div>
+            <div class="description">{{bom.description}}</div>
+        </td>
+        <td class="numeric">
+            <span>${{bom.total}}</span><br/>
+            <a class="buy" href="{{link.url}}" target="_blank">
+                <i class="material-icons">shopping_cart</i>
+                {{link.vendor}}
+            </a>
+        </td>
+    </tr>
+    {% assign total_price = total_price | plus: bom.total %}
+    {% endfor %}
+</table>
+
+<h2>Optional</h2>
+<table>
+    {% for bom in bom_optional %}
     {% assign link = bom.links | first %}
     <tr>
         <td class="td-image">
@@ -45,7 +82,6 @@ kofi: Yes
             </a>
         </td>
     </tr>
-    {% assign total_price = total_price | plus: bom.total %}
     {% endfor %}
 </table>
 

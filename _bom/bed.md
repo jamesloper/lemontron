@@ -5,7 +5,7 @@ qty: 1
 orders: 1
 total: 49.99
 description: 
-new: No
+new: false
 links:
   - vendor: KB3D
     url: https://kb-3d.com/store/positron/1985-ldo-pcb-heated-bed-for-positron-with-flex-sheet-1729548921293.html
@@ -16,7 +16,8 @@ links:
   - vendor: Voxolite
     url: https://voxolite.myshopify.com/products/positron-heated-bed-v2-3-edge-connector
     note: Glass version
-kofi: Yes
+kofi: true
+optional: false
 ---
 
 You can choose PEI or glass beds. Glass beds are cool looking, but they are more expensive and not convenient like the PEI sheets.
