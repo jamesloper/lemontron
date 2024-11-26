@@ -1,7 +1,7 @@
 ---
 layout: bom
 title: M3 Shims
-qty: 10
+qty: 16
 orders: 1
 total: 1.15
 description: M3 x 5mm x 0.2mm

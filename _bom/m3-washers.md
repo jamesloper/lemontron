@@ -1,7 +1,7 @@
 ---
 layout: bom
 title: Large M3 Washers
-qty: 6
+qty: 12
 orders: 1
 total: 1.39
 description: M3 x 12mm x 1mm

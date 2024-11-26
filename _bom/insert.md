@@ -9,7 +9,7 @@ new: false
 links:
   - vendor: AliExpress
     url: https://www.aliexpress.us/item/3256805590685220.html
-    note: M3 (OD 5mm)50pcs, Length 10mm
+    note: M3 (OD 4.5mm)50pcs, Length 10mm
 kofi: true
 optional: false
 ---
