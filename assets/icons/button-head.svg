@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 24" width="200" height="24">
+    <!-- Screw Shaft -->
+    <rect x="5" y="8" width="200" height="8" fill="#444"/>
+    <!-- Button Head -->
+    <path fill="#333" d="M 12 0 a 1 1 0 0 0 0 24 Z" transform="scale(0.7, 1)"/>
+</svg>

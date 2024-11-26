@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 24" width="200" height="24">
-    <!-- Wafer Head -->
-    <rect x="0" y="0" width="4" height="24" fill="#999" rx="2"/>
     <!-- Screw Shaft -->
     <rect x="0" y="8" width="200" height="8" fill="#999"/>
+    <!-- Wafer Head -->
+    <rect x="0" y="0" width="4" height="24" fill="#666" rx="2"/>
 </svg>

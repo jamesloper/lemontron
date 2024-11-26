@@ -1,0 +1,15 @@
+{% assign head_length = 2 %}
+
+{% if include.type == "countersunk" %}
+{% assign head_length = 0 %}
+{% endif %}
+{% if include.type == "wafer-head" %}
+{% assign head_length = 1 %}
+{% endif %}
+
+{% assign length = include.length | plus: head_length %}
+{% assign px = length | times: 4 %}
+
+<div class="icon-screw" style="width:{{px}}px" data-nominal="{{include.length}}" data-overall="{{length}}">
+    <img src="/assets/icons/{{screw.type}}.svg" alt="{{screw.type}}">
+</div>

@@ -13,4 +13,5 @@ links:
 kofi: true
 optional: false
 ---
-4 used in the bed holder, 4 for the idlers. 2 used on the belt tensioner.
+
+4 for the Bed Holder, 6 for the Mid Plate Idlers, 2 for the Belt Tensioner, 2 for the Z-Idler, 2 for the X Idlers.

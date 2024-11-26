@@ -23,9 +23,7 @@ kofi: true
     {% if screw.part == "chassis" %}
     <tr>
         <td class="td-screw">
-            <div class="icon-screw" style="width:{{screw.length | times: 4}}px">
-                <img src="/assets/icons/{{screw.type}}.svg" alt="{{screw.type}}">
-            </div>
+            {% include screw.html type=screw.type length=screw.length %}
         </td>
         <td>{{screw.thread}}</td>
         <td>{{screw.length}}mm</td>
