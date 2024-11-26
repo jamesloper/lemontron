@@ -4,7 +4,7 @@ title: 2510 Fan
 qty: 2
 orders: 1
 total: 5.84
-description: 
+description: Chassis Fans
 new: false
 links: 
   - vendor: AliExpress
@@ -17,4 +17,4 @@ kofi: true
 optional: false
 ---
 
-Chassis fans.
+Chassis fans cool the electronics.
