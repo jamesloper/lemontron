@@ -5,18 +5,14 @@ permalink: /lemontron/
 kofi: true
 ---
 
-<div class="tip-container">
-    <div class="tip">
-        <div class="tip-title">Open Source is fundamentally GOOD!</div>
-        <div class="tip-content">
-            <b>What else is GOOD...is supporting Open Source projects!</b> You support me, I support
-            other creators and the cycle of kindness continues. You can always freeload a download, but consider that a
-            little vote against Open Source.
-        </div>
-        <div class="tip-shimmer"></div>
-    </div>
-    <i class="material-icons tip-icon">volunteer_activism</i>
-</div>
+{% include tip.html
+title="Open Source is fundamentally GOOD!"
+tip="What else is GOOD...is supporting Open Source projects! You support me, I support
+other creators and the cycle of kindness continues. You can always freeload a download, but consider that a
+little vote against Open Source."
+icon="volunteer_activism"
+shimmer=true
+%}
 
 <ol class="steps">
     {%- capture download_step -%}
@@ -24,12 +20,12 @@ kofi: true
     title = "Download Lemontron"
     link = "https://makerworld.com/en/@lemontron"
     %}
-    The parts are sliced for 1-click printing on a Bambulab X1C. But check out the <a href="/lemontron/printed-parts/">Printed
-    Parts</a> page for more information on other printers.
+    The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <a href="/lemontron/printed-parts/">Printed
+    Parts</a> page for more very important information.
     {%- endcapture -%}
     {% include step.html
     title = "Print the parts"
-    image = "test.png"
+    image = "print-the-parts.jpg"
     content = download_step
     %}
 
@@ -38,79 +34,76 @@ kofi: true
     {%- endcapture -%}
     {% include step.html
     title = "Order the other parts"
-    image = "test.png"
+    image = "print-the-parts.jpg"
     content = order_parts_step
     %}
 
     {% include step.html
     title = "Insert the screws"
-    image = "test.png"
+    image = "bed-holder-insert-screws-1.jpg"
     content = "Drop two 40mm countersinks into the holes"
     %}
 
     {% include step.html
     title = "Scrape the mating surface flat"
-    image = "test.png"
+    image = "bed-holder-scrape.jpg"
     content = "Using a blade, lightly scrape the surface. This will remove any gaps and make the parts fit together
     beautifully."
     %}
 
     {% include step.html
     title = "Screw in the spine"
-    image = "test.png"
+    image = "bed-holder-screw-spine.jpg"
     content = "Secure it with 5 16mm countersinks."
     %}
 
     {% include step.html
     title = "Install the posts"
-    image = "test.png"
+    image = "bed-holder-posts.jpg"
     content = "Insert a 12mm washer, a bearing, another washer, a spring that's been cut in half, and constrained by a
-    nut. you need to follow the old machinists tapping tip which is to drive the screw in, back it out, and
-    drive it in some more, over and over. This is the only way you'll be able to reuse the plastic threads next time you
-    disassemble it."
+    nut."
     %}
 
-    {% include step.html
-    title = "Countersink the lead screw nut"
-    image = "test.png"
-    content = "We want to have a flat bottom surface"
-    %}
+    {% include tip.html tip="Follow the old machinists tapping tip which is to drive the screw in, back it out, and
+    drive it in some more, over and over. This is the only way you'll be able to reuse the plastic threads next time you
+    disassemble it." %}
 
     {% include step.html
     title = "Fasten the nut to the bracket"
-    image = "test.png"
-    content = "Screw it in, dogg."
+    image = "test.jpg"
+    content = "If your nut is countersunk, use countersunk screws. If not, you can countersink it, or use button head
+    screws. It makes no difference."
     %}
 
     {% include step.html
     title = "Install the bearings"
-    image = "test.png"
+    image = "test.jpg"
     content = "Drop in the bearings into the three seats."
     %}
 
     {% include step.html
     title = "Install the lead screw"
-    image = "test.png"
-    content = "Push in the lead screw so that it just peeks through the bearing, drop on the first m5 shim, then the
+    image = "test.jpg"
+    content = "Push in the lead screw so that it just peeks through the bearing, drop on the first M5 shim, then the
     pulley with belt preinstalled, and then carefully add the other m5
     shim, using another m5 shim to push it into place"
     %}
 
     {% include step.html
     title = "Install the lead screw part 2"
-    image = "test.png"
+    image = "test.jpg"
     content = "Spin the lead screw into the nut and secure the grub screws on the pulley."
     %}
 
     {% include step.html
     title = "Install the rail"
-    image = "test.png"
+    image = "test.jpg"
     content = "Lay down the rail and maybe tap it in, and secure it with 6mm countersinks."
     %}
 
     {% include step.html
     title = "Solder edge connector wire"
-    image = "test.png"
+    image = "test.jpg"
     content = "Not much soldering in this printer. But let's solder a wire now- grab roughly 50mm of 2 power wires and 2
     signal wires. I like to twist them, solder, and
     then clip the excess. We need to cut the signal wires to 42cm and the power wires should be 44cm."
@@ -118,19 +111,19 @@ kofi: true
 
     {% include step.html
     title = "Braided sleeve the wires"
-    image = "test.png"
+    image = "test.jpg"
     content = "Add 32mm of braided wire sleeve before crimping on a connector for the signal wires."
     %}
 
     {% include step.html
     title = "Crimp the thermister wires"
-    image = "test.png"
+    image = "test.jpg"
     content = "Crimp the thermister wires to the connector."
     %}
 
     {% include step.html
     title = "Slide in the edge connector wire"
-    image = "test.png"
+    image = "test.jpg"
     content = "Break off the built-in support and slide in that edge connector to the bracket, and fix the bracket to
     the
     carriage with two 25mm countersinks."
@@ -138,20 +131,20 @@ kofi: true
 
     {% include step.html
     title = "Assemble the Lemonstruder"
-    image = "test.png"
+    image = "test.jpg"
     content = "For this I like to Then I'll drop in the Yellow spring, the yellow actually isn't for a lemon theme, it
     signifies a certain springiness characteristic so don't go putting in a brown spring or whatever."
     %}
 
     {% include step.html
     title = "Install the Lemonstruder"
-    image = "test.png"
+    image = "test.jpg"
     content = "Then let's stick the Lemonstruder into its slot and now the top plate is looking real good."
     %}
 
     {% include step.html
     title = "Crimp the motor wires"
-    image = "test.png"
+    image = "test.jpg"
     content = "Now we're gonna crimp all these motors. You need to crimp well, so feel free to copy my method. We need
     one motor with each of these lengths of wires. 10cm, 15cm, 15 again, and 23 cm."
     %}
@@ -185,45 +178,45 @@ kofi: true
 
     {% include step.html
     title = "Cut the motor shafts"
-    image = "test.png"
+    image = "test.jpg"
     content = "We're gonna gently coax all the motor shafts to shorten to 10mm"
     %}
 
 
     {% include step.html
     title = "Cut the X axis"
-    image = "test.png"
+    image = "test.jpg"
     content = "Just snip one of the holes."
     %}
 
 
     {% include step.html
     title = "Sand off the protrusions on the big fan"
-    image = "test.png"
+    image = "test.jpg"
     content = "This part is easy."
     %}
 
     {% include step.html
     title = "Clip the corner off the little fan"
-    image = "test.png"
+    image = "test.jpg"
     content = "This part is easy."
     %}
 
     {% include step.html
     title = "Clip the corners off the PSU"
-    image = "test.png"
+    image = "test.jpg"
     content = "When you work with PSU's always drain them. People have died."
     %}
 
     {% include step.html
     title = "Tighten the heat break"
-    image = "test.png"
+    image = "test.jpg"
     content = "LDO had some issues with tightness from the factory."
     %}
 
     {% include step.html
     title = "Push the fan wires through the tool end"
-    image = "test.png"
+    image = "test.jpg"
     content = "We're gonna get a little ahead of ourselves and start putting in the big fan but only to fish the wires
     through
     the tool end."
@@ -231,124 +224,124 @@ kofi: true
 
     {% include step.html
     title = "Install the hot end"
-    image = "test.png"
+    image = "test.jpg"
     content = "Drop in the Positron 90 hot end into the slot and screw it in with 4 screws."
     %}
 
     {% include step.html
     title = "Install the PCB (Optional)"
-    image = "test.png"
+    image = "test.jpg"
     content = "Attach the bare PCB with 4 screws too."
     %}
 
     {% include step.html
     title = "Countersink the microprobe"
-    image = "test.png"
+    image = "test.jpg"
     content = "We have to countersink the bottom of it for the screws to fit or use glue. I'm going with screws here."
     %}
 
     {% include step.html
     title = "Install the microprobe"
-    image = "test.png"
+    image = "test.jpg"
     content = "Screw it in with 2x m2.5 countersinks."
     %}
 
     {% include step.html
     title = "Install the small fan"
-    image = "test.png"
+    image = "test.jpg"
     content = "push it up so that it slides under the rail and touches the radiator."
     %}
 
     {% include step.html
     title = "Push in the big fan"
-    image = "test.png"
+    image = "test.jpg"
     content = "Now we can put in the big fan all the way. This secures the little fan too."
     %}
 
     {% include step.html
     title = "Solder the thermister"
-    image = "test.png"
+    image = "test.jpg"
     content = "Bend it down and solder it to the PCB."
     %}
 
     {% include step.html
     title = "Solder the hot end fan"
-    image = "test.png"
+    image = "test.jpg"
     content = "Solder it to the PCB."
     %}
 
     {% include step.html
     title = "Solder the part cooling fan"
-    image = "test.png"
+    image = "test.jpg"
     content = "Solder it to the PCB."
     %}
 
     {% include step.html
     title = "Solder the hot end"
-    image = "test.png"
+    image = "test.jpg"
     content = "Extend it and solder it to the PCB."
     %}
 
     {% include step.html
     title = "Install the probe connector"
-    image = "test.png"
+    image = "test.jpg"
     content = "Clip the black wire and plug in the probe connector and solder the black wire to the ground pad."
     %}
 
     {% include step.html
     title = "Wire back to the controller board"
-    image = "test.png"
+    image = "test.jpg"
     content = "The probe wires and hotend wires should be 56cm. The rest of the wires should be 58cm."
     %}
 
     {% include step.html
     title = "Add braided wire sleeve"
-    image = "test.png"
+    image = "test.jpg"
     content = "Before crimping we need to add the braided sleeve, which should be 47cm"
     %}
 
     {% include step.html
     title = "Crimp the tool connectors"
-    image = "test.png"
+    image = "test.jpg"
     content = "If your JST connectors have notches, the two fan power wires and the thermistor wire go into the JST
     connector on the non-notch side."
     %}
 
     {% include step.html
     title = "Crimp the probe connectors"
-    image = "test.png"
+    image = "test.jpg"
     content = "The Yellow/Red goes on the 3P and the Black/White goes to the 2P."
     %}
 
     {% include step.html
     title = "Insert the bottom heat set inserts"
-    image = "test.png"
+    image = "test.jpg"
     content = "6 in total,
     and the top one goes in from the front."
     %}
 
     {% include step.html
     title = "Insert the Z Block heat set inserts"
-    image = "test.png"
+    image = "test.jpg"
     content = "Insert the bottom 2 from the back and the top one from the front."
     %}
 
     {% include step.html
     title = "Attach X Axis idlers"
-    image = "test.png"
+    image = "test.jpg"
     content = "Insert an M3 nut on either side of the rail and screw in the idlers. Grab a 14mm Waferhead, slide
     on a F623RS bearing and a medium M3 shim and screw that in."
     %}
 
     {% include step.html
     title = "Connect fans"
-    image = "test.png"
+    image = "test.jpg"
     content = "Add the chassis fans which are just wired in parallel."
     %}
 
     {% include step.html
     title = "Connect the tool head wires"
-    image = "test.png"
+    image = "test.jpg"
     content = "Add the chassis fans which are just wired in parallel."
     %}
 
@@ -372,7 +365,7 @@ kofi: true
     {%- endcapture -%}
     {% include step.html
     title = "Install the software"
-    image = "test.png"
+    image = "test.jpg"
     content = software_step
     %}
 
@@ -381,7 +374,7 @@ kofi: true
     {%- endcapture -%}
     {% include step.html
     title = "Calibrate the Z-offset"
-    image = "test.png"
+    image = "test.jpg"
     content = calibration_step
     %}
 </ol>

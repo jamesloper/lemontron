@@ -13,7 +13,7 @@ Raspberry Pi. By the end, your printer will be fully configured and ready to beg
 
 {% include button.html
 title = "Download Klipper Config"
-link = "/assets/downloads/config-20241010-155612.zip"
+link = "/assets/downloads/config-20241223-175652.zip"
 %}
 
 {% include button.html

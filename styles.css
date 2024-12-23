@@ -384,8 +384,10 @@ i.icon-open-in-new {opacity:.5; font-size:16px;}
 .steps {margin:0; list-style:none;  counter-reset:item;}
 .step {margin:0 0 20px 0; border-bottom:2px solid #333; padding-bottom:20px;}
 .step h2 {display:inline;}
-.step-sbs {display:flex; gap:20px; white-space:wrap; margin-top:10px;}
+.step-sbs {display:flex; gap:20px; white-space:wrap; margin-top:10px; align-items:center;}
+.step-sbs > div {flex:1;}
 .step::before {content:"Step " counter(item); counter-increment:item; font-size:12px;}
+.step-left img {aspect-ratio:16 / 9; width:480px; flex-shrink:0;}
 
 /* BOM */
 .bom-list {margin-bottom:20px;}

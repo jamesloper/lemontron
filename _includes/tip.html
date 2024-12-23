@@ -1,0 +1,14 @@
+<div class="tip-container">
+    <div class="tip">
+        <div class="tip-title">{{include.title}}</div>
+        <div class="tip-content">
+            {{- include.tip -}}
+        </div>
+        {%- if include.shimmer %}
+        <div class="tip-shimmer"></div>
+        {%- endif %}
+    </div>
+    {%- if include.icon %}
+    <i class="material-icons tip-icon">{{include.icon}}</i>
+    {%- endif %}
+</div>
