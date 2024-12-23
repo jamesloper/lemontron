@@ -11,6 +11,7 @@ links:
     url: https://www.digikey.com/en/products/detail/jst-sales-america-inc/SXH-001T-P0-6N/7041446
 kofi: true
 optional: false
+category: Electronics
 ---
 
 Used on the motors, sensors, probe, and wire pigtails.

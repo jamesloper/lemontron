@@ -18,6 +18,7 @@ links:
     note: Glass version
 kofi: true
 optional: false
+category: Positron
 ---
 
 You can choose PEI or glass beds. Glass beds are cool looking, but they are more expensive and not convenient like the PEI sheets.

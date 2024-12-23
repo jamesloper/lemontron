@@ -13,4 +13,5 @@ links:
     url: https://www.aliexpress.us/item/3256805294994013.html
 kofi: true
 optional: false
+category: Electronics
 ---

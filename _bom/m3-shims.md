@@ -12,6 +12,7 @@ links:
     note: M3x5xThick 50pcs, 0.2mm thick
 kofi: true
 optional: false
+category: Hardware
 ---
 
 4 for the Bed Holder, 6 for the Mid Plate Idlers, 2 for the Belt Tensioner, 2 for the Z-Idler, 2 for the X Idlers.

@@ -12,6 +12,7 @@ links:
     note: 18AWG
 kofi: true
 optional: false
+category: Electronics
 ---
 
 18 AWG silicone wire is a medium-gauge, highly flexible, and heat-resistant wire with a diameter of approximately 1.02

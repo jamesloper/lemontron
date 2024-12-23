@@ -12,6 +12,7 @@ links:
     note: M3 (OD 4.5mm)50pcs, Length 10mm
 kofi: true
 optional: false
+category: Hardware
 ---
 
 These brass inserts are extra long and go in straight. The Lemontron has the inserts going in from the rear for the

@@ -12,4 +12,5 @@ links:
   note: 4mm
 kofi: true
 optional: false
+category: Electronics
 ---

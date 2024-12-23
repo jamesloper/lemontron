@@ -13,6 +13,7 @@ links:
     url: https://www.3djake.com/ldo-motors/hotend-16
 kofi: true
 optional: false
+category: Positron
 ---
 
 90 Degree Hotend Kit for the Positron V3.2 3D Printer Kit. From the community trusted LDO Motors. Includes heater,

@@ -15,6 +15,7 @@ links:
     note: Better consistency and quality
 kofi: true
 optional: false
+category: Electronics
 ---
 
 The edge connector is a 2x3 6 pin, straight connector. It is used to electrically connect the edge of the heat bed to

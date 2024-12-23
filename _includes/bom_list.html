@@ -1,0 +1,32 @@
+<div class="bom-list">
+    {% for bom in include.items %}
+    {% assign link = bom.links | first %}
+    <div class="bom-item">
+        <div class="bom-image image">
+            <img src="/assets/bom/{{bom.url | split: '/' | last}}.png"/>
+        </div>
+        <div class="bom-body">
+            <div>
+                <div>
+                    <a href="{{bom.url | relative_url}}">{{bom.title}}</a>
+                    <span class="bom-qty"> × {{bom.qty}}</span>
+                    {% if bom.new %}
+                    <span class="badge new"><i class="material-icons">grade</i> New</span>
+                    {% endif %}
+                    {% if bom.modification %}
+                    <span class="badge mod"><i class="material-icons">carpenter</i> Mod</span>
+                    {% endif %}
+                </div>
+                <div class="description">{{bom.description}}</div>
+            </div>
+            <div class="bom-right">
+                <span>${{bom.total}}</span><br/>
+                <a class="buy" href="{{link.url}}" target="_blank">
+                    <i class="material-icons">shopping_cart</i>
+                    {{link.vendor}}
+                </a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

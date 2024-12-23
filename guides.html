@@ -5,26 +5,444 @@ permalink: /lemontron/
 kofi: true
 ---
 
-<p>
-    Lemontron fits neatly into a standard filament box, breaking boundaries and making it the perfect tool
-    for makers on the go without sacrificing the performance you expect from a full-sized 3D
-    printer.
-</p>
+<div class="tip-container">
+    <div class="tip">
+        <div class="tip-title">Open Source is fundamentally GOOD!</div>
+        <div class="tip-content">
+            <b>What else is GOOD...is supporting Open Source projects!</b> You support me, I support
+            other creators and the cycle of kindness continues. You can always freeload a download, but consider that a
+            little vote against Open Source.
+        </div>
+        <div class="tip-shimmer"></div>
+    </div>
+    <i class="material-icons tip-icon">volunteer_activism</i>
+</div>
 
-<h2>Hold your horses! 🦄</h2>
-<p>
-    The printer is still being polished up. These guides are not quite finished. Consider them a preview. An update video is coming soon!
-</p>
+<ol class="steps">
+    {%- capture download_step -%}
+    {% include button.html
+    title = "Download Lemontron"
+    link = "https://makerworld.com/en/@lemontron"
+    %}
+    The parts are sliced for 1-click printing on a Bambulab X1C. But check out the <a href="/lemontron/printed-parts/">Printed
+    Parts</a> page for more information on other printers.
+    {%- endcapture -%}
+    {% include step.html
+    title = "Print the parts"
+    image = "test.png"
+    content = download_step
+    %}
 
-<div class="wave"></div>
+    {%- capture order_parts_step -%}
+    Refer to the <a href="/lemontron/bom/">BOM</a> to purchase the parts. Maybe I can sell a kit one day.
+    {%- endcapture -%}
+    {% include step.html
+    title = "Order the other parts"
+    image = "test.png"
+    content = order_parts_step
+    %}
 
-<h2>How to build a Lemontron?</h2>
+    {% include step.html
+    title = "Insert the screws"
+    image = "test.png"
+    content = "Drop two 40mm countersinks into the holes"
+    %}
 
-<ol>
-    <li>🛍️ Order all the Parts</li>
-    <li>🧵 Print the Plastic Parts</li>
-    <li>🛠️ Assemble the Lemontron</li>
-    <li>👨‍💻 Install Software</li>
-    <li>📐 Calibrate the Z-offset</li>
-    <li>💛 Support me on Patreon / Ko-fi</li>
+    {% include step.html
+    title = "Scrape the mating surface flat"
+    image = "test.png"
+    content = "Using a blade, lightly scrape the surface. This will remove any gaps and make the parts fit together
+    beautifully."
+    %}
+
+    {% include step.html
+    title = "Screw in the spine"
+    image = "test.png"
+    content = "Secure it with 5 16mm countersinks."
+    %}
+
+    {% include step.html
+    title = "Install the posts"
+    image = "test.png"
+    content = "Insert a 12mm washer, a bearing, another washer, a spring that's been cut in half, and constrained by a
+    nut. you need to follow the old machinists tapping tip which is to drive the screw in, back it out, and
+    drive it in some more, over and over. This is the only way you'll be able to reuse the plastic threads next time you
+    disassemble it."
+    %}
+
+    {% include step.html
+    title = "Countersink the lead screw nut"
+    image = "test.png"
+    content = "We want to have a flat bottom surface"
+    %}
+
+    {% include step.html
+    title = "Fasten the nut to the bracket"
+    image = "test.png"
+    content = "Screw it in, dogg."
+    %}
+
+    {% include step.html
+    title = "Install the bearings"
+    image = "test.png"
+    content = "Drop in the bearings into the three seats."
+    %}
+
+    {% include step.html
+    title = "Install the lead screw"
+    image = "test.png"
+    content = "Push in the lead screw so that it just peeks through the bearing, drop on the first m5 shim, then the
+    pulley with belt preinstalled, and then carefully add the other m5
+    shim, using another m5 shim to push it into place"
+    %}
+
+    {% include step.html
+    title = "Install the lead screw part 2"
+    image = "test.png"
+    content = "Spin the lead screw into the nut and secure the grub screws on the pulley."
+    %}
+
+    {% include step.html
+    title = "Install the rail"
+    image = "test.png"
+    content = "Lay down the rail and maybe tap it in, and secure it with 6mm countersinks."
+    %}
+
+    {% include step.html
+    title = "Solder edge connector wire"
+    image = "test.png"
+    content = "Not much soldering in this printer. But let's solder a wire now- grab roughly 50mm of 2 power wires and 2
+    signal wires. I like to twist them, solder, and
+    then clip the excess. We need to cut the signal wires to 42cm and the power wires should be 44cm."
+    %}
+
+    {% include step.html
+    title = "Braided sleeve the wires"
+    image = "test.png"
+    content = "Add 32mm of braided wire sleeve before crimping on a connector for the signal wires."
+    %}
+
+    {% include step.html
+    title = "Crimp the thermister wires"
+    image = "test.png"
+    content = "Crimp the thermister wires to the connector."
+    %}
+
+    {% include step.html
+    title = "Slide in the edge connector wire"
+    image = "test.png"
+    content = "Break off the built-in support and slide in that edge connector to the bracket, and fix the bracket to
+    the
+    carriage with two 25mm countersinks."
+    %}
+
+    {% include step.html
+    title = "Assemble the Lemonstruder"
+    image = "test.png"
+    content = "For this I like to Then I'll drop in the Yellow spring, the yellow actually isn't for a lemon theme, it
+    signifies a certain springiness characteristic so don't go putting in a brown spring or whatever."
+    %}
+
+    {% include step.html
+    title = "Install the Lemonstruder"
+    image = "test.png"
+    content = "Then let's stick the Lemonstruder into its slot and now the top plate is looking real good."
+    %}
+
+    {% include step.html
+    title = "Crimp the motor wires"
+    image = "test.png"
+    content = "Now we're gonna crimp all these motors. You need to crimp well, so feel free to copy my method. We need
+    one motor with each of these lengths of wires. 10cm, 15cm, 15 again, and 23 cm."
+    %}
+
+    <div class="tip-container">
+        <div class="tip">
+            <h2 class="tip-title">How to crimp gooooood</h2>
+            <div class="tip-content">
+                <p>
+                    I personally roll with solder gang but crimps are still the goat in some situations. You need to
+                    crimp
+                    well, so here are my tips...
+                </p>
+                <ul class="tip-content">
+                    <li><b>Disable the ratchet!</b> Feel the JST connector succumb to your power.</li>
+                    <li><b>A crimp must BEGIN well to end well</b>. You can just start squeezing the JST and get a feel
+                        for it. If it
+                        buckles, it's a DUD...abort!
+                    </li>
+                    <li><b>Precision is key:</b> Expose just the tip of the wire, just 1mm for this tiny connector.</li>
+                    <li>Insert the wire by feel primarily but LOOK AT IT WITH YOUR EYES TOO.</li>
+                    <li><b>Don't practice on the motors!</b> You need to just get a feel for it and then you'll be a pro
+                        crimper.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <i class="material-icons tip-icon">construction</i>
+    </div>
+
+
+    {% include step.html
+    title = "Cut the motor shafts"
+    image = "test.png"
+    content = "We're gonna gently coax all the motor shafts to shorten to 10mm"
+    %}
+
+
+    {% include step.html
+    title = "Cut the X axis"
+    image = "test.png"
+    content = "Just snip one of the holes."
+    %}
+
+
+    {% include step.html
+    title = "Sand off the protrusions on the big fan"
+    image = "test.png"
+    content = "This part is easy."
+    %}
+
+    {% include step.html
+    title = "Clip the corner off the little fan"
+    image = "test.png"
+    content = "This part is easy."
+    %}
+
+    {% include step.html
+    title = "Clip the corners off the PSU"
+    image = "test.png"
+    content = "When you work with PSU's always drain them. People have died."
+    %}
+
+    {% include step.html
+    title = "Tighten the heat break"
+    image = "test.png"
+    content = "LDO had some issues with tightness from the factory."
+    %}
+
+    {% include step.html
+    title = "Push the fan wires through the tool end"
+    image = "test.png"
+    content = "We're gonna get a little ahead of ourselves and start putting in the big fan but only to fish the wires
+    through
+    the tool end."
+    %}
+
+    {% include step.html
+    title = "Install the hot end"
+    image = "test.png"
+    content = "Drop in the Positron 90 hot end into the slot and screw it in with 4 screws."
+    %}
+
+    {% include step.html
+    title = "Install the PCB (Optional)"
+    image = "test.png"
+    content = "Attach the bare PCB with 4 screws too."
+    %}
+
+    {% include step.html
+    title = "Countersink the microprobe"
+    image = "test.png"
+    content = "We have to countersink the bottom of it for the screws to fit or use glue. I'm going with screws here."
+    %}
+
+    {% include step.html
+    title = "Install the microprobe"
+    image = "test.png"
+    content = "Screw it in with 2x m2.5 countersinks."
+    %}
+
+    {% include step.html
+    title = "Install the small fan"
+    image = "test.png"
+    content = "push it up so that it slides under the rail and touches the radiator."
+    %}
+
+    {% include step.html
+    title = "Push in the big fan"
+    image = "test.png"
+    content = "Now we can put in the big fan all the way. This secures the little fan too."
+    %}
+
+    {% include step.html
+    title = "Solder the thermister"
+    image = "test.png"
+    content = "Bend it down and solder it to the PCB."
+    %}
+
+    {% include step.html
+    title = "Solder the hot end fan"
+    image = "test.png"
+    content = "Solder it to the PCB."
+    %}
+
+    {% include step.html
+    title = "Solder the part cooling fan"
+    image = "test.png"
+    content = "Solder it to the PCB."
+    %}
+
+    {% include step.html
+    title = "Solder the hot end"
+    image = "test.png"
+    content = "Extend it and solder it to the PCB."
+    %}
+
+    {% include step.html
+    title = "Install the probe connector"
+    image = "test.png"
+    content = "Clip the black wire and plug in the probe connector and solder the black wire to the ground pad."
+    %}
+
+    {% include step.html
+    title = "Wire back to the controller board"
+    image = "test.png"
+    content = "The probe wires and hotend wires should be 56cm. The rest of the wires should be 58cm."
+    %}
+
+    {% include step.html
+    title = "Add braided wire sleeve"
+    image = "test.png"
+    content = "Before crimping we need to add the braided sleeve, which should be 47cm"
+    %}
+
+    {% include step.html
+    title = "Crimp the tool connectors"
+    image = "test.png"
+    content = "If your JST connectors have notches, the two fan power wires and the thermistor wire go into the JST
+    connector on the non-notch side."
+    %}
+
+    {% include step.html
+    title = "Crimp the probe connectors"
+    image = "test.png"
+    content = "The Yellow/Red goes on the 3P and the Black/White goes to the 2P."
+    %}
+
+    {% include step.html
+    title = "Insert the bottom heat set inserts"
+    image = "test.png"
+    content = "6 in total,
+    and the top one goes in from the front."
+    %}
+
+    {% include step.html
+    title = "Insert the Z Block heat set inserts"
+    image = "test.png"
+    content = "Insert the bottom 2 from the back and the top one from the front."
+    %}
+
+    {% include step.html
+    title = "Attach X Axis idlers"
+    image = "test.png"
+    content = "Insert an M3 nut on either side of the rail and screw in the idlers. Grab a 14mm Waferhead, slide
+    on a F623RS bearing and a medium M3 shim and screw that in."
+    %}
+
+    {% include step.html
+    title = "Connect fans"
+    image = "test.png"
+    content = "Add the chassis fans which are just wired in parallel."
+    %}
+
+    {% include step.html
+    title = "Connect the tool head wires"
+    image = "test.png"
+    content = "Add the chassis fans which are just wired in parallel."
+    %}
+
+    - The hot end fan goes here
+    - The part cooling fan goes here
+    - The thermister goes here
+    - And the big wires go into the screw terminal
+    - Connect the edge connector wires
+    - The thermistor goes here
+    - And the big wires go into the screw terminal
+    - Solder up the raspberry pi and the wires for that are [red,red,x,x,x]
+    - Tuck in all the wires and lay the SKR pico into its hole
+    - Screw the risers to the chassis and the Pi to the risers
+    8. Insert an M3 nut to one side of the rail and cinch it down using a button head screw.
+    - Attach the idlers to the tensioner: Grab a 12mm button head screw, add a F623RS bearing, then a medium M3 Shim and
+    then a large M3 washer. Screw these into the tensioner and then slide it onto the Y Rail.
+    - Slide in the rail, flip it over and secure the rail with a 16mm countersunk.
+
+    {%- capture software_step -%}
+    The <a href="/lemontron/software/">Software Guide</a> will help you get the OS flashed.
+    {%- endcapture -%}
+    {% include step.html
+    title = "Install the software"
+    image = "test.png"
+    content = software_step
+    %}
+
+    {%- capture calibration_step -%}
+    The <a href="/lemontron/calibration/">Calibration Guide</a> will help you get the perfect first layer.
+    {%- endcapture -%}
+    {% include step.html
+    title = "Calibrate the Z-offset"
+    image = "test.png"
+    content = calibration_step
+    %}
+</ol>
+
+
+<h2>Hardware Assemblies</h2>
+
+<h4>Bearing Towers</h4>
+<ol class="hardware-assembly">
+    <li>18mm Wafer Head</li>
+    <li>F623RS Bearing</li>
+    <li>M3 Shim</li>
+    <li>M3 Washer</li>
+    <li>683ZZ Bearing</li>
+    <li>M3 Shim</li>
+    <li>F683 Bearing</li>
+    <li>M3 Shim</li>
+    <li>F683</li>
+    <li>M3 Shim</li>
+</ol>
+
+<h4>Mid Plate Idlers (On Motor)</h4>
+<ol class="hardware-assembly">
+    <li>14mm Wafer Head</li>
+    <li>M3 Washer</li>
+    <li>M3 Shim</li>
+    <li>683ZZ Bearing</li>
+    <li>M3 Shim</li>
+    <li>M3 Washer</li>
+</ol>
+
+<h4>Mid Plate Idlers (Bottom)</h4>
+<ol class="hardware-assembly">
+    <li>30mm Wafer Head</li>
+    <li>F623RS Bearing</li>
+    <li>M3 Shim</li>
+    <li>M3 Washer</li>
+</ol>
+
+<h4>Z Idler</h4>
+<ol class="hardware-assembly">
+    <li>14mm Wafer Head</li>
+    <li>F623RS Bearing</li>
+    <li>M3 Shim</li>
+    <li>F623RS Bearing</li>
+    <li>M3 Shim</li>
+</ol>
+
+<h4>Tensioner</h4>
+<ol class="hardware-assembly">
+    <li>14mm Wafer Head</li>
+    <li>F623RS Bearing</li>
+    <li>M3 Shim</li>
+    <li>M3 Washer</li>
+</ol>
+
+<h4>X Axis Idlers</h4>
+<ol class="hardware-assembly">
+    <li>14mm Wafer Head</li>
+    <li>F623RS Bearing</li>
+    <li>M3 Shim</li>
+    <li>X Axis Rail</li>
+    <li>M3 Nut</li>
 </ol>

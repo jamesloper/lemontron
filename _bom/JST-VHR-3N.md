@@ -11,5 +11,6 @@ links:
     url: https://www.digikey.com/en/products/detail/jst-sales-america-inc/VHR-3N/608625
 kofi: true
 optional: true
+category: Electronics
 ---
 1 is used on the AC Input connector that plugs into the PSU.

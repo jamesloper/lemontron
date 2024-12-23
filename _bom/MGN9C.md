@@ -13,6 +13,7 @@ links:
     note: 250mm
 kofi: true
 optional: false
+category: Hardware
 ---
 
 The smallest rail in the BOM allows the tool head to travel left and right.

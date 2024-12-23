@@ -12,14 +12,14 @@ links:
 modification: true
 kofi: true
 optional: false
+category: Hardware
 ---
 
 This compact and inexpensive lead screw is used to move the Z-axis up and down. It is 250mm long with a 4mm lead and 1mm
 pitch. It comes with a matching nut.
 
-## Optional Modification
+## Required Modifications
 
-You can forgo modification, and instead opt for some extra to stick out the bottom. But a full length
-lead screw will not allow the Z Axis assembly to fit within a filament box. Cut about 10mm off the lead screw, winding
-up around 225mm. Precision is not required here.
+1. Cut the lead screw flush with the Z Axis Assembly.
+2. Countersink the 3 holes on the bottom of the nut.
 

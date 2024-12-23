@@ -11,6 +11,7 @@ links:
     note: 1pc with DuPont
 kofi: true
 optional: false
+category: Electronics
 ---
 
 We do not actually need the thermistor at all but it's a cheap way to get some good wire for the two fans in the tool

@@ -13,6 +13,7 @@ links:
     url: https://www.aliexpress.com/item/3256807500115364.html
 kofi: true
 optional: true
+category: Electronics
 ---
 
 Used on the connectors that plug into the PSU. 2 for the AC Input, 2 for the 24V DC Output.

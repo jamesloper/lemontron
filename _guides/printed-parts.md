@@ -6,25 +6,26 @@ category: Assembly
 kofi: true
 ---
 
-The Lemontron plastic parts can be printed on most enclosed printers such as Bambulab X1
-and <a href="https://amzn.to/47ut5uQ" target="_blank">Creality K1</a>. Right now, not many Lemontrons have been created.
-You should post your settings and materials and the advantages to the Lemontron thread in the Voxolite Discord so that
-they can become official recommendations.
+The Lemontron plastic parts can be printed on most enclosed printers such as Bambulab X1C. Right now, not many
+Lemontrons have been created. You should post your settings and materials and the advantages to the Lemontron thread in
+the Voxolite Discord so that they can become official recommendations.
 
-## Basic Information
-
-The high temp nature of 3D printers requires ABS or ASA for most parts. Each part has it's own ideal material, but if
+Each part has it's own ideal material, but if
 you are looking for more cost effective rather than optimum, I would recommend you purchase 1 spool of ABS and 1 spool
 of PLA.
 
 ## Slicer Settings
 
-1. 🔔 **Don't forget to scale ABS parts to 100.5%!** 🔔
-2. 50% Grid Infill (Very strong infill)
-3. 6 Perimeters (Commonly used for strength)
-4. 4 Top Layers (Not 3! 4 layers ensures that 1mm thick parts are solid)
-5. 3 Bottom Layers (This is the default in most slicers)
-6. 0.2mm Layer Height (Again, a common default)
+Ensure your slicer is on these settings so that the features coinside exactly with the 0.4mm nozzle stride and are
+properly strong. You can also dial it back to save filament, but <b>use this layer height and nozzle size</b>.
+
+1. 🔔 **Don't forget to scale ABS parts to ~100.5%!** 🔔
+2. 50% Grid Infill
+3. 8 Perimeters
+4. 5 Top Layers
+5. 5 Bottom Layers
+6. 0.2mm Layer Height
+7. 0.4mm Nozzle
 
 ## Chassis Inventory
 

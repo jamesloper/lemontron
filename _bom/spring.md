@@ -15,6 +15,7 @@ links:
     note: Not colorful but works
 kofi: true
 optional: false
+category: Hardware
 ---
 
 Boing! Used in the extruder!

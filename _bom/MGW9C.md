@@ -12,6 +12,7 @@ links:
     note: 250mm
 kofi: true
 optional: false
+category: Hardware
 ---
 
 {% include tips/rails.html %}

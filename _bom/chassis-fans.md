@@ -15,6 +15,7 @@ links:
     note: "Blue LED version"
 kofi: true
 optional: false
+category: Electronics
 ---
 
 Chassis fans cool the electronics.

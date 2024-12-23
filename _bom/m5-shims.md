@@ -12,6 +12,7 @@ links:
     note: M5x8xThick, 0.2mm thick
 kofi: true
 optional: false
+category: Hardware
 ---
 
-We only need two of these for the lead screw drive pulley.
+The OD can also be 9mm and still work. We only need two of these for the lead screw drive pulley.

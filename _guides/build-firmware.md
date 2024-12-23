@@ -13,8 +13,6 @@ title = "Download Firmware"
 link = "/assets/downloads/klipper.uf2"
 %}
 
-You might want to manually build the firmware for your SKR Pico rather than download the precompiled firmware. This guide will walk you through the process.
-
 ### Get up-to-date
 SSH into the Raspberry Pi and run the following commands:
 

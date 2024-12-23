@@ -1,10 +1,10 @@
 ---
 layout: bom
-title: GT2 3mm Belt
+title: Belt
 qty: 1
 orders: 1
 total: 3.49
-description: 
+description: GT2 3mm
 new: false
 links:
   - vendor: KB3D
@@ -18,6 +18,7 @@ links:
     note: 2m
 kofi: true
 optional: false
+category: Hardware
 ---
 
 GT2 refers to the type of tooth profile on the belt. GT2 belts have a rounded tooth profile. This type of profile

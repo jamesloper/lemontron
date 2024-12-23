@@ -19,6 +19,7 @@ links:
 modification: true
 kofi: true
 optional: false
+category: Electronics
 ---
 
 These 20mm NEMA17 motors have a faceplate 1.7" wide (43.2 mm) and length of 20mm of the motor body, excluding the shaft.

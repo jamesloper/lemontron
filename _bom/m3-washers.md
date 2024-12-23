@@ -1,6 +1,6 @@
 ---
 layout: bom
-title: Large M3 Washers
+title: M3 Big Washers
 qty: 12
 orders: 1
 total: 1.39
@@ -11,6 +11,7 @@ links:
     url: https://www.aliexpress.us/item/3256803873360290.html
 kofi: true
 optional: false
+category: Hardware
 ---
 
 4 for the Bed Holder, 6 for the Mid Plate Idlers. 2 for the Belt Tensioner

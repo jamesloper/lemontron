@@ -13,6 +13,7 @@ links:
 modification: true
 kofi: true
 optional: false
+category: Electronics
 ---
 
 The MicroProbe V2.0 is an ABL sensor, meaning it is used to automatically detect and compensate for tilt in the build

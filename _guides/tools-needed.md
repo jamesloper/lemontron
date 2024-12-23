@@ -48,16 +48,11 @@ image = "https://m.media-amazon.com/images/I/51H9zNxZ0kL._AC_SL1050_.jpg"
 
 ## 3D Printing Tools
 
-You will need a modern, enclosed 3D printer to print the Lemontron parts. The Creality K1C is a great choice. 240 grit
+You will need a modern, enclosed 3D printer to print the Lemontron parts. 240 grit
 sandpaper for honing bottom surfaces. Razors for scraping. A craft knife for tidying blemishes. Supa glue for the
-Lemonstruder parts (the "liquid" one not the thick one).
+Lemonstruder parts (the "liquid" one not the thick one). And tape for holding down the pesky wires.
 
 <ul class="tool-links">
-{% include tool-item.html
-title = "Printer"
-amazon = "B0D9BGHHKF"
-image = "https://m.media-amazon.com/images/I/615goFZOt7L._AC_SL1500_.jpg"
-%}
 {% include tool-item.html
 title = "Sandpaper"
 amazon = "B0CZN757XQ"
@@ -79,9 +74,9 @@ amazon = "B0D2RP4B82"
 image = "https://c.media-amazon.com/images/I/41fqCAwgwsL._SY445_SX342_QL70_FMwebp_.jpg"
 %}
 {% include tool-item.html
-title = "Calipers"
-amazon = "B000GSLKIW"
-image = "https://m.media-amazon.com/images/I/512+8j+pljL._SL1402_.jpg"
+title = "Tape"
+amazon = "B07CB6F1BB"
+image = "https://m.media-amazon.com/images/I/81uQsI8mtuL._AC_SL1500_.jpg"
 %}
 </ul>
 

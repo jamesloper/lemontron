@@ -11,6 +11,13 @@ links:
     note: 5mm bore, 7mm OD, 1.5mm pitch
 kofi: true
 optional: false
+category: Hardware
+modification: true
 ---
 
-This is a generic BondTech style extruder drive gear, the primary component of the Lemonstruder. It is a 5mm bore gear with a 7mm outer diameter. It is made of stainless steel and has a 1.5mm pitch.  You have to cut it with hack saw to make it into a Lemonstruder.
+This is a generic BondTech style extruder drive gear, the primary component of the Lemonstruder. It is a 5mm bore gear
+with a 7mm outer diameter. It is made of stainless steel and has a 1.5mm pitch.
+
+## Required Modifications
+
+Shorten the extruder gear by cutting off the gears on the bottom, not too high - retain use of the grub screw.

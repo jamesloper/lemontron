@@ -5,7 +5,7 @@ baseurl: ""
 url: "https://lemontron.com"
 #github_username: jamesloper
 youtube_username: lemontron
-bluesky_username: lemontron.bsky.social
+bluesky_username: lemontron.com
 discord_link: https://discord.com/invite/gSjfn4rnrm
 collections:
   bom:

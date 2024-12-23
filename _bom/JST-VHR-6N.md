@@ -11,5 +11,6 @@ links:
     url: https://www.digikey.com/en/products/detail/jst-sales-america-inc/VHR-6N/608628
 kofi: true
 optional: true
+category: Electronics
 ---
 1 is used on the 24V DC Output connector that plugs into the PSU.

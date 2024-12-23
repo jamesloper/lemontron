@@ -12,4 +12,5 @@ links:
     note: 160mm
 kofi: true
 optional: false
+category: Hardware
 ---

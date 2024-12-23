@@ -11,5 +11,6 @@ links:
     url: https://www.digikey.com/en/products/detail/jst-sales-america-inc/XHP-4/683353
 kofi: true
 optional: false
+category: Electronics
 ---
 4 are used to connect the motors to the mainboard.

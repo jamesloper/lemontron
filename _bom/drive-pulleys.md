@@ -12,6 +12,7 @@ links:
     note: 20T Bore 5mm
 kofi: true
 optional: false
+category: Hardware
 ---
 
 A compact design that locates the grub screw inside of the teeth area, enabling this printer to be possible.

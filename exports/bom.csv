@@ -1,0 +1,12 @@
+---
+title: CSV
+---
+{%- assign bom_sorted = site.bom | sort: "title" -%}
+category,name,qty,orders,total,new,optional,image,link
+{% for item in bom_sorted %}
+{%- assign link = item.links | first -%}
+{{item.category}},{{item.title}},{{item.qty}},{{item.orders}},{{item.total}},{{item.new}},{{item.optional}},https://lemontron.com/assets/bom/{{item.url | split: '/' | last}}.png,{{link.url}}
+{% endfor %}
+{%- for screw in site.data.screws -%}
+Hardware,{{screw.type | capitalize}} {{screw.thread}}x{{screw.length}}mm,{{screw.qty}},,,,{{screw.optional}},,
+{% endfor %}
