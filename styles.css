@@ -78,6 +78,11 @@ code {color:#fcf300;}
 pre {padding:8px 12px; overflow-x:auto;}
 pre > code {border:0; padding-right:0; padding-left:0;}
 
+/* YOUTUBE EMBED */
+.youtube-video {border-radius:20px; overflow:hidden; position:relative; margin-bottom:20px; background:#222;}
+.youtube-video:after {display:block; content:""; border-radius:20px; border:1px solid #fff; opacity:.1; position:absolute; top:0; left:0; right:0; bottom:0; pointer-events:none;}
+.youtube-video iframe {width:100%; aspect-ratio:16 / 9; display:block;}
+
 .post {max-width:640px; margin:0 auto; padding:20px;}
 .post-list-heading {text-align:center; margin-bottom:20px; font-size:28px; font-family:Righteous, sans-serif;}
 
@@ -297,7 +302,7 @@ dd {font-weight:bold;}
 
 .bom-vendors {list-style:none; margin:0; display:flex; gap:10px; flex-direction:column;}
 .button {display:flex; gap:20px; align-items:center;}
-.button a {background:#fcf300; color:#000; height:36px; padding:0 15px; font-size:14px; display:flex; align-items:center; gap:10px; white-space:nowrap; box-shadow:4px 4px 0 rgba(252, 243, 0, .2); text-decoration:none;}
+.button a {background:#fcf300; border-radius:1px; color:#000; height:36px; padding:0 15px; font-size:14px; display:flex; align-items:center; gap:10px; white-space:nowrap; box-shadow:4px 4px 0 rgba(252, 243, 0, .2); text-decoration:none;}
 .button-notes {display:flex; gap:5px; align-items:center;}
 
 .bom-stats {display:flex; flex:1; color:#fff; gap:20px; margin-bottom:20px;}
@@ -311,7 +316,7 @@ i.icon-open-in-new {opacity:.5; font-size:16px;}
 .inventory {display:flex; flex-direction:column; list-style:none; margin:0 0 40px 0; gap:10px;}
 .inventory-item {display:flex; gap:20px; align-items:center;}
 .inventory-item-left {min-width:160px; max-width:160px; display:flex; flex-direction:column; align-items:center;}
-.inventory-item-image {width:100%; aspect-ratio:1 / 1; border:2px solid rgba(0, 0, 0, .1);}
+.inventory-item-image {width:100%; aspect-ratio:1 / 1; border-radius:16px; }
 .inventory-item-title {margin-bottom:10px; font-size:16px;}
 .inventory-item-bar {display:flex; gap:10px; align-items:center; margin-top:10px;}
 
@@ -381,7 +386,7 @@ i.icon-open-in-new {opacity:.5; font-size:16px;}
 }
 
 /* GUIDE */
-.steps {margin:0; list-style:none;  counter-reset:item;}
+.steps {margin:0; list-style:none; counter-reset:item;}
 .step {margin:0 0 20px 0; border-bottom:2px solid #333; padding-bottom:20px;}
 .step h2 {display:inline;}
 .step-sbs {display:flex; gap:20px; white-space:wrap; margin-top:10px; align-items:center;}

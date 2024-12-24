@@ -8,7 +8,7 @@ thumbnail: /assets/content/lemontron-printing-a-lemon.jpg
 After a year of development, the affordable 3d printer for Australians is finally here, with a build plate that's upside
 down, an ultra thin motion system mounted real low, and the flattest tool head you'll ever find.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/n6l3GvkE4QU" title="Lemontron - Open Source 3D Printer is Ready to Download" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% include youtube-video.html id="n6l3GvkE4QU" %}
 
 The Lemontron and its Fusion 360 CAD is now available for download on MakerWorld.
 
