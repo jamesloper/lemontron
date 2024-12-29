@@ -7,10 +7,7 @@ kofi: true
 ---
 
 These tools are needed to build the Lemontron. You may already have some of them, but if not, you can buy them
-through these Amazon affiliate links! Building this printer has been a fun experience, but costly for me, so please
-also consider supporting me on Patreon.
-
-{% include patreon.html %}
+through these Amazon affiliate links!
 
 ## Screw Drivers
 
@@ -18,7 +15,7 @@ The Lemontron benefits from deep integration and thus only M3 (2mm Hex Bit) and 
 recommend having a dedicated high quality M3 screwdriver, plus a bit for your drill. Add a countersink bit to clean up
 the printed countersinks and to add countersinks to the probe.
 
-<ul class="tool-links">
+<div class="bom-list">
 {% include tool-item.html
 title = "Drill"
 amazon = "B003BEE2LU"
@@ -44,7 +41,7 @@ title = "Countersink"
 amazon = "B00LLGSZGS"
 image = "https://m.media-amazon.com/images/I/51H9zNxZ0kL._AC_SL1050_.jpg"
 %}
-</ul>
+</div>
 
 ## 3D Printing Tools
 
@@ -52,7 +49,7 @@ You will need a modern, enclosed 3D printer to print the Lemontron parts. 240 gr
 sandpaper for honing bottom surfaces. Razors for scraping. A craft knife for tidying blemishes. Supa glue for the
 Lemonstruder parts (the "liquid" one not the thick one). And tape for holding down the pesky wires.
 
-<ul class="tool-links">
+<div class="bom-list">
 {% include tool-item.html
 title = "Sandpaper"
 amazon = "B0CZN757XQ"
@@ -78,14 +75,14 @@ title = "Tape"
 amazon = "B07CB6F1BB"
 image = "https://m.media-amazon.com/images/I/81uQsI8mtuL._AC_SL1500_.jpg"
 %}
-</ul>
+</div>
 
 ## Electrical Tools
 
 A soldering iron is needed for soldering the edge connector and other wires. For the
 motors, you'll need some wire cutters and a crimper. You may try your luck with a soldering iron.
 
-<ul class="tool-links">
+<div class="bom-list">
 {% include tool-item.html
 title = "Crimper"
 amazon = "B078WPT5M1"
@@ -101,14 +98,14 @@ title = "Soldering Iron"
 amazon = "B096X6SG13"
 image = "/assets/content/pinecil.jpg"
 %}
-</ul>
+</div>
 
 ## Trimming Tools
 
 The motor shafts and X-Axis rail must be shortened. A Dremel with a cutoff wheel is recommended. Flush cutters are also
 required, but 3d printers tend to come with those.
 
-<ul class="tool-links">
+<div class="bom-list">
 {% include tool-item.html
 title = "Dremel"
 amazon = "B0D2D28FSV"
@@ -119,4 +116,4 @@ title = "Flush Cutter"
 amazon = "B00FZPDG1K"
 image = "https://m.media-amazon.com/images/I/41W4+oUpeNL._SX522_.jpg"
 %}
-</ul>
+</div>

@@ -1,6 +1,18 @@
-<a class="image" href="https://www.amazon.com/dp/{{include.amazon}}?&tag=lemontron-20" target="_blank">
-    <img src="{{include.image}}" alt="{{include.title}}"/>
-    {% if include.title %}
-    <div class="image-caption">{{include.title}}</div>
-    {% endif %}
+{%-capture link -%}https://www.amazon.com/dp/{{include.amazon}}?&tag=lemontron-20{%-endcapture-%}
+
+<a class="bom-item frame" href="{{link}}" target="_blank">
+    <div class="bom-top">
+        <img class="bom-image" src="{{include.image}}" alt="{{include.title}}"/>
+    </div>
+    <div class="bom-body">
+        <div class="bom-link">
+            <div class="bom-name">{{include.title}}</div>
+        </div>
+        <div class="bom-right">
+            <span class="buy" href="{{link.url}}" target="_blank">
+                <i class="material-icons">shopping_cart</i>
+                Amazon
+            </span>
+        </div>
+    </div>
 </a>

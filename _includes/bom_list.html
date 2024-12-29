@@ -1,24 +1,25 @@
 <div class="bom-list">
     {% for bom in include.items %}
     {% assign link = bom.links | first %}
-    <div class="bom-item">
-        <div class="bom-image image">
-            <img src="/assets/bom/{{bom.url | split: '/' | last}}.png"/>
-        </div>
-        <div class="bom-body">
-            <div>
-                <div>
-                    <a href="{{bom.url | relative_url}}">{{bom.title}}</a>
-                    <span class="bom-qty"> × {{bom.qty}}</span>
-                    {% if bom.new %}
-                    <span class="badge new"><i class="material-icons">grade</i> New</span>
-                    {% endif %}
-                    {% if bom.modification %}
-                    <span class="badge mod"><i class="material-icons">carpenter</i> Mod</span>
-                    {% endif %}
-                </div>
-                <div class="description">{{bom.description}}</div>
+    <div class="bom-item frame">
+        <a href="{{bom.url | relative_url}}" class="bom-top">
+            <img class="bom-image" src="/assets/bom/{{bom.url | split: '/' | last}}.png"/>
+            <div class="bom-badges">
+                {% if bom.new %}
+                <span class="badge new"><i class="material-icons">grade</i> New</span>
+                {% endif %}
+                {% if bom.modification %}
+                <span class="badge mod"><i class="material-icons">carpenter</i> Mod</span>
+                {% endif %}
             </div>
+            {%- if bom.qty > 1 -%}
+            <span class="bom-qty"> × {{bom.qty}}</span>
+            {%- endif -%}
+        </a>
+        <div class="bom-body">
+            <a class="bom-link" href="{{bom.url | relative_url}}">
+                <div class="bom-name">{{bom.title}}</div>
+            </a>
             <div class="bom-right">
                 <span>${{bom.total}}</span><br/>
                 <a class="buy" href="{{link.url}}" target="_blank">

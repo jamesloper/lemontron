@@ -39,7 +39,7 @@ kofi: true
 {%- assign electronics = bom_required | where: "category", "Electronics" -%}
 {% include bom_list.html items = electronics %}
 
-<h2>Optional</h2>
+<h2>Optional Upgrades</h2>
 {%- assign bom_optional = bom_sorted | where: "optional", true -%}
 {% include bom_list.html items = bom_optional %}
 

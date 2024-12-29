@@ -6,9 +6,11 @@ category: Assembly
 kofi: true
 ---
 
-The Lemontron plastic parts can be printed on most enclosed printers such as Bambulab X1C. Right now, not many
-Lemontrons have been created. You should post your settings and materials and the advantages to the Lemontron thread in
-the Voxolite Discord so that they can become official recommendations.
+{% include tip.html tip="Right now, not many Lemontrons have been created. You should post your settings and materials and the advantages to the Lemontron thread in
+the Voxolite Discord so that they can become official recommendations." %}
+
+The Lemontron plastic parts can be printed on most enclosed printers such as Bambulab X1C. At minimum, you can print a
+lemontron from one roll of PLA and one roll of ABS. Continue reading to see the ideal materials.
 
 {% include button.html title="Download Printed Parts" link="https://makerworld.com/en/models/908050" %}
 
@@ -16,14 +18,14 @@ the Voxolite Discord so that they can become official recommendations.
 
 Here is everything you need to know about slicing the Lemontron parts:
 
-1. Lemontron is fully designed for FDM and does not require supports.
-2. To ensure dimensional accuracy, a **0.2mm layer height** and a **0.4mm nozzle** is recommended.
+1. Lemontron is designed for FDM and does not require supports.
+2. To ensure dimensional accuracy, please use a **0.2mm layer height** and a **0.4mm nozzle**.
 3. To avoid infill on 1mm thick vertical features like the top plates, ensure your are using 5 top layers and 5 bottom
    layers.
-4. For an insanely buffed printer, use **50% Grid Infill** and **8 Perimeters**, and dial back according to your preference.
-5. Using my settings will use 800-1000g of filament.
-
-🔔 **Don't forget to scale ABS parts to ~100.5%!** 🔔
+4. For an insanely buffed printer, use **50% Grid Infill** and **8 Perimeters**, and dial back according to your
+   preference.
+5. Using my settings will use 800-1000g of filament. 
+6. 🔔 **Don't forget to scale ABS parts to ~100.5%!** 🔔
 
 ## Chassis Inventory
 
@@ -40,8 +42,8 @@ other_material="PLA"
 {% include inventory-item.html
 title="Unibody Chassis"
 id="chassis"
-description="You can print this in PLA, but ABS would be stronger. I would recommend PLA because its faster and when
-you inevitably print new future Lemontron versions, you'd be wasting ABS."
+description="The chassis should be made from a stiff material, and it does not experience savage heat. Therefore I would
+recommend PLA."
 preferred_material="PLA"
 other_material="PLA"
 %}
@@ -49,7 +51,7 @@ other_material="PLA"
 {% include inventory-item.html
 title="Mid Plates"
 id="mid-plates"
-description="These serve as the motor mounts and thus a high temp material is required."
+description="high temp material is required because these serve as the motor mounts."
 preferred_material="ABS"
 other_material="ABS"
 %}
@@ -60,15 +62,14 @@ id="tensioner"
 description="The tensioner experiences some torsion, so I like to print it in CF-PET, but it probably doesn't
 matter."
 preferred_material="CF-PET"
-other_material="ABS"
+other_material="PLA"
 %}
 
 {% include inventory-item.html
 title="Lemonstruder"
 id="lemonstruder"
 description="This part experiences compression from the spring, so CF-PET is a good choice. It's
-also extremely small, so the excellent dimensional accuracy of CF-PET is good here. This could also be printed in
-resin."
+also extremely small, so the excellent dimensional accuracy of CF-PET is good."
 preferred_material="CF-PET"
 other_material="PLA"
 %}

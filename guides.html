@@ -6,28 +6,28 @@ kofi: true
 ---
 
 {% include tip.html
-title="Open Source is fundamentally GOOD!"
-tip="What else is GOOD...is supporting Open Source projects! You support me, I support
-other creators and the cycle of kindness continues. You can always freeload a download, but consider that a
-little vote against Open Source."
+title="I Support Other Creators"
+tip="If you support me, the cycle of kindness continues. Please consider supporting this project on Patreon!"
 icon="volunteer_activism"
 shimmer=true
 %}
+
+<p>
+    All screws are M3 unless otherwise stated.
+</p>
 
 <ol class="steps">
     {%- capture download_step -%}
     {% include button.html
     title = "Download Lemontron"
-    link = "https://makerworld.com/en/@lemontron"
-    %}
+    link = "https://makerworld.com/en/@lemontron" %}
     The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <a href="/lemontron/printed-parts/">Printed
     Parts</a> page for more very important information.
     {%- endcapture -%}
     {% include step.html
     title = "Print the parts"
     image = "print-the-parts.jpg"
-    content = download_step
-    %}
+    content = download_step %}
 
     {%- capture order_parts_step -%}
     Refer to the <a href="/lemontron/bom/">BOM</a> to purchase the parts. Maybe I can sell a kit one day.
@@ -35,112 +35,189 @@ shimmer=true
     {% include step.html
     title = "Order the other parts"
     image = "print-the-parts.jpg"
-    content = order_parts_step
-    %}
+    content = order_parts_step %}
 
     {% include step.html
     title = "Insert the screws"
     image = "bed-holder-insert-screws-1.jpg"
-    content = "Drop two 40mm countersinks into the holes"
-    %}
+    content = "Drop two 40mm countersinks into the holes" %}
 
     {% include step.html
     title = "Scrape the mating surface flat"
     image = "bed-holder-scrape.jpg"
     content = "Using a blade, lightly scrape the surface. This will remove any gaps and make the parts fit together
-    beautifully."
-    %}
+    beautifully." %}
 
     {% include step.html
     title = "Screw in the spine"
     image = "bed-holder-screw-spine.jpg"
-    content = "Secure it with 5 16mm countersinks."
-    %}
+    content = "Secure it with 5 16mm countersinks." %}
 
     {% include step.html
     title = "Install the posts"
     image = "bed-holder-posts.jpg"
     content = "Insert a 12mm washer, a bearing, another washer, a spring that's been cut in half, and constrained by a
-    nut."
-    %}
+    nut." %}
 
     {% include tip.html tip="Follow the old machinists tapping tip which is to drive the screw in, back it out, and
     drive it in some more, over and over. This is the only way you'll be able to reuse the plastic threads next time you
     disassemble it." %}
 
     {% include step.html
-    title = "Fasten the nut to the bracket"
-    image = "test.jpg"
-    content = "If your nut is countersunk, use countersunk screws. If not, you can countersink it, or use button head
-    screws. It makes no difference."
+    title = "Gather Z-Axis parts"
+    image = "z-axis-parts.jpg"
+    content = "Gather the Z-Axis (Printed), Bracket (Printed), MGW9C Linear Rail, Several 6mm Countersunk Screws, 2 x
+    25mm Countersunk Screws, M5 Shims, M5 Bearings, Lead screw & Nut, Drive Pulley, and Belt." %}
+
+    {% include step.html
+    title = "Insert the bearings"
+    image = "z-axis-insert-bearings.jpg"
+    content = "Insert the two bearings into the bottom seats. Optionally, insert an additional bearing in the top seat."
     %}
 
     {% include step.html
-    title = "Install the bearings"
-    image = "test.jpg"
-    content = "Drop in the bearings into the three seats."
-    %}
+    title = "Insert the lead screw"
+    image = "z-axis-lead-screw.jpg"
+    content = "Insert the lead screw through so that it just pokes through the bottom bearing." %}
 
     {% include step.html
-    title = "Install the lead screw"
-    image = "test.jpg"
-    content = "Push in the lead screw so that it just peeks through the bearing, drop on the first M5 shim, then the
-    pulley with belt preinstalled, and then carefully add the other m5
-    shim, using another m5 shim to push it into place"
-    %}
+    title = "Drop in the first shim"
+    image = "z-axis-first-shim.jpg"
+    content = "Drop in the first shim. This shim allows the bearing to turn while pressing against the drive pulley." %}
 
     {% include step.html
-    title = "Install the lead screw part 2"
-    image = "test.jpg"
-    content = "Spin the lead screw into the nut and secure the grub screws on the pulley."
-    %}
+    title = "Drop in the drive pulley"
+    image = "z-axis-drive-pulley.jpg"
+    content = "Drop in the drive pulley with the belt pre-installed. Advance the lead screw flush with the top of the
+    pulley." %}
+
+    {% include step.html
+    title = "Fish in the second shim"
+    image = "z-axis-second-shim.jpg"
+    content = "Use something thin to fish in the second shim. Push the lead screw all the way through." %}
+
+    {% include step.html
+    title = "Add the bracket"
+    image = "z-axis-add-bracket.jpg"
+    content = "After securing the nut to the bracket, install the bracket onto the lead screw." %}
+
+    {% include tip.html
+    title="Manufacturer's Differences"
+    tip="If your nut is countersunk, use countersunk screws. If not, you can countersink it, or use button head screws.
+    It makes no difference." %}
+
+    {% include step.html
+    title = "Cut the lead screw"
+    image = "z-axis-tighten-grub-screws.jpg"
+    content = "Align the lead screw's top with the top of the bearing seat and CUT the bottom off." %}
+
+    {% include step.html
+    title = "Tighten grub screws"
+    image = "z-axis-tighten-grub-screws.jpg"
+    content = "Tighten the grub screws." %}
 
     {% include step.html
     title = "Install the rail"
-    image = "test.jpg"
-    content = "Lay down the rail and maybe tap it in, and secure it with 6mm countersinks."
-    %}
+    image = "z-axis-install-rail.jpg"
+    content = "Lay down the rail, give it a few love taps, and secure it with 6mm countersinks." %}
 
     {% include step.html
-    title = "Solder edge connector wire"
-    image = "test.jpg"
-    content = "Not much soldering in this printer. But let's solder a wire now- grab roughly 50mm of 2 power wires and 2
-    signal wires. I like to twist them, solder, and
-    then clip the excess. We need to cut the signal wires to 42cm and the power wires should be 44cm."
-    %}
+    title = "Gather edge connector parts"
+    image = "z-axis-edge-connector.jpg"
+    content = "Cut approximately 50cm of silicone power wire and signal wires." %}
 
     {% include step.html
-    title = "Braided sleeve the wires"
-    image = "test.jpg"
-    content = "Add 32mm of braided wire sleeve before crimping on a connector for the signal wires."
-    %}
+    title = "Solder the power wires"
+    image = "z-axis-edge-connector-power-wires.jpg"
+    content = "Fan out the wire strands, and use the wire to bridge the two conductors as shown. Twist the end. Solder.
+    Trim the excess." %}
 
     {% include step.html
-    title = "Crimp the thermister wires"
-    image = "test.jpg"
-    content = "Crimp the thermister wires to the connector."
-    %}
+    title = "Solder the signal wires"
+    image = "z-axis-edge-connector-signal-wires.jpg"
+    content = "Solder two thin gauge signal wires to the two middle conductors." %}
 
     {% include step.html
-    title = "Slide in the edge connector wire"
-    image = "test.jpg"
-    content = "Break off the built-in support and slide in that edge connector to the bracket, and fix the bracket to
-    the
-    carriage with two 25mm countersinks."
-    %}
+    title = "Sleeve the wires"
+    image = "z-axis-edge-connector-sleeve.jpg"
+    content = "Cut the wire sleeve to 32cm and finesse it onto the wires." %}
 
     {% include step.html
-    title = "Assemble the Lemonstruder"
-    image = "test.jpg"
-    content = "For this I like to Then I'll drop in the Yellow spring, the yellow actually isn't for a lemon theme, it
-    signifies a certain springiness characteristic so don't go putting in a brown spring or whatever."
-    %}
+    title = "Cut the wires"
+    image = "z-axis-edge-connector-cut-wires.jpg"
+    content = "Cut the power wire to 44cm and the signal wires to 42cm." %}
 
     {% include step.html
-    title = "Install the Lemonstruder"
-    image = "test.jpg"
-    content = "Then let's stick the Lemonstruder into its slot and now the top plate is looking real good."
+    title = "Tin the power wires"
+    image = "z-axis-edge-connector-strip-power-wires.jpg"
+    content = "Strip 5mm of insulation from the power wires and tin them." %}
+
+    {% include tip.html
+    title="Note for the armchair experts who cry about ferrules"
+    tip="If I hear one more idiotic comment about your stupid ferrules, I will find a tiny ferrule
+    for your tiny benis and clamp it so hard that you'll wish I would use the iron instead." %}
+
+    {% include step.html
+    title = "Crimp signal wires"
+    image = "z-axis-edge-connector-crimp-signal-wires.jpg"
+    content = "Crimp the two signal wires." %}
+
+    {% include step.html
+    title = "Insert connector"
+    image = "z-axis-edge-connector-insert-connector.jpg"
+    content = "Insert the two crimped signal wires into the JST connector. Polarity does not matter." %}
+
+    {% include step.html
+    title = "Slide in edge connector wire"
+    image = "z-axis-install-edge-connector.jpg"
+    content = "Slide the wires in through the slot in the bracket and press the edge connector into place." %}
+
+    {% include step.html
+    title = "Tighten bracket"
+    image = "z-axis-tighten-bracket.jpg"
+    content = "Tighten the bracket on to the carriage with two 25mm countersunk screws." %}
+
+    {% include step.html
+    title = "Gather Lemonstruder parts"
+    image = "lemonstruder-parts.jpg"
+    content = "Top & bottom halfs (Printed), super glue, yellow spring, 6mm countersunk screw, small bearing, 2 M3 shims
+    (Off frame, sorry)" %}
+
+    {% include step.html
+    title = "Glue halves together"
+    image = "lemonstruder-glue.jpg"
+    content = "Dap two tiny dots of super glue as pictured." %}
+
+    {% include step.html
+    title = "Insert the first shim"
+    image = "lemonstruder-first-shim.jpg"
+    content = "Insert the first shim, using a small screw to help guide it in. This shim will allow the bearing to
+    rotate against the plastic housing." %}
+
+    {% include step.html
+    title = "Insert the bearing"
+    image = "lemonstruder-bearing.jpg"
+    content = "Insert the bearing on top of the shim." %}
+
+    {% include step.html
+    title = "Insert the second shim"
+    image = "lemonstruder-second-shim.jpg"
+    content = "Using tweezers, insert the second shim between the bearing and the plastic housing." %}
+
+    {% include step.html
+    title = "Insert the screw"
+    image = "lemonstruder-insert-screw.jpg"
+    content = "Insert the screw, pushing out the small screw. This screw is designed to not fit completely flush." %}
+
+
+    {% include tip.html
+    title="You've reached the end!!!@"
+    tip="This is as far as i've written. I'm writing the rest now. Please consider supporting this project on Patreon! The rest of this web page is draft junk ⬇️️️ ⬇️️️ ⬇️️️ ⬇️️️"
+    icon="volunteer_activism"
     %}
+
+    <!-- DRAFTS! -->
+
 
     {% include step.html
     title = "Crimp the motor wires"
@@ -148,32 +225,6 @@ shimmer=true
     content = "Now we're gonna crimp all these motors. You need to crimp well, so feel free to copy my method. We need
     one motor with each of these lengths of wires. 10cm, 15cm, 15 again, and 23 cm."
     %}
-
-    <div class="tip-container">
-        <div class="tip">
-            <h2 class="tip-title">How to crimp gooooood</h2>
-            <div class="tip-content">
-                <p>
-                    I personally roll with solder gang but crimps are still the goat in some situations. You need to
-                    crimp
-                    well, so here are my tips...
-                </p>
-                <ul class="tip-content">
-                    <li><b>Disable the ratchet!</b> Feel the JST connector succumb to your power.</li>
-                    <li><b>A crimp must BEGIN well to end well</b>. You can just start squeezing the JST and get a feel
-                        for it. If it
-                        buckles, it's a DUD...abort!
-                    </li>
-                    <li><b>Precision is key:</b> Expose just the tip of the wire, just 1mm for this tiny connector.</li>
-                    <li>Insert the wire by feel primarily but LOOK AT IT WITH YOUR EYES TOO.</li>
-                    <li><b>Don't practice on the motors!</b> You need to just get a feel for it and then you'll be a pro
-                        crimper.
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <i class="material-icons tip-icon">construction</i>
-    </div>
 
 
     {% include step.html
@@ -378,6 +429,33 @@ shimmer=true
     content = calibration_step
     %}
 </ol>
+
+
+<div class="tip-container frame">
+    <div class="tip">
+        <h2 class="tip-title">How to crimp gooooood</h2>
+        <div class="tip-content">
+            <p>
+                I personally roll with solder gang but crimps are still the goat in some situations. You need to
+                crimp
+                well, so here are my tips...
+            </p>
+            <ul class="tip-content">
+                <li><b>Disable the ratchet!</b> Feel the JST connector succumb to your power.</li>
+                <li><b>A crimp must BEGIN well to end well</b>. You can just start squeezing the JST and get a feel
+                    for it. If it
+                    buckles, it's a DUD...abort!
+                </li>
+                <li><b>Precision is key:</b> Expose just the tip of the wire, just 1mm for this tiny connector.</li>
+                <li>Insert the wire by feel primarily but LOOK AT IT WITH YOUR EYES TOO.</li>
+                <li><b>Don't practice on the motors!</b> You need to just get a feel for it and then you'll be a pro
+                    crimper.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <i class="material-icons tip-icon">construction</i>
+</div>
 
 
 <h2>Hardware Assemblies</h2>

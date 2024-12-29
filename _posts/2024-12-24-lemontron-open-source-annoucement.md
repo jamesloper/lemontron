@@ -10,11 +10,8 @@ down, an ultra thin motion system mounted real low, and the flattest tool head y
 
 {% include youtube-video.html id="n6l3GvkE4QU" %}
 
-The Lemontron and its Fusion 360 CAD is now available for download on MakerWorld.
-
-{% include button.html title="Download on MakerWorld" link="https://makerworld.com/en/models/908050" %}
-
-I'm working on the [build guide](/lemontron/), but in the mean time feel free to poke around the site, there is a lot to explore!
+I'm working on the [build guide](/lemontron/), but in the mean time feel free to poke around the site, there is a lot to
+explore! The Lemontron and its Fusion 360 CAD is now available for download.
 
 Please consider supporting the project on KoFi or Patreon! 🍋
 

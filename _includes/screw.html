@@ -17,10 +17,10 @@
 {%- assign scale = include.thread | remove_first: "M" | divided_by: 3 -%}
 
 <div class="screw">
-    <div class="screw-type">{{include.thread}}</div>
     <div class="icon-screw" style="width:{{px}}px" data-nominal="{{include.length}}" data-overall="{{length}}">
         <img src="/assets/icons/{{screw.type}}.svg" alt="{{screw.type}}" style="transform:scale({{scale}});">
     </div>
+    <div class="screw-type">{{include.thread}}</div>
     <div class="screw-length">{{include.length}}mm</div>
 </div>
 

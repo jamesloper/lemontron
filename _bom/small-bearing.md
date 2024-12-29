@@ -1,7 +1,7 @@
 ---
 layout: bom
 title: Small Bearing
-qty: 1
+qty: 3
 orders: 1
 total: 2.32
 description: 683ZZ
