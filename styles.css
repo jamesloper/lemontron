@@ -390,6 +390,8 @@ i.icon-open-in-new {opacity:.5; font-size:16px;}
 .step-sbs > div {flex:1;}
 .step::before {content:"Step " counter(item); counter-increment:item; font-size:12px;}
 .step-left img {aspect-ratio:16 / 9; width:480px; flex-shrink:0;}
+.step-optional {position:absolute; left:0; top:0; bottom:0; display:flex; align-items:center; flex-direction:column; justify-content:center; width:20px; font-size:10px; transform:rotate(180deg); pointer-events:none;}
+.step-optional b {display:block; transform:rotate(135deg); margin:-1px 0;}
 
 /* BOM */
 .bom-list {margin-bottom:20px; display:grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap:20px;}

@@ -2,6 +2,18 @@
     <h2>{{include.title}}</h2>
     <div class="step-sbs">
         <div class="step-left frame">
+            {%- if include.optional -%}
+            <div class="step-optional">
+                <b>O</b>
+                <b>P</b>
+                <b>T</b>
+                <b>I</b>
+                <b>O</b>
+                <b>N</b>
+                <b>A</b>
+                <b>L</b>
+            </div>
+            {%- endif -%}
             <img src="/assets/guide/{{include.image}}" alt="{{include.alt}}">
         </div>
         <div class="step-right">
