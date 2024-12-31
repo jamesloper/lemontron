@@ -16,48 +16,47 @@ shimmer=true
     All screws are M3 unless otherwise stated.
 </p>
 
-<ol class="steps">
-    {%- capture download_step -%}
-    {% include button.html
-    title = "Download Lemontron"
-    link = "https://makerworld.com/en/@lemontron" %}
-    The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <a href="/lemontron/printed-parts/">Printed
+
+{%- capture download_step -%}
+{% include button.html
+title = "Download Lemontron"
+link = "https://makerworld.com/en/@lemontron" %}
+The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <a href="/lemontron/printed-parts/">Printed
     Parts</a> page for more very important information.
-    {%- endcapture -%}
+{%- endcapture -%}
+
+<ol class="steps">
     {% include step.html
     title = "Print the parts"
-    image = "print-the-parts.jpg"
+    image = "intro---print-the-parts.jpg"
     content = download_step %}
 
-    {%- capture order_parts_step -%}
-    Refer to the <a href="/lemontron/bom/">BOM</a> to purchase the parts. Maybe I can sell a kit one day.
-    {%- endcapture -%}
     {% include step.html
     title = "Order the other parts"
-    image = "print-the-parts.jpg"
-    content = order_parts_step %}
+    image = "intro---print-the-parts.jpg"
+    content = "Refer to the <a href='/lemontron/bom/'>BOM</a> to purchase the parts." %}
 
     {% include step.html
     title = "Insert the screws"
-    image = "bed-holder-insert-screws-1.jpg"
+    image = "bed-holder---insert-screws.jpg"
     content = "Drop two 40mm countersinks into the holes" %}
 
     {% include step.html
     title = "Scrape the mating surface flat"
-    image = "bed-holder-scrape.jpg"
+    image = "bed-holder---scrape.jpg"
     content = "Using a blade, lightly scrape the surface. This will remove any gaps and make the parts fit together
     beautifully." %}
 
     {% include step.html
     title = "Screw in the spine"
-    image = "bed-holder-screw-spine.jpg"
+    image = "bed-holder---attach-spine.jpg"
     content = "Secure it with 5 16mm countersinks." %}
 
     {% include step.html
     title = "Install the posts"
-    image = "bed-holder-posts.jpg"
-    content = "Insert a 12mm washer, a bearing, another washer, a spring that's been cut in half, and constrained by a
-    nut." %}
+    image = "bed-holder---posts.jpg"
+    content = "Onto a 20mm button head, drop a 12mm washer, small bearing, another washer, a spring that's been cut in
+    half, and a nut." %}
 
     {% include tip.html tip="Follow the old machinists tapping tip which is to drive the screw in, back it out, and
     drive it in some more, over and over. This is the only way you'll be able to reuse the plastic threads next time you
@@ -65,40 +64,40 @@ shimmer=true
 
     {% include step.html
     title = "Gather Z-Axis parts"
-    image = "z-axis-parts.jpg"
+    image = "z-axis---parts.jpg"
     content = "Gather the Z-Axis (Printed), Bracket (Printed), MGW9C Linear Rail, Several 6mm Countersunk Screws, 2 x
     25mm Countersunk Screws, M5 Shims, M5 Bearings, Lead screw & Nut, Drive Pulley, and Belt." %}
 
     {% include step.html
     title = "Insert the bearings"
-    image = "z-axis-insert-bearings.jpg"
+    image = "z-axis---insert-bearings.jpg"
     content = "Insert the two bearings into the bottom seats. Optionally, insert an additional bearing in the top seat."
     %}
 
     {% include step.html
     title = "Insert the lead screw"
-    image = "z-axis-lead-screw.jpg"
+    image = "z-axis---lead-screw.jpg"
     content = "Insert the lead screw through so that it just pokes through the bottom bearing." %}
 
     {% include step.html
     title = "Drop in the first shim"
-    image = "z-axis-first-shim.jpg"
+    image = "z-axis---first-shim.jpg"
     content = "Drop in the first shim. This shim allows the bearing to turn while pressing against the drive pulley." %}
 
     {% include step.html
     title = "Drop in the drive pulley"
-    image = "z-axis-drive-pulley.jpg"
+    image = "z-axis---drive-pulley.jpg"
     content = "Drop in the drive pulley with the belt pre-installed. Advance the lead screw flush with the top of the
     pulley." %}
 
     {% include step.html
     title = "Fish in the second shim"
-    image = "z-axis-second-shim.jpg"
+    image = "z-axis---second-shim.jpg"
     content = "Use something thin to fish in the second shim. Push the lead screw all the way through." %}
 
     {% include step.html
     title = "Add the bracket"
-    image = "z-axis-add-bracket.jpg"
+    image = "z-axis---add-bracket.jpg"
     content = "After securing the nut to the bracket, install the bracket onto the lead screw." %}
 
     {% include tip.html
@@ -108,48 +107,48 @@ shimmer=true
 
     {% include step.html
     title = "Cut the lead screw"
-    image = "z-axis-tighten-grub-screws.jpg"
+    image = "z-axis---tighten-grub-screws.jpg"
     content = "Align the lead screw's top with the top of the bearing seat and CUT the bottom off." %}
 
     {% include step.html
     title = "Tighten grub screws"
-    image = "z-axis-tighten-grub-screws.jpg"
+    image = "z-axis---tighten-grub-screws.jpg"
     content = "Tighten the grub screws." %}
 
     {% include step.html
     title = "Install the rail"
-    image = "z-axis-install-rail.jpg"
+    image = "z-axis---install-rail.jpg"
     content = "Lay down the rail, give it a few love taps, and secure it with 6mm countersinks." %}
 
     {% include step.html
     title = "Gather edge connector parts"
-    image = "z-axis-edge-connector.jpg"
+    image = "z-axis---edge-connector.jpg"
     content = "Cut approximately 50cm of silicone power wire and signal wires." %}
 
     {% include step.html
     title = "Solder the power wires"
-    image = "z-axis-edge-connector-power-wires.jpg"
+    image = "z-axis---edge-connector---power-wires.jpg"
     content = "Fan out the wire strands, and use the wire to bridge the two conductors as shown. Twist the end. Solder.
     Trim the excess." %}
 
     {% include step.html
     title = "Solder the signal wires"
-    image = "z-axis-edge-connector-signal-wires.jpg"
+    image = "z-axis---edge-connector---signal-wires.jpg"
     content = "Solder two thin gauge signal wires to the two middle conductors." %}
 
     {% include step.html
     title = "Sleeve the wires"
-    image = "z-axis-edge-connector-sleeve.jpg"
+    image = "z-axis---edge-connector---sleeve.jpg"
     content = "Cut the wire sleeve to 32cm and finesse it onto the wires." %}
 
     {% include step.html
     title = "Cut the wires"
-    image = "z-axis-edge-connector-cut-wires.jpg"
+    image = "z-axis---edge-connector---cut-wires.jpg"
     content = "Cut the power wire to 44cm and the signal wires to 42cm." %}
 
     {% include step.html
     title = "Tin the power wires"
-    image = "z-axis-edge-connector-strip-power-wires.jpg"
+    image = "z-axis---edge-connector---strip-power-wires.jpg"
     content = "Strip 5mm of insulation from the power wires and tin them." %}
 
     {% include tip.html
@@ -159,293 +158,350 @@ shimmer=true
 
     {% include step.html
     title = "Crimp signal wires"
-    image = "z-axis-edge-connector-crimp-signal-wires.jpg"
+    image = "z-axis---edge-connector---crimp-signal-wires.jpg"
     content = "Crimp the two signal wires. Learn how to crimp goooood <a href='/news/how-to-crimp'>here</a>." %}
 
     {% include step.html
     title = "Insert connector"
-    image = "z-axis-edge-connector-insert-connector.jpg"
+    image = "z-axis---edge-connector---insert-connector.jpg"
     content = "Insert the two crimped signal wires into the JST connector. Polarity does not matter." %}
 
     {% include step.html
     title = "Slide in edge connector wire"
-    image = "z-axis-install-edge-connector.jpg"
+    image = "z-axis---install-edge-connector.jpg"
     content = "Slide the wires in through the slot in the bracket and press the edge connector into place." %}
 
     {% include step.html
     title = "Tighten bracket"
-    image = "z-axis-tighten-bracket.jpg"
+    image = "z-axis---tighten-bracket.jpg"
     content = "Tighten the bracket on to the carriage with two 25mm countersunk screws." %}
 
     {% include step.html
     title = "Gather Lemonstruder parts"
-    image = "lemonstruder-parts.jpg"
+    image = "lemonstruder---parts.jpg"
     content = "Top & bottom halfs (Printed), super glue, yellow spring, 6mm countersunk screw, small bearing, 2 M3 shims
     (Off frame, sorry)" %}
 
     {% include step.html
     title = "Glue halves together"
-    image = "lemonstruder-glue.jpg"
+    image = "lemonstruder---glue.jpg"
     content = "Dap two tiny dots of super glue as pictured." %}
 
     {% include step.html
     title = "Insert the first shim"
-    image = "lemonstruder-first-shim.jpg"
+    image = "lemonstruder---first-shim.jpg"
     content = "Insert the first shim, using a small screw to help guide it in. This shim will allow the bearing to
     rotate against the plastic housing." %}
 
     {% include step.html
     title = "Insert the bearing"
-    image = "lemonstruder-bearing.jpg"
+    image = "lemonstruder---bearing.jpg"
     content = "Insert the bearing on top of the shim." %}
 
     {% include step.html
     title = "Insert the second shim"
-    image = "lemonstruder-second-shim.jpg"
+    image = "lemonstruder---second-shim.jpg"
     content = "Using tweezers, insert the second shim between the bearing and the plastic housing." %}
 
     {% include step.html
     title = "Insert the screw"
-    image = "lemonstruder-insert-screw.jpg"
+    image = "lemonstruder---insert-screw.jpg"
     content = "Insert the screw, pushing out the small screw. This screw is designed to not fit completely flush." %}
 
     {% include step.html
     title = "Insert the spring"
-    image = "lemonstruder-insert-spring.jpg"
+    image = "lemonstruder---insert-spring.jpg"
     content = "Insert the unmodified yellow boinger." %}
 
     {% include step.html
     title = "Insert the Lemonstruder"
-    image = "lemonstruder-finished.jpg"
+    image = "lemonstruder---finished.jpg"
     content = "Insert the Lemonstruder into the left top plate." %}
 
     {% include step.html
     title = "Cut motor wires"
-    image = "motors-cut-wires.jpg"
+    image = "motors---cut-wires.jpg"
     content = "Cut the motor wires to the lengths 15cm, 15cm, 10cm, 23cm." %}
 
     {% include step.html
     title = "Crimp motor wires"
-    image = "motors-crimping.jpg"
+    image = "motors---crimping.jpg"
     content = "Crimp every motor wire." %}
 
     {% include step.html
     title = "Insert the crimps into the connector"
-    image = "motors-connector.jpg"
+    image = "motors---connector.jpg"
     content = "Starting from the triangle mark, go in order of black, green, blue, red." %}
 
     {% include step.html
+    title = "Gather parts for the tool"
+    image = "tool.jpg"
+    content = "Tool body (printed), hotend, small fan, big fan, probe, connectors, crimps, power wires (silicone),
+    signal wires, M2.5 screws, pcb." %}
+
+    {% include step.html
+    title = "Tighten the heat break"
+    image = "hotend.jpg"
+    content = "The heat break is loose from the factory. You need to rebuild the hotend using <a
+        href='/news/how-to-rebuild-positron-hotend'>this guide</a>." %}
+
+
+    {% include step.html
     title = "Modify the part cooling fan"
-    image = "modify-fan.jpg"
+    image = "fan---modify.jpg"
     content = "Completely remove the two mounting tabs and wire retaining clip." %}
 
     {% include step.html
     title = "Push the wires through"
-    image = "tool-insert-wires.jpg"
+    image = "tool---insert-wires.jpg"
     content = "Push the part cooling fan wires through the cavity of the tool head." %}
 
+    {% include step.html
+    title = "Drop in the hotend"
+    image = "tool---insert-hotend.jpg"
+    content = "The hotend will smoosh the wires and keep them in place. Now is a good time to strip the wires." %}
+
+    {% include step.html
+    title = "Fasten the hotend"
+    image = "tool---fasten-hotend.jpg"
+    content = "Use 8mm screws to attach the hotend to the tool body." %}
+
+    {% include step.html
+    title = "Fasten the probe"
+    image = "tool---fasten-probe.jpg"
+    content = "Use 8mm screws to fasten the probe to the tool body." %}
+
+    {% include step.html
+    title = "Insert small fan"
+    image = "tool---insert-small-fan.jpg"
+    content = "Insert the small fan and push it under the ledge so that it's touching the head sink." %}
+
+    {% include step.html
+    title = "Drop in the part cooling fan"
+    image = "tool---seat-part-cooling-fan.jpg"
+    content = "Finish dropping in the cooling fan to lock everything in place." %}
+
+    {% include step.html
+    title = "Tin the pcb"
+    image = "tool---tin-pcb.jpg"
+    content = "Apple some solder to hasten the wire bonding." %}
+
+    {% include step.html
+    title = "Fasten the pcb"
+    image = "tool---fasten-pcb.jpg"
+    content = "Fasten the pcb to the heat sink using 8mm M2.5 screws." %}
+
+    {% include step.html
+    title = "Solder the hotend fan"
+    image = "tool---solder-hotend-fan.jpg"
+    content = "Solder the hotend fan (small fan) to the pads on the pcb." %}
+
+    {% include step.html
+    title = "Solder the part cooling fan"
+    image = "tool---solder-part-cooling-fan.jpg"
+    content = "Solder the part cooling fan (big fan) to the pads on the pcb." %}
+
+    {% include step.html
+    title = "Solder the heater"
+    image = "tool---solder-heater.jpg"
+    content = "Clip and strip the wires at the end of the heat shrink tube. Solder to the pads on the pcb." %}
+
+    {% include step.html
+    title = "Shorten the thermistor spring"
+    image = "tool---shorten-thermistor.jpg"
+    content = "Clip the spring in half." %}
+
+    {% include step.html
+    title = "Solder the thermistor"
+    image = "tool---solder-thermistor.jpg"
+    content = "Clip and strip the wires and solder them to the pads on the pcb." %}
+
+    {% include step.html
+    title = "Plug in & solder the probe"
+    image = "tool---solder-probe-wires.jpg"
+    content = "Plug in the probe and split off one of the grounds (black or brown) and solder it to the pad. You can
+    reuse this wire so don't throw it away." %}
+
+    {% include step.html
+    title = "Solder the heater wire"
+    image = "tool---solder-ext-heater.jpg"
+    content = "Solder the heater wire. Don't solder it as pictured. The pcb is literally labelled, I don't know why I
+    flipped it but I did. I will replace this picture later." %}
+
+    {% include step.html
+    title = "Solder the thermistor wire"
+    image = "tool---solder-ext-thermistor.jpg"
+    content = "Using the leftover wire from the probe, solder the thermistor signal wire." %}
+
+    {% include step.html
+    title = "Solder the fan wires"
+    image = "tool---solder-ext-fan-wires.jpg"
+    content = "Cut two wires roughly to 50cm and solder them to the two fan pads on the pcb." %}
+
+    {% include step.html
+    title = "Wrap the wires"
+    image = "tool---wire-sleeve.jpg"
+    content = "Use 57cm of wire sleeve to wrap the wires." %}
+
+    {% include step.html
+    title = "Insert the clamp"
+    image = "tool---insert-clamp.jpg"
+    content = "Clamp down the wires by pushing in the clamp and securing it with a 10mm M2.5 screw." %}
+
+    {% include step.html
+    title = "Clip the tool wires"
+    image = "tool---clip-wires.jpg"
+    content = "Cut the heater wire and probe wires to 53cm, the rest to 55cm." %}
+
+    {% include step.html
+    title = "Tin the heater wires"
+    image = "tool---tin-heater-wires.jpg"
+    content = "Trim back 5mm off the heater wires and tin the ends." %}
+
+    {% include step.html
+    title = "Crimp the thermistor wire"
+    image = "tool---connector-thermistor.jpg"
+    content = "Crimp the thermistor wire and insert it into the connector side without the marking." %}
+
+    {% include step.html
+    title = "Crimp the hotend fan wire"
+    image = "tool---connector-hotend-fan.jpg"
+    content = "Crimp the hotend fan wire and insert it into the connector side without the marking." %}
+
+    {% include step.html
+    title = "Crimp the part cooling fan wire"
+    image = "tool---connector-part-cooling-fan.jpg"
+    content = "Crimp the part cooling fan wire and insert it into the connector side without the marking." %}
+
+    {% include step.html
+    title = "Crimp the probe sensor wires"
+    image = "tool---connector-probe-sensor.jpg"
+    content = "Crimp the probe sensor wires and insert them into position 2 & 3 as shown." %}
+
+    {% include step.html
+    title = "Crimp the probe servo wires"
+    image = "tool---connector-probe-servo.jpg"
+    content = "Crimp the probe servo wires and insert them as shown; black on the marking, white on the other position."
+    %}
+
+
+    {% include step.html
+    title = "Gather the chassis parts"
+    image = "chassis.jpg"
+    content = "This is the rest of the parts! Draw the rest of the horse!" %}
+
+    {% include step.html
+    title = "Insert the heat set inserts"
+    image = "chassis---threaded-inserts.jpg"
+    content = "Insert the 8 inserts in the holes using a soldering iron or heat set insert tool. These 10mm long
+    threaded inserts are super strong." %}
+
+    {% include step.html
+    title = "Clean up the inserts"
+    image = "chassis---clean-up-inserts.jpg"
+    content = "I used 5mm wide inserts here so I got the blobs. I put 4.5mm inserts in the bom, so you hopefully won't
+    have to do this. Let me know how it goes." %}
+
+    {% include step.html
+    title = "Insert the top z-block insert"
+    image = "chassis---z-block-top-insert.jpg"
+    content = "Insert the top z-block insert from the top." %}
+
+    {% include step.html
+    title = "Insert the bottom z-block inserts"
+    image = "chassis---z-block-bottom-inserts.jpg"
+    content = "Insert the bottom two z-block inserts from the rear." %}
+
+    {% include step.html
+    title = "Insert the vertical chassis stiffeners"
+    image = "chassis---stiffener-vertical.jpg"
+    optional = true
+    content = "Optionally add the two M4 45mm stiffeners." %}
+
+    {% include step.html
+    title = "Insert the horizontal chassis stiffeners"
+    image = "chassis---stiffener-horizontal.jpg"
+    optional = true
+    content = "Optionally add the two M5 80mm stiffeners." %}
+
+    {% include step.html
+    title = "Insert the AC input jack"
+    image = "chassis---ac-input.jpg"
+    content = "Slide in the AC jack and fasten with two wafer head M3 14mm." %}
+
+    {% include step.html
+    title = "Modify PSU"
+    image = "psu---cut.jpg"
+    content = "Bevel the two corners of the PSU that face outwards. The cut should bisect the screw post holes." %}
+
+    {% include step.html
+    title = "Link the fans together"
+    image = "chassis---fans.jpg"
+    content = "Wire two chassis fans in parallel so that the wire lengths are enough to go to the MCU." %}
+
+    {% include step.html
+    title = "Insert the right fan"
+    image = "chassis---insert-right-fan.jpg"
+    content = "Insert the fan and secure the bottom two screw holes with wafer head M3 14mm." %}
+
+    {% include step.html
+    title = "Insert the left fan"
+    image = "chassis---insert-left-fan.jpg"
+    content = "Insert the fan and secure the bottom two screw holes with wafer head M3 14mm." %}
+
+    {% include step.html
+    title = "Plug in the fans"
+    image = "chassis---plug-in-fans.jpg"
+    content = "Plug in the chassis fans to the top port of the MCU." %}
+
+    {% include step.html
+    title = "Plug in the power wires"
+    image = "chassis---plug-in-power.jpg"
+    content = "Connect the power wires to the PSU and cut to length, tin the ends, and plug in. The gauge of these wires
+    should be 18AWG or thicker. 14AWG is the largest wire the terminal blocks can accept." %}
+
+    {% include step.html
+    title = "Plug in the probe connectors"
+    image = "chassis---plug-in-probe.jpg"
+    content = "Connect the two probe connectors as shown- B/W on top, Y/R on bottom." %}
+
+    {% include step.html
+    title = "Plug in the hotend heater wires"
+    image = "chassis---plug-in-hotend-power.jpg"
+    content = "Insert the two heater wires into the top terminal block." %}
+
+    {% include step.html
+    title = "Plug in the hotend thermistor connector"
+    image = "chassis---plug-in-thermistor.jpg"
+    content = "Insert the thermistor wire into the bottom left port." %}
+
+    {% include step.html
+    title = "Plug in the hotend fan connector"
+    image = "chassis---plug-in-hotend-fan.jpg"
+    content = "Insert the hotend fan connector into the second port." %}
+
+    {% include step.html
+    title = "Plug in the part cooling fan connector"
+    image = "chassis---plug-in-part-cooling-fan.jpg"
+    content = "Insert the part cooling fan connector into the third port." %}
+
+    {% include step.html
+    title = "Plug in the bed thermistor"
+    image = "chassis---plug-in-bed-thermistor.jpg"
+    content = "Bring over the z-axis and insert the heat bed thermistor connector next to the hotend thermistor." %}
+
+    {% include step.html
+    title = "Plug in the bed heater"
+    image = "chassis---plug-in-bed-heater.jpg"
+    content = "Insert the heat bed power wires into the middle terminal block and tighten." %}
 
     <!-- DRAFTS! -->
-
     {% include tip.html
     title="You've reached the end!!!@"
     tip="This is as far as i've written. I'm writing the rest now. Please consider supporting this project on Patreon!
     The rest of this web page is draft junk ⬇️️️ ⬇️️️ ⬇️️️ ⬇️️️"
     icon="volunteer_activism"
     %}
-
-
-    {% include step.html
-    title = "Crimp the motor wires"
-    image = "test.jpg"
-    content = "Now we're gonna crimp all these motors. You need to crimp well, so feel free to copy my method. We need
-    one motor with each of these lengths of wires. 10cm, 15cm, 15 again, and 23 cm."
-    %}
-
-
-    {% include step.html
-    title = "Cut the motor shafts"
-    image = "test.jpg"
-    content = "We're gonna gently coax all the motor shafts to shorten to 10mm"
-    %}
-
-
-    {% include step.html
-    title = "Cut the X axis"
-    image = "test.jpg"
-    content = "Just snip one of the holes."
-    %}
-
-
-    {% include step.html
-    title = "Sand off the protrusions on the big fan"
-    image = "test.jpg"
-    content = "This part is easy."
-    %}
-
-    {% include step.html
-    title = "Clip the corner off the little fan"
-    image = "test.jpg"
-    content = "This part is easy."
-    %}
-
-    {% include step.html
-    title = "Clip the corners off the PSU"
-    image = "test.jpg"
-    content = "When you work with PSU's always drain them. People have died."
-    %}
-
-    {% include step.html
-    title = "Tighten the heat break"
-    image = "test.jpg"
-    content = "LDO had some issues with tightness from the factory."
-    %}
-
-    {% include step.html
-    title = "Push the fan wires through the tool end"
-    image = "test.jpg"
-    content = "We're gonna get a little ahead of ourselves and start putting in the big fan but only to fish the wires
-    through
-    the tool end."
-    %}
-
-    {% include step.html
-    title = "Install the hot end"
-    image = "test.jpg"
-    content = "Drop in the Positron 90 hot end into the slot and screw it in with 4 screws."
-    %}
-
-    {% include step.html
-    title = "Install the PCB (Optional)"
-    image = "test.jpg"
-    content = "Attach the bare PCB with 4 screws too."
-    %}
-
-    {% include step.html
-    title = "Countersink the microprobe"
-    image = "test.jpg"
-    content = "We have to countersink the bottom of it for the screws to fit or use glue. I'm going with screws here."
-    %}
-
-    {% include step.html
-    title = "Install the microprobe"
-    image = "test.jpg"
-    content = "Screw it in with 2x m2.5 countersinks."
-    %}
-
-    {% include step.html
-    title = "Install the small fan"
-    image = "test.jpg"
-    content = "push it up so that it slides under the rail and touches the radiator."
-    %}
-
-    {% include step.html
-    title = "Push in the big fan"
-    image = "test.jpg"
-    content = "Now we can put in the big fan all the way. This secures the little fan too."
-    %}
-
-    {% include step.html
-    title = "Solder the thermister"
-    image = "test.jpg"
-    content = "Bend it down and solder it to the PCB."
-    %}
-
-    {% include step.html
-    title = "Solder the hot end fan"
-    image = "test.jpg"
-    content = "Solder it to the PCB."
-    %}
-
-    {% include step.html
-    title = "Solder the part cooling fan"
-    image = "test.jpg"
-    content = "Solder it to the PCB."
-    %}
-
-    {% include step.html
-    title = "Solder the hot end"
-    image = "test.jpg"
-    content = "Extend it and solder it to the PCB."
-    %}
-
-    {% include step.html
-    title = "Install the probe connector"
-    image = "test.jpg"
-    content = "Clip the black wire and plug in the probe connector and solder the black wire to the ground pad."
-    %}
-
-    {% include step.html
-    title = "Wire back to the controller board"
-    image = "test.jpg"
-    content = "The probe wires and hotend wires should be 56cm. The rest of the wires should be 58cm."
-    %}
-
-    {% include step.html
-    title = "Add braided wire sleeve"
-    image = "test.jpg"
-    content = "Before crimping we need to add the braided sleeve, which should be 47cm"
-    %}
-
-    {% include step.html
-    title = "Crimp the tool connectors"
-    image = "test.jpg"
-    content = "If your JST connectors have notches, the two fan power wires and the thermistor wire go into the JST
-    connector on the non-notch side."
-    %}
-
-    {% include step.html
-    title = "Crimp the probe connectors"
-    image = "test.jpg"
-    content = "The Yellow/Red goes on the 3P and the Black/White goes to the 2P."
-    %}
-
-    {% include step.html
-    title = "Insert the bottom heat set inserts"
-    image = "test.jpg"
-    content = "6 in total,
-    and the top one goes in from the front."
-    %}
-
-    {% include step.html
-    title = "Insert the Z Block heat set inserts"
-    image = "test.jpg"
-    content = "Insert the bottom 2 from the back and the top one from the front."
-    %}
-
-    {% include step.html
-    title = "Attach X Axis idlers"
-    image = "test.jpg"
-    content = "Insert an M3 nut on either side of the rail and screw in the idlers. Grab a 14mm Waferhead, slide
-    on a F623RS bearing and a medium M3 shim and screw that in."
-    %}
-
-    {% include step.html
-    title = "Connect fans"
-    image = "test.jpg"
-    content = "Add the chassis fans which are just wired in parallel."
-    %}
-
-    {% include step.html
-    title = "Connect the tool head wires"
-    image = "test.jpg"
-    content = "Add the chassis fans which are just wired in parallel."
-    %}
-
-    - The hot end fan goes here
-    - The part cooling fan goes here
-    - The thermister goes here
-    - And the big wires go into the screw terminal
-    - Connect the edge connector wires
-    - The thermistor goes here
-    - And the big wires go into the screw terminal
-    - Solder up the raspberry pi and the wires for that are [red,red,x,x,x]
-    - Tuck in all the wires and lay the SKR pico into its hole
-    - Screw the risers to the chassis and the Pi to the risers
-    8. Insert an M3 nut to one side of the rail and cinch it down using a button head screw.
-    - Attach the idlers to the tensioner: Grab a 12mm button head screw, add a F623RS bearing, then a medium M3 Shim and
-    then a large M3 washer. Screw these into the tensioner and then slide it onto the Y Rail.
-    - Slide in the rail, flip it over and secure the rail with a 16mm countersunk.
 
     {%- capture software_step -%}
     The <a href="/lemontron/software/">Software Guide</a> will help you get the OS flashed.
@@ -456,18 +512,14 @@ shimmer=true
     content = software_step
     %}
 
-    {%- capture calibration_step -%}
-    The <a href="/lemontron/calibration/">Calibration Guide</a> will help you get the perfect first layer.
-    {%- endcapture -%}
     {% include step.html
     title = "Calibrate the Z-offset"
     image = "test.jpg"
-    content = calibration_step
+    content = "The <a href='/news/how-to-calibrate-z-offset'>calibration guide</a> will help you get the perfect first
+    layer."
     %}
 </ol>
 
-
-<h2>Hardware Assemblies</h2>
 
 <h4>Bearing Towers</h4>
 <ol class="hardware-assembly">

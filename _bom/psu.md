@@ -21,5 +21,9 @@ The following substitute PSU's also work: LOP-300-24, LOP-200-24, LOP-200-24, LO
 
 ## Required Modification
 
-On the AC side, you need to trim the PCB, cutting a 45-degree angle on the corners. The cut must pass through the center
-of the mounting hole.
+<ol class="steps">
+    {% include step.html
+    title = "Modify PSU"
+    image = "psu---cut.jpg"
+    content = "Bevel the two corners of the PSU that face outwards. The cut should bisect the screw post holes." %}
+</ol>

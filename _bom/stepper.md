@@ -13,9 +13,6 @@ links:
   - vendor: Amazon
     url: https://www.amazon.com/dp/B091YDBK1S?&tag=lemontron-20
     note: Different model, works for me
-  - vendor: KB3D
-    url: "https://kb-3d.com/store/clearance/838-clearance-ldo-nema-17-super-slim-stepper-motor-42sth20-1004as-vrn-1651971796666.html"
-    note: Premium upgraded motors, stronger and quieter
 modification: true
 kofi: true
 optional: false
@@ -31,4 +28,19 @@ large to fit in the Lemontron's case and the electronics will overheat.
 
 ## Required Modifications
 
-You must cut all the motor shafts down to 11mm. Precision is not required and 10mm to 11mm is fine. You can also download a [printable cutting guide](/assets/downloads/stepper-cutting-guide.stl).
+<ol class="steps">
+    {% include step.html
+    title = "Cut motor wires"
+    image = "motors---cut-wires.jpg"
+    content = "Cut the motor wires to the lengths 15cm, 15cm, 10cm, 23cm." %}
+
+    {% include step.html
+    title = "Mark shaft"
+    image = "motors---mark-shaft.jpg"
+    content = "Drop on a pulley and mark the shaft or manually mark at 11mm." %}
+
+    {% include step.html
+    title = "Trim shaft"
+    image = "motors---cut-shaft.jpg"
+    content = "Cut the shaft with a dremel and cutoff wheel or hack saw." %}
+</ol>

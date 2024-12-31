@@ -2,35 +2,24 @@
 layout: default
 ---
 
-<div class="bom-image-container">
-    <img src="/assets/bom/{{page.slug}}.png" alt="{{page.title}}" class="bom-image" itemprop="image" height="128"
-         width="128">
-</div>
-
 <div class="post">
     <div class="post-header">
         <div>
             <h1 itemprop="name headline">{{page.title | escape}}</h1>
             <div>{{page.description}}</div>
         </div>
-        <div class="meta">Lemontron BOM Item</div>
+        <div>
+            <div class="bom-post-total">${{page.total}}</div>
+            <div class="bom-post-total-label">Estimated Total</div>
+        </div>
+    </div>
+
+    <div class="bom-post-top">
+        <img src="/assets/bom/{{page.slug}}.png" alt="{{page.title}}" itemprop="image">
+        <span class="bom-qty"> × {{page.qty}}</span>
     </div>
 
     <article class="bom" itemscope itemtype="http://schema.org/BlogPosting">
-        <div class="bom-stats">
-            <dl>
-                <dd>{{page.qty}}</dd>
-                <dt>Quantity Needed</dt>
-            </dl>
-            <dl>
-                <dd>{{page.orders}}</dd>
-                <dt>Number of Orders</dt>
-            </dl>
-            <dl>
-                <dd>${{page.total}}</dd>
-                <dt>Estimated Order Price</dt>
-            </dl>
-        </div>
         <div class="post-content e-content" itemprop="articleBody">
             {{content}}
         </div>
