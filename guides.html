@@ -609,86 +609,305 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
     content = "Onto a 30mm wafer head, drop a big bearing, a medium shim, and a big washer. Screw it all the way through
     the chassis." %}
 
-    <!-- DRAFTS! -->
+    {% include step.html
+    title = "Install extruder gear"
+    image = "chassis---install-extruder-gear.jpg"
+    content = "On the top left motor, and using several fingers, line up the top of the extruder gear with a pulley and
+    fasten the grub screw to the flat side of the shaft." %}
+
+    {% include step.html
+    title = "Install left midplate"
+    image = "chassis---install-left-midplate.jpg"
+    content = "Insert the wire harnesses into the slots in the midplate and lay the midplate into position. Verify there
+    is no gap." %}
+
+    {% include step.html
+    title = "Tug the cables"
+    image = "chassis---tug-cables.jpg"
+    content = "Remove the slack in the cables." %}
+
+    {% include step.html
+    title = "Insert the motor mount screws"
+    image = "midplate---left---motor-mounts.jpg"
+    content = "Secure the motors to the left midplate, filling the four countersunk motor mount holes with 8mm
+    countersunks." %}
+
+    {% include step.html
+    title = "Insert the lower pulley"
+    image = "midplate---left---lower-pulley.jpg"
+    content = "Same as the right one." %}
+
+    {% include step.html
+    title = "Insert the upper pulley"
+    image = "midplate---left---upper-pulley.jpg"
+    content = "Same as the right one." %}
+
+    {% include step.html
+    title = "Install the extra screw"
+    image = "midplate---left---locator-screw.jpg"
+    content = "Add another 20mm countersunk to further secure the midplate to the chassis." %}
+
+    {% include step.html
+    title = "Finish right fan"
+    image = "chassis---right---finish-fan-screws.jpg"
+    content = "Secure the top two screw holes with wafer head M3 14mm." %}
+
+    {% include step.html
+    title = "Finish left fan"
+    image = "chassis---left---finish-fan-screws.jpg"
+    content = "Secure the top two screw holes with wafer head M3 14mm." %}
+
+    {% include step.html
+    title = "Install left drive pulley"
+    image = "motor---left---install-drive-pulley.jpg"
+    content = "Temporarily put two sheets of paper under the pulley before tightening the grub screw to the flat side of
+    the shaft. If there are two grub screws, tighten them both but one should be on the flat side of the shaft." %}
+
+    {% include step.html
+    title = "Install right drive pulley"
+    image = "motor---right---install-drive-pulley.jpg"
+    content = "Repeat on the right. Verify the pulleys are friction-free by grabbing the pulley forcefully and rotating
+    it a full circle. If it catches on something, it's going to show up in your prints." %}
+
+    {% include step.html
+    title = "Modify X rail"
+    image = "rail---x---add-nuts.jpg"
+    content = "Cut one hole off the X rail (MGN9C)." %}
+
+    {% include step.html
+    title = "Install right drive pulley"
+    image = "rail---x---add-nuts.jpg"
+    content = "Add a nut to both sides of the rail." %}
+
+    {% include step.html
+    title = "Create bearing posts"
+    image = "rail---x---bearing-posts.jpg"
+    content = "On a 14mm wafer head, drop a big bearing and a medium shim." %}
+
+    {% include step.html
+    title = "Install bearing posts"
+    image = "rail---x---install-bearings.jpg"
+    content = "On both sides of the rail tighten down both bearing posts." %}
+
+    {% include step.html
+    title = "Drop on the spacer"
+    image = "rail---install-spacer.jpg"
+    content = "Drop the spacer (printed) onto the Y axis carriage." %}
+
+    {% include step.html
+    title = "Attach the X rail"
+    image = "rail---attach-x-rail.jpg"
+    content = "Drop the X rail on top of the spacer and screw it in with two 20mm countersunks." %}
+
+    {% include step.html
+    title = "Create bearing towers"
+    image = "rail---bearing-towers.jpg"
+    content = "On a 16mm wafer head, drop a big bearing, a medium shim, a large washer, a small shim, a small flanged
+    bearing, small shim, small normal bearing, and small shim." %}
+
+
+    {% include step.html
+    title = "Install bearing towers"
+    image = "rail---install-bearing-towers.jpg"
+    content = "Screw the two bearing towers into the top positions in the Y carriage." %}
+
+    {% include step.html
+    title = "Cut a piece of belt"
+    image = "clip---cut-belt.jpg"
+    content = "Cut a piece of belt that precisely fits into the recess in the belt clip." %}
+
+    {% include step.html
+    title = "Dap some super glue"
+    image = "clip---super-glue.jpg"
+    optional = true
+    content = "Dap some super glue on the belt. The glue is not required, but it really makes it easier to put the belt
+    into the clip." %}
+
+    {% include step.html
+    title = "Link the belts"
+    image = "clip---glue-belts.jpg"
+    content = "Hold the long piece of belt to the short one, overlapping half of it as shown." %}
+
+    {% include step.html
+    title = "Insert one side"
+    image = "clip---insert-belt.jpg"
+    content = "Insert the belt into the clip and verify that the short belt is seated properly." %}
+
+    {% include step.html
+    title = "Insert the other side"
+    image = "clip---insert-other-side-belt.jpg"
+    content = "Insert the other side of the belt temporarily. You can trim it later." %}
+
+    {% include step.html
+    title = "Lubricate belts"
+    image = "belt-route---lubrication.jpg"
+    content = "Lubricate the sides of the belt (not the teeth) with silicone based lube. Don't AT me for using sex lube,
+    it's a joke." %}
+
+    {% include step.html
+    title = "Route the belts"
+    image = "belt-route---tower---lower-bearings.jpg"
+    content = "Hook the belt over the towers, placing it on the lowest bearing." %}
+
+    {% include step.html
+    title = "Around the lower bearings"
+    image = "belt-route---lower-bearings.jpg"
+    content = "Hook the lower bearings." %}
+
+    {% include step.html
+    title = "Around the upper bearings"
+    image = "belt-route---upper-bearings.jpg"
+    content = "Wrapping around the drive pulleys, hook the upper bearings." %}
+
+    {% include step.html
+    title = "Around the tensioner"
+    image = "belt-route---tensioner.jpg"
+    content = "Wrap the belts around the tensioner bearings, the two strands coming down the middle." %}
+
+    {% include step.html
+    title = "Around the tower again"
+    image = "belt-route---tower---upper-bearings.jpg"
+    content = "Hook the tower bearings, this time the upper ones, heading out to the X rail bearings." %}
+
+    {% include step.html
+    title = "Around the X rail"
+    image = "belt-route---x-rail.jpg"
+    content = "Route the belt around the X rail. Trim the excess and reattach the belt to the clip." %}
+
+    {% include step.html
+    title = "Screw in the tensioner"
+    image = "tensioner---screw.jpg"
+    content = "Push the tensioner towards the Z block, then using a 20mm countersunk, fix the tensioner in place. This
+    should be super loose." %}
+
     {% include tip.html
-    title="You've reached the end!!!@"
-    tip="This is as far as i've written. I'm writing the rest now. Please consider supporting this project on Patreon!
-    The rest of this web page is draft junk ⬇️️️ ⬇️️️ ⬇️️️ ⬇️️️"
-    icon="volunteer_activism"
-    %}
-
-    {%- capture software_step -%}
-    The <a href="/lemontron/software/">Software Guide</a> will help you get the OS flashed.
-    {%- endcapture -%}
-    {% include step.html
-    title = "Install the software"
-    image = "test.jpg"
-    content = software_step
-    %}
+    title="But loose belt? Is Lemontron a moron?"
+    tip="You should feel the elasticity, and you should not be able to strum the belt. Why? Because it's not CoreXY!
+    With only one belt and the same amount of friction total."
+    icon="info" %}
 
     {% include step.html
-    title = "Calibrate the Z-offset"
-    image = "test.jpg"
-    content = "The <a href='/news/how-to-calibrate-z-offset'>calibration guide</a> will help you get the perfect first
-    layer."
-    %}
+    title = "Thoroughly test"
+    image = "belt-route---test.jpg"
+    content = "Thoroughly test and tune the belt tension. When you feel that the friction is negligible, it's ready." %}
+
+    {% include step.html
+    title = "Install top plates"
+    image = "top-plates---install.jpg"
+    content = "Drop in the two top plates." %}
+
+    {% include step.html
+    title = "Fasten the outer screws"
+    image = "top-plates---outer-screws.jpg"
+    content = "Fasten the top plates to the chassis on the 6 outer holes along the edges with 25mm (or 20mm)
+    countersunks." %}
+
+    {% include step.html
+    title = "Fasten the inner screws"
+    image = "top-plates---inner-screws.jpg"
+    content = "Fasten the top plates to the motors on the 4 inner holes with 14mm countersunks (bonus points if you
+    fabricate 15mm countersunks for a better fit)." %}
+
+    {% include step.html
+    title = "Attach the tool head"
+    image = "chassis---tool---install.jpg"
+    content = "Drop on the tool head." %}
+
+    {% include step.html
+    title = "Screw on the tool head"
+    image = "chassis---tool---screws.jpg"
+    content = "Screw on the tool head with two 14mm countersunks." %}
+
+    {% include step.html
+    title = "Attach the belt clip"
+    image = "chassis---tool---attach-clip.jpg"
+    content = "Flip over the printer and attach the clip with two 10mm M2.5 countersunks." %}
+
+    {% include step.html
+    title = "Attach the Z idler arm"
+    image = "chassis---attach-z-idler.jpg"
+    content = "Attach the z idler arm. To make the bearing stack, on a 14mm wafer head, drop a big bearing, medium shim,
+    big bearing, and medium shim." %}
+
+    {% include step.html
+    title = "Attach the Z axis"
+    image = "chassis---attach-z-axis.jpg"
+    content = "Hook the Z axis drive belt on the pulley. Drop the Z axis into place. Tighten the idler arm." %}
+
+    {% include step.html
+    title = "Screw in Z axis"
+    image = "chassis---screw-in-z-axis.jpg"
+    content = "Screw in the Z axis using two 14mm countersunks." %}
+
+    {% include step.html
+    title = "Rough up bowden tube"
+    image = "bowden---rough-up.jpg"
+    content = "Rough up at least 1cm of the bowden tube." %}
+
+    {% include step.html
+    title = "Pour glue on bowden tube"
+    image = "bowden---glue.jpg"
+    content = "Pour a generous amount of glue on the end of the bowden tube." %}
+
+    {% include step.html
+    title = "Insert the bowden tube"
+    image = "bowden---insert-outlet.jpg"
+    content = "Insert the bowden tube into the top plates. There is a lot of clearance, so the glue will go all the way
+    down." %}
+
+    {% include tip.html
+    title="Surely there's a better way?"
+    tip="Sometimes the simple solutions are the best. With the absurd contact patch of about 2cm², the glue will hold
+    the tube until the end of time."
+    icon="info" %}
+
+    {% include step.html
+    title = "Zip tie the bowden tube"
+    image = "bowden---zip.jpg"
+    content = "Zip tie the bowden tube with 2 zip ties, one at 10cm, another at 20cm." %}
+
+    {% include step.html
+    title = "Mark the bowden tube"
+    image = "bowden---mark.jpg"
+    content = "Holding the tube approximately where it needs to go, mark the bowden tube as pictured." %}
+
+    {% include step.html
+    title = "Cut the bowden tube"
+    image = "bowden---cut.jpg"
+    content = "SNIP, SNIP! The end needs to be as straight as possible." %}
+
+    {% include step.html
+    title = "Insert bowden tube"
+    image = "bowden---insert-inlet.jpg"
+    content = "Insert the bowden tube all the way into the tool end." %}
+
+    {% include step.html
+    title = "Insert the clip"
+    image = "bowden---insert-clip.jpg"
+    content = "While still putting pressure on the bowden tube, pull out the collar and install the orange clip." %}
+
+    {% include step.html
+    title = "Attach the bed holder"
+    image = "final---bed-holder.jpg"
+    content = "Attach the bed holder to the Z carriage with the two captive screws." %}
+
+    {% include step.html
+    title = "Slide in the bed"
+    image = "final---attach-bed.jpg"
+    content = "Slide the bed into the spring-loaded posts." %}
+
+    {% include step.html
+    title = "You've reached the end!"
+    image = "final---beauty.jpg"
+    content = "Time to calibrate, but if you've gotten this far, I'm sure that won't be a challenge!" %}
 </ol>
 
+<h2>Further reading...</h2>
+<p>
+    The <a href="/lemontron/software-guide/">software guide</a> will help you get the OS flashed.
+</p>
 
-<h4>Bearing Towers</h4>
-<ol class="hardware-assembly">
-    <li>18mm Wafer Head</li>
-    <li>F623RS Bearing</li>
-    <li>M3 Shim</li>
-    <li>M3 Washer</li>
-    <li>683ZZ Bearing</li>
-    <li>M3 Shim</li>
-    <li>F683 Bearing</li>
-    <li>M3 Shim</li>
-    <li>F683</li>
-    <li>M3 Shim</li>
-</ol>
-
-<h4>Mid Plate Idlers (On Motor)</h4>
-<ol class="hardware-assembly">
-    <li>14mm Wafer Head</li>
-    <li>M3 Washer</li>
-    <li>M3 Shim</li>
-    <li>683ZZ Bearing</li>
-    <li>M3 Shim</li>
-    <li>M3 Washer</li>
-</ol>
-
-<h4>Mid Plate Idlers (Bottom)</h4>
-<ol class="hardware-assembly">
-    <li>30mm Wafer Head</li>
-    <li>F623RS Bearing</li>
-    <li>M3 Shim</li>
-    <li>M3 Washer</li>
-</ol>
-
-<h4>Z Idler</h4>
-<ol class="hardware-assembly">
-    <li>14mm Wafer Head</li>
-    <li>F623RS Bearing</li>
-    <li>M3 Shim</li>
-    <li>F623RS Bearing</li>
-    <li>M3 Shim</li>
-</ol>
-
-<h4>Tensioner</h4>
-<ol class="hardware-assembly">
-    <li>14mm Wafer Head</li>
-    <li>F623RS Bearing</li>
-    <li>M3 Shim</li>
-    <li>M3 Washer</li>
-</ol>
-
-<h4>X Axis Idlers</h4>
-<ol class="hardware-assembly">
-    <li>14mm Wafer Head</li>
-    <li>F623RS Bearing</li>
-    <li>M3 Shim</li>
-    <li>X Axis Rail</li>
-    <li>M3 Nut</li>
-</ol>
+<p>
+    The <a href='/news/how-to-calibrate-z-offset'>calibration guide</a> will help you get the perfect first
+    layer.
+</p>
