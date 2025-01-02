@@ -12,15 +12,6 @@ kofi: true
     kidding, it's easy.
 </p>
 
-{% assign items = site.bom | where:"modification",true %}
+{% assign items = site.bom | where:"modification", true %}
 
-<ul>
-    {% for item in items %}
-    <li>
-        <!--        <div class="image">-->
-        <!--            <img src="/assets/bom/{{item.url | split: '/' | last}}.png"/>-->
-        <!--        </div>-->
-        <a href="{{item.url | relative_url}}">{{item.title}}</a>
-    </li>
-    {% endfor %}
-</ul>
+{% include bom_list.html items=items hide_price=true %}

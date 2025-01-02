@@ -2,26 +2,25 @@
 layout: default
 ---
 
-{% assign sorted_guides = site.guides | sort: 'date' %}
-{% assign other_guides = sorted_guides | where: 'category', 'Other' %}
-{% assign hardware_guides = sorted_guides | where: 'category', 'Assembly' %}
+{%- assign sorted_guides = site.guides | sort: 'date' -%}
+{%- assign blog = site.posts | where: "categories", "guide" -%}
 
 <div class="wrapper guides-page">
     <div class="sidebar">
-        <div class="sidebar-title">Build</div>
+        <div class="sidebar-title">Lemontron</div>
         <ol class="sidebar-list">
-            {% for guide in hardware_guides %}
+            <li><a href="/lemontron/">Build Guide</a></li>
+            {% for guide in sorted_guides %}
             <li><a href="{{guide.url | relative_url}}">{{guide.title}}</a></li>
             {% endfor %}
         </ol>
 
-        <div class="sidebar-title">Resources</div>
+        <div class="sidebar-title">More</div>
         <ul class="sidebar-list">
-            {% for guide in other_guides %}
+            {% for guide in blog %}
             <li><a href="{{guide.url | relative_url}}">{{guide.title}}</a></li>
             {% endfor %}
         </ul>
-
     </div>
     <div class="sidebar-aside">
         {%- if page.permalink == nil -%}
@@ -34,7 +33,8 @@ layout: default
                     {{page.date | date: date_format}}
                 </time>
                 {% endif %}
-                <a href="https://github.com/jamesloper/lemontron/commits/main/{{page.path}}" target="_blank" class="material-icons">history</a>
+                <a href="https://github.com/jamesloper/lemontron/commits/main/{{page.path}}" target="_blank"
+                   class="material-icons">history</a>
             </p>
         </header>
         {%- endif -%}

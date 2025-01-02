@@ -4,22 +4,18 @@ layout: default
 
 {{ content }}
 
+{%- assign posts = site.posts | where: "categories", "update" -%}
+
 <div class="home-section">
     <div class="wrapper">
-        {%- if page.title -%}
-        <h1 class="page-heading">{{page.title}}</h1>
-        {%- endif -%}
-
-        {%- if site.posts.size > 0 -%}
-        <h2 class="post-list-heading">{{page.list_title | default: "Blog"}}</h2>
+        <h2 class="post-list-heading">Blog</h2>
         <ul class="post-list">
-            {%- for post in site.posts -%}
+            {%- for post in posts -%}
             <li class="post-list-item">
-                {% if post.thumbnail %}
                 <a class="post-list-thumbnail-link frame" href="{{post.url | relative_url}}">
-                    <img src="{{post.thumbnail}}" alt="{{post.title}}" class="post-list-thumbnail" height="188" width="336">
+                    <img src="{{post.thumbnail}}" alt="{{post.title}}" class="post-list-thumbnail" height="188"
+                         width="336">
                 </a>
-                {% endif %}
                 <div class="post-list-item-body">
                     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <h3>
@@ -33,6 +29,5 @@ layout: default
             </li>
             {%- endfor -%}
         </ul>
-        {%- endif -%}
     </div>
 </div>

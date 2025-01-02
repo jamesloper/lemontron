@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to crimp goooooood"
-categories: blog
+categories: guide
 thumbnail: /assets/content/crimp.jpg
 banner: /assets/content/crimp.jpg
 ---

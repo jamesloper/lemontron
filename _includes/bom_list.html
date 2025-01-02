@@ -4,6 +4,7 @@
     <div class="bom-item frame">
         <a href="{{bom.url | relative_url}}" class="bom-top">
             <img class="bom-image" src="/assets/bom/{{bom.url | split: '/' | last}}.png"/>
+            {%- if include.hide_price == nil -%}
             <div class="bom-badges">
                 {% if bom.new %}
                 <span class="badge new"><i class="material-icons">grade</i> New</span>
@@ -12,6 +13,7 @@
                 <span class="badge mod"><i class="material-icons">carpenter</i> Mod</span>
                 {% endif %}
             </div>
+            {%- endif -%}
             {%- if bom.qty > 1 -%}
             <span class="bom-qty"> × {{bom.qty}}</span>
             {%- endif -%}
@@ -20,6 +22,7 @@
             <a class="bom-link" href="{{bom.url | relative_url}}">
                 <div class="bom-name">{{bom.title}}</div>
             </a>
+            {%- if include.hide_price == nil -%}
             <div class="bom-right">
                 <span>${{bom.total}}</span><br/>
                 <a class="buy" href="{{link.url}}" target="_blank">
@@ -27,6 +30,7 @@
                     {{link.vendor}}
                 </a>
             </div>
+            {%- endif -%}
         </div>
     </div>
     {% endfor %}

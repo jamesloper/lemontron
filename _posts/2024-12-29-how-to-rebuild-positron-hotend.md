@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to rebuild the Positron 90 Hotend"
-categories: blog
+categories: guide
 thumbnail: /assets/guide/hotend.jpg
 banner: /assets/guide/hotend.jpg
 ---

@@ -6,7 +6,7 @@ thumbnail: /assets/about/beauty-shot.jpg
 banner: /assets/about/beauty-shot.jpg
 ---
 
-Lemontron is a new Free and Open Source portable printer that is making the rounds online due to its unique form
+Lemontron is a new free and open source portable printer that is making the rounds online due to its unique form
 factor-- Fitting in a box of filament, it sports a build plate comparable to a Bambulab A1 Mini and Prusa
 Mini.
 

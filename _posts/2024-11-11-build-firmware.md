@@ -1,7 +1,6 @@
 ---
-layout: guide
+layout: post
 title:  "Build Firmware"
-date:   2024-08-07
 category: Other
 kofi: true
 ---

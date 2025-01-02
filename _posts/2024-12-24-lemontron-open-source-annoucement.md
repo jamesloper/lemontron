@@ -10,9 +10,11 @@ down, an ultra thin motion system mounted real low, and the flattest tool head y
 
 {% include youtube-video.html id="n6l3GvkE4QU" %}
 
-I'm working on the [build guide](/lemontron/), but in the mean time feel free to poke around the site, there is a lot to
-explore! The Lemontron and its Fusion 360 CAD is now available for download.
+Lemontron is the newest Positron-style printer, which means it's able to fold up and fit in a box of filament. It is the
+most cost-reduced and refined version yet, with a fully 3d printed chassis that you can now print at home, because the
+3MF and Fusion 360 project is now available to download!
 
-Please consider supporting the project on KoFi or Patreon! 🍋
-
-{% include kofi.html %}
+<p class="btn-wrapper">
+    <a class="btn" href="/lemontron/">Build yours</a>
+    {% include kofi.html patreon=true %}
+</p>
