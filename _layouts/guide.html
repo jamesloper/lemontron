@@ -18,12 +18,19 @@ layout: default
         <div class="sidebar-title">More</div>
         <ul class="sidebar-list">
             {% for guide in blog %}
-            <li><a href="{{guide.url | relative_url}}">{{guide.title}}</a></li>
+            <li class="guide-thumbnail">
+                <a href="{{guide.url | relative_url}}">
+                    <div class="frame">
+                        <img class="guide-thumbnail-image" src="{{guide.thumbnail | relative_url}}"
+                             alt="{{guide.title}}">
+                    </div>
+                    <div>{{guide.title}}</div>
+                </a>
+            </li>
             {% endfor %}
         </ul>
     </div>
     <div class="sidebar-aside">
-        {%- if page.permalink == nil -%}
         <header class="post-header">
             <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
             <p class="post-meta">
@@ -37,7 +44,6 @@ layout: default
                    class="material-icons">history</a>
             </p>
         </header>
-        {%- endif -%}
         <article class="h-entry" itemscope itemtype="http://schema.org/BlogPosting">
             <div class="post-content e-content" itemprop="articleBody">
                 {{content}}

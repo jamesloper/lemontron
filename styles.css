@@ -362,10 +362,10 @@ i.icon-open-in-new {opacity:.5; font-size:16px;}
 }
 
 .tip-container {position:relative; margin-bottom:40px;}
-.tip {padding:10px 20px; color:#ff6; overflow:hidden; position:relative; background:#202;}
+.tip {padding:10px 20px; color:#ff6; overflow:hidden; position:relative; background:#202; border-radius:4px;}
 .tip-content b {color:#ff0;}
-.tip-icon {position:absolute; top:50px; margin-top:-12px; left:-12px; color:#ff0;}
-.tip-title {font-weight:bold; margin-bottom:5px;}
+.tip-icon {position:absolute; top:50%; margin-top:-12px; left:-12px; color:#ff0; text-shadow:1px 1px 1px rgba(0, 0, 0, .6);}
+.tip-title {font-weight:bold;}
 .tip-content {font-size:12px;}
 .tip-shimmer {
     position:absolute;
@@ -419,3 +419,8 @@ i.icon-open-in-new {opacity:.5; font-size:16px;}
 .bom-post-total-label {font-size:12px; opacity:.6;}
 .bom-post-top {display:flex; align-items:center; justify-content:center; margin-bottom:20px; background:#fff; border-radius:16px; padding:10px; position:relative;}
 .bom-post-top img {width:128px; height:128px;}
+
+/* GUIDE THUMBNAIL */
+.guide-thumbnail {margin-bottom:20px; font-size:10px;}
+.guide-thumbnail a {color:#fff; white-space:wrap;}
+.guide-thumbnail-image {border-radius:8px; margin-bottom:5px;}
