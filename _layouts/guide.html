@@ -4,25 +4,7 @@ layout: default
 
 {% include breadcrumbs.html %}
 
-{%- assign sorted_guides = site.guides | sort: 'date' | reverse -%}
-{%- assign blog = site.posts | where: "categories", "guide" -%}
-
 <div class="wrapper guides-page">
-<!--    <div class="sidebar">-->
-<!--        <ol class="sidebar-list">-->
-<!--            {% for guide in sorted_guides %}-->
-<!--            <li class="{% if page.url == guide.url %}active{% endif %}">-->
-<!--                <a href="{{guide.url | relative_url}}" class="frame">-->
-<!--                    <img src="{{guide.thumbnail | relative_url}}" alt="{{page.title}}">-->
-<!--                    <div class="sidebar-link-title">-->
-<!--                        <h3>{{guide.title}}</h3>-->
-<!--                        <div>{{guide.description}}</div>-->
-<!--                    </div>-->
-<!--                </a>-->
-<!--            </li>-->
-<!--            {% endfor %}-->
-<!--        </ol>-->
-<!--    </div>-->
     <div class="guide {%if page.small%}post{%endif%}">
         <header class="post-header">
             <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
@@ -45,7 +27,6 @@ layout: default
             {%- if site.disqus.shortname -%}
             {%- include disqus_comments.html -%}
             {%- endif -%}
-
             <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
         </article>
     </div>
