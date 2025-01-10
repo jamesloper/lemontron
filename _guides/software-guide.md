@@ -1,9 +1,9 @@
 ---
-layout: guide
+layout: post
 title:  "Software Guide"
-date:   2024-09-17
-category: Assembly
 kofi: true
+thumbnail: /assets/content/sd-card.jpg
+small: true
 ---
 
 In this guide, we’ll walk you through the essential steps to get your 3D printer up and running with Mainsail OS on a
@@ -11,16 +11,15 @@ Raspberry Pi. You’ll start by installing the operating system, configuring SSH
 system. Then, we’ll guide you through flashing the firmware on your SKR Pico board and finalizing the setup on your
 Raspberry Pi. By the end, your printer will be fully configured and ready to begin printing.
 
+<div class="btn-wrapper">
 {% include button.html
-title = "Download Klipper Config"
-link = "/assets/downloads/config-20241223-175652.zip"
-%}
-
+title = "config.zip"
+link = "/assets/downloads/config-20241223-175652.zip"%}
 {% include button.html
-title = "Download Klipper Firmware"
+title = "klipper.uf2"
 link = "/assets/downloads/klipper.uf2"
-notes = "Built on 2024-08-06"
-%}
+notes = "Built on 2024-08-06"%}
+</div>
 
 {% include separator.html %}
 

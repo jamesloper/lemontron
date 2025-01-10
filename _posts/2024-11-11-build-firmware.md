@@ -1,18 +1,25 @@
 ---
 layout: post
-title:  "Build Firmware"
-category: Other
+title:  "How to build Klipper"
+category: guide
 kofi: true
+thumbnail: /assets/content/sd-card.jpg
+permalink: /lemontron/:title
 ---
 
-You can always download precompiled firmware, but building it yourself can be a good way to stay in control of the process.
+You can always download precompiled firmware, but building it yourself can be a good way to stay in control of the
+process, for example to enable or disable extra features. This guide will give you a basic understanding of how to build
+Klipper.
 
+<div class="paragraph">
 {% include button.html
 title = "Download Firmware"
 link = "/assets/downloads/klipper.uf2"
 %}
+</div>
 
 ### Get up-to-date
+
 SSH into the Raspberry Pi and run the following commands:
 
 ```bash

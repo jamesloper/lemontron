@@ -1,6 +1,7 @@
 ---
 layout: bom
-title: NTC 3950 Thermistor
+title: Thermistor
+description: NTC 3950
 qty: 1
 orders: 1
 total: 0.82

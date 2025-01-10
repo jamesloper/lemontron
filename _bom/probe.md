@@ -1,6 +1,6 @@
 ---
 layout: bom
-title: BIGTREETECH MicroProbe
+title: MicroProbe
 qty: 1
 orders: 1
 total: 21.54

@@ -1,9 +1,10 @@
 ---
 layout: post
-title:  "3D Printing Upside Down Changes Nothing!"
-categories: update
+title: "3d printing upside down changes nothing!"
+categories: update guide
 thumbnail: /assets/content/upside-down-printing.jpg
 banner: /assets/content/upside-down-printing.jpg
+permalink: /news/:title
 ---
 
 3D printing continues to evolve, and one minor development is the concept of printing upside down. I investigated this

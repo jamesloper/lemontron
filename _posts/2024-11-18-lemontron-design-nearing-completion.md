@@ -4,6 +4,7 @@ title:  "Lemontron Design Nearing Completion"
 categories: update video
 thumbnail: /assets/about/beauty-shot.jpg
 banner: /assets/about/beauty-shot.jpg
+permalink: /news/:title
 ---
 
 Lemontron is a new free and open source portable printer that is making the rounds online due to its unique form

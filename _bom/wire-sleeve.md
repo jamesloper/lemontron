@@ -1,6 +1,6 @@
 ---
 layout: bom
-title: PET Wire Sleeve
+title: Wire Sleeve
 qty: 1
 orders: 1
 total: 1.89

@@ -1,12 +1,19 @@
 ---
 layout: guide
-title: BOM
-date:   2024-08-07
-category: Assembly
+title: Order The Parts
+header_title: BOM
 kofi: true
+thumbnail: /assets/guide/intro---print-the-parts.jpg
 ---
 
-<p>This comprehensive list includes all the parts required to assemble a Lemontron 3D printer.</p>
+<p>
+    This comprehensive list includes all the parts required to assemble a Lemontron 3D printer. Parts that need
+    additional processing are marked with MOD.
+</p>
+
+<div class="paragraph">
+    {% include button.html title="Download CSV" icon="cloud_download" link="/exports/bom.csv" %}
+</div>
 
 {%- assign total_new = 0 -%}
 {%- assign bom_sorted = site.bom | sort: "title" -%}
@@ -16,13 +23,11 @@ kofi: true
 {%- for bom in bom_required -%}
 {%- assign total_price = total_price | plus: bom.total -%}
 
-<!-- Total New Parts -->
 {%- if bom.new -%}
 {%- assign total_new = total_new | plus: bom.total -%}
 {%- endif -%}
 {%- endfor -%}
 
-<!-- Add Screws -->
 {%- for screw in site.data.screws -%}
 {%- assign total_price = total_price | plus: screw.total -%}
 {%- endfor -%}
@@ -44,35 +49,31 @@ kofi: true
 {% include bom_list.html items = bom_optional %}
 
 <h2>Screws</h2>
-<table>
-    {% for screw in site.data.screws %}
-    <tr>
-        <td class="td-screw">
-            {% include screw.html type=screw.type length=screw.length thread=screw.thread %}
-        </td>
-        <td>&times;{{screw.qty}}</td>
-        <td class="screw-description">
-            {{screw.description | split: "/" | join: ", "}}
-        </td>
-        <td class="bom-right">
-            <span>${{screw.total}}</span><br/>
-            {% if screw.link %}
-            <a class="buy" href="{{screw.link}}" target="_blank">
-                <i class="material-icons">shopping_cart</i>
-                AliExpress
-            </a>
-            {% endif %}
-        </td>
-    </tr>
-    {% endfor %}
-</table>
-
-<p class="button">
-    <a href="/exports/bom.csv" download>
-        <span class="material-icons">download</span>
-        Download CSV
-    </a>
-</p>
+<p>This screw list is subject to further optimization.</p>
+<div class="table-responsive">
+    <table>
+        {% for screw in site.data.screws %}
+        <tr>
+            <td class="td-screw">
+                {% include screw.html type=screw.type length=screw.length thread=screw.thread %}
+            </td>
+            <td>&times;{{screw.qty}}</td>
+            <td class="screw-description">
+                {{screw.description | split: "/" | join: ", "}}
+            </td>
+            <td class="bom-right">
+                <span>${{screw.total}}</span><br/>
+                {% if screw.link %}
+                <a class="buy" href="{{screw.link}}" target="_blank">
+                    <i class="material-icons">shopping_cart</i>
+                    AliExpress
+                </a>
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
 
 <p>
     The <b>NEW</b> badge is for current owners of a <a href="https://github.com/mcfazio2001/JourneyMaker-Positron"

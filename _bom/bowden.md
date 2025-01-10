@@ -3,7 +3,7 @@ layout: bom
 title: Bowden Tube
 qty: 1
 orders: 1
-total: 1.30
+total: 1.60
 description: 
 new: false
 links:

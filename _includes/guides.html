@@ -1,0 +1,13 @@
+{%- assign sorted_guides = site.posts | where: "categories", "guide" | sort: 'date' | reverse -%}
+<ol class="guides-grid">
+    {% for guide in sorted_guides %}
+    <li class="{% if page.url == guide.url %}active{% endif %}">
+        <a href="{{guide.url | relative_url}}" class="frame">
+            <img src="{{guide.thumbnail | relative_url}}" alt="{{page.title}}">
+            <div class="sidebar-link-title">
+                <h3>{{guide.title}}</h3>
+            </div>
+        </a>
+    </li>
+    {% endfor %}
+</ol>

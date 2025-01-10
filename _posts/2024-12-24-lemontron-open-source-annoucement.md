@@ -3,6 +3,7 @@ layout: post
 title:  "Lemontron Open Source Printer is Ready to Download"
 categories: update
 thumbnail: /assets/content/lemontron-printing-a-lemon.jpg
+permalink: /news/:title
 ---
 
 After a year of development, the affordable 3d printer for Australians is finally here, with a build plate that's upside
@@ -14,7 +15,7 @@ Lemontron is the newest Positron-style printer, which means it's able to fold up
 most cost-reduced and refined version yet, with a fully 3d printed chassis that you can now print at home, because the
 3MF and Fusion 360 project is now available to download!
 
-<p class="btn-wrapper">
-    <a class="btn" href="/lemontron/">Build yours</a>
-    {% include kofi.html patreon=true %}
-</p>
+<div class="btn-wrapper">
+{% include button.html title="Build yours" link="/lemontron/" %}
+{% include kofi.html %}
+</div>

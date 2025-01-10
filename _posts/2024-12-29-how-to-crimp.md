@@ -4,6 +4,7 @@ title:  "How to crimp goooooood"
 categories: guide
 thumbnail: /assets/content/crimp.jpg
 banner: /assets/content/crimp.jpg
+permalink: /lemontron/:title
 ---
 
 Hi guys, I personally roll with solder gang but crimps are still the GOAT occasionally. You need to

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 kofi: true
 ---
 
@@ -8,13 +8,12 @@ kofi: true
         <div class="hero-text">
             <h1>Pucker up for Lemontron</h1>
             <div class="hero-sub">
-                The zesty <b>portable 3D Printer</b><br/>
-                that fits in a box of filament
+                Zesty open-source <b>portable 3D Printer</b>
             </div>
-            <p class="btn-wrapper">
+            <div class="btn-wrapper">
+                {% include button.html title="Build yours" link="/lemontron/" %}
                 {% include kofi.html %}
-                <a class="btn btn-hero" href="/lemontron/">Build yours</a>
-            </p>
+            </div>
         </div>
         <div class="hero-image-container">
             <img src="/assets/about/body.jpg" class="hero-image" alt="Lemontron printer illustration" height="390"
@@ -22,6 +21,37 @@ kofi: true
         </div>
     </div>
 </div>
+
+<div class="home-section">
+    <!--    <h2 class="home-section-title">Everything You Ever Wanted</h2>-->
+    <div class="banner-container">
+        <div class="wrapper banner">
+            <div class="banner-column">
+                <div class="banner-title">
+                    <img class="banner-icon" src="/assets/home/3d.svg" alt="3D"/>
+                    <h2>3D Printed</h2>
+                </div>
+                <p>Lemontron is a 3D printed, RepRap style Positron</p>
+            </div>
+            <div class="banner-column">
+                <div class="banner-title">
+                    <img class="banner-icon" src="/assets/home/open-source.svg" alt="OSS"/>
+                    <h2>Open Source</h2>
+                </div>
+                <p>Original Fusion360 project is available to download and modify</p>
+            </div>
+            <div class="banner-column">
+                <div class="banner-title">
+                    <img class="banner-icon" src="/assets/home/diy.svg" alt="DIY"/>
+                    <h2>Do it Yourself</h2>
+                </div>
+                <p>But not by yourself &mdash; Get help from the community!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="wave"></div>
 
 <div class="home-section">
     <h2 class="home-section-title">Portable & Powerful</h2>
@@ -36,86 +66,57 @@ kofi: true
 <div class="wave"></div>
 
 <div class="home-section">
-    <h2 class="home-section-title">Everything You Ever Wanted</h2>
-    <div class="banner-container">
-        <div class="wrapper banner">
-            <div class="banner-column">
-                <div class="banner-title">
-                    <img class="banner-icon" src="/assets/home/3d.svg" alt="3D"/>
-                    <h2>3D Printed</h2>
-                </div>
-                <p>The Lemontron is the only 3D printed, RepRap style Positron.</p>
-            </div>
-            <div class="banner-column">
-                <div class="banner-title">
-                    <img class="banner-icon" src="/assets/home/open-source.svg" alt="OSS"/>
-                    <h2>Open Source</h2>
-                </div>
-                <p>All the files are refreshingly open!</p>
-            </div>
-            <div class="banner-column">
-                <div class="banner-title">
-                    <img class="banner-icon" src="/assets/home/diy.svg" alt="DIY"/>
-                    <h2>Do it Yourself</h2>
-                </div>
-                <p>But not by yourself &mdash; join the Discord for help.</p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="wave"></div>
-
-<div class="home-section">
     <h2 class="home-section-title">Positrons Comparison</h2>
     <div>
         Lemontron is the newest Positron-style printer. Here's how it stacks up:
     </div>
     <br/>
     <div class="scroller">
-        <table class="home-table">
+        <table class="comparison-table">
             <tr>
-                <th>Model</th>
-                <th>Print Volume</th>
+                <th>&nbsp;</th>
+                <th class="comparison-header">
+                    <img class="comparison-logo" src="/assets/icons/logos/lemontron.svg" alt="Lemontron">
+                    Lemontron
+                </th>
+                <th class="comparison-header">
+                    <img class="comparison-logo" src="/assets/icons/logos/positron.svg" alt="Positron v3.2">
+                    Positron v3.2
+                </th>
+                <th class="comparison-header">
+                    <img class="comparison-logo" src="/assets/icons/logos/journey-maker.svg" alt="JourneyMaker">
+                    JourneyMaker
+                </th>
+            </tr>
+            <tr>
+                <th>Volume</th>
+                <td>180x180x165mm</td>
+                <td>180x180x165mm</td>
+                <td>180x180x173mm</td>
+            </tr>
+            <tr>
                 <th>Price</th>
-                <th>Extruder</th>
-                <th>Chassis</th>
-                <th>CNC Parts</th>
-                <th>Mesh</th>
-                <th>PSU</th>
-            </tr>
-            <tr class="lemontron">
-                <td>Lemontron 🍋</td>
-                <!--                <td>2024-11-01</td>-->
-                <td>180 x 180 x 165mm</td>
-                <td class="best">$413 🏆</td>
-                <td class="best">Internal 🏆</td>
-                <td class="best">Unibody 🏆</td>
-                <td class="best">0 🏆</td>
-                <td class="best">Probe 🏆</td>
-                <td class="best">Internal 🏆</td>
-            </tr>
-            <tr>
-                <td>Positron v3.2</td>
-                <!--                <td>2024-06-01</td>-->
-                <td>180 x 180 x 165mm</td>
+                <td>$413</td>
                 <td>$699</td>
+                <td>$699</td>
+            </tr>
+            <tr>
+                <th>Extruder</th>
+                <td>Internal</td>
                 <td>External</td>
-                <td>Frame</td>
-                <td>20</td>
-                <td>None</td>
                 <td>External</td>
             </tr>
             <tr>
-                <td>JourneyMaker</td>
-                <!--                <td>2024-01-02</td>-->
-                <td>180 x 180 x 173mm</td>
-                <td>$799</td>
-                <td>External</td>
+                <th>Chassis</th>
+                <td>Unibody</td>
                 <td>Frame</td>
-                <td>3</td>
+                <td>Frame</td>
+            </tr>
+            <tr>
+                <th>Probe</th>
+                <td>Probe</td>
                 <td>None</td>
-                <td>External</td>
+                <td>Probe</td>
             </tr>
         </table>
     </div>
@@ -123,15 +124,9 @@ kofi: true
 
 <div class="wave"></div>
 
-<!--<div class="home-section">-->
-<!--    <h2 class="home-section-title">BlueSky Feed</h2>-->
-<!--    <div class="home-blurb">-->
-<!--        <div class="wrapper">-->
-<!--            &lt;!&ndash; https://github.com/Vincenius/bsky-embed &ndash;&gt;-->
-<!--            <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>-->
-<!--            <bsky-embed username="lemontron.bsky.social" mode="dark" limit="5">-->
-<!--            </bsky-embed>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-
+<div class="home-section">
+    <div class="wrapper">
+        <h2 class="post-list-heading">Newz</h2>
+        {% include feed.html %}
+    </div>
+</div>

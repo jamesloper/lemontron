@@ -2,35 +2,28 @@
 layout: default
 ---
 
-{%- assign sorted_guides = site.guides | sort: 'date' -%}
+{% include breadcrumbs.html %}
+
+{%- assign sorted_guides = site.guides | sort: 'date' | reverse -%}
 {%- assign blog = site.posts | where: "categories", "guide" -%}
 
 <div class="wrapper guides-page">
-    <div class="sidebar">
-        <div class="sidebar-title">Lemontron</div>
-        <ol class="sidebar-list">
-            <li><a href="/lemontron/">Build Guide</a></li>
-            {% for guide in sorted_guides %}
-            <li><a href="{{guide.url | relative_url}}">{{guide.title}}</a></li>
-            {% endfor %}
-        </ol>
-
-        <div class="sidebar-title">More</div>
-        <ul class="sidebar-list">
-            {% for guide in blog %}
-            <li class="guide-thumbnail">
-                <a href="{{guide.url | relative_url}}">
-                    <div class="frame">
-                        <img class="guide-thumbnail-image" src="{{guide.thumbnail | relative_url}}"
-                             alt="{{guide.title}}">
-                    </div>
-                    <div>{{guide.title}}</div>
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-    <div class="sidebar-aside">
+<!--    <div class="sidebar">-->
+<!--        <ol class="sidebar-list">-->
+<!--            {% for guide in sorted_guides %}-->
+<!--            <li class="{% if page.url == guide.url %}active{% endif %}">-->
+<!--                <a href="{{guide.url | relative_url}}" class="frame">-->
+<!--                    <img src="{{guide.thumbnail | relative_url}}" alt="{{page.title}}">-->
+<!--                    <div class="sidebar-link-title">-->
+<!--                        <h3>{{guide.title}}</h3>-->
+<!--                        <div>{{guide.description}}</div>-->
+<!--                    </div>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            {% endfor %}-->
+<!--        </ol>-->
+<!--    </div>-->
+    <div class="guide {%if page.small%}post{%endif%}">
         <header class="post-header">
             <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
             <p class="post-meta">

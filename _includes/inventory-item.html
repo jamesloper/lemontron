@@ -1,10 +1,10 @@
 <li class="inventory-item">
-    <div class="inventory-item-left frame">
+    <div class="inventory-item-left">
         <img class="inventory-item-image" src="/assets/printed-parts/{{include.id}}.png"/>
     </div>
-    <div>
+    <div class="inventory-item-right">
         <h4 class="inventory-item-title">{{include.title}}</h4>
-        <div>{{include.description}}</div>
+        <div class="inventory-item-description">{{include.description}}</div>
         <div class="inventory-item-bar">
             {% if include.preferred_material %}
             <div class="tag">

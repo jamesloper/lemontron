@@ -1,33 +1,36 @@
 ---
-layout: guide
-title: Printed Parts
-date:   2024-09-16
+layout: post
+title: Download & print settings guide
+header_title: Download
+description: Settings & Materials
 category: Assembly
 kofi: true
+thumbnail: /assets/content/printed-parts.jpg
 ---
 
-{% include tip.html tip="Right now, not many Lemontrons have been created. You should post your settings and materials and the advantages to the Lemontron thread in
-the Voxolite Discord so that they can become official recommendations." %}
+<div class="paragraph btn-wrapper">
+{% include button.html 
+title="Download Lemontron"
+link="https://makerworld.com/en/@lemontron" %}
+{% include kofi.html %}
+</div>
 
-The Lemontron plastic parts can be printed on most enclosed printers such as Bambulab X1C. At minimum, you can print a
-lemontron from one roll of PLA and one roll of ABS. Continue reading to see the ideal materials.
-
-{% include button.html title="Download Printed Parts" link="https://makerworld.com/en/models/908050" %}
-
-## Slicer Settings
+## Settings
 
 Here is everything you need to know about slicing the Lemontron parts:
 
 1. Lemontron is designed for FDM and does not require supports.
 2. To ensure dimensional accuracy, please use a **0.2mm layer height** and a **0.4mm nozzle**.
-3. To avoid infill on 1mm thick vertical features like the top plates, ensure your are using 5 top layers and 5 bottom
+3. Top & bottom layers: To avoid infill on 1mm thick vertical features like the top plates, ensure your are using 5 top
+   layers and 5 bottom
    layers.
 4. For an insanely buffed printer, use **50% Grid Infill** and **8 Perimeters**, and dial back according to your
    preference.
-5. Using my settings will use 800-1000g of filament. 
-6. 🔔 **Don't forget to scale ABS parts to ~100.5%!** 🔔
+5. Using my settings will use 800-1000g of filament.
 
-## Chassis Inventory
+{% include tip.html tip="Don't forget to scale ABS parts to ~100.5%!" %}
+
+## Chassis Inventory & Materials
 
 <ul class="inventory">
 {% include inventory-item.html

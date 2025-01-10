@@ -1,25 +1,23 @@
-<footer class="site-footer h-card">
+<footer class="site-footer">
     <div class="wrapper">
         <div class="footer-links">
             <div class="footer-col">
-                <h4>Social Media</h4>
+                <h4>Social</h4>
                 <ul class="social-media-list">
                     {%- if site.youtube_username -%}
                     <li>
                         <a href="https://www.youtube.com/channel/UCLbi7aqBERZrFG0-eDoplMQ?sub_confirmation=1" target="_blank">
-                            <img src="/assets/icons/youtube.svg" height="16" width="16" alt="YT"/>
-                            <span class="username">@{{site.youtube_username}}</span>
+                            <img src="/assets/icons/youtube.svg" height="16" width="16" alt="YT">
+                            <span class="username">YouTube</span>
                         </a>
                     </li>
                     {%- endif -%}
-                    {%- if site.bluesky_username -%}
                     <li>
                         <a href="https://bsky.app/profile/{{site.bluesky_username | cgi_escape | escape}}">
-                            <img src="/assets/icons/bluesky.svg" height="16" width="16" alt="BSKY"/>
-                            <span class="username">{{site.bluesky_username | escape}}</span>
+                            <img src="/assets/icons/bluesky.svg" height="16" width="16" alt="BSKY">
+                            <span class="username">Bluesky</span>
                         </a>
                     </li>
-                    {%- endif -%}
                     {%- if site.github_username -%}
                     <li>
                         <a href="https://github.com/{{site.github_username | cgi_escape | escape}}">
@@ -88,13 +86,13 @@
                 <ul class="social-media-list">
                     <li>
                         <a href="{{site.discord_link}}" target="_blank">
-                            <img src="/assets/icons/discord.svg" height="16" width="16" alt="Discord"/>
-                            <span>Voxolite Discord</span>
+                            <img src="/assets/icons/discord.svg" height="16" width="16" alt="Discord">
+                            <span>Discord</span>
                         </a>
                     </li>
                     <li>
                         <a href="https://photos.app.goo.gl/ymJsbDJciHWHy3QJ8" target="_blank">
-                            <img src="/assets/icons/google-photos.svg" height="16" width="16" alt="Google Photos"/>
+                            <img src="/assets/icons/google-photos.svg" height="16" width="16" alt="Google Photos">
                             Photo Album
                         </a>
                     </li>

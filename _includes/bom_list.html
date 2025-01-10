@@ -1,8 +1,8 @@
 <div class="bom-list">
     {% for bom in include.items %}
     {% assign link = bom.links | first %}
-    <div class="bom-item frame">
-        <a href="{{bom.url | relative_url}}" class="bom-top">
+    <div class="bom-item">
+        <a href="{{bom.url | relative_url}}" class="bom-top frame">
             <img class="bom-image" src="/assets/bom/{{bom.url | split: '/' | last}}.png"/>
             {%- if include.hide_price == nil -%}
             <div class="bom-badges">
@@ -34,4 +34,8 @@
         </div>
     </div>
     {% endfor %}
+    <div class="bom-placeholder"></div>
+    <div class="bom-placeholder"></div>
+    <div class="bom-placeholder"></div>
+    <div class="bom-placeholder"></div>
 </div>

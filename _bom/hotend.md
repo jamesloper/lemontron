@@ -1,6 +1,6 @@
 ---
 layout: bom
-title: Positron 90 Hotend Kit
+title: Hotend
 qty: 1
 orders: 1
 total: 75.99

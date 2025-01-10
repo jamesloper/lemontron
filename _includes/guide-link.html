@@ -1,0 +1,9 @@
+<li class="{% if page.url == include.url %}active{% endif %}">
+    <a href="{{include.url | relative_url}}" class="frame">
+        <img src="{{include.thumbnail | relative_url}}" alt="{{include.title}}">
+        <div class="sidebar-link-title">
+            <h3>{{include.title}}</h3>
+            <div class="sidebar-link-description">{{include.description}}</div>
+        </div>
+    </a>
+</li>

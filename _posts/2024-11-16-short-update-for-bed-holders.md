@@ -3,6 +3,7 @@ layout: post
 title:  "Short Update for Bed Holders"
 categories: update video
 thumbnail: /assets/posts/2024-11-16.jpg
+permalink: /news/:title
 ---
 
 Progress continues on the lemontron every day, this one coming shortly after the recent video. Now we have real bed

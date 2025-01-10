@@ -1,9 +1,4 @@
-<p>
-<div class="button">
-    <a href="{{include.link}}">
-        <i class="material-icons">{{include.icon | default: "cloud_download"}}</i>
-        <span>{{include.title | default: "Button"}}</span>
-    </a>
-    {{include.notes}}
-</div>
-</p>
+<a class="btn" href="{{include.link}}" target="{{include.target}}">
+    {% if include.icon %}<i class="material-icons">{{include.icon}}</i>{% endif %}
+    <span>{{include.title | default: "Button"}}</span>
+</a>
