@@ -3,7 +3,7 @@ layout: post
 title:  "Software Guide"
 kofi: true
 thumbnail: /assets/content/sd-card.jpg
-small: true
+permalink: /lemontron/software-guide/
 ---
 
 In this guide, we’ll walk you through the essential steps to get your 3D printer up and running with Mainsail OS on a

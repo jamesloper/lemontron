@@ -6,6 +6,7 @@ description: Settings & Materials
 category: Assembly
 kofi: true
 thumbnail: /assets/content/printed-parts.jpg
+permalink: /lemontron/download/
 ---
 
 <div class="paragraph btn-wrapper">

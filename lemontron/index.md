@@ -3,6 +3,7 @@ layout: post
 title: Ready to build a Lemontron?
 header_title: Lemontron
 kofi: true
+permalink: /lemontron/
 ---
 
 Lemontron is a DIY project - there are no kits - you must buy the parts online and assemble them.
