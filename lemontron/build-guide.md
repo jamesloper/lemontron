@@ -349,7 +349,7 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
     {% include step.html
     title = "Wrap the wires"
     image = "tool---wire-sleeve.jpg"
-    content = "Use 57cm of wire sleeve to wrap the wires." %}
+    content = "Use 47cm of wire sleeve to wrap the wires." %}
 
     {% include step.html
     title = "Insert the clamp"
