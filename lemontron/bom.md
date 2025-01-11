@@ -57,11 +57,9 @@ This screw list is subject to further optimization.
 
 {% include screws_list.html %}
 
-The <b>NEW</b> badge is for current owners of a <a href="https://github.com/mcfazio2001/JourneyMaker-Positron"
-target="_blank">JourneyMaker</a> who wish to convert it to a
-Lemontron.
-The cost for the <b>NEW</b> parts is <b>${{total_new}}</b>, plus another <a href="/lemontron/bom/stepper/">stepper
-motor</a>. If you're converting a JourneyMaker, you can re-use your entire tool head, so you don't need to buy the
-<a href="/lemontron/bom/hotend/">positron one</a> but it's a big upgrade.
+The **NEW** badge is for current owners of a [JourneyMaker](/lemontron/lemontron-journeymaker-origins) who wish to convert it to a
+Lemontron. The cost for the **NEW** parts is **${{total_new}}**, plus another [stepper motor](/lemontron/bom/stepper).
+If you're converting a JourneyMaker, you can re-use your entire tool head, so you don't need to buy
+the [positron one](lemontron/bom/hotend) but it's a big upgrade.
 
 ## Total: **${{total_price}}**
