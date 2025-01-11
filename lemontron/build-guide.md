@@ -407,8 +407,7 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
     {% include step.html
     title = "Clean up the inserts"
     image = "chassis---clean-up-inserts.jpg"
-    content = "I used 5mm wide inserts here so I got the blobs. I put 4.5mm inserts in the bom, so you hopefully won't
-    have to do this. Let me know how it goes." %}
+    content = "After pushing in the inserts, clean up with a razor. The geometry here could use some improvement, I guess." %}
 
     {% include step.html
     title = "Insert the top z-block insert"
