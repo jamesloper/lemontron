@@ -33,23 +33,23 @@ additional processing are marked with MOD.
 
 ## Positron Parts
 
-{%- assign positron = bom_required | where: "category", "Positron" -%}
-{% include bom_list.html items = positron %}
+{% assign positron = bom_required | where: "category", "Positron" %}
+{% include bom_list.html items=positron %}
 
 ## Hardware
 
-{%- assign hardware = bom_required | where: "category", "Hardware" -%}
-{% include bom_list.html items = hardware %}
+{% assign hardware = bom_required | where: "category", "Hardware" %}
+{% include bom_list.html items=hardware %}
 
 ## Electronics
 
-{%- assign electronics = bom_required | where: "category", "Electronics" -%}
-{% include bom_list.html items = electronics %}
+{% assign electronics = bom_required | where: "category", "Electronics" %}
+{% include bom_list.html items=electronics %}
 
 ## Optional Upgrades
 
-{%- assign bom_optional = bom_sorted | where: "optional", true -%}
-{% include bom_list.html items = bom_optional %}
+{% assign bom_optional = bom_sorted | where: "optional", true %}
+{% include bom_list.html items=bom_optional %}
 
 ## Screws
 
