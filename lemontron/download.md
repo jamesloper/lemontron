@@ -18,13 +18,10 @@ link="https://makerworld.com/en/@lemontron" %}
 
 ## Settings
 
-Here is everything you need to know about slicing the Lemontron parts:
-
 1. Lemontron is designed for FDM and does not require supports.
 2. To ensure dimensional accuracy, please use a **0.2mm layer height** and a **0.4mm nozzle**.
 3. Top & bottom layers: To avoid infill on 1mm thick vertical features like the top plates, ensure your are using 5 top
-   layers and 5 bottom
-   layers.
+   layers and 5 bottom layers.
 4. For an insanely buffed printer, use **50% Grid Infill** and **8 Perimeters**, and dial back according to your
    preference.
 5. Using my settings will use 800-1000g of filament.

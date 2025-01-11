@@ -3,7 +3,7 @@ layout: post
 title:  "How to build Klipper"
 category: guide
 kofi: true
-thumbnail: /assets/content/sd-card.jpg
+thumbnail: /assets/guide/intro---sd-card.jpg
 permalink: /lemontron/:title
 ---
 

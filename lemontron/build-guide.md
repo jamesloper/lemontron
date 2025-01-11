@@ -6,20 +6,14 @@ thumbnail: /assets/guide/chassis---tool---screws.jpg
 permalink: /lemontron/build-guide/
 ---
 
-<p>
-    <b>Welcome to the build guide!</b> Before you assemble, make sure you grab everything you need-- <a
-        href="../tools-needed/">tools</a>, <a href="../printed-parts/">printed
-    parts</a>, and <a href="../bom/">ordered parts</a>.
-</p>
+**Welcome to the build guide!** Before you assemble, make sure you grab everything you
+need-- [tools](../tools-needed/), [printed parts](../download/) and [ordered parts](../bom/).
 
-<p>
-    All screws are M3 unless otherwise stated.
-</p>
+All screws are M3 unless otherwise stated.
 
 {% include tip.html
-tip="I support other creators. If you support me, the cycle of kindness continues. Please consider supporting this project on
-<a
-        href='https://www.patreon.com/Lemontron' target='_blank'>Patreon</a>!"
+tip="I support other creators. If you support me, the cycle of kindness continues. Please consider supporting this
+project on <a href='https://www.patreon.com/Lemontron' target='_blank'>Patreon</a>!"
 icon="volunteer_activism"
 shimmer=true
 %}
@@ -27,10 +21,11 @@ shimmer=true
 {%- capture download_step -%}
 <div class="paragraph">
     {% include button.html
-    title = "Download Lemontron"
-    link = "https://makerworld.com/en/@lemontron" %}
+    icon="cloud_download"
+    title="Download Lemontron"
+    link="https://makerworld.com/en/@lemontron" %}
 </div>
-The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <a href="/lemontron/printed-parts/">Printed
+The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <a href="/lemontron/download/">Printed
     Parts</a> page for more very important information.
 {%- endcapture -%}
 
@@ -42,6 +37,11 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
 
     {% include tip.html tip="Various slicers are reported to have trouble opening the 3MF file, I am investigating the
     cause of it! In the mean time, it is known to be working in OrcaSlicer." %}
+
+    {% include step.html
+    title = "Install the software"
+    image = "intro---sd-card.jpg"
+    content = "Use the <a href='../software-guide/'>Software Guide</a> to install the required software on to the Raspberry Pi and SKR Pico. The SKR Pico is hard to reach once the Lemontron is assembled!" %}
 
     {% include step.html
     title = "Insert the screws"
@@ -910,14 +910,11 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
     title = "You've reached the end!"
     image = "final---beauty.jpg"
     content = "Time to calibrate, but if you've gotten this far, I'm sure that won't be a challenge!" %}
+
 </ol>
 
-<h2>Further reading...</h2>
-<p>
-    The <a href="/lemontron/software-guide/">software guide</a> will help you get the OS flashed.
-</p>
+## Further reading...
 
-<p>
-    The <a href='/news/how-to-calibrate-z-offset'>calibration guide</a> will help you get the perfect first
-    layer.
-</p>
+The [software guide](/lemontron/software-guide/) will help you get the OS flashed.
+
+The [calibration guide](/lemontron/how-to-calibrate-z-offset) will help you get the perfect first layer.

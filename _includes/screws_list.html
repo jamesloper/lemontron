@@ -1,0 +1,24 @@
+<div class="table-responsive">
+    <table>
+        {% for screw in site.data.screws %}
+        <tr>
+            <td class="td-screw">
+                {% include screw.html type=screw.type length=screw.length thread=screw.thread %}
+            </td>
+            <td>&times;{{screw.qty}}</td>
+            <td class="screw-description">
+                {{screw.description | split: "/" | join: ", "}}
+            </td>
+            <td class="bom-right">
+                <span>${{screw.total}}</span><br/>
+                {% if screw.link %}
+                <a class="buy" href="{{screw.link}}" target="_blank">
+                    <i class="material-icons">shopping_cart</i>
+                    AliExpress
+                </a>
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>

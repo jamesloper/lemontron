@@ -1,15 +1,16 @@
 ---
 layout: post
-title:  "Software Guide"
+title: Software guide
 kofi: true
-thumbnail: /assets/content/sd-card.jpg
+thumbnail: /assets/guide/intro---sd-card.jpg
 permalink: /lemontron/software-guide/
 ---
 
-In this guide, we’ll walk you through the essential steps to get your 3D printer up and running with Mainsail OS on a
-Raspberry Pi. You’ll start by installing the operating system, configuring SSH and WiFi settings, and updating the
-system. Then, we’ll guide you through flashing the firmware on your SKR Pico board and finalizing the setup on your
-Raspberry Pi. By the end, your printer will be fully configured and ready to begin printing.
+Your lemontron will run Mainsail OS on a Raspberry Pi. You’ll install the operating system, configure SSH
+and WiFi settings, and update the system. Then, we’ll guide you through flashing the firmware on your SKR Pico board and
+finalizing the setup on your Raspberry Pi.
+
+Begin by downloading the latest configuration files and firmware:
 
 <div class="btn-wrapper">
 {% include button.html
@@ -27,6 +28,7 @@ notes = "Built on 2024-08-06"%}
 
 Burn Mainsail OS via [Raspberry-Pi-Imager](https://www.raspberrypi.com/software/). Make sure you configure your SSH key
 and WiFi settings so that you can SSH as soon as it powers up.
+
 SSH into the Raspberry Pi and bring the OS up-to-date:
 
 ```bash
@@ -39,7 +41,8 @@ sudo apt update && sudo apt upgrade
 
 1. Apply the jumper to the `BOOT` pins on the SKR Pico (located in the center, under the "TE" in "BIGTREETECH").
 2. Hold down the `BOOT` button on the SKR Pico and connect the SKR Pico to your computer over USB-C.
-3. Drag the klipper.uf2 file to the PICO drive that appears. Wait for the drive to disappear and reappear and then disconnect.
+3. Drag the klipper.uf2 file to the PICO drive that appears. Wait for the drive to disappear and reappear and then
+   disconnect.
 
 {% include separator.html %}
 
