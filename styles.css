@@ -181,7 +181,7 @@ tr > *:last-child {padding-right:0;}
 .site-header .wrapper {display:flex; align-items:center; gap:var(--gutter); height:60px; justify-content:space-between; padding:0 var(--gutter);}
 .site-title {font-size:26px; font-weight:300; line-height:54px; margin-bottom:0;}
 .site-title img {height:40px; display:block;}
-.site-nav {display:flex; height:100%; margin-right:calc(var(--gutter) * -1);}
+.site-nav {display:flex; height:100%; align-items:center;}
 .page-link {color:inherit; font-size:16px; text-transform:uppercase; height:100%; display:flex; align-items:center; padding:0 var(--gap);}
 .page-link.active {font-weight:800;}
 

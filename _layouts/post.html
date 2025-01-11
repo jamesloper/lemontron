@@ -4,7 +4,7 @@ blog: news
 ---
 {% include breadcrumbs.html %}
 
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="{% if page.large%}page{%else%}post{%endif%}" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
         <h1 class="post-title p-name" itemprop="name headline">{{page.title | escape}}</h1>
         <p class="post-meta">
