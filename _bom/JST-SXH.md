@@ -3,7 +3,6 @@ layout: bom
 title: JST SXH-001T-P0.6
 qty: 100
 total: 5.32
-description: For Motors, Z-Probe, Sensor Wires, etc. Approximately 27 are used in the build.
 new: true
 links:
   - vendor: Digikey
@@ -13,4 +12,4 @@ optional: false
 category: Electronics
 ---
 
-Used on the motors, sensors, probe, and wire pigtails.
+For Motors, Z-Probe, Sensor Wires, etc. Approximately 27 are used in the build.
