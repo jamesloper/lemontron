@@ -46,7 +46,7 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
     {% include step.html
     title = "Insert the screws"
     image = "bed-holder---insert-screws.jpg"
-    content = "Drop two 40mm countersinks into the holes" %}
+    content = "Drop two 40mm button heads into the holes." %}
 
     {% include step.html
     title = "Scrape the mating surface flat"

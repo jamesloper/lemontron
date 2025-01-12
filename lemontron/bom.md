@@ -10,6 +10,8 @@ permalink: /lemontron/bom/
 This comprehensive list includes all the parts required to assemble a Lemontron 3D printer. Parts that need
 additional processing are marked with MOD.
 
+And don't forget the [tools](/lemontron/tools-needed/).
+
 <div class="paragraph">
     {% include button.html title="Download CSV" icon="cloud_download" link="/lemontron/exports/bom.csv" %}
 </div>
@@ -60,6 +62,6 @@ This screw list is subject to further optimization.
 The **NEW** badge is for current owners of a [JourneyMaker](/lemontron/lemontron-journeymaker-origins) who wish to convert it to a
 Lemontron. The cost for the **NEW** parts is **${{total_new}}**, plus another [stepper motor](/lemontron/bom/stepper).
 If you're converting a JourneyMaker, you can re-use your entire tool head, so you don't need to buy
-the [positron one](lemontron/bom/hotend) but it's a big upgrade.
+the [positron one](/lemontron/bom/hotend) but it's a big upgrade.
 
 ## Total: **${{total_price}}**

@@ -4,10 +4,10 @@ countersunk,M3,8,11,Motors (4)/Lead Screw Nut (3)/Risers (4),1.44,https://www.al
 countersunk,M3,14,15,Tool Head (2)/Top Plates (4)/Y-Rail (9),1.73,https://www.aliexpress.us/item/3256805993813459.html
 countersunk,M3,20,5,XY Spacer (2)/Mid Plates (2)/Y-Rail Bonus (1),2.51,https://www.aliexpress.us/item/3256806241130840.html
 countersunk,M3,25,7,Tensioner (1)/Top Plates (4)/Bracket (2),2.51,https://www.aliexpress.us/item/3256806241130840.html
-countersunk,M3,40,2,Bed Holder (2),2.35,https://www.aliexpress.us/item/2251832837611476.html
 button-head,M3,12,2,Tensioner (2),1.51,https://www.aliexpress.us/item/2251832624537980.html
 button-head,M3,16,4,Bearing Tower (2)/Z-Block (2),1.52,https://www.aliexpress.us/item/2255800885711092.html
 button-head,M3,20,2,Bed Screws (2),2.40,https://www.aliexpress.us/item/2251832624537980.html
+button-head,M3,40,2,Bed Holder (2),2.64,https://www.aliexpress.us/item/2255799841823122.html
 wafer-head,M3,14,16,Fans (8)/Z-Idler (2)/X-Idlers (2)/AC Plug (2)/Mid Plate Idlers (2),1.30,https://www.aliexpress.us/item/2255800885711092.html
 wafer-head,M3,30,2,Mid Plate Idlers (2),1.89,https://www.aliexpress.us/item/2255800885711092.html
 countersunk,M2.5,6,10,Heatsink (4)/PCB (4)/Probe (2),0.81,https://www.aliexpress.us/item/3256802921670606.html

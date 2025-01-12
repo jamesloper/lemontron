@@ -9,10 +9,7 @@ discord_link: https://discord.com/invite/gSjfn4rnrm
 collections:
   bom:
     output: true
-    permalink: /lemontron/bom/:path
-  guides:
-    output: true
-    permalink: /lemontron/:path
+    permalink: /lemontron/bom/:path/
 plugins:
   - jekyll-feed
 permalink: /blog/:title

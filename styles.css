@@ -126,7 +126,7 @@ a.btn:hover {text-decoration:none !important; background:#ff0;}
 .hero-image {height:390px; width:auto; object-fit:cover;}
 .hero-sub {font-size:14px; font-family:Nunito, sans-serif; text-transform:uppercase;}
 
-.home-section {padding:50px var(--gutter); text-align:center;}
+.home-section {padding:40px var(--gutter); text-align:center;}
 .home-section-title {text-align:center; font-family:Righteous, sans-serif;}
 .home-blurb {text-align:center; padding:0 var(--gutter);}
 
@@ -156,7 +156,7 @@ a.btn:hover {text-decoration:none !important; background:#ff0;}
 }
 
 .banner {display:flex; flex-wrap:wrap; gap:20px; margin:0 auto; justify-content:space-around;}
-.banner-column {display:flex; gap:10px; flex-direction:column; flex:1; padding:20px; align-items:center; text-align:center; min-width:250px;}
+.banner-column {display:flex; gap:10px; flex-direction:column; flex:1; padding:var(--gap); align-items:center; text-align:center; min-width:240px; max-width:240px; font-family:Nunito, sans-serif;}
 .banner-title {display:flex; gap:10px; align-items:center; font-family:Righteous, sans-serif;}
 .banner h2 {margin-bottom:0; font-size:20px; color:#fff;}
 .banner p {margin:0;}

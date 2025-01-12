@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Ready to build a Lemontron?
+title: Build a Lemontron
 header_title: Lemontron
 kofi: true
 permalink: /lemontron/
 ---
 
-Lemontron is a DIY project - there are no kits - you must buy the parts online and assemble them.
+{% include youtube-video.html id="n6l3GvkE4QU" %}
+
+Lemontron is a **DIY** project - there are no kits - you must buy the parts online and assemble them.
 
 Watch the video, then follow the build guide below for the most up-to-date instructions.
-
-{% include youtube-video.html id="n6l3GvkE4QU" %}
 
 <div class="paragraph btn-wrapper">
 {% include button.html 
