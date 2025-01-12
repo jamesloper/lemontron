@@ -167,7 +167,7 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
     {% include step.html
     title = "Crimp signal wires"
     image = "z-axis---edge-connector---crimp-signal-wires.jpg"
-    content = "Crimp the two signal wires. Learn how to crimp goooood <a href='/news/how-to-crimp'>here</a>." %}
+    content = "Crimp the two signal wires. Learn how to crimp goooood <a href='/lemontron/how-to-crimp'>here</a>." %}
 
     {% include step.html
     title = "Insert connector"
@@ -251,7 +251,7 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
     title = "Tighten the heat break"
     image = "hotend.jpg"
     content = "The heat break is loose from the factory. You need to rebuild the hotend using <a
-        href='/news/how-to-rebuild-positron-hotend'>this guide</a>." %}
+        href='/lemontron/how-to-rebuild-positron-hotend'>this guide</a>." %}
 
 
     {% include step.html
