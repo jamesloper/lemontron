@@ -272,12 +272,12 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
     {% include step.html
     title = "Fasten the hotend"
     image = "tool---fasten-hotend.jpg"
-    content = "Use 8mm screws to attach the hotend to the tool body." %}
+    content = "Use 6mm screws to attach the hotend to the tool body." %}
 
     {% include step.html
     title = "Fasten the probe"
     image = "tool---fasten-probe.jpg"
-    content = "Use 8mm screws to fasten the probe to the tool body." %}
+    content = "Use 6mm screws to fasten the probe to the tool body." %}
 
     {% include step.html
     title = "Insert small fan"
@@ -297,7 +297,7 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
     {% include step.html
     title = "Fasten the pcb"
     image = "tool---fasten-pcb.jpg"
-    content = "Fasten the pcb to the heat sink using 8mm M2.5 screws." %}
+    content = "Fasten the pcb to the heat sink using 6mm M2.5 screws." %}
 
     {% include step.html
     title = "Solder the hotend fan"
