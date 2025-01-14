@@ -52,13 +52,10 @@
 * {box-sizing:border-box;}
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {margin:0; padding:0;}
 body {font:400 14px/1.5 "JetBrains Mono", monospace, sans-serif; color:var(--color); background:var(--bg); display:flex; min-height:100vh; flex-direction:column;}
-img,iframe {display:block;}
 h1, h2, h3, h4, h5, h6, blockquote, pre, ul, ol, figure, p, .paragraph {margin-bottom:var(--gutter);}
 h1, h2, h3, h4, h5, h6 {font-family:Righteous, sans-serif;}
-main {display:block;}
-img {max-width:100%; vertical-align:middle;}
-figure > img {display:block;}
-figcaption {font-size:14px;}
+img {max-width:100%;}
+main, img, iframe {display:block;}
 ul, ol {margin-left:30px;}
 li > ul, li > ol {margin-bottom:0;}
 a {color:inherit; text-decoration:none;}
@@ -74,7 +71,8 @@ a {color:inherit; text-decoration:none;}
 /* FRAME UTILITY */
 .frame {position:relative; border-radius:10px; display:block; overflow:hidden; box-shadow:0 1px 3px rgba(0, 0, 0, .2); max-width:100%;}
 a.frame:hover:after, a:hover .frame:after {border:2px solid #ff0;}
-.frame > img, .frame > iframe {border-radius:inherit;}
+.framed {}
+/*.frame > img, .frame > iframe {border-radius:inherit;}*/
 .frame:after {content:""; display:block; inset:0; position:absolute; pointer-events:none; border:1px solid rgba(255, 255, 255, .1); border-radius:inherit;}
 
 .screw {display:flex; gap:10px; height:40px; align-items:center;}
@@ -187,15 +185,14 @@ tr > *:last-child {padding-right:0;}
 
 .site-footer {padding:30px 0; font-size:14px;}
 .site-footer .wrapper {display:flex; flex-wrap:wrap; gap:var(--gutter); justify-content:space-between; padding:0 var(--gutter);}
-.contact-list, .social-media-list {list-style:none; margin:0;}
-
-.footer-links {display:flex; gap:30px; flex-wrap:wrap;}
-.footer-col h4 {margin-bottom:2px;}
+.footer-left {display:flex; gap:30px; flex-wrap:wrap;}
+.footer-col ul {list-style:none; margin:0;}
+.footer-col a {display:flex; align-items:center; gap:8px;}
+.footer-col h4 {margin-bottom:0; font-size:12px;}
+.site-footer .btn-support {border-radius:18px; background:#303; padding:0 8px;}
 
 @media (max-width:640px) {
-    .site-footer .wrapper {flex-direction:column; text-align:center; align-items:center;}
-
-    .footer-col {text-align:center;}
+    .site-footer .wrapper {flex-direction:column; align-items:center;}
 }
 
 .page-content {flex:1;}
