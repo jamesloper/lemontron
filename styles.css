@@ -135,6 +135,7 @@ a.btn:hover {text-decoration:none !important; background:#ff0;}
 .comparison-logo {height:25px; width:25px; margin-right:4px;}
 .comparison-table tr > *:first-child {text-align:right; width:0;}
 .comparison-table .lemontron td {background:#2d2217;}
+.comparison-header {display:flex; align-items:center; justify-content:center; gap:8px;}
 
 .scroller {width:100%; overflow:auto; -webkit-overflow-scrolling:touch;}
 
