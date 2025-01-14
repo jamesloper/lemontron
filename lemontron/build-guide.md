@@ -9,7 +9,7 @@ permalink: /lemontron/build-guide/
 **Welcome to the build guide!** Before you assemble, make sure you grab everything you
 need-- [tools](../tools-needed/), [printed parts](../download/) and [ordered parts](../bom/).
 
-All screws are M3 unless otherwise stated.
+All hardware is M3 unless otherwise stated.
 
 {% include tip.html
 tip="I support other creators. If you support me, the cycle of kindness continues. Please consider supporting this
@@ -34,9 +34,6 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
     title = "Print the parts"
     image = "intro---slicer.png"
     content = download_step %}
-
-    {% include tip.html tip="Various slicers are reported to have trouble opening the 3MF file, I am investigating the
-    cause of it! In the mean time, it is known to be working in OrcaSlicer." %}
 
     {% include step.html
     title = "Install the software"
@@ -187,8 +184,7 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
     {% include step.html
     title = "Gather Lemonstruder parts"
     image = "lemonstruder---parts.jpg"
-    content = "Top & bottom halfs (Printed), super glue, yellow spring, 6mm countersunk screw, small bearing, 2 M3 shims
-    (Off frame, sorry)" %}
+    content = "Top & bottom halfs (Printed), super glue, yellow spring, 8mm countersunk screw, small bearing, 2 small shims (Off frame, sorry)" %}
 
     {% include step.html
     title = "Glue halves together"
