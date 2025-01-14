@@ -432,6 +432,8 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
     image = "chassis---ac-input.jpg"
     content = "Slide in the AC jack and fasten with two 14mm wafer heads." %}
 
+    {% include shock-warning.html %}
+
     {% include step.html
     title = "Modify PSU"
     image = "psu---cut.jpg"

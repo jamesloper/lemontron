@@ -426,3 +426,5 @@ tr > *:last-child {padding-right:0;}
 .guide-thumbnail a {color:#fff; white-space:wrap;}
 .guide-title {position:absolute; bottom:0; left:0; right:0; padding:8px 30% 8px 16px; display:block; background:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%); font-family:Righteous, sans-serif; font-size:12px;}
 
+/* SHOCK WARNING */
+.shock-warning {background:#300; padding:var(--gap); margin-bottom:20px; display:flex; gap:var(--gap); align-items:center; text-align:center; text-transform:uppercase; color:#ff0;}
