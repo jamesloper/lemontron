@@ -246,8 +246,10 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
     {% include step.html
     title = "Tighten the heat break"
     image = "hotend.jpg"
-    content = "The heat break is loose from the factory. You need to rebuild the hotend using <a
-        href='/lemontron/how-to-rebuild-positron-hotend'>this guide</a>." %}
+    content = "The heat break is loose from the factory. You need to rebuild the hotend."
+    buttonTitle="Guide &rarr; Rebuild the Hotend"
+    buttonLink="/lemontron/how-to-rebuild-positron-hotend"
+    %}
 
 
     {% include step.html
@@ -906,12 +908,14 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
     {% include step.html
     title = "You've reached the end!"
     image = "final---beauty.jpg"
-    content = "Time to calibrate, but if you've gotten this far, I'm sure that won't be a challenge!" %}
+    content = "You just built the whole thing. Now wash up, you're probably covered in solder fumes." %}
+
+    {% include step.html
+    title = "You've reached the end!"
+    image = "calibration---adjust-screw.jpg"
+    content = "Use the handy guide to do your one-time calibration."
+    buttonTitle="Guide &rarr; How to Calibrate"
+    buttonLink="/lemontron/how-to-calibrate"
+    %}
 
 </ol>
-
-## Further reading...
-
-The [software guide](/lemontron/software-guide/) will help you get the OS flashed.
-
-The [calibration guide](/lemontron/how-to-calibrate-z-offset) will help you get the perfect first layer.

@@ -17,6 +17,11 @@
             <img src="/assets/guide/{{include.image}}" alt="{{include.alt}}">
         </div>
         <div class="step-right">
+            {% if include.buttonTitle %}
+            <p>
+                {% include button.html icon=include.buttonIcon title=include.buttonTitle link=include.buttonLink %}
+            </p>
+            {% endif %}
             {{- include.content -}}
         </div>
     </div>
