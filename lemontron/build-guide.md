@@ -911,7 +911,7 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
     content = "You just built the whole thing. Now wash up, you're probably covered in solder fumes." %}
 
     {% include step.html
-    title = "You've reached the end!"
+    title = "Sike you've not reached the end!"
     image = "calibration---adjust-screw.jpg"
     content = "Use the handy guide to do your one-time calibration."
     buttonTitle="Guide &rarr; How to Calibrate"
