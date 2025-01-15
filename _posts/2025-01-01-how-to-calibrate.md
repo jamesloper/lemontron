@@ -10,7 +10,10 @@ Once your Lemontron is assembled, you must do a one-time calibration! This is a 
 bed mesh has a good starting point. Yes, your bed will change when you're out on the go, but the probe will make up for
 any small variations.
 
-<div class="steps">
+All good prints start with a level bed, meaning the bed is almost parallel to the rails. This is a one-time process, you should
+only need to do it again if it gets knocked out of alignment.
+
+<ol class="steps">
 {% include step.html
 title="Home the printer"
 image="calibration---home.png"
@@ -65,7 +68,14 @@ title="Repeat on the other side"
 image="calibration---repeat-right.jpg"
 content="Repeat the process on the front right corner. Now the bed is level! Remove the paper."
 %}
+</ol>
 
+## Z-offset calibration
+
+With a levelled bed, you can calibrate the Z offset. This is known as the distance between the probe tip and the
+nozzle tip, and is needed to position the nozzle correctly. Many issues can be traced back to an incorrect Z offset!
+
+<ol class="steps">
 {% include step.html
 title="Home the bed again"
 image="calibration---home.png"
@@ -81,7 +91,7 @@ content="Place the paper between the nozzle and the bed."
 {% include step.html
 title="Set z-offset"
 image="calibration---z-offset.png"
-content="Click the home button. Use the Z offset buttons in the UI to finely adjust the bed up or down so that the paper
+content="Use the Z offset buttons in the UI to finely adjust the bed up or down so that the paper
 just barely drags."
 %}
 
@@ -91,7 +101,7 @@ image="calibration---save.png"
 content="Press the save icon. This will lock in your Z offset, which is the distance between the probe tip and nozzle
 tip."
 %}
-</div>
+</ol>
 
 Your Lemontron is now calibrated and ready to print. You should only need to come back and do it again if your Lemontron
 gets knocked around or you change the bed, nozzle, or probe.
