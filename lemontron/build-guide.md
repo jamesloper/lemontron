@@ -399,13 +399,13 @@ The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <
     {% include step.html
     title = "Insert the heat set inserts"
     image = "chassis---threaded-inserts.jpg"
-    content = "Insert the 8 inserts in the holes using a soldering iron or heat set insert tool. These 10mm long
+    content = "Insert the 6 inserts in the bottom holes using a soldering iron or heat set insert tool. These 10mm long
     threaded inserts are super strong." %}
 
     {% include step.html
     title = "Clean up the inserts"
     image = "chassis---clean-up-inserts.jpg"
-    content = "After pushing in the inserts, clean up with a razor. The geometry here could use some improvement, I guess." %}
+    content = "After pushing in the inserts, clean up with a razor." %}
 
     {% include step.html
     title = "Insert the top z-block insert"

@@ -119,9 +119,8 @@ a.btn:hover {text-decoration:none !important; background:#ff0;}
 .hero h1 {font-size:48px; line-height:1em;}
 .hero-text {display:flex; gap:20px; flex-direction:column; align-items:flex-start;}
 .hero-text > * {margin:0;}
-.hero-image-container {aspect-ratio:1; max-width:100%; width:400px; display:inline-flex; align-items:center; justify-content:center;}
 .step-number {position:absolute; top:4px; left:0; right:0; text-align:center;}
-.hero-image {height:390px; width:auto; object-fit:cover;}
+.hero-image {height:400px; width:400px; object-fit:contain; aspect-ratio:1;}
 .hero-sub {font-size:14px; font-family:Nunito, sans-serif; text-transform:uppercase;}
 
 .home-section {padding:40px var(--gutter); text-align:center;}
