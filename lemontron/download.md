@@ -12,7 +12,7 @@ permalink: /lemontron/download/
 <div class="paragraph btn-wrapper">
 {% include button.html 
 title="Download Lemontron"
-link="https://makerworld.com/en/@lemontron" %}
+link=site.download_link %}
 {% include kofi.html %}
 </div>
 
