@@ -13,6 +13,7 @@ permalink: /lemontron/download/
    {% include button.html 
    title="Download Lemontron"
    link=site.download_link
+   icon="cloud_download"
    target="_blank" %}
    {% include kofi.html %}
 </div>

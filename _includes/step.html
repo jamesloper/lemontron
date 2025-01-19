@@ -19,7 +19,12 @@
         <div class="step-right">
             {% if include.buttonTitle %}
             <p>
-                {% include button.html icon=include.buttonIcon title=include.buttonTitle link=include.buttonLink %}
+                {% include button.html
+                icon=include.buttonIcon
+                title=include.buttonTitle
+                link=include.buttonLink
+                target=include.buttonTarget
+                %}
             </p>
             {% endif %}
             {{- include.content -}}
