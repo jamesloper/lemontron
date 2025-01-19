@@ -23,7 +23,8 @@ shimmer=true
     {% include button.html
     icon="cloud_download"
     title="Download Lemontron"
-    link=site.download_link %}
+    link=site.download_link
+    target="_blank" %}
 </div>
 The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <a href="/lemontron/download/">Printed
     Parts</a> page for more very important information.

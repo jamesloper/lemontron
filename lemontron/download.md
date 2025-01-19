@@ -10,10 +10,11 @@ permalink: /lemontron/download/
 ---
 
 <div class="paragraph btn-wrapper">
-{% include button.html 
-title="Download Lemontron"
-link=site.download_link %}
-{% include kofi.html %}
+   {% include button.html 
+   title="Download Lemontron"
+   link=site.download_link
+   target="_blank" %}
+   {% include kofi.html %}
 </div>
 
 ## Settings
