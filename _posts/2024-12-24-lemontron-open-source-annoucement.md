@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lemontron Open Source Printer is Ready to Download"
+title:  "Lemontron open source printer is ready to download"
 categories: update
 thumbnail: /assets/content/lemontron-printing-a-lemon.jpg
 permalink: /news/:title

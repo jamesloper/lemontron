@@ -338,7 +338,7 @@ content = "Use 47cm of wire sleeve to wrap the wires." %}
 {% include step.html
 title = "Insert the clamp"
 image = "tool---insert-clamp.jpg"
-content = "Clamp down the wires by pushing in the clamp and securing it with a 10mm M2.5 screw." %}
+content = "Clamp down the wires by pushing in the clamp and securing it with a 12mm button head." %}
 
 {% include step.html
 title = "Clip the tool wires"
@@ -524,7 +524,7 @@ the MCU." %}
 {% include step.html
 title = "Screw in the first riser"
 image = "chassis---screw-riser.jpg"
-content = "Flip it over and fix the riser in place with two 8mm countersunks." %}
+content = "Flip it over and fix the riser in place with two 8mm countersinks." %}
 
 {% include step.html
 title = "Insert the second riser"
@@ -565,7 +565,7 @@ are tidy." %}
 {% include step.html
 title = "Fasten the rail"
 image = "chassis---fasten-rail.jpg"
-content = "Using 14mm countersunks, fasten the rail to the chassis. You must go slow, alternate short rotations and
+content = "Using 14mm countersinks, fasten the rail to the chassis. You must go slow, alternate short rotations and
 don't overheat the plastic." %}
 
 {% include step.html
@@ -589,7 +589,7 @@ that there is no gap." %}
 title = "Secure the right motors"
 image = "midplate---right---motor-mounts.jpg"
 content = "Secure the motors to the right midplate, filling the four countersunk motor mount holes with 8mm
-countersunks." %}
+countersinks." %}
 
 {% include step.html
 title = "Install the extra screw"
@@ -629,7 +629,7 @@ content = "Remove the slack in the cables." %}
 title = "Insert the motor mount screws"
 image = "midplate---left---motor-mounts.jpg"
 content = "Secure the motors to the left midplate, filling the four countersunk motor mount holes with 8mm
-countersunks." %}
+countersinks." %}
 
 {% include step.html
 title = "Insert the lower pulley"
@@ -696,7 +696,7 @@ content = "Drop the spacer (printed) onto the Y axis carriage." %}
 {% include step.html
 title = "Attach the X rail"
 image = "rail---attach-x-rail.jpg"
-content = "Drop the X rail on top of the spacer and screw it in with two 20mm countersunks." %}
+content = "Drop the X rail on top of the spacer and screw it in with two 20mm countersinks." %}
 
 {% include step.html
 title = "Create bearing towers"
@@ -798,13 +798,13 @@ content = "Drop in the two top plates." %}
 title = "Fasten the outer screws"
 image = "top-plates---outer-screws.jpg"
 content = "Fasten the top plates to the chassis on the 6 outer holes along the edges with 25mm (or 20mm)
-countersunks." %}
+countersinks." %}
 
 {% include step.html
 title = "Fasten the inner screws"
 image = "top-plates---inner-screws.jpg"
-content = "Fasten the top plates to the motors on the 4 inner holes with 14mm countersunks (bonus points if you
-fabricate 15mm countersunks for a better fit)." %}
+content = "Fasten the top plates to the motors on the 4 inner holes with 14mm countersinks (bonus points if you
+fabricate 15mm countersinks for a better fit)." %}
 
 {% include step.html
 title = "Attach the tool head"
@@ -814,12 +814,12 @@ content = "Drop on the tool head." %}
 {% include step.html
 title = "Screw on the tool head"
 image = "chassis---tool---screws.jpg"
-content = "Screw on the tool head with two 14mm countersunks." %}
+content = "Screw on the tool head with two 14mm countersinks." %}
 
 {% include step.html
 title = "Attach the belt clip"
 image = "chassis---tool---attach-clip.jpg"
-content = "Flip over the printer and attach the clip with two 10mm M2.5 countersunks." %}
+content = "Flip over the printer and attach the clip with two 8mm countersinks." %}
 
 {% include step.html
 title = "Attach the Z idler arm"
@@ -835,7 +835,7 @@ content = "Hook the Z axis drive belt on the pulley. Drop the Z axis into place.
 {% include step.html
 title = "Screw in Z axis"
 image = "chassis---screw-in-z-axis.jpg"
-content = "Screw in the Z axis. Rev B uses two 16mm button heads instead of the countersunks shown in the picture."
+content = "Screw in the Z axis. Rev B uses two 16mm button heads instead of the countersinks shown in the picture."
 %}
 
 {% include step.html
