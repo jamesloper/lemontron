@@ -605,8 +605,8 @@ chassis." %}
 {% include step.html
 title = "Install the upper pulley"
 image = "midplate---right---upper-pulley.jpg"
-content = "Onto a 14mm wafer head, drop a small bearing, a small shim, a small bearing, and another small shim. This
-screw threads into the motor." %}
+content = "Onto a 14mm wafer head, drop a small flanged bearing, a small shim, another small flanged bearing, and
+another small shim. This post threads into the motor. The flanges serve as guides for the belt." %}
 
 {% include step.html
 title = "Install extruder gear"

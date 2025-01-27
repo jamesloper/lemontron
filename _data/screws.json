@@ -1,0 +1,142 @@
+[
+  {
+    "type": "countersunk",
+    "thread": "M3",
+    "length": 6,
+    "uses": [
+      {"name": "Z-Rail", "qty": 6},
+      {"name": "Raspberry Pi", "qty": 4}
+    ],
+    "total": 1.39,
+    "link": "https://www.aliexpress.us/item/3256805993813459.html"
+  },
+  {
+    "type": "countersunk",
+    "thread": "M3",
+    "length": 8,
+    "uses": [
+      {"name": "Lemonstruder", "qty": 1},
+      {"name": "Motors", "qty": 4},
+      {"name": "Lead Screw Nut", "qty": 3},
+      {"name": "Risers", "qty": 4},
+      {"name": "Clip", "qty": 2}
+    ],
+    "total": 1.44,
+    "link": "https://www.aliexpress.us/item/3256805993813459.html"
+  },
+  {
+    "type": "countersunk",
+    "thread": "M3",
+    "length": 14,
+    "uses": [
+      {"name": "Tool Head", "qty": 2},
+      {"name": "Top Plates", "qty": 4},
+      {"name": "Y-Rail", "qty": 9}
+    ],
+    "total": 1.73,
+    "link": "https://www.aliexpress.us/item/3256805993813459.html"
+  },
+  {
+    "type": "countersunk",
+    "thread": "M3",
+    "length": 20,
+    "uses": [
+      {"name": "XY Spacer", "qty": 2},
+      {"name": "Mid Plates", "qty": 2},
+      {"name": "Y-Rail Bonus", "qty": 1}
+    ],
+    "total": 2.51,
+    "link": "https://www.aliexpress.us/item/3256806241130840.html"
+  },
+  {
+    "type": "countersunk",
+    "thread": "M3",
+    "length": 25,
+    "uses": [
+      {"name": "Tensioner", "qty": 1},
+      {"name": "Top Plates", "qty": 4},
+      {"name": "Bracket", "qty": 2}
+    ],
+    "total": 2.51,
+    "link": "https://www.aliexpress.us/item/3256806241130840.html"
+  },
+  {
+    "type": "button-head",
+    "thread": "M3",
+    "length": 12,
+    "uses": [
+      {"name": "Tensioner", "qty": 2},
+      {"name": "Clamp", "qty": 1}
+    ],
+    "total": 1.51,
+    "link": "https://www.aliexpress.us/item/2251832624537980.html"
+  },
+  {
+    "type": "button-head",
+    "thread": "M3",
+    "length": 16,
+    "uses": [
+      {"name": "Bearing Tower", "qty": 2},
+      {"name": "Z-Block", "qty": 2}
+    ],
+    "total": 1.52,
+    "link": "https://www.aliexpress.us/item/2255800885711092.html"
+  },
+  {
+    "type": "button-head",
+    "thread": "M3",
+    "length": 20,
+    "uses": [
+      {"name": "Bed Screws", "qty": 2, "image": "bed-holder---posts.jpg"}
+    ],
+    "total": 2.40,
+    "link": "https://www.aliexpress.us/item/2251832624537980.html"
+  },
+  {
+    "type": "button-head",
+    "thread": "M3",
+    "length": 40,
+    "uses": [
+      {"name": "Bed Holder", "qty": 2},
+      {"name": "Spool", "qty": 1}
+    ],
+    "total": 2.64,
+    "link": "https://www.aliexpress.us/item/2255799841823122.html"
+  },
+  {
+    "type": "wafer-head",
+    "thread": "M3",
+    "length": 14,
+    "uses": [
+      {"name": "Fans", "qty": 8},
+      {"name": "Z Idler", "qty": 2},
+      {"name": "X Idlers", "qty": 2},
+      {"name": "AC Plug", "qty": 2},
+      {"name": "A/B Idlers", "qty": 2}
+    ],
+    "total": 1.30,
+    "link": "https://www.aliexpress.us/item/2255800885711092.html"
+  },
+  {
+    "type": "wafer-head",
+    "thread": "M3",
+    "length": 30,
+    "uses": [
+      {"name": "A/B Idlers", "qty": 2}
+    ],
+    "total": 1.89,
+    "link": "https://www.aliexpress.us/item/2255800885711092.html"
+  },
+  {
+    "type": "countersunk",
+    "thread": "M2.5",
+    "length": 6,
+    "uses": [
+      {"name": "Heatsink", "qty": 4},
+      {"name": "PCB", "qty": 4},
+      {"name": "Probe", "qty": 2}
+    ],
+    "total": 0.81,
+    "link": "https://www.aliexpress.us/item/3256802921670606.html"
+  }
+]

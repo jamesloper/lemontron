@@ -321,10 +321,10 @@ tr > *:last-child {padding-right:0;}
 .inventory-item-bar {display:flex; gap:10px; align-items:center; margin-top:10px;}
 
 /* MATERIAL TAG */
-.tag {display:inline-flex; color:#fff; overflow:hidden; font-size:12px; background:#22f;}
-.tag > * {padding:2px 10px; font-size:12px;}
-.tag-label {background:#000; font-weight:bold; border:1px solid #fff; border-right:none;}
-.tag-value {color:#fff;}
+.tag {display:inline-flex; color:#fff; overflow:hidden; font-size:10px; background:#22f; border-radius:4px;}
+.tag-label {background:#222; padding:2px 10px;}
+.tag-value {color:#fff; padding:2px 5px;}
+/*.tag-image {height:24px; width:30px;}*/
 
 /* TOOLS PAGE */
 .tool-links {margin:0 0 20px 0; display:flex; gap:10px; flex-wrap:wrap; font-size:14px;}

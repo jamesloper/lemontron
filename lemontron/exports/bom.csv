@@ -8,5 +8,7 @@ category,name,qty,orders,total,new,optional,image,link
 {{item.category}},{{item.title}},{{item.qty}},{{item.orders}},{{item.total}},{{item.new}},{{item.optional}},https://lemontron.com/assets/bom/{{item.url | split: '/' | last}}.png,{{link.url}}
 {% endfor %}
 {%- for screw in site.data.screws -%}
-Hardware,{{screw.type | capitalize}} {{screw.thread}}x{{screw.length}}mm,{{screw.qty}},,,,{{screw.optional}},,
+{%- assign total_qty = 0 -%}
+{%- for use in screw.uses -%}{% assign total_qty = total_qty | plus: use.qty %}{%- endfor -%}
+Hardware,{{screw.type | capitalize}} {{screw.thread}}x{{screw.length}}mm,{{total_qty}},1,{{screw.total}},,{{screw.optional}},,{{screw.link}}
 {% endfor %}
