@@ -10,10 +10,9 @@ permalink: /lemontron/bom/
 This comprehensive list includes all the parts required to assemble a Lemontron 3D printer. Parts that need
 additional processing are marked with MOD.
 
-And don't forget the [tools](/lemontron/tools-needed/).
-
 <div class="paragraph">
     {% include button.html title="Download CSV" icon="cloud_download" link="/lemontron/exports/bom.csv" %}
+    {% include button.html title="Tools Needed" icon="carpenter" link="/lemontron/tools-needed/" %}
 </div>
 
 {%- assign total_new = 0 -%}
@@ -53,13 +52,19 @@ And don't forget the [tools](/lemontron/tools-needed/).
 {% assign bom_optional = bom_sorted | where: "optional", true %}
 {% include bom_list.html items=bom_optional %}
 
-## Screws
+{% assign screws_price = 0 %}
+{%- for screw in site.data.screws -%}
+{%- assign screws_price = screws_price | plus: screw.total -%}
+{%- endfor -%}
+
+## Screws (${{screws_price}})
 
 This screw list is subject to further optimization.
 
 {% include screws_list.html %}
 
-The **NEW** badge is for current owners of a [JourneyMaker](/lemontron/lemontron-journeymaker-origins) who wish to convert it to a
+The **NEW** badge is for current owners of a [JourneyMaker](/lemontron/lemontron-journeymaker-origins) who wish to
+convert it to a
 Lemontron. The cost for the **NEW** parts is **${{total_new}}**, plus another [stepper motor](/lemontron/bom/stepper).
 If you're converting a JourneyMaker, you can re-use your entire tool head, so you don't need to buy
 the [positron one](/lemontron/bom/hotend) but it's a big upgrade.

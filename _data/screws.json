@@ -1,89 +1,83 @@
 [
   {
+    "id": "M3x8/CSK",
     "type": "countersunk",
-    "thread": "M3",
-    "length": 6,
-    "uses": [
-      {"name": "Z-Rail", "qty": 6},
-      {"name": "Raspberry Pi", "qty": 4}
-    ],
-    "total": 1.39,
-    "link": "https://www.aliexpress.us/item/3256805993813459.html"
-  },
-  {
-    "type": "countersunk",
+    "din": "DIN7991",
     "thread": "M3",
     "length": 8,
     "uses": [
-      {"name": "Lemonstruder", "qty": 1},
-      {"name": "Motors", "qty": 4},
-      {"name": "Lead Screw Nut", "qty": 3},
-      {"name": "Risers", "qty": 4},
-      {"name": "Clip", "qty": 2}
+      {"name": "Z-Rail", "qty": 6, "image": "z-axis---install-rail.jpg"},
+      {"name": "Lemonstruder", "qty": 1, "image": "lemonstruder---insert-screw.jpg"},
+      {"name": "Motors", "qty": 4, "image": "midplate---left---motor-mounts.jpg"},
+      {"name": "Lead Nut", "qty": 3, "image": "z-axis---screw-lead-nut.jpg"},
+      {"name": "Risers", "qty": 4, "image": "chassis---risers.jpg"},
+      {"name": "Clip", "qty": 2, "image": "chassis---tool---attach-clip.jpg"}
     ],
     "total": 1.44,
-    "link": "https://www.aliexpress.us/item/3256805993813459.html"
+    "link": "https://www.aliexpress.us/item/3256805993813459.html",
+    "irreplaceable": true
   },
   {
+    "id": "M3x14/CSK",
     "type": "countersunk",
+    "din": "DIN7991",
     "thread": "M3",
     "length": 14,
     "uses": [
-      {"name": "Tool Head", "qty": 2},
-      {"name": "Top Plates", "qty": 4},
-      {"name": "Y-Rail", "qty": 9}
+      {"name": "Tool Head", "qty": 2, "image": "chassis---tool---screws.jpg"},
+      {"name": "Top Plates", "qty": 4, "image": "top-plates---inner-screws.jpg"},
+      {"name": "Y-Rail", "qty": 9, "image": "chassis---fasten-rail.jpg"}
     ],
     "total": 1.73,
-    "link": "https://www.aliexpress.us/item/3256805993813459.html"
+    "link": "https://www.aliexpress.us/item/3256805993813459.html",
+    "irreplaceable": true
   },
   {
+    "id": "M3x20/CSK",
     "type": "countersunk",
+    "din": "DIN7991",
     "thread": "M3",
     "length": 20,
     "uses": [
-      {"name": "XY Spacer", "qty": 2},
-      {"name": "Mid Plates", "qty": 2},
-      {"name": "Y-Rail Bonus", "qty": 1}
+      {"name": "XY Spacer", "qty": 2, "image": "rail---attach-x-rail.jpg"},
+      {"name": "Mid Plates", "qty": 2, "image": "midplate---right---locator-screw.jpg"},
+      {"name": "Y-Rail Bonus", "qty": 1, "image": "chassis---bonus-screw.jpg"},
+      {"name": "Top Plates", "qty": 4, "image": "top-plates---outer-screws.jpg"}
     ],
-    "total": 2.51,
-    "link": "https://www.aliexpress.us/item/3256806241130840.html"
+    "total": 2.07,
+    "link": "https://www.aliexpress.us/item/3256805993813459.html"
   },
   {
-    "type": "countersunk",
-    "thread": "M3",
-    "length": 25,
-    "uses": [
-      {"name": "Tensioner", "qty": 1},
-      {"name": "Top Plates", "qty": 4},
-      {"name": "Bracket", "qty": 2}
-    ],
-    "total": 2.51,
-    "link": "https://www.aliexpress.us/item/3256806241130840.html"
-  },
-  {
+    "id": "M3x12/BTN",
     "type": "button-head",
+    "din": "DIN7380",
     "thread": "M3",
     "length": 12,
     "uses": [
-      {"name": "Tensioner", "qty": 2},
-      {"name": "Clamp", "qty": 1}
+      {"name": "Tensioner", "qty": 2, "image": "rail---tensioner---install-bearings.jpg"},
+      {"name": "Clamp", "qty": 1, "image": "tool---insert-clamp.jpg"}
     ],
-    "total": 1.51,
+    "total": 1.81,
     "link": "https://www.aliexpress.us/item/2251832624537980.html"
   },
   {
+    "id": "M3x16/BTN",
     "type": "button-head",
+    "din": "DIN7380",
     "thread": "M3",
     "length": 16,
     "uses": [
-      {"name": "Bearing Tower", "qty": 2},
-      {"name": "Z-Block", "qty": 2}
+      {"name": "Bearing Tower", "qty": 2, "image": "rail---install-bearing-towers.jpg"},
+      {"name": "Z-Block", "qty": 2, "image": "chassis---screw-in-z-axis.jpg"}
     ],
-    "total": 1.52,
-    "link": "https://www.aliexpress.us/item/2255800885711092.html"
+    "total": 2.17,
+    "link": "https://www.aliexpress.us/item/2251832624537980.html",
+    "irreplaceable": true
   },
   {
+    "id": "M3x20/BTN",
     "type": "button-head",
+    "din": "DIN7380",
     "thread": "M3",
     "length": 20,
     "uses": [
@@ -93,50 +87,60 @@
     "link": "https://www.aliexpress.us/item/2251832624537980.html"
   },
   {
+    "id": "M3x40/BTN",
     "type": "button-head",
+    "din": "DIN7380",
     "thread": "M3",
     "length": 40,
     "uses": [
-      {"name": "Bed Holder", "qty": 2},
+      {"name": "Bed Holder", "qty": 2, "image": "bed-holder---insert-screws.jpg"},
       {"name": "Spool", "qty": 1}
     ],
     "total": 2.64,
-    "link": "https://www.aliexpress.us/item/2255799841823122.html"
+    "link": "https://www.aliexpress.us/item/2255799841823122.html",
+    "irreplaceable": true
   },
   {
+    "id": "M3x14/WFR",
     "type": "wafer-head",
     "thread": "M3",
     "length": 14,
     "uses": [
-      {"name": "Fans", "qty": 8},
-      {"name": "Z Idler", "qty": 2},
-      {"name": "X Idlers", "qty": 2},
-      {"name": "AC Plug", "qty": 2},
-      {"name": "A/B Idlers", "qty": 2}
+      {"name": "Fans", "qty": 8, "image": "chassis---insert-right-fan.jpg"},
+      {"name": "Z Idler", "qty": 2, "image": "chassis---attach-z-idler.jpg"},
+      {"name": "X Idlers", "qty": 2, "image": "rail---x---add-nuts.jpg"},
+      {"name": "AC Plug", "qty": 2, "image": "chassis---ac-input.jpg"},
+      {"name": "A/B Idlers", "qty": 2, "image": "midplate---right---upper-pulley.jpg"}
     ],
     "total": 1.30,
-    "link": "https://www.aliexpress.us/item/2255800885711092.html"
+    "link": "https://www.aliexpress.us/item/2255800885711092.html",
+    "irreplaceable": true
   },
   {
+    "id": "M3x25/WFR",
     "type": "wafer-head",
     "thread": "M3",
-    "length": 30,
+    "length": 25,
     "uses": [
-      {"name": "A/B Idlers", "qty": 2}
+      {"name": "A/B Idlers", "qty": 2, "image": "midplate---right---lower-pulley.jpg"},
+      {"name": "Bracket", "qty": 2, "image": "z-axis---tighten-bracket.jpg"},
+      {"name": "Tensioner", "qty": 1, "image": "tensioner---screw.jpg"}
     ],
-    "total": 1.89,
+    "total": 1.70,
     "link": "https://www.aliexpress.us/item/2255800885711092.html"
   },
   {
+    "id": "M2.5x6/CSK",
     "type": "countersunk",
     "thread": "M2.5",
     "length": 6,
     "uses": [
-      {"name": "Heatsink", "qty": 4},
-      {"name": "PCB", "qty": 4},
-      {"name": "Probe", "qty": 2}
+      {"name": "Heatsink", "qty": 4, "image": "tool---fasten-hotend.jpg"},
+      {"name": "PCB", "qty": 4, "image": "tool---fasten-pcb.jpg"},
+      {"name": "Probe", "qty": 2, "image": "tool---fasten-probe.jpg"},
+      {"name": "Raspberry Pi", "qty": 4, "image": "chassis---screw-raspberry-pi.jpg"}
     ],
-    "total": 0.81,
-    "link": "https://www.aliexpress.us/item/3256802921670606.html"
+    "total": 1.25,
+    "link": "https://www.aliexpress.us/item/2255801013414226.html"
   }
 ]

@@ -3,7 +3,7 @@ layout: bom
 title: Edge Connector
 qty: 1
 orders: 1
-total: 1.27
+total: 1.49
 description: 2x3 (6 Pin)
 new: false
 links:

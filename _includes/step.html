@@ -18,16 +18,30 @@
         </div>
         <div class="step-right">
             {% if include.buttonTitle %}
-            <p>
+            <div>
                 {% include button.html
                 icon=include.buttonIcon
                 title=include.buttonTitle
                 link=include.buttonLink
                 target=include.buttonTarget
                 %}
-            </p>
+            </div>
             {% endif %}
-            {{- include.content -}}
+
+            <div>{{include.content}}</div>
+
+            {%- if include.screw -%}
+            {% assign screw = site.data.screws | where:"id", include.screw | first %}
+            <div class="step-screw">
+                <div class="screw-pill">
+                    {% include screw.html type=screw.type length=screw.length thread=screw.thread %}
+                </div>
+            </div>
+            {%- endif -%}
+
+            {%- if include.note -%}
+            <div class="step-note">{{include.note}}</div>
+            {%- endif -%}
         </div>
     </div>
 </li>

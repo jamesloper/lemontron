@@ -7,29 +7,24 @@
             {%- if include.hide_price == nil -%}
             <div class="bom-badges">
                 {% if bom.new %}
-                <span class="badge new"><i class="material-icons">grade</i> New</span>
+                <span class="badge new">New</span>
                 {% endif %}
                 {% if bom.modification %}
                 <span class="badge mod"><i class="material-icons">carpenter</i> Mod</span>
                 {% endif %}
+                {%- if bom.qty > 1 -%}
+                <span class="badge qty">×{{bom.qty}}</span>
+                {%- endif -%}
             </div>
-            {%- endif -%}
-            {%- if bom.qty > 1 -%}
-            <span class="bom-qty"> × {{bom.qty}}</span>
             {%- endif -%}
         </a>
         <div class="bom-body">
-            <a class="bom-link" href="{{bom.url | relative_url}}">
-                <div class="bom-name">{{bom.title}}</div>
-            </a>
+            <a class="bom-link bom-name" href="{{bom.url | relative_url}}">{{bom.title}}</a>
             {%- if include.hide_price == nil -%}
-            <div class="bom-right">
-                <span>${{bom.total}}</span><br/>
-                <a class="buy" href="{{link.url}}" target="_blank">
-                    <i class="material-icons">shopping_cart</i>
-                    {{link.vendor}}
-                </a>
-            </div>
+            <a class="buy" href="{{link.url}}" target="_blank">
+                <i class="material-icons">shopping_cart</i>
+                <div class="bom-price">${{bom.total}}</div>
+            </a>
             {%- endif -%}
         </div>
     </div>

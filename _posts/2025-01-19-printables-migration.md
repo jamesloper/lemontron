@@ -15,7 +15,7 @@ to [Printables]({{site.download_link}}), and it should have been that way from t
 
 **Please take a moment to Like, Follow, Bookmark, and Download on the Printables platform!**
 
-{% include youtube-video.html id="aIyaDD8onIE" %}
+{% include youtube-video.html id="iA9dVMcRrhg" %}
 
 If you're wondering why Lemontron was even on MakerWorld to begin with, well it's because Bambu promoted it with my
 printer and I fell for it. I will not be accepting a sponsorship from Bambu.

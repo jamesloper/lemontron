@@ -1,34 +1,37 @@
-<div class="table-responsive">
-    <table>
-        {% for screw in site.data.screws %}
-        {%- assign total_qty = 0 -%}
-        {%- for use in screw.uses -%}{% assign total_qty = total_qty | plus: use.qty %}{%- endfor -%}
-        <tr>
-            <td class="td-screw">
-                {% include screw.html type=screw.type length=screw.length thread=screw.thread %}
-            </td>
-            <td>&times;{{total_qty}}</td>
-            <td class="screw-description">
+<div class="table-screws">
+    {% for screw in site.data.screws %}
+    {%- assign total_qty = 0 -%}
+    {%- for use in screw.uses -%}{% assign total_qty = total_qty | plus: use.qty %}{%- endfor -%}
+    <div class="screw-container">
+        {% include screw.html
+        type=screw.type
+        length=screw.length
+        thread=screw.thread
+        irreplaceable=screw.irreplaceable
+        qty=total_qty %}
+
+        {% if screw.link %}
+        <a class="buy" href="{{screw.link}}" target="_blank">
+            <i class="material-icons">shopping_cart</i>
+            <span>${{screw.total}}</span>
+        </a>
+        {% endif %}
+
+        <div class="screw-description">
+            <div class="screw-uses-container">
                 {% for use in screw.uses %}
                 <div class="tag">
-<!--                    {%- if use.image -%}-->
-<!--                    <img src="/assets/guide/{{use.image}}" alt="{{use.name}}" class="tag-image"/>-->
-<!--                    {%- endif -%}-->
-                    <div class="tag-label">{{use.name}}</div>
+                    <div class="tag-label">
+                        {{use.name}}
+                        {%- if use.image -%}
+                        <a href="/assets/guide/{{use.image}}" target="_blank" class="tag-image material-icons">photo_camera</a>
+                        {%- endif -%}
+                    </div>
                     <div class="tag-value">&times;{{use.qty}}</div>
                 </div>
                 {% endfor %}
-            </td>
-            <td class="bom-right">
-                <span>${{screw.total}}</span><br/>
-                {% if screw.link %}
-                <a class="buy" href="{{screw.link}}" target="_blank">
-                    <i class="material-icons">shopping_cart</i>
-                    AliExpress
-                </a>
-                {% endif %}
-            </td>
-        </tr>
-        {% endfor %}
-    </table>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
 </div>

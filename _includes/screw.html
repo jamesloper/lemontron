@@ -22,5 +22,11 @@
     </div>
     <div class="screw-type">{{include.thread}}</div>
     <div class="screw-length">{{include.length}}mm</div>
+    <!--    {%- if include.irreplaceable -%}-->
+    <!--    <i class="material-icons screw-irreplaceable">favorite</i>-->
+    <!--    {%- endif -%}-->
+    {%- if include.qty > 0 -%}
+    <div>&times;{{include.qty}}</div>
+    {%- endif -%}
 </div>
 

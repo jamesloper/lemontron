@@ -30,7 +30,8 @@ Pi and SKR Pico. The SKR Pico is hard to reach once the Lemontron is assembled!"
 {% include step.html
 title = "Insert the screws"
 image = "bed-holder---insert-screws.jpg"
-content = "Drop two 40mm button heads into the holes." %}
+content = "Drop two screws into the holes."
+screw = "M3x40/BTN" %}
 
 {% include step.html
 title = "Scrape the mating surface flat"
@@ -41,23 +42,27 @@ beautifully." %}
 {% include step.html
 title = "Screw in the spine"
 image = "bed-holder---attach-spine.jpg"
-content = "Secure it with 5 14mm countersinks." %}
+content = "Secure it with 5 screws."
+screw = "M3x14/CSK"
+%}
 
 {% include step.html
 title = "Install the posts"
 image = "bed-holder---posts.jpg"
-content = "Onto a 20mm button head, drop a 12mm washer, small bearing, another washer, a yellow spring that's been cut
-in half, and a nut." %}
+content = "Onto the screws, drop a 12mm washer, small bearing, another washer, a yellow spring that's been cut
+in half, and a nut."
+screw = "M3x20/BTN"
+%}
 
-{% include tip.html tip="Follow the old machinists tapping tip which is to drive the screw in, back it out, and
-drive it in some more, over and over. This is the only way you'll be able to reuse the plastic threads next time you
-disassemble it." %}
+{% include tip.html tip="Follow the old machinists tapping tip, which is to drive the screw in, back it out, and
+drive it in some more, over and over. This is the best way to ensure you can reuse the plastic threads." %}
 
 {% include step.html
 title = "Gather Z-Axis parts"
 image = "z-axis---parts.jpg"
-content = "Gather the Z-Axis (Printed), Bracket (Printed), MGW9C Linear Rail, Several 6mm Countersunk Screws, 2 x
-25mm Countersunk Screws, M5 Shims, M5 Bearings, Lead screw & Nut, Drive Pulley, and Belt." %}
+content = "Gather the Z axis (printed), bracket (printed), MGW9C linear rail, 6 &times; 3d-printed spacers, 6 &times;
+8mm countersunk screws, 2 &times;
+25mm wafer head screws, M5 shims, M5 bearings, lead screw & nut, drive pulley and belt." %}
 
 {% include step.html
 title = "Insert the bearings"
@@ -87,29 +92,45 @@ image = "z-axis---second-shim.jpg"
 content = "Use something thin to fish in the second shim. Push the lead screw all the way through." %}
 
 {% include step.html
+title = "Insert the lead nut"
+image = "z-axis---insert-lead-nut.jpg"
+content = "Insert the nut that came with the lead screw to the bracket." %}
+
+{% include step.html
+title = "Attach the lead nut"
+image = "z-axis---screw-lead-nut.jpg"
+content = "Attach the lead nut to the bracket. If your nut came without countersinks, you
+can either countersink it yourself or use button head screws. It makes no difference."
+screw = "M3x8/CSK"
+%}
+
+{% include step.html
 title = "Add the bracket"
 image = "z-axis---add-bracket.jpg"
-content = "After securing the nut to the bracket, install the bracket onto the lead screw." %}
-
-{% include tip.html
-title="Manufacturer's Differences"
-tip="If your nut is countersunk, use countersunk screws. If not, you can countersink it, or use button head screws.
-It makes no difference." %}
+content = "Install the bracket onto the lead screw." %}
 
 {% include step.html
 title = "Cut the lead screw"
-image = "z-axis---tighten-grub-screws.jpg"
+image = "z-axis---cut-lead-screw.jpg"
 content = "Align the lead screw's top with the top of the bearing seat and CUT the bottom off." %}
 
 {% include step.html
 title = "Tighten grub screws"
 image = "z-axis---tighten-grub-screws.jpg"
-content = "Tighten the grub screws." %}
+content = "Tighten the grub screws using a 1.5mm allen key." %}
 
 {% include step.html
-title = "Install the rail"
+title = "Install the rail & spacers"
+image = "z-axis---spacers.jpg"
+content = "Lay down the rail, then starting at the top hole, add 3d printed spacers to the first 3 holes, omit the 4th
+if you want to use the spool holder, and then proceed to add the last 3 spacers. Leave the bottom two holes empty to use
+to mount the Z-axis to the chassis." %}
+
+{% include step.html
+title = "Screw in the rail"
 image = "z-axis---install-rail.jpg"
-content = "Lay down the rail, give it a few love taps, and secure it with 6mm countersinks." %}
+content = "Fasten the rail with screws in the holes that you added spacers to."
+screw = "M3x8/CSK" %}
 
 {% include step.html
 title = "Gather edge connector parts"
@@ -165,7 +186,10 @@ content = "Slide the wires in through the slot in the bracket and press the edge
 {% include step.html
 title = "Tighten bracket"
 image = "z-axis---tighten-bracket.jpg"
-content = "Tighten the bracket on to the carriage with two 25mm countersunk screws." %}
+content = "Tighten the bracket on to the carriage with two screws."
+note = "Picture shows button head screws."
+screw = "M3x25/WFR"
+%}
 
 {% include step.html
 title = "Gather Lemonstruder parts"
@@ -197,7 +221,9 @@ content = "Using tweezers, insert the second shim between the bearing and the pl
 {% include step.html
 title = "Insert the screw"
 image = "lemonstruder---insert-screw.jpg"
-content = "Insert the screw, pushing out the small screw. This screw is designed to not fit completely flush." %}
+content = "Insert the screw, pushing out the small screw. This screw is designed to not fit completely flush."
+screw = "M3x8/CSK"
+%}
 
 {% include step.html
 title = "Insert the spring"
@@ -228,7 +254,7 @@ content = "Starting from the triangle mark, go in order of black, green, blue, r
 title = "Gather parts for the tool"
 image = "tool.jpg"
 content = "Tool body (printed), hotend, small fan, big fan, probe, connectors, crimps, power wires (silicone),
-signal wires, M2.5 screws, pcb." %}
+signal wires, M2.5 x 6mm screws, pcb." %}
 
 {% include step.html
 title = "Tighten the heat break"
@@ -256,12 +282,14 @@ content = "The hotend will smoosh the wires and keep them in place. Now is a goo
 {% include step.html
 title = "Fasten the hotend"
 image = "tool---fasten-hotend.jpg"
-content = "Use 6mm screws to attach the hotend to the tool body." %}
+content = "Fasten the hotend to the tool body."
+screw = "M2.5x6/CSK" %}
 
 {% include step.html
 title = "Fasten the probe"
 image = "tool---fasten-probe.jpg"
-content = "Use 6mm screws to fasten the probe to the tool body." %}
+content = "Fasten the probe to the tool body."
+screw = "M2.5x6/CSK" %}
 
 {% include step.html
 title = "Insert small fan"
@@ -281,7 +309,8 @@ content = "Apple some solder to hasten the wire bonding." %}
 {% include step.html
 title = "Fasten the pcb"
 image = "tool---fasten-pcb.jpg"
-content = "Fasten the pcb to the heat sink using 6mm M2.5 screws." %}
+content = "Fasten the pcb to the heat sink."
+screw = "M2.5x6/CSK" %}
 
 {% include step.html
 title = "Solder the hotend fan"
@@ -338,7 +367,8 @@ content = "Use 47cm of wire sleeve to wrap the wires." %}
 {% include step.html
 title = "Insert the clamp"
 image = "tool---insert-clamp.jpg"
-content = "Clamp down the wires by pushing in the clamp and securing it with a 12mm button head." %}
+content = "Clamp down the wires by pushing in the clamp and securing it with a screw."
+screw = "M3x12/BTN" %}
 
 {% include step.html
 title = "Clip the tool wires"
@@ -384,18 +414,13 @@ content = "This is the rest of the parts! Draw the rest of the horse!" %}
 {% include step.html
 title = "Insert the heat set inserts"
 image = "chassis---threaded-inserts.jpg"
-content = "Insert the 6 inserts in the bottom holes using a soldering iron or heat set insert tool. These 10mm long
-threaded inserts are super strong." %}
-
-{% include step.html
-title = "Clean up the inserts"
-image = "chassis---clean-up-inserts.jpg"
-content = "After pushing in the inserts, clean up with a razor." %}
+content = "Press in the 4 top inserts and 2 bottom inserts. These 10mm long threaded inserts are super strong. After
+pushing in the inserts, press down on the surface with a flat piece of metal to cool and ensure flatness." %}
 
 {% include step.html
 title = "Insert the top z-block insert"
 image = "chassis---z-block-top-insert.jpg"
-content = "Insert the top z-block insert from the top." %}
+content = "Insert the top z-block insert from the front." %}
 
 {% include step.html
 title = "Insert the bottom z-block inserts"
@@ -417,7 +442,8 @@ content = "Optionally add the two M5 80mm stiffeners." %}
 {% include step.html
 title = "Insert the AC input jack"
 image = "chassis---ac-input.jpg"
-content = "Slide in the AC jack and fasten with two 14mm wafer heads." %}
+content = "Slide in the AC jack and fasten with two screws."
+screw = "M3x14/WFR" %}
 
 {% include shock-warning.html %}
 
@@ -435,12 +461,14 @@ MCU." %}
 {% include step.html
 title = "Insert the right fan"
 image = "chassis---insert-right-fan.jpg"
-content = "Insert the fan and secure the bottom two screw holes with 14mm wafer heads." %}
+content = "Insert the fan and secure the bottom two screw holes."
+screw = "M3x14/WFR" %}
 
 {% include step.html
 title = "Insert the left fan"
 image = "chassis---insert-left-fan.jpg"
-content = "Insert the fan and secure the bottom two screw holes with 14mm wafer heads." %}
+content = "Insert the fan and secure the bottom two screw holes."
+screw = "M3x14/WFR" %}
 
 {% include step.html
 title = "Plug in the fans"
@@ -516,25 +544,22 @@ image = "chassis---smush-mcu.jpg"
 content = "Smoosh the wires up and press the MCU into place." %}
 
 {% include step.html
-title = "Install the first riser"
-image = "chassis---install-first-riser.jpg"
-content = "Install the left riser, constraining all the wires that are plugged in to the ports on the left side of
-the MCU." %}
+title = "Insert the risers"
+image = "chassis---risers.jpg"
+content = "Install the risers, the left one covers all the wires, and the right one covers all except the extruder
+motor's wires." %}
 
 {% include step.html
-title = "Screw in the first riser"
-image = "chassis---screw-riser.jpg"
-content = "Flip it over and fix the riser in place with two 8mm countersinks." %}
-
-{% include step.html
-title = "Insert the second riser"
-image = "chassis---insert-second-riser.jpg"
-content = "Likewise, install the second riser, covering all wires except for the extruder motor's wires." %}
+title = "Screw in the risers"
+image = "chassis---risers---screws.jpg"
+content = "Flip it over and fix the riser in place with two 8mm countersinks."
+screw = "M3x8/CSK" %}
 
 {% include step.html
 title = "Attach Raspberry Pi"
 image = "chassis---screw-raspberry-pi.jpg"
-content = "Use four 5mm button heads to attach the Raspberry Pi." %}
+content = "Use four screws to attach the Raspberry Pi."
+screw = "M2.5x6/CSK" %}
 
 {% include step.html
 title = "Insert nut"
@@ -549,7 +574,8 @@ content = "On the same rail, install the tensioner over the nut." %}
 {% include step.html
 title = "Prepare two posts"
 image = "rail---tensioner---posts.jpg"
-content = "Onto a 12mm wafer head, drop a big bearing, a shim, and a washer." %}
+content = "Onto the screw, drop a big bearing, a shim, and a washer."
+screw = "M3x12/BTN" %}
 
 {% include step.html
 title = "Install the posts"
@@ -565,18 +591,20 @@ are tidy." %}
 {% include step.html
 title = "Fasten the rail"
 image = "chassis---fasten-rail.jpg"
-content = "Using 14mm countersinks, fasten the rail to the chassis. You must go slow, alternate short rotations and
-don't overheat the plastic." %}
+content = "Screw the rail to the chassis. You must go slow, alternate short rotations and
+don't overheat the plastic."
+screw = "M3x14/CSK" %}
 
 {% include step.html
 title = "Insert the bonus screw"
 image = "chassis---bonus-screw.jpg"
-content = "From the bottom, fasten the rail tightly to the chassis using a 20mm countersunk." %}
+content = "From the bottom, fasten the rail tightly to the chassis."
+screw = "M3x20/CSK" %}
 
 {% include step.html
 title = "Tape the motors"
 image = "chassis---tape.jpg"
-content = "Tape the motors. Without tape, the motor wires will walk around. You need to tape it before installing
+content = "Tape the motors. Without tape, the wires will fly away. You need to tape it before installing
 the mid plates." %}
 
 {% include step.html
@@ -588,25 +616,28 @@ that there is no gap." %}
 {% include step.html
 title = "Secure the right motors"
 image = "midplate---right---motor-mounts.jpg"
-content = "Secure the motors to the right midplate, filling the four countersunk motor mount holes with 8mm
-countersinks." %}
+content = "Secure the motors to the right midplate, filling the four countersunk motor mount holes."
+screw = "M3x8/CSK" %}
 
 {% include step.html
 title = "Install the extra screw"
 image = "midplate---right---locator-screw.jpg"
-content = "Add another 20mm countersunk to further secure the midplate to the chassis." %}
+content = "Add another screw to further secure the midplate to the chassis."
+screw = "M3x20/CSK" %}
 
 {% include step.html
 title = "Install the lower pulley"
 image = "midplate---right---lower-pulley.jpg"
-content = "Onto a 30mm wafer head, drop a big bearing, a medium shim, and a big washer. Screw it all the way through the
-chassis." %}
+content = "Onto the screws, drop a big bearing, a medium shim, and a big washer. Screw it all the way through the
+chassis."
+screw = "M3x25/WFR" %}
 
 {% include step.html
 title = "Install the upper pulley"
 image = "midplate---right---upper-pulley.jpg"
-content = "Onto a 14mm wafer head, drop a small flanged bearing, a small shim, another small flanged bearing, and
-another small shim. This post threads into the motor. The flanges serve as guides for the belt." %}
+content = "Onto the screws, drop a small flanged bearing, a small shim, another small flanged bearing, and
+another small shim. This post threads into the motor. The flanges serve as guides for the belt."
+screw = "M3x14/WFR" %}
 
 {% include step.html
 title = "Install extruder gear"
@@ -629,7 +660,8 @@ content = "Remove the slack in the cables." %}
 title = "Insert the motor mount screws"
 image = "midplate---left---motor-mounts.jpg"
 content = "Secure the motors to the left midplate, filling the four countersunk motor mount holes with 8mm
-countersinks." %}
+countersinks."
+screw = "M3x8/CSK" %}
 
 {% include step.html
 title = "Insert the lower pulley"
@@ -644,17 +676,20 @@ content = "Same as the right one." %}
 {% include step.html
 title = "Install the extra screw"
 image = "midplate---left---locator-screw.jpg"
-content = "Add another 20mm countersunk to further secure the midplate to the chassis." %}
+content = "Add another screw to further secure the midplate to the chassis."
+screw = "M3x20/CSK" %}
 
 {% include step.html
 title = "Finish right fan"
 image = "chassis---right---finish-fan-screws.jpg"
-content = "Secure the top two screw holes with wafer head M3 14mm." %}
+content = "Secure the right fan's top two screw holes."
+screw = "M3x14/WFR" %}
 
 {% include step.html
 title = "Finish left fan"
 image = "chassis---left---finish-fan-screws.jpg"
-content = "Secure the top two screw holes with wafer head M3 14mm." %}
+content = "Secure the left fan's top two screw holes."
+screw = "M3x14/WFR" %}
 
 {% include step.html
 title = "Install left drive pulley"
@@ -681,7 +716,8 @@ content = "Add a nut to both sides of the rail." %}
 {% include step.html
 title = "Create bearing posts"
 image = "rail---x---bearing-posts.jpg"
-content = "On a 14mm wafer head, drop a big bearing and a medium shim." %}
+content = "On the screws, drop a big bearing and a medium shim."
+screw = "M3x14/WFR" %}
 
 {% include step.html
 title = "Install bearing posts"
@@ -696,13 +732,14 @@ content = "Drop the spacer (printed) onto the Y axis carriage." %}
 {% include step.html
 title = "Attach the X rail"
 image = "rail---attach-x-rail.jpg"
-content = "Drop the X rail on top of the spacer and screw it in with two 20mm countersinks." %}
+content = "Drop the X rail on top of the spacer and screw it in with two screws." screw = "M3x20/CSK" %}
 
 {% include step.html
 title = "Create bearing towers"
 image = "rail---bearing-towers.jpg"
-content = "On a 16mm wafer or button head, drop a big bearing, a medium shim, a large washer, a small shim, a
-small flanged bearing, small shim, small normal bearing, and small shim." %}
+content = "On the screws, drop a big bearing, a medium shim, a large washer, a small shim, a
+small flanged bearing, small shim, small normal bearing, and small shim."
+screw = "M3x16/BTN" %}
 
 {% include step.html
 title = "Install bearing towers"
@@ -775,8 +812,8 @@ content = "Route the belt around the X rail. Trim the excess and reattach the be
 {% include step.html
 title = "Screw in the tensioner"
 image = "tensioner---screw.jpg"
-content = "Push the tensioner towards the Z block, then using a 20mm countersunk, fix the tensioner in place. This
-should be super loose." %}
+content = "Push the tensioner towards the Z block, then fix the tensioner in place with a screw. This should be loose."
+screw = "M3x25/WFR" %}
 
 {% include tip.html
 title="But loose belt? Is Lemontron a moron?"
@@ -797,14 +834,15 @@ content = "Drop in the two top plates." %}
 {% include step.html
 title = "Fasten the outer screws"
 image = "top-plates---outer-screws.jpg"
-content = "Fasten the top plates to the chassis on the 6 outer holes along the edges with 25mm (or 20mm)
-countersinks." %}
+content = "Fasten the top plates to the chassis on the 6 outer holes along the edges."
+screw = "M3x20/CSK" %}
 
 {% include step.html
 title = "Fasten the inner screws"
 image = "top-plates---inner-screws.jpg"
-content = "Fasten the top plates to the motors on the 4 inner holes with 14mm countersinks (bonus points if you
-fabricate 15mm countersinks for a better fit)." %}
+content = "Fasten the top plates to the motors on the 4 inner holes. Bonus points if you
+fabricate 15mm countersinks for a better fit."
+screw = "M3x14/CSK" %}
 
 {% include step.html
 title = "Attach the tool head"
@@ -814,18 +852,20 @@ content = "Drop on the tool head." %}
 {% include step.html
 title = "Screw on the tool head"
 image = "chassis---tool---screws.jpg"
-content = "Screw on the tool head with two 14mm countersinks." %}
+content = "Screw on the tool head."
+screw = "M3x14/CSK" %}
 
 {% include step.html
 title = "Attach the belt clip"
 image = "chassis---tool---attach-clip.jpg"
-content = "Flip over the printer and attach the clip with two 8mm countersinks." %}
+content = "Flip over the printer and attach the clip with two screws."
+screw = "M3x8/CSK" %}
 
 {% include step.html
 title = "Attach the Z idler arm"
 image = "chassis---attach-z-idler.jpg"
 content = "Attach the z idler arm. To make the bearing stack, on a 14mm wafer head, drop a big bearing, medium shim,
-big bearing, and medium shim." %}
+big bearing, and medium shim." screw = "M3x14/WFR" %}
 
 {% include step.html
 title = "Attach the Z axis"
@@ -835,8 +875,8 @@ content = "Hook the Z axis drive belt on the pulley. Drop the Z axis into place.
 {% include step.html
 title = "Screw in Z axis"
 image = "chassis---screw-in-z-axis.jpg"
-content = "Screw in the Z axis. Rev B uses two 16mm button heads instead of the countersinks shown in the picture."
-%}
+content = "Screw in the Z axis. Rev B uses two button heads instead of the countersinks shown in the picture."
+screw = "M3x16/BTN" %}
 
 {% include step.html
 title = "Rough up bowden tube"
