@@ -102,6 +102,11 @@ image = "z-axis---bracket---press.jpg"
 content = "Press the top of the bracket onto a flat surface while it dries." %}
 
 {% include step.html
+title = "Clip off the support"
+image = "z-axis---bracket---remove-support.jpg"
+content = "Clip off the support from the bottom with flush cutters." %}
+
+{% include step.html
 title = "Insert the lead nut"
 image = "z-axis---insert-lead-nut.jpg"
 content = "Insert the nut that came with the lead screw to the bracket." %}
