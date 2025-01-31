@@ -92,6 +92,16 @@ image = "z-axis---second-shim.jpg"
 content = "Use something thin to fish in the second shim. Push the lead screw all the way through." %}
 
 {% include step.html
+title = "Glue the bracket"
+image = "z-axis---bracket---glue.jpg"
+content = "Dap some supa glue on the ledge on the bracket." %}
+
+{% include step.html
+title = "Press & dry the glue"
+image = "z-axis---bracket---press.jpg"
+content = "Press the top of the bracket onto a flat surface while it dries." %}
+
+{% include step.html
 title = "Insert the lead nut"
 image = "z-axis---insert-lead-nut.jpg"
 content = "Insert the nut that came with the lead screw to the bracket." %}
