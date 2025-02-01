@@ -13,6 +13,8 @@ links:
     url: https://www.3djake.com/ldo-motors/hotend-16
   - vendor: Fabreeko
     url: https://www.fabreeko.com/products/positron-v3-2-ldo-kit-90-degree-hot-end-kit
+  - vendor: Levendigs
+    url: https://levendigs.com/products/ldo-positron-90-hotend-kit
 kofi: true
 optional: false
 category: Positron
