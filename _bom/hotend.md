@@ -15,6 +15,8 @@ links:
     url: https://www.fabreeko.com/products/positron-v3-2-ldo-kit-90-degree-hot-end-kit
   - vendor: Levendigs
     url: https://levendigs.com/products/ldo-positron-90-hotend-kit
+  - vendor: West3D
+    url: https://west3d.com/products/positron-90-degree-hot-end
 kofi: true
 optional: false
 category: Positron
