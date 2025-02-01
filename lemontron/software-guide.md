@@ -6,54 +6,48 @@ thumbnail: /assets/guide/intro---sd-card.jpg
 permalink: /lemontron/software-guide/
 ---
 
-Your lemontron will run Mainsail OS on a Raspberry Pi. You’ll install the operating system, configure SSH
-and WiFi settings, and update the system. Then, we’ll guide you through flashing the firmware on your SKR Pico board and
-finalizing the setup on your Raspberry Pi.
+Lemontron's official software stack is Mainsail OS on a Raspberry Pi.
 
-Begin by downloading the latest configuration files and firmware:
+## Prepare the SKR Pico
 
-<div class="btn-wrapper">
-{% include button.html
-title = "config.zip"
-link = "/assets/downloads/config-20241223-175652.zip"%}
-{% include button.html
-title = "klipper.uf2"
-link = "/assets/downloads/klipper.uf2"
-notes = "Built on 2024-08-06"%}
-</div>
+Install a jumper on to the `BOOT` pins on the SKR Pico (located in the center, under the "TE"in "BIGTREETECH"). Then,
+hold down the `BOOT` button and connect the SKR
+Pico to your computer. Drag [this firmware file](/assets/downloads/klipper.uf2) to the PICO drive that appears. Remove
+the jumper. Good to go!
 
 {% include separator.html %}
 
-## Burn an OS onto your MicroSD
+## Prepare the Raspberry Pi
 
-Burn Mainsail OS via [Raspberry-Pi-Imager](https://www.raspberrypi.com/software/). Make sure you configure your SSH key
-and WiFi settings so that you can SSH as soon as it powers up.
+Burn Mainsail OS via [Raspberry Pi Imager](https://www.raspberrypi.com/software/) onto your SD Card, ensuring you've
+added your SSH key and WiFi settings.
 
-SSH into the Raspberry Pi and bring the OS up-to-date:
+Use SSH to access the Raspberry Pi's terminal and paste this:
 
 ```bash
 sudo apt update && sudo apt upgrade
+cd ~/klipper/
+make menuconfig
 ```
 
-{% include separator.html %}
+In the menu interface that appears... 
 
-## Flash the SKR Pico
+1. Change microcontroller architecture to RP2040
+2. Change communication interface to Serial
+3. Save Config
+4. Run `make` in the terminal
 
-1. Apply the jumper to the `BOOT` pins on the SKR Pico (located in the center, under the "TE" in "BIGTREETECH").
-2. Hold down the `BOOT` button on the SKR Pico and connect the SKR Pico to your computer over USB-C.
-3. Drag the klipper.uf2 file to the PICO drive that appears. Wait for the drive to disappear and reappear and then
-   disconnect.
-
-{% include separator.html %}
-
-## Set up Raspberry Pi
+## Configure Mainsail OS
 
 1. Open up the Raspberry Pi webpage by navigating to the network name of the Raspberry Pi in your browser. If you named
    your printer "lemontron" then your URL would be `http://lemontron.local`
 2. Update everything!
-3. Click on the "Machine" tab (the last one) and upload the Klipper Config files.
+3. Click on the "Machine" tab (the last one) and upload [the config files](/assets/downloads/config-20241223-175652.zip).
 
-## Customization
+## Install AutoHotspot
 
-There is so much more that you can do, so feel free to explore
-Positron's [Config Documentation](https://github.com/Positron3D/PositronConfig/blob/main/README.md).
+AutoHotspot is a script that will automatically switch your Raspberry Pi between WiFi and Hotspot mode based on the
+presence of your home network.
+Check out
+the [AutoHotspot documentation](https://github.com/RaspberryConnect/AutoHotspot-Installer/tree/master/AutoHotspot-Setup/Autohotspot)
+for more information.

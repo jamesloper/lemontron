@@ -49,7 +49,7 @@
     -webkit-font-smoothing:antialiased;
 }
 
-* {box-sizing:border-box;}
+* {box-sizing:border-box; text-rendering:optimizeSpeed; -webkit-font-smoothing:antialiased;}
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {margin:0; padding:0;}
 body {font:400 14px/1.5 "JetBrains Mono", monospace, sans-serif; color:var(--color); background:var(--bg); display:flex; min-height:100vh; flex-direction:column;}
 h1, h2, h3, h4, h5, h6, blockquote, pre, ul, ol, figure, p, .paragraph {margin-bottom:var(--gutter);}
