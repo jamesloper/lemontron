@@ -37,7 +37,7 @@ large to fit in the Lemontron's case and the electronics will overheat.
     {% include step.html
     title = "Mark shaft"
     image = "motors---mark-shaft.jpg"
-    content = "Drop on a pulley and mark the shaft or manually mark at 11mm." %}
+    content = "Drop on one of the 10mm thick pulleys and mark the shaft." %}
 
     {% include step.html
     title = "Trim shaft"
