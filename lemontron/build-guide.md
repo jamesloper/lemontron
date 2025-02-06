@@ -534,7 +534,7 @@ content = "Insert the heat bed power wires into the middle terminal block and ti
 {% include step.html
 title = "Insert the motors"
 image = "chassis---insert-motors.jpg"
-content = "Bottom right motor has 15cm wire, bottom left has 23cm wire, top left has 15cm wire, top right has 10cm
+content = "Bottom left motor has 15cm wire, bottom right has 23cm wire, top right has 15cm wire, top left has 10cm
 wire." %}
 
 {% include step.html
