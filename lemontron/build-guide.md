@@ -14,7 +14,7 @@ otherwise stated.
 {% include step.html
 title = "Print the parts"
 image = "intro---slicer.png"
-content = "The parts are sliced for 1-click printing on a Bambulab X1C, but check out the <a href='/lemontron/download/'>Printed Parts</a> page for more very important information."
+content = "Check out the <a href='/lemontron/download/'>Printed Parts</a> page for important information."
 buttonTitle = "Download Lemontron"
 buttonIcon = "cloud_download"
 buttonLink = site.download_link
@@ -754,7 +754,8 @@ title = "Create bearing towers"
 image = "rail---bearing-towers.jpg"
 content = "On the screws, drop a big bearing, a medium shim, a large washer, a small shim, a
 small flanged bearing, small shim, small normal bearing, and small shim."
-screw = "M3x16/BTN" %}
+screw = "M3x16/BTN"
+note = "The belt rides on the normal bearing and the flanged bearing prevents it from riding up." %}
 
 {% include step.html
 title = "Install bearing towers"

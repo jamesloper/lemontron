@@ -16,7 +16,7 @@ additional processing are marked with MOD.
 </div>
 
 {%- assign total_new = 0 -%}
-{%- assign bom_sorted = site.bom | sort: "title" -%}
+{%- assign bom_sorted = site.bom | sort: "url" -%}
 {%- assign bom_required = bom_sorted | where: "optional", false -%}
 
 {%- assign total_price = 0 -%}

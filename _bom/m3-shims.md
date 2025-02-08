@@ -1,7 +1,7 @@
 ---
 layout: bom
 title: M3 Shims
-qty: 16
+qty: 10
 orders: 1
 total: 1.15
 description: M3 x 5mm x 0.2mm
@@ -15,4 +15,7 @@ optional: false
 category: Hardware
 ---
 
-4 for the Bed Holder, 6 for the Mid Plate Idlers, 2 for the Belt Tensioner, 2 for the Z-Idler, 2 for the X Idlers.
+| Location                                                           | Quantity |
+|--------------------------------------------------------------------|----------|
+| [Upper Pullies](/assets/guide/midplate---right---upper-pulley.jpg) | 4        |
+| [Bearing Towers](/assets/guide/rail---bearing-towers.jpg)          | 6        |
