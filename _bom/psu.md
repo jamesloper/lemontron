@@ -17,7 +17,11 @@ optional: false
 category: Electronics
 ---
 
-The following substitute PSU's also work: LOP-300-24, LOP-200-24, LOP-200-24, LOP-300-27
+The following substitute PSU's also work: LOP-300-24, LOP-200-24, LOP-200-24, LOP-300-27.
+
+If you are converting a JourneyMaker, you _can_ re-use the EPP-200-24 PSU, in fact the EPP model was used in the
+announcement video and is in my Lemontron. However, the transformers tend to be installed sloppily at a slant, which
+requires snipping off the top of the plastic casing to allow the top plates to sit flush.
 
 ## Required Modification
 
