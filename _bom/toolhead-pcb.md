@@ -15,3 +15,7 @@ category: Electronics
 ---
 
 Designed by Lemontron & Sample Name.
+
+## Silkscreen Mistake! 🚨
+
+On the current version (v1.2) the silkscreen has a mistake. The HEF and PCF labels are swapped. The EXT pads should read (top to bottom) PCF, TH+, HEF.

@@ -372,7 +372,10 @@ content = "Using the leftover wire from the probe, solder the thermistor signal 
 {% include step.html
 title = "Solder the fan wires"
 image = "tool---solder-ext-fan-wires.jpg"
-content = "Cut two wires roughly to 50cm and solder them to the two fan pads on the pcb." %}
+content = "Cut two wires roughly to 50cm and solder them to the two fan pads on the pcb."
+note = "On the pcb, the silk screen has a mistake. The HEF and PCF labels are swapped. From top to bottom, the correct
+wiring is PCF, TH+ and HEF."
+%}
 
 {% include step.html
 title = "Wrap the wires"
