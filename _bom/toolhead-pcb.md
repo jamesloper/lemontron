@@ -4,7 +4,7 @@ title: Toolhead PCB
 qty: 1
 orders: 1
 total: 24.98
-description: 
+description: Breakout PCB v1.3
 new: false
 links: 
   - vendor: PCBWay
@@ -14,8 +14,13 @@ optional: true
 category: Electronics
 ---
 
-Designed by Lemontron & Sample Name.
+This simple little breakout board enhances the fun of assembling the Lemontron Tool Head. This board sits on the
+aluminum heat sink and provides pads to solder each component to. You can always build a Lemontron Tool Head without it,
+but manual wire management in such a small area can be frustrating.
 
-## Silkscreen Mistake! 🚨
+Optimal thickness is 1mm, the thickness is definitely not critical.
 
-On the current version (v1.2) the silkscreen has a mistake. The HEF and PCF labels are swapped. The EXT pads should read (top to bottom) PCF, TH+, HEF.
+Designed by Sample Name & Lemontron.
+
+On the previous version (v1.2) the silkscreen had a mistake. The HEF and PCF labels are swapped. The EXT pads should
+read (top to bottom) PCF, TH+, HEF. This is fixed in v1.3!

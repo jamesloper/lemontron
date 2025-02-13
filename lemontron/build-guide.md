@@ -543,8 +543,11 @@ wire." %}
 {% include step.html
 title = "Plug in the motors"
 image = "chassis---plug-motor-connectors.jpg"
-content = "From left to right, port 1 is the top right (extruder) motor, port 2 is the bottom left (A) motor, port 3
-is the bottom right motor (B), port 4 is the top left (Z-Axis) motor." %}
+content = "Referring to the SKR Pico pinout, port E connects to the top left (extruder) motor, port X to the bottom left (A) motor, port Y
+to the bottom right motor (B), port Z1 to the top right (Z-Axis) motor."
+buttonTitle = "SKR Pico Pinout"
+buttonLink = "/lemontron/bom/skr/"
+buttonIcon = "cable" %}
 
 {% include step.html
 title = "Solder the serial connector"
