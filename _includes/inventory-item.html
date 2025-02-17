@@ -8,13 +8,13 @@
         <div class="inventory-item-bar">
             {% if include.preferred_material %}
             <div class="tag">
-                <span class="tag-label">Best</span>
+                <span class="tag-label">Preferred</span>
                 <span class="tag-value">{{include.preferred_material}}</span>
             </div>
             {% endif %}
             {% if include.other_material %}
             <div class="tag">
-                <span class="tag-label">Budget</span>
+                <span class="tag-label">Backup</span>
                 <span class="tag-value">{{include.other_material}}</span>
             </div>
             {% endif %}

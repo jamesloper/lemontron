@@ -317,7 +317,7 @@ tr > *:last-child {padding-right:0;}
 .bom-vendors {list-style:none; margin:0; display:flex; gap:10px; flex-direction:column;}
 
 /* PRINTED PARTS ITEM PAGE */
-.inventory {display:flex; flex-direction:column; list-style:none; margin:0 0 40px 0; gap:20px;}
+.inventory {display:grid; grid-template-columns: repeat(auto-fit, minmax(320px, 3fr)); gap:var(--gap); list-style:none; margin:0 0 40px 0;}
 .inventory-item {display:flex; gap:var(--gap);}
 .inventory-item-left {min-width:100px; max-width:33%; display:flex; flex-direction:column; align-items:center; background:#333d4a; justify-content:center;}
 .inventory-item-right {display:flex; flex-direction:column;}
